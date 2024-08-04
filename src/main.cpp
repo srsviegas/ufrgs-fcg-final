@@ -36,6 +36,7 @@
 #include "Renderer.h"
 #include "Window.h"
 #include "Input.h"
+#include "Level.h"
 
 using namespace std;
 
@@ -98,8 +99,8 @@ int main(int argc, char *argv[])
     LoadShadersFromFiles();
 
     /* LOADING TEXTURES */
-    LoadTextureImage("../../data/tc-earth_daymap_surface.jpg");      // TextureImage0
-    LoadTextureImage("../../data/tc-earth_nightmap_citylights.gif"); // TextureImage1
+    LoadTextureImage("../../data/wall-tile1.png");
+    LoadTextureImage("../../data/wall-tile2.png");
 
     /* BUILDING OBJECTS */
     ObjModel planemodel("../../data/plane.obj");
@@ -179,21 +180,14 @@ int main(int argc, char *argv[])
 
         /* TESTING */
 
-        float planesT[3][3] = {
-            {0.0f, -1.0f, 0.0f},
-            {-1.0f, 0.0f, 0.0f},
-            {1.0f, 0.0f, 0.0f}};
-
-        float planesR[3][3] = {
-            {0.0f, 0.0f, 0.0f},
-            {0.0f, 0.0f, -1.5708f},
-            {0.0f, 0.0f, 1.5708f}};
-
-        for (int i = 0; i < 3; i++)
+        for (const Plane &plane : levelData)
         {
-            model = Matrix_Translate(planesT[i][0], planesT[i][1], planesT[i][2]) * Matrix_Rotate_Z(planesR[i][2]);
+            float tx = plane.position[0];
+            float ty = plane.position[1];
+            float tz = plane.position[2];
+            model = Matrix_Translate(tx, ty, tz) * Matrix_Rotate_X(glm::radians(plane.rotation[0])) * Matrix_Rotate_Y(glm::radians(plane.rotation[1])) * Matrix_Rotate_Z(glm::radians(plane.rotation[2]));
             glUniformMatrix4fv(g_model_uniform, 1, GL_FALSE, glm::value_ptr(model));
-            glUniform1i(g_object_id_uniform, PLANE);
+            glUniform1i(g_object_id_uniform, plane.texture);
             DrawVirtualObject("the_plane");
         }
 

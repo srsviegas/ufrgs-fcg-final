@@ -272,6 +272,30 @@ src/dejavufont.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/dejavufont.cpp.s
 .PHONY : src/dejavufont.cpp.s
 
+src/game/Level.obj: src/game/Level.cpp.obj
+.PHONY : src/game/Level.obj
+
+# target to build an object file
+src/game/Level.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/game/Level.cpp.obj
+.PHONY : src/game/Level.cpp.obj
+
+src/game/Level.i: src/game/Level.cpp.i
+.PHONY : src/game/Level.i
+
+# target to preprocess a source file
+src/game/Level.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/game/Level.cpp.i
+.PHONY : src/game/Level.cpp.i
+
+src/game/Level.s: src/game/Level.cpp.s
+.PHONY : src/game/Level.s
+
+# target to generate assembly for a file
+src/game/Level.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/game/Level.cpp.s
+.PHONY : src/game/Level.cpp.s
+
 src/glad.obj: src/glad.c.obj
 .PHONY : src/glad.obj
 
@@ -395,6 +419,9 @@ help:
 	@echo ... src/dejavufont.obj
 	@echo ... src/dejavufont.i
 	@echo ... src/dejavufont.s
+	@echo ... src/game/Level.obj
+	@echo ... src/game/Level.i
+	@echo ... src/game/Level.s
 	@echo ... src/glad.obj
 	@echo ... src/glad.i
 	@echo ... src/glad.s

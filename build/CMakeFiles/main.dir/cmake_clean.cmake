@@ -11,6 +11,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/main.dir/src/core/Window.cpp.obj.d"
   "CMakeFiles/main.dir/src/dejavufont.cpp.obj"
   "CMakeFiles/main.dir/src/dejavufont.cpp.obj.d"
+  "CMakeFiles/main.dir/src/game/Level.cpp.obj"
+  "CMakeFiles/main.dir/src/game/Level.cpp.obj.d"
   "CMakeFiles/main.dir/src/glad.c.obj"
   "CMakeFiles/main.dir/src/glad.c.obj.d"
   "CMakeFiles/main.dir/src/main.cpp.obj"
