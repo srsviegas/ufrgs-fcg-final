@@ -22,6 +22,7 @@ uniform mat4 projection;
 #define TXT_FLOOR 1
 #define TXT_WALL 2
 #define TXT_CEIL 3
+#define HUD_HEALTH 4
 uniform int object_id;
 
 // Parâmetros da axis-aligned bounding box (AABB) do modelo
@@ -116,6 +117,10 @@ void main()
     else if (object_id == TXT_CEIL)
     {
         Kd = texture(TextureImage1, vec2(U,V)).rgb;
+    }
+    else if (object_id == HUD_HEALTH)
+    {
+        Kd = vec3(1.0f,0.0f,0.0f);
     }
 
     // Equação de Iluminação

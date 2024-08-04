@@ -38,9 +38,12 @@
 #include "Input.h"
 #include "Level.h"
 
+#define HUD_HEALTH 4
+
 using namespace std;
 
 const float freeCameraSpeed = 1.0f;
+
 
 int main(int argc, char *argv[])
 {
@@ -113,6 +116,8 @@ int main(int argc, char *argv[])
         BuildTrianglesAndAddToVirtualScene(&model);
     }
 
+    GLuint vertex_array_object_id = DrawHealthHUD();
+
     TextRendering_Init();
 
     glEnable(GL_DEPTH_TEST);
@@ -176,8 +181,6 @@ int main(int argc, char *argv[])
         glUniformMatrix4fv(g_view_uniform, 1, GL_FALSE, glm::value_ptr(view));
         glUniformMatrix4fv(g_projection_uniform, 1, GL_FALSE, glm::value_ptr(projection));
 
-#define PLANE 2
-
         /* TESTING */
 
         for (const Plane &plane : levelData)
@@ -191,13 +194,31 @@ int main(int argc, char *argv[])
             DrawVirtualObject("the_plane");
         }
 
-        glm::vec4 view_dir = glm::normalize(cam.getViewVec());
-        glm::vec4 cam_pos = cam.getPosition();
-        side = normalize(crossproduct(cam.getUpVec(), view_dir));
+        /* renderizacao da HUD */
+        glDisable(GL_DEPTH_TEST);
+
+        glDisable(GL_CULL_FACE);
+        glUniformMatrix4fv(g_view_uniform, 1, GL_FALSE, glm::value_ptr(Matrix_Identity()));
+        glUniformMatrix4fv(g_projection_uniform, 1, GL_FALSE, glm::value_ptr(Matrix_Identity()));
+        model = Matrix_Translate(-0.7,-0.8,0.0) * Matrix_Scale(1.0f,1.0f,1.0f);
+
+        glUniformMatrix4fv(g_model_uniform, 1, GL_FALSE, glm::value_ptr(model));
+
+        glUniform1i(g_object_id_uniform, HUD_HEALTH);
+
+        glBindVertexArray(vertex_array_object_id);
+        glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_BYTE, 0);
+        glBindVertexArray(0);
+
+        glEnable(GL_DEPTH_TEST);
+
+
 
         TextRendering_ShowFramesPerSecond(window);
 
         glfwSwapBuffers(window);
+
+        glEnable(GL_CULL_FACE);
 
         glfwPollEvents();
         Sleep(10);

@@ -108,6 +108,7 @@ void ComputeNormals(ObjModel *model);                                        // 
 void LoadShadersFromFiles();                                                 // Carrega os shaders de vértice e fragmento, criando um programa de GPU
 void LoadTextureImage(const char *filename);                                 // Função que carrega imagens de textura
 void DrawVirtualObject(const char *object_name);                             // Desenha um objeto armazenado em g_VirtualScene
+GLuint DrawHealthHUD();
 GLuint LoadShader_Vertex(const char *filename);                              // Carrega um vertex shader
 GLuint LoadShader_Fragment(const char *filename);                            // Carrega um fragment shader
 void LoadShader(const char *filename, GLuint shader_id);                     // Função utilizada pelas duas acima
