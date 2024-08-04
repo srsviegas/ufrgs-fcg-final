@@ -74,6 +74,8 @@ int main(int argc, char *argv[])
         std::exit(EXIT_FAILURE);
     }
 
+    glfwSetInputMode(window, GLFW_CURSOR, GLFW_CURSOR_DISABLED);
+
     glfwSetKeyCallback(window, KeyCallback);                 // Keypress
     glfwSetMouseButtonCallback(window, MouseButtonCallback); // Mouse click
     glfwSetCursorPosCallback(window, CursorPosCallback);     // Mouse cursor position
@@ -131,14 +133,16 @@ int main(int argc, char *argv[])
         glUseProgram(g_GpuProgramID);
 
         // Calculating free camera movements
-        glm::vec4 side = crossproduct(cam.getViewVec(), cam.getUpVec());
+        glm::vec4 movementDirection = cam.getViewVec();
+        movementDirection.y = 0.0f; // Fixate vertical movement
+        glm::vec4 side = crossproduct(movementDirection, cam.getUpVec());
         if (isKeyDown_W)
         {
-            cam._move(timeDelta * freeCameraSpeed * normalize(cam.getViewVec()));
+            cam._move(timeDelta * freeCameraSpeed * normalize(movementDirection));
         }
         if (isKeyDown_S)
         {
-            cam._move(timeDelta * -freeCameraSpeed * normalize(cam.getViewVec()));
+            cam._move(timeDelta * -freeCameraSpeed * normalize(movementDirection));
         }
         if (isKeyDown_A)
         {
@@ -173,11 +177,25 @@ int main(int argc, char *argv[])
 
 #define PLANE 2
 
-        // Desenhamos o plano do chão
-        model = Matrix_Translate(0.0f, -1.1f, 0.0f);
-        glUniformMatrix4fv(g_model_uniform, 1, GL_FALSE, glm::value_ptr(model));
-        glUniform1i(g_object_id_uniform, PLANE);
-        DrawVirtualObject("the_plane");
+        /* TESTING */
+
+        float planesT[3][3] = {
+            {0.0f, -1.0f, 0.0f},
+            {-1.0f, 0.0f, 0.0f},
+            {1.0f, 0.0f, 0.0f}};
+
+        float planesR[3][3] = {
+            {0.0f, 0.0f, 0.0f},
+            {0.0f, 0.0f, -1.5708f},
+            {0.0f, 0.0f, 1.5708f}};
+
+        for (int i = 0; i < 3; i++)
+        {
+            model = Matrix_Translate(planesT[i][0], planesT[i][1], planesT[i][2]) * Matrix_Rotate_Z(planesR[i][2]);
+            glUniformMatrix4fv(g_model_uniform, 1, GL_FALSE, glm::value_ptr(model));
+            glUniform1i(g_object_id_uniform, PLANE);
+            DrawVirtualObject("the_plane");
+        }
 
         glm::vec4 view_dir = glm::normalize(cam.getViewVec());
         glm::vec4 cam_pos = cam.getPosition();
