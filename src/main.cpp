@@ -37,12 +37,11 @@
 #include "Window.h"
 #include "Input.h"
 #include "Level.h"
+#include "Player.h"
 
 #define HUD_HEALTH 4
 
 using namespace std;
-
-const float freeCameraSpeed = 1.0f;
 
 
 int main(int argc, char *argv[])
@@ -110,6 +109,10 @@ int main(int argc, char *argv[])
     ComputeNormals(&planemodel);
     BuildTrianglesAndAddToVirtualScene(&planemodel);
 
+    /* initializing entities */
+    auto player = Player(glm::vec4(0.0f,0.0f,0.0f,1.0f));
+    player.setHealth(50);
+
     if (argc > 1)
     {
         ObjModel model(argv[1]);
@@ -144,20 +147,22 @@ int main(int argc, char *argv[])
         glm::vec4 side = crossproduct(movementDirection, cam.getUpVec());
         if (isKeyDown_W)
         {
-            cam._move(timeDelta * freeCameraSpeed * normalize(movementDirection));
+            player.move(timeDelta * player.getWalkspeed() * normalize(movementDirection));
         }
         if (isKeyDown_S)
         {
-            cam._move(timeDelta * -freeCameraSpeed * normalize(movementDirection));
+            player.move(timeDelta * -player.getWalkspeed() * normalize(movementDirection));
         }
         if (isKeyDown_A)
         {
-            cam._move(timeDelta * -freeCameraSpeed * normalize(side));
+            player.move(timeDelta * -player.getWalkspeed() * normalize(side));
         }
         if (isKeyDown_D)
         {
-            cam._move(timeDelta * freeCameraSpeed * normalize(side));
+            player.move(timeDelta * player.getWalkspeed() * normalize(side));
         }
+
+        cam.setPosition(player.getPosition());
 
         glm::mat4 view = Matrix_Camera_View(cam.getPosition(), cam.getViewVec(), cam.getUpVec());
         glm::mat4 projection;
@@ -198,19 +203,19 @@ int main(int argc, char *argv[])
         glDisable(GL_DEPTH_TEST);
 
         glDisable(GL_CULL_FACE);
+        glDisable(GL_FRAGMENT_SHADER);
+
         glUniformMatrix4fv(g_view_uniform, 1, GL_FALSE, glm::value_ptr(Matrix_Identity()));
         glUniformMatrix4fv(g_projection_uniform, 1, GL_FALSE, glm::value_ptr(Matrix_Identity()));
-        model = Matrix_Translate(-0.7,-0.8,0.0) * Matrix_Scale(1.0f,1.0f,1.0f);
-
+        model = Matrix_Translate(-0.7,-0.8,0.0) * Matrix_Scale(player.getHealthPercent(),1.0f,1.0f);
         glUniformMatrix4fv(g_model_uniform, 1, GL_FALSE, glm::value_ptr(model));
-
         glUniform1i(g_object_id_uniform, HUD_HEALTH);
-
         glBindVertexArray(vertex_array_object_id);
         glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_BYTE, 0);
         glBindVertexArray(0);
 
         glEnable(GL_DEPTH_TEST);
+        glEnable(GL_FRAGMENT_SHADER);
 
 
 
