@@ -296,6 +296,30 @@ src/game/Level.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/game/Level.cpp.s
 .PHONY : src/game/Level.cpp.s
 
+src/game/Player.obj: src/game/Player.cpp.obj
+.PHONY : src/game/Player.obj
+
+# target to build an object file
+src/game/Player.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/game/Player.cpp.obj
+.PHONY : src/game/Player.cpp.obj
+
+src/game/Player.i: src/game/Player.cpp.i
+.PHONY : src/game/Player.i
+
+# target to preprocess a source file
+src/game/Player.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/game/Player.cpp.i
+.PHONY : src/game/Player.cpp.i
+
+src/game/Player.s: src/game/Player.cpp.s
+.PHONY : src/game/Player.s
+
+# target to generate assembly for a file
+src/game/Player.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/game/Player.cpp.s
+.PHONY : src/game/Player.cpp.s
+
 src/glad.obj: src/glad.c.obj
 .PHONY : src/glad.obj
 
@@ -422,6 +446,9 @@ help:
 	@echo ... src/game/Level.obj
 	@echo ... src/game/Level.i
 	@echo ... src/game/Level.s
+	@echo ... src/game/Player.obj
+	@echo ... src/game/Player.i
+	@echo ... src/game/Player.s
 	@echo ... src/glad.obj
 	@echo ... src/glad.i
 	@echo ... src/glad.s

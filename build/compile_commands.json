@@ -64,5 +64,11 @@
   "command": "C:\\PROGRA~1\\CODEBL~1\\MinGW\\bin\\G__~1.EXE  @CMakeFiles/main.dir/includes_CXX.rsp -g -std=c++11 -o CMakeFiles\\main.dir\\src\\game\\Level.cpp.obj -c \"D:\\UFRGS\\05 Fundamentos de Computação Gráfica\\ufrgs-fcg-final\\src\\game\\Level.cpp\"",
   "file": "D:/UFRGS/05 Fundamentos de Computação Gráfica/ufrgs-fcg-final/src/game/Level.cpp",
   "output": "CMakeFiles/main.dir/src/game/Level.cpp.obj"
+},
+{
+  "directory": "D:/UFRGS/05 Fundamentos de Computação Gráfica/ufrgs-fcg-final/build",
+  "command": "C:\\PROGRA~1\\CODEBL~1\\MinGW\\bin\\G__~1.EXE  @CMakeFiles/main.dir/includes_CXX.rsp -g -std=c++11 -o CMakeFiles\\main.dir\\src\\game\\Player.cpp.obj -c \"D:\\UFRGS\\05 Fundamentos de Computação Gráfica\\ufrgs-fcg-final\\src\\game\\Player.cpp\"",
+  "file": "D:/UFRGS/05 Fundamentos de Computação Gráfica/ufrgs-fcg-final/src/game/Player.cpp",
+  "output": "CMakeFiles/main.dir/src/game/Player.cpp.obj"
 }
 ]

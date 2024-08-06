@@ -9,6 +9,13 @@
 #include <glm/gtc/matrix_transform.hpp>
 
 #include <vector>
+#include <string>
+
+struct AABB
+{
+    glm::vec3 AABB_min;
+    glm::vec3 AABB_max;
+};
 
 struct Plane
 {
@@ -17,6 +24,8 @@ struct Plane
     float rotation[3]; // Rotation (in degrees)
 };
 
-extern std::vector<Plane> levelData;
+extern std::string mapData[5];
+
+std::vector<Plane> BuildLevelData(int height, int width, std::string *map);
 
 #endif

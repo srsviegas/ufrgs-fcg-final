@@ -1,11 +1,13 @@
 #ifndef Camera_H
 #define Camera_H
 
+#include <vector>
 #include <string.h>
 #include <glm/mat4x4.hpp>
 #include <glm/vec4.hpp>
 #include <glm/gtc/type_ptr.hpp>
 #include "matrices.h"
+#include "Level.h"
 
 class Camera
 {

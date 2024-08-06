@@ -43,7 +43,6 @@
 
 using namespace std;
 
-
 int main(int argc, char *argv[])
 {
     int success = glfwInit();
@@ -110,7 +109,7 @@ int main(int argc, char *argv[])
     BuildTrianglesAndAddToVirtualScene(&planemodel);
 
     /* initializing entities */
-    auto player = Player(glm::vec4(0.0f,0.0f,0.0f,1.0f));
+    auto player = Player(glm::vec4(0.0f, 0.0f, 0.0f, 1.0f));
     player.setHealth(50);
 
     if (argc > 1)
@@ -188,7 +187,7 @@ int main(int argc, char *argv[])
 
         /* TESTING */
 
-        for (const Plane &plane : levelData)
+        for (const Plane &plane : BuildLevelData(5, 6, mapData))
         {
             float tx = plane.position[0];
             float ty = plane.position[1];
@@ -207,7 +206,7 @@ int main(int argc, char *argv[])
 
         glUniformMatrix4fv(g_view_uniform, 1, GL_FALSE, glm::value_ptr(Matrix_Identity()));
         glUniformMatrix4fv(g_projection_uniform, 1, GL_FALSE, glm::value_ptr(Matrix_Identity()));
-        model = Matrix_Translate(-0.7,-0.8,0.0) * Matrix_Scale(player.getHealthPercent(),1.0f,1.0f);
+        model = Matrix_Translate(-0.7, -0.8, 0.0) * Matrix_Scale(player.getHealthPercent(), 1.0f, 1.0f);
         glUniformMatrix4fv(g_model_uniform, 1, GL_FALSE, glm::value_ptr(model));
         glUniform1i(g_object_id_uniform, HUD_HEALTH);
         glBindVertexArray(vertex_array_object_id);
@@ -216,8 +215,6 @@ int main(int argc, char *argv[])
 
         glEnable(GL_DEPTH_TEST);
         glEnable(GL_FRAGMENT_SHADER);
-
-
 
         TextRendering_ShowFramesPerSecond(window);
 
