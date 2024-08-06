@@ -17,6 +17,7 @@ set(SOURCES
   src/core/Input.cpp
   src/core/Camera.cpp
   src/game/Level.cpp
+  src/game/Player.cpp
 )
 
 cmake_minimum_required(VERSION 3.5.0)
