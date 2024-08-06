@@ -128,6 +128,8 @@ int main(int argc, char *argv[])
     glCullFace(GL_BACK);
     glFrontFace(GL_CCW);
 
+    std::vector<Plane> levelData = BuildLevelData(5, 6, mapData);
+
     /* MAIN LOOP */
     while (!glfwWindowShouldClose(window))
     {
@@ -187,7 +189,7 @@ int main(int argc, char *argv[])
 
         /* TESTING */
 
-        for (const Plane &plane : BuildLevelData(5, 6, mapData))
+        for (const Plane &plane : levelData)
         {
             float tx = plane.position[0];
             float ty = plane.position[1];
