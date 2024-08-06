@@ -23,6 +23,7 @@ uniform mat4 projection;
 #define TXT_WALL 2
 #define TXT_CEIL 3
 #define HUD_HEALTH 4
+#define SPHERE 5
 uniform int object_id;
 
 // Parâmetros da axis-aligned bounding box (AABB) do modelo
@@ -105,6 +106,11 @@ void main()
 
     U = texcoords.x;
     V = texcoords.y;
+
+    if ( object_id == SPHERE )
+    {
+        Kd = vec3(0.0f,1.0f,1.0f);
+    }
 
     if (object_id == TXT_FLOOR)
     {

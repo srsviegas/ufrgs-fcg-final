@@ -12,19 +12,26 @@
 
 class Projectile {
 public:
-        Projectile(glm::vec4 start_pos, glm::vec4 direction, float speed, float accel, float lifetime);
+        Projectile();
+        void shoot(glm::vec4 start_pos, glm::vec4 direction, float speed, float accel, float lifetime, float startTime);
         void setSpeed(float new_speed);
         void setAccel(float new_accel);
         void setPosition(glm::vec4 new_pos);
         void setDirection(glm::vec4 new_dir);
 
+        bool isActive();
+        float getStartTime();
+        float getLifeTime();
         float getSpeed() const;
         float getAccel() const;
         glm::vec4 getPosition();
         glm::vec4 getDirection();
+        void deactivate();
         void step(float timeDelta);
 
 private:
+        bool active;
+        float startTime;
         glm::vec4 position;
         glm::vec4 direction;
         float speed;

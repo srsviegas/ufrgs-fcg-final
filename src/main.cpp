@@ -38,6 +38,7 @@
 #include "Input.h"
 #include "Level.h"
 #include "Player.h"
+#include "Projectile.h"
 
 #define HUD_HEALTH 4
 
@@ -52,9 +53,9 @@ int main(int argc, char *argv[])
         std::exit(EXIT_FAILURE);
     }
 
-    float now = (float)glfwGetTime();
+    float now;
     float last = 0;
-    float timeDelta = 0;
+    float timeDelta;
 
     glfwSetErrorCallback(ErrorCallback);
 
@@ -108,9 +109,14 @@ int main(int argc, char *argv[])
     ComputeNormals(&planemodel);
     BuildTrianglesAndAddToVirtualScene(&planemodel);
 
+#define SPHERE 5
+    ObjModel projectilemodel("../../data/sphere.obj");
+    ComputeNormals(&projectilemodel);
+    BuildTrianglesAndAddToVirtualScene(&projectilemodel);
+
     /* initializing entities */
     auto player = Player(glm::vec4(0.0f, 0.0f, 0.0f, 1.0f));
-    player.setHealth(50);
+    Projectile projectile = Projectile();
 
     if (argc > 1)
     {
@@ -123,7 +129,6 @@ int main(int argc, char *argv[])
     TextRendering_Init();
 
     glEnable(GL_DEPTH_TEST);
-
     glEnable(GL_CULL_FACE);
     glCullFace(GL_BACK);
     glFrontFace(GL_CCW);
@@ -162,8 +167,18 @@ int main(int argc, char *argv[])
         {
             player.move(timeDelta * player.getWalkspeed() * normalize(side));
         }
-
+        if(g_LeftMouseButtonPressed) {
+            projectile.shoot(cam.getPosition(),cam.getViewVec(),0.0f,20.0f,10.0f, now);
+        }
         cam.setPosition(player.getPosition());
+
+        /* step game entities */
+        if(projectile.isActive()) {
+            projectile.step(timeDelta);
+            if(now - projectile.getStartTime() > projectile.getLifeTime()) {
+                projectile.deactivate();
+            }
+        }
 
         glm::mat4 view = Matrix_Camera_View(cam.getPosition(), cam.getViewVec(), cam.getUpVec());
         glm::mat4 projection;
@@ -200,6 +215,14 @@ int main(int argc, char *argv[])
             DrawVirtualObject("the_plane");
         }
 
+        model = Matrix_Translate(projectile.getPosition().x,projectile.getPosition().y,projectile.getPosition().z) * Matrix_Scale(0.1,0.1,0.1);
+        glUniformMatrix4fv(g_model_uniform, 1, GL_FALSE, glm::value_ptr(model));
+        glUniform1i(g_object_id_uniform, SPHERE);
+        if(projectile.isActive()) {
+            DrawVirtualObject("the_sphere");
+        }
+
+
         /* renderizacao da HUD */
         glDisable(GL_DEPTH_TEST);
 
@@ -208,7 +231,7 @@ int main(int argc, char *argv[])
 
         glUniformMatrix4fv(g_view_uniform, 1, GL_FALSE, glm::value_ptr(Matrix_Identity()));
         glUniformMatrix4fv(g_projection_uniform, 1, GL_FALSE, glm::value_ptr(Matrix_Identity()));
-        model = Matrix_Translate(-0.7, -0.8, 0.0) * Matrix_Scale(player.getHealthPercent(), 1.0f, 1.0f);
+        model = Matrix_Translate(0.0, -0.9, 0.0) * Matrix_Scale(player.getHealthPercent(), 1.0f, 1.0f);
         glUniformMatrix4fv(g_model_uniform, 1, GL_FALSE, glm::value_ptr(model));
         glUniform1i(g_object_id_uniform, HUD_HEALTH);
         glBindVertexArray(vertex_array_object_id);
