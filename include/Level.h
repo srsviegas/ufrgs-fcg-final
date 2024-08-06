@@ -4,6 +4,10 @@
 #define TXT_FLOOR 1
 #define TXT_WALL 2
 #define TXT_CEIL 3
+#define HUD_HEALTH 4
+#define SPHERE 5
+
+#define NUM_PROJECTILES 10
 
 #include <glm/glm.hpp>
 #include <glm/gtc/matrix_transform.hpp>

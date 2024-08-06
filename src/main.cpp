@@ -40,8 +40,6 @@
 #include "Player.h"
 #include "Projectile.h"
 
-#define HUD_HEALTH 4
-
 using namespace std;
 
 int main(int argc, char *argv[])
@@ -109,14 +107,21 @@ int main(int argc, char *argv[])
     ComputeNormals(&planemodel);
     BuildTrianglesAndAddToVirtualScene(&planemodel);
 
-#define SPHERE 5
     ObjModel projectilemodel("../../data/sphere.obj");
     ComputeNormals(&projectilemodel);
     BuildTrianglesAndAddToVirtualScene(&projectilemodel);
 
     /* initializing entities */
+
+
+    //juntar tudo numa classe posteriormente
     auto player = Player(glm::vec4(0.0f, 0.0f, 0.0f, 1.0f));
-    Projectile projectile = Projectile();
+    Projectile projectiles[10] = {};
+    for(int i = 0; i < NUM_PROJECTILES; i++) {
+        projectiles[i] = Projectile();
+    }
+    int last_shot = 0;
+    int cooldown = 0; //temporário
 
     if (argc > 1)
     {
@@ -167,18 +172,24 @@ int main(int argc, char *argv[])
         {
             player.move(timeDelta * player.getWalkspeed() * normalize(side));
         }
-        if(g_LeftMouseButtonPressed) {
-            projectile.shoot(cam.getPosition(),cam.getViewVec(),0.0f,20.0f,10.0f, now);
+        if(g_LeftMouseButtonPressed && cooldown > 10) {
+            projectiles[last_shot % NUM_PROJECTILES].shoot(cam.getPosition() + glm::vec4(0.0f,-0.2f,0.0f,0.0f),cam.getViewVec(),0.0f,20.0f,10.0f, now);
+            last_shot++;
+            cooldown = 0;
         }
+        cooldown++;
         cam.setPosition(player.getPosition());
 
         /* step game entities */
-        if(projectile.isActive()) {
-            projectile.step(timeDelta);
-            if(now - projectile.getStartTime() > projectile.getLifeTime()) {
-                projectile.deactivate();
+        for(int i = 0; i < NUM_PROJECTILES; i++) {
+            if(projectiles[i].isActive()) {
+                projectiles[i].step(timeDelta);
+                if(now - projectiles[i].getStartTime() > projectiles[i].getLifeTime()) {
+                    projectiles[i].deactivate();
+                }
             }
         }
+
 
         glm::mat4 view = Matrix_Camera_View(cam.getPosition(), cam.getViewVec(), cam.getUpVec());
         glm::mat4 projection;
@@ -215,11 +226,15 @@ int main(int argc, char *argv[])
             DrawVirtualObject("the_plane");
         }
 
-        model = Matrix_Translate(projectile.getPosition().x,projectile.getPosition().y,projectile.getPosition().z) * Matrix_Scale(0.1,0.1,0.1);
-        glUniformMatrix4fv(g_model_uniform, 1, GL_FALSE, glm::value_ptr(model));
-        glUniform1i(g_object_id_uniform, SPHERE);
-        if(projectile.isActive()) {
-            DrawVirtualObject("the_sphere");
+        glBindVertexArray(g_VirtualScene["the_sphere"].vertex_array_object_id);
+        for (int i = 0; i < NUM_PROJECTILES; i++)
+        {
+            model = Matrix_Translate(projectiles[i].getPosition().x,projectiles[i].getPosition().y,projectiles[i].getPosition().z) * Matrix_Scale(0.1,0.1,0.1);
+            glUniformMatrix4fv(g_model_uniform, 1, GL_FALSE, glm::value_ptr(model));
+            glUniform1i(g_object_id_uniform, SPHERE);
+            if(projectiles[i].isActive()) {
+                glDrawElements(g_VirtualScene["the_sphere"].rendering_mode,g_VirtualScene["the_sphere"].num_indices,GL_UNSIGNED_INT,(void *)(g_VirtualScene["the_sphere"].first_index * sizeof(GLuint)));
+            }
         }
 
 
