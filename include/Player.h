@@ -31,6 +31,8 @@ public:
     float getMana() const;
     float getManaPercent() const;
 
+    void update(float timeDelta);
+
 private:
     float health;
     float mana;

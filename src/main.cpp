@@ -195,11 +195,7 @@ int main(int argc, char *argv[])
             }
         }
 
-        if(player.getMana() < MAX_MANA) {
-            player.setMana(player.getMana() + MANA_REGENFACTOR * timeDelta);
-        }
-
-
+        player.update(timeDelta);
 
         glm::mat4 view = Matrix_Camera_View(cam.getPosition(), cam.getViewVec(), cam.getUpVec());
         glm::mat4 projection;
@@ -251,7 +247,6 @@ int main(int argc, char *argv[])
         /* renderizacao da HUD */
         glDisable(GL_DEPTH_TEST);
         glDisable(GL_CULL_FACE);
-        glDisable(GL_FRAGMENT_SHADER);
         glUniformMatrix4fv(g_view_uniform, 1, GL_FALSE, glm::value_ptr(Matrix_Identity()));
         glUniformMatrix4fv(g_projection_uniform, 1, GL_FALSE, glm::value_ptr(Matrix_Identity()));
 
@@ -272,7 +267,6 @@ int main(int argc, char *argv[])
 
 
         glEnable(GL_DEPTH_TEST);
-        glEnable(GL_FRAGMENT_SHADER);
 
         TextRendering_ShowFramesPerSecond(window);
 

@@ -58,6 +58,16 @@ float Player::getManaPercent() const {
     return mana/MAX_MANA;
 }
 
+void Player::update(float timeDelta) {
+    if(mana < MAX_MANA) {
+        mana += timeDelta * MANA_REGENFACTOR;
+    }
+    if(health < MAX_HEALTH) {
+        health += timeDelta * HEALTH_REGENFACTOR;
+    }
+
+}
+
 
 
 
