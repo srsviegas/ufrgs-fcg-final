@@ -54,6 +54,10 @@ float Player::getHealthPercent() const {
     return health/MAX_HEALTH;
 }
 
+float Player::getManaPercent() const {
+    return mana/MAX_MANA;
+}
+
 
 
 

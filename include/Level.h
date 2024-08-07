@@ -5,7 +5,8 @@
 #define TXT_WALL 2
 #define TXT_CEIL 3
 #define HUD_HEALTH 4
-#define SPHERE 5
+#define HUD_MANA 5
+#define SPHERE 7
 
 #define NUM_PROJECTILES 10
 

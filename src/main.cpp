@@ -173,10 +173,15 @@ int main(int argc, char *argv[])
             player.move(timeDelta * player.getWalkspeed() * normalize(side));
         }
         if(g_LeftMouseButtonPressed && cooldown > 10) {
-            projectiles[last_shot % NUM_PROJECTILES].shoot(cam.getPosition() + glm::vec4(0.0f,-0.2f,0.0f,0.0f),cam.getViewVec(),0.0f,20.0f,10.0f, now);
-            last_shot++;
-            cooldown = 0;
+
+            if(player.getMana() >= 5) {
+                projectiles[last_shot % NUM_PROJECTILES].shoot(cam.getPosition() + glm::vec4(0.0f,-0.2f,0.0f,0.0f),cam.getViewVec(),0.0f,20.0f,10.0f, now);
+                last_shot++;
+               player.setMana(player.getMana() - 5);
+                cooldown = 0;
+            }
         }
+
         cooldown++;
         cam.setPosition(player.getPosition());
 
@@ -189,6 +194,11 @@ int main(int argc, char *argv[])
                 }
             }
         }
+
+        if(player.getMana() < MAX_MANA) {
+            player.setMana(player.getMana() + MANA_REGENFACTOR * timeDelta);
+        }
+
 
 
         glm::mat4 view = Matrix_Camera_View(cam.getPosition(), cam.getViewVec(), cam.getUpVec());
@@ -240,18 +250,26 @@ int main(int argc, char *argv[])
 
         /* renderizacao da HUD */
         glDisable(GL_DEPTH_TEST);
-
         glDisable(GL_CULL_FACE);
         glDisable(GL_FRAGMENT_SHADER);
-
         glUniformMatrix4fv(g_view_uniform, 1, GL_FALSE, glm::value_ptr(Matrix_Identity()));
         glUniformMatrix4fv(g_projection_uniform, 1, GL_FALSE, glm::value_ptr(Matrix_Identity()));
+
+
+
         model = Matrix_Translate(0.0, -0.9, 0.0) * Matrix_Scale(player.getHealthPercent(), 1.0f, 1.0f);
         glUniformMatrix4fv(g_model_uniform, 1, GL_FALSE, glm::value_ptr(model));
         glUniform1i(g_object_id_uniform, HUD_HEALTH);
         glBindVertexArray(vertex_array_object_id);
         glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_BYTE, 0);
-        glBindVertexArray(0);
+
+        model = Matrix_Translate(-0.7, -0.9, 0.0) * Matrix_Scale(player.getManaPercent(), 1.0f, 1.0f);
+        glUniformMatrix4fv(g_model_uniform, 1, GL_FALSE, glm::value_ptr(model));
+        glUniform1i(g_object_id_uniform, HUD_MANA);
+        glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_BYTE, 0);
+
+
+
 
         glEnable(GL_DEPTH_TEST);
         glEnable(GL_FRAGMENT_SHADER);

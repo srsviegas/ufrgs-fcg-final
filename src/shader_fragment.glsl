@@ -23,7 +23,8 @@ uniform mat4 projection;
 #define TXT_WALL 2
 #define TXT_CEIL 3
 #define HUD_HEALTH 4
-#define SPHERE 5
+#define HUD_MANA 5
+#define SPHERE 7
 uniform int object_id;
 
 // Parâmetros da axis-aligned bounding box (AABB) do modelo
@@ -127,6 +128,10 @@ void main()
     else if (object_id == HUD_HEALTH)
     {
         Kd = vec3(1.0f,0.0f,0.0f);
+    }
+    else if (object_id == HUD_MANA)
+    {
+        Kd = vec3(0.0f,0.0f,1.0f);
     }
 
     // Equação de Iluminação
