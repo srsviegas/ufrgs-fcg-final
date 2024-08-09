@@ -4,7 +4,6 @@
 
 #include "GameEntity.h"
 
-#include <_mingw_stat64.h>
 #include <glm/ext/quaternion_geometric.hpp>
 
 
@@ -14,6 +13,9 @@ GameEntity::GameEntity(glm::vec4 start_pos, int type, float health, float speed,
     this->health = health;
     this->walkspeed = speed;
     this->range = range;
+    this->state = STATE_IDLE;
+    this->target = glm::vec4(0.0,0.0,0.0,0.0);
+    this->direction = glm::vec4(1.0,0.0,0.0,0.0);
 }
 
 void GameEntity::set_health(float health) {

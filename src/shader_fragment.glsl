@@ -28,6 +28,7 @@ uniform float ligths[70];
 #define HUD_HEALTH 4
 #define HUD_MANA 5
 #define SPHERE 7
+#define ENEMY_TYPE_1 12
 uniform int object_id;
 
 // Parâmetros da axis-aligned bounding box (AABB) do modelo
@@ -135,6 +136,9 @@ void main()
     else if (object_id == HUD_MANA)
     {
         Kd = vec3(0.0f,0.0f,1.0f);
+    }
+    else if(object_id == ENEMY_TYPE_1){
+        Kd = vec3(1.0f,0.0f,0.0f);
     }
 
     // Equação de Iluminação

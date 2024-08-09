@@ -8,6 +8,8 @@
 #define HUD_MANA 5
 #define SPHERE 7
 
+#define ENEMY_TYPE_1 12
+
 #define NUM_PROJECTILES 10
 
 #include <glm/glm.hpp>

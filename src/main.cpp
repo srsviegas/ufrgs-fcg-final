@@ -40,6 +40,7 @@
 #include "Player.h"
 #include "PointLight.h"
 #include "Projectile.h"
+#include "GameEntity.h"
 
 using namespace std;
 
@@ -114,7 +115,6 @@ int main(int argc, char *argv[])
 
     /* initializing entities */
 
-
     //juntar tudo numa classe posteriormente
     auto player = Player(glm::vec4(0.0f, 0.0f, 0.0f, 1.0f));
     Projectile projectiles[NUM_PROJECTILES] = {};
@@ -123,6 +123,12 @@ int main(int argc, char *argv[])
     }
     int last_shot = 0;
     float last_shot_time = 0;
+
+    GameEntity test_enemy(glm::vec4(2.0f, 0.0f, 0.0f, 1.0f),0,100,1,5);
+
+
+
+
 
     if (argc > 1)
     {
@@ -231,7 +237,6 @@ int main(int argc, char *argv[])
 
         /* TESTING */
 
-
         float lights[NUM_PROJECTILES * 7] = {};
         for(int i = 0; i < NUM_PROJECTILES; i++) {
             lights[i * 7 + 0] = projectile_lights[i].getPosition().x;
@@ -256,8 +261,9 @@ int main(int argc, char *argv[])
             DrawVirtualObject("the_plane");
         }
 
+
         glBindVertexArray(g_VirtualScene["the_sphere"].vertex_array_object_id);
-        for (int i = 0; i < NUM_PROJECTILES; i++)
+        for(int i = 0; i < NUM_PROJECTILES; i++)
         {
             model = Matrix_Translate(projectiles[i].getPosition().x,projectiles[i].getPosition().y,projectiles[i].getPosition().z) * Matrix_Scale(0.05,0.05,0.05);
             glUniformMatrix4fv(g_model_uniform, 1, GL_FALSE, glm::value_ptr(model));
@@ -267,6 +273,10 @@ int main(int argc, char *argv[])
             }
         }
 
+        model = Matrix_Translate(test_enemy.get_position().x,test_enemy.get_position().y,test_enemy.get_position().z) * Matrix_Scale(0.5,0.5,0.5);
+        glUniformMatrix4fv(g_model_uniform, 1, GL_FALSE, glm::value_ptr(model));
+        glUniform1i(g_object_id_uniform, ENEMY_TYPE_1);
+        glDrawElements(g_VirtualScene["the_sphere"].rendering_mode,g_VirtualScene["the_sphere"].num_indices,GL_UNSIGNED_INT,(void *)(g_VirtualScene["the_sphere"].first_index * sizeof(GLuint)));
 
         /* renderizacao da HUD */
         glDisable(GL_DEPTH_TEST);
