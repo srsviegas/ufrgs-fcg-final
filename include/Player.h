@@ -6,7 +6,7 @@
 #define PLAYER_H
 
 #define MAX_HEALTH 100
-#define MAX_MANA 100
+#define MAX_MANA 1000
 #define MANA_REGENFACTOR 5
 #define HEALTH_REGENFACTOR 0.1
 #define DEFAULT_SPEED 1.0

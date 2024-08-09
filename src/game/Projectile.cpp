@@ -4,6 +4,8 @@
 
 #include "Projectile.h"
 
+#include <ctime>
+
 Projectile::Projectile() {
     this->position = glm::vec4(0.0,0.0,0.0,0.0);
     this->direction = glm::vec4(0.0,0.0,0.0,0.0);

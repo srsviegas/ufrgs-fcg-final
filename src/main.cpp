@@ -122,7 +122,7 @@ int main(int argc, char *argv[])
         projectiles[i] = Projectile();
     }
     int last_shot = 0;
-    int cooldown = 0; //temporário
+    float last_shot_time = 0;
 
     if (argc > 1)
     {
@@ -180,17 +180,19 @@ int main(int argc, char *argv[])
         {
             player.move(timeDelta * player.getWalkspeed() * normalize(side));
         }
-        if(g_LeftMouseButtonPressed && cooldown > 10) {
+        if(g_LeftMouseButtonPressed && now - last_shot_time > 0.1) {
 
             if(player.getMana() >= 5) {
-                projectiles[last_shot % NUM_PROJECTILES].shoot(cam.getPosition() + glm::vec4(0.0f,-0.2f,0.0f,0.0f),cam.getViewVec(),0.0f,20.0f,0.5f, now);
+                projectiles[last_shot % NUM_PROJECTILES].shoot(
+                    cam.getPosition() + glm::vec4(0.0f,-0.2f,0.0f,0.0f),
+                    cam.getViewVec(),
+                    0.0f,20.0f,0.5f,
+                    now);
                 last_shot++;
                player.setMana(player.getMana() - 5);
-                cooldown = 0;
+               last_shot_time = now;
             }
         }
-
-        cooldown++;
         cam.setPosition(player.getPosition());
 
         /* step game entities */
@@ -297,7 +299,7 @@ int main(int argc, char *argv[])
         glEnable(GL_CULL_FACE);
 
         glfwPollEvents();
-        Sleep(10);
+        //Sleep(10);
     }
 
     glfwTerminate();
