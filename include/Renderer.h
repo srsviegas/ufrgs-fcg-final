@@ -99,6 +99,7 @@ extern GLint g_object_id_uniform;
 extern GLint g_bbox_min_uniform;
 extern GLint g_bbox_max_uniform;
 extern GLuint g_NumLoadedTextures;
+extern GLint g_ligths_uniform;
 
 void PushMatrix(glm::mat4 M);
 void PopMatrix(glm::mat4 &M);

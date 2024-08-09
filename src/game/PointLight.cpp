@@ -4,20 +4,24 @@
 
 #include "PointLight.h"
 
-#include <_mingw_stat64.h>
-
 PointLight::PointLight(glm::vec4 position, glm::vec3 color_rgb, float intensity) {
     this->position = position;
     this->color = color_rgb;
     this->intensity = intensity;
 }
 
+PointLight::PointLight() {
+    this->position = glm::vec4(0.0f,0.0f,0.0f,0.0f);
+    this->color = glm::vec3(0.0f,0.0f,0.0f);
+    this->intensity = 0;
+}
+
 void PointLight::disable() {
-    status = false;
+    this->intensity = 0.0f;
 }
 
 void PointLight::enable() {
-    status = true;
+    this->intensity = 1.0f;
 }
 
 glm::vec3 PointLight::getColor() {
@@ -33,7 +37,7 @@ glm::vec4 PointLight::getPosition() {
 }
 
 bool PointLight::isActive() {
-    return status;
+    return intensity > 0;
 }
 
 void PointLight::setColor(glm::vec3 color) {

@@ -38,6 +38,7 @@
 #include "Input.h"
 #include "Level.h"
 #include "Player.h"
+#include "PointLight.h"
 #include "Projectile.h"
 
 using namespace std;
@@ -116,7 +117,7 @@ int main(int argc, char *argv[])
 
     //juntar tudo numa classe posteriormente
     auto player = Player(glm::vec4(0.0f, 0.0f, 0.0f, 1.0f));
-    Projectile projectiles[10] = {};
+    Projectile projectiles[NUM_PROJECTILES] = {};
     for(int i = 0; i < NUM_PROJECTILES; i++) {
         projectiles[i] = Projectile();
     }
@@ -130,6 +131,13 @@ int main(int argc, char *argv[])
     }
 
     GLuint vertex_array_object_id = DrawHealthHUD();
+
+    PointLight projectile_lights[NUM_PROJECTILES] = {};
+    for(int i = 0; i < NUM_PROJECTILES; i++) {
+        projectile_lights[i] = PointLight();
+    }
+
+
 
     TextRendering_Init();
 
@@ -175,7 +183,7 @@ int main(int argc, char *argv[])
         if(g_LeftMouseButtonPressed && cooldown > 10) {
 
             if(player.getMana() >= 5) {
-                projectiles[last_shot % NUM_PROJECTILES].shoot(cam.getPosition() + glm::vec4(0.0f,-0.2f,0.0f,0.0f),cam.getViewVec(),0.0f,20.0f,10.0f, now);
+                projectiles[last_shot % NUM_PROJECTILES].shoot(cam.getPosition() + glm::vec4(0.0f,-0.2f,0.0f,0.0f),cam.getViewVec(),0.0f,20.0f,0.5f, now);
                 last_shot++;
                player.setMana(player.getMana() - 5);
                 cooldown = 0;
@@ -221,6 +229,20 @@ int main(int argc, char *argv[])
 
         /* TESTING */
 
+
+        float lights[NUM_PROJECTILES * 7] = {};
+        for(int i = 0; i < NUM_PROJECTILES; i++) {
+            lights[i * 7 + 0] = projectile_lights[i].getPosition().x;
+            lights[i * 7 + 1] = projectile_lights[i].getPosition().y;
+            lights[i * 7 + 2] = projectile_lights[i].getPosition().z;
+            lights[i * 7 + 3] = projectile_lights[i].getColor().x;
+            lights[i * 7 + 4] = projectile_lights[i].getColor().y;
+            lights[i * 7 + 5] = projectile_lights[i].getColor().z;
+            lights[i * 7 + 6] = projectile_lights[i].getIntensity();
+        }
+
+        glUniform4fv(g_ligths_uniform,1,lights);
+
         for (const Plane &plane : levelData)
         {
             float tx = plane.position[0];
@@ -235,7 +257,7 @@ int main(int argc, char *argv[])
         glBindVertexArray(g_VirtualScene["the_sphere"].vertex_array_object_id);
         for (int i = 0; i < NUM_PROJECTILES; i++)
         {
-            model = Matrix_Translate(projectiles[i].getPosition().x,projectiles[i].getPosition().y,projectiles[i].getPosition().z) * Matrix_Scale(0.1,0.1,0.1);
+            model = Matrix_Translate(projectiles[i].getPosition().x,projectiles[i].getPosition().y,projectiles[i].getPosition().z) * Matrix_Scale(0.05,0.05,0.05);
             glUniformMatrix4fv(g_model_uniform, 1, GL_FALSE, glm::value_ptr(model));
             glUniform1i(g_object_id_uniform, SPHERE);
             if(projectiles[i].isActive()) {

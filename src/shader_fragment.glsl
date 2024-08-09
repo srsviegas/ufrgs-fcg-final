@@ -18,6 +18,9 @@ uniform mat4 model;
 uniform mat4 view;
 uniform mat4 projection;
 
+// Fontes de luz
+uniform float ligths[70];
+
 // Identificador que define qual objeto está sendo desenhado no momento
 #define TXT_FLOOR 1
 #define TXT_WALL 2

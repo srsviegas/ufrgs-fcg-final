@@ -11,6 +11,7 @@
 class PointLight {
 public:
     PointLight(glm::vec4 position, glm::vec3 color_rgb, float intensity);
+    PointLight();
     void setPosition(glm::vec4 position);
     void setIntensity(float intens);
     void setColor(glm::vec3 color);
@@ -26,7 +27,6 @@ private:
     glm::vec4 position;
     glm::vec3 color;
     float intensity;
-    bool status;
 };
 
 #endif //POINTLIGHT_H
