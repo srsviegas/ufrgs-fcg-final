@@ -70,5 +70,23 @@
   "command": "C:\\PROGRA~1\\CODEBL~1\\MinGW\\bin\\G__~1.EXE  @CMakeFiles/main.dir/includes_CXX.rsp -g -std=c++11 -o CMakeFiles\\main.dir\\src\\game\\Player.cpp.obj -c \"D:\\UFRGS\\05 Fundamentos de Computação Gráfica\\ufrgs-fcg-final\\src\\game\\Player.cpp\"",
   "file": "D:/UFRGS/05 Fundamentos de Computação Gráfica/ufrgs-fcg-final/src/game/Player.cpp",
   "output": "CMakeFiles/main.dir/src/game/Player.cpp.obj"
+},
+{
+  "directory": "D:/UFRGS/05 Fundamentos de Computação Gráfica/ufrgs-fcg-final/build",
+  "command": "C:\\PROGRA~1\\CODEBL~1\\MinGW\\bin\\G__~1.EXE  @CMakeFiles/main.dir/includes_CXX.rsp -g -std=c++11 -o CMakeFiles\\main.dir\\src\\game\\Projectile.cpp.obj -c \"D:\\UFRGS\\05 Fundamentos de Computação Gráfica\\ufrgs-fcg-final\\src\\game\\Projectile.cpp\"",
+  "file": "D:/UFRGS/05 Fundamentos de Computação Gráfica/ufrgs-fcg-final/src/game/Projectile.cpp",
+  "output": "CMakeFiles/main.dir/src/game/Projectile.cpp.obj"
+},
+{
+  "directory": "D:/UFRGS/05 Fundamentos de Computação Gráfica/ufrgs-fcg-final/build",
+  "command": "C:\\PROGRA~1\\CODEBL~1\\MinGW\\bin\\G__~1.EXE  @CMakeFiles/main.dir/includes_CXX.rsp -g -std=c++11 -o CMakeFiles\\main.dir\\src\\game\\PointLight.cpp.obj -c \"D:\\UFRGS\\05 Fundamentos de Computação Gráfica\\ufrgs-fcg-final\\src\\game\\PointLight.cpp\"",
+  "file": "D:/UFRGS/05 Fundamentos de Computação Gráfica/ufrgs-fcg-final/src/game/PointLight.cpp",
+  "output": "CMakeFiles/main.dir/src/game/PointLight.cpp.obj"
+},
+{
+  "directory": "D:/UFRGS/05 Fundamentos de Computação Gráfica/ufrgs-fcg-final/build",
+  "command": "C:\\PROGRA~1\\CODEBL~1\\MinGW\\bin\\G__~1.EXE  @CMakeFiles/main.dir/includes_CXX.rsp -g -std=c++11 -o CMakeFiles\\main.dir\\src\\game\\GameEntity.cpp.obj -c \"D:\\UFRGS\\05 Fundamentos de Computação Gráfica\\ufrgs-fcg-final\\src\\game\\GameEntity.cpp\"",
+  "file": "D:/UFRGS/05 Fundamentos de Computação Gráfica/ufrgs-fcg-final/src/game/GameEntity.cpp",
+  "output": "CMakeFiles/main.dir/src/game/GameEntity.cpp.obj"
 }
 ]

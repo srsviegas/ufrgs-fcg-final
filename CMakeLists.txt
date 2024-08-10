@@ -18,6 +18,9 @@ set(SOURCES
   src/core/Camera.cpp
   src/game/Level.cpp
   src/game/Player.cpp
+  src/game/Projectile.cpp
+  src/game/PointLight.cpp
+  src/game/GameEntity.cpp
 )
 
 cmake_minimum_required(VERSION 3.5.0)

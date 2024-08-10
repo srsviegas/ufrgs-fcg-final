@@ -6,6 +6,7 @@
 #define TXT_CEIL 3
 #define HUD_HEALTH 4
 #define HUD_MANA 5
+#define HUD_MAPTILE 6
 #define SPHERE 7
 
 #define ENEMY_TYPE_1 12
@@ -18,12 +19,6 @@
 #include <vector>
 #include <string>
 
-struct AABB
-{
-    glm::vec3 AABB_min;
-    glm::vec3 AABB_max;
-};
-
 struct Plane
 {
     int texture;       // Texture value
@@ -31,8 +26,24 @@ struct Plane
     float rotation[3]; // Rotation (in degrees)
 };
 
-extern std::string mapData[5];
+class Level
+{
+public:
+    Level(std::string *map, int numRows);
+    std::vector<Plane> BuildPlaneData();
 
-std::vector<Plane> BuildLevelData(int height, int width, std::string *map);
+    bool IsFloor(int x, int y);
+    int GetMapHeight();
+    int GetMapWidth();
+    glm::vec4 GetPlayerInitialPosition();
+
+private:
+    std::string *mapData;
+    int mapHeight;
+    int mapWidth;
+    glm::vec4 playerInitialPosition;
+};
+
+extern std::string mapData1[5];
 
 #endif
