@@ -272,6 +272,30 @@ src/dejavufont.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/dejavufont.cpp.s
 .PHONY : src/dejavufont.cpp.s
 
+src/game/GameEntity.obj: src/game/GameEntity.cpp.obj
+.PHONY : src/game/GameEntity.obj
+
+# target to build an object file
+src/game/GameEntity.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/game/GameEntity.cpp.obj
+.PHONY : src/game/GameEntity.cpp.obj
+
+src/game/GameEntity.i: src/game/GameEntity.cpp.i
+.PHONY : src/game/GameEntity.i
+
+# target to preprocess a source file
+src/game/GameEntity.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/game/GameEntity.cpp.i
+.PHONY : src/game/GameEntity.cpp.i
+
+src/game/GameEntity.s: src/game/GameEntity.cpp.s
+.PHONY : src/game/GameEntity.s
+
+# target to generate assembly for a file
+src/game/GameEntity.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/game/GameEntity.cpp.s
+.PHONY : src/game/GameEntity.cpp.s
+
 src/game/Level.obj: src/game/Level.cpp.obj
 .PHONY : src/game/Level.obj
 
@@ -319,6 +343,54 @@ src/game/Player.s: src/game/Player.cpp.s
 src/game/Player.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/game/Player.cpp.s
 .PHONY : src/game/Player.cpp.s
+
+src/game/PointLight.obj: src/game/PointLight.cpp.obj
+.PHONY : src/game/PointLight.obj
+
+# target to build an object file
+src/game/PointLight.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/game/PointLight.cpp.obj
+.PHONY : src/game/PointLight.cpp.obj
+
+src/game/PointLight.i: src/game/PointLight.cpp.i
+.PHONY : src/game/PointLight.i
+
+# target to preprocess a source file
+src/game/PointLight.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/game/PointLight.cpp.i
+.PHONY : src/game/PointLight.cpp.i
+
+src/game/PointLight.s: src/game/PointLight.cpp.s
+.PHONY : src/game/PointLight.s
+
+# target to generate assembly for a file
+src/game/PointLight.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/game/PointLight.cpp.s
+.PHONY : src/game/PointLight.cpp.s
+
+src/game/Projectile.obj: src/game/Projectile.cpp.obj
+.PHONY : src/game/Projectile.obj
+
+# target to build an object file
+src/game/Projectile.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/game/Projectile.cpp.obj
+.PHONY : src/game/Projectile.cpp.obj
+
+src/game/Projectile.i: src/game/Projectile.cpp.i
+.PHONY : src/game/Projectile.i
+
+# target to preprocess a source file
+src/game/Projectile.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/game/Projectile.cpp.i
+.PHONY : src/game/Projectile.cpp.i
+
+src/game/Projectile.s: src/game/Projectile.cpp.s
+.PHONY : src/game/Projectile.s
+
+# target to generate assembly for a file
+src/game/Projectile.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/game/Projectile.cpp.s
+.PHONY : src/game/Projectile.cpp.s
 
 src/glad.obj: src/glad.c.obj
 .PHONY : src/glad.obj
@@ -443,12 +515,21 @@ help:
 	@echo ... src/dejavufont.obj
 	@echo ... src/dejavufont.i
 	@echo ... src/dejavufont.s
+	@echo ... src/game/GameEntity.obj
+	@echo ... src/game/GameEntity.i
+	@echo ... src/game/GameEntity.s
 	@echo ... src/game/Level.obj
 	@echo ... src/game/Level.i
 	@echo ... src/game/Level.s
 	@echo ... src/game/Player.obj
 	@echo ... src/game/Player.i
 	@echo ... src/game/Player.s
+	@echo ... src/game/PointLight.obj
+	@echo ... src/game/PointLight.i
+	@echo ... src/game/PointLight.s
+	@echo ... src/game/Projectile.obj
+	@echo ... src/game/Projectile.i
+	@echo ... src/game/Projectile.s
 	@echo ... src/glad.obj
 	@echo ... src/glad.i
 	@echo ... src/glad.s

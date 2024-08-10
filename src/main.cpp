@@ -115,20 +115,17 @@ int main(int argc, char *argv[])
 
     /* initializing entities */
 
-    //juntar tudo numa classe posteriormente
+    // juntar tudo numa classe posteriormente
     auto player = Player(glm::vec4(0.0f, 0.0f, 0.0f, 1.0f));
     Projectile projectiles[NUM_PROJECTILES] = {};
-    for(int i = 0; i < NUM_PROJECTILES; i++) {
+    for (int i = 0; i < NUM_PROJECTILES; i++)
+    {
         projectiles[i] = Projectile();
     }
     int last_shot = 0;
     float last_shot_time = 0;
 
-    GameEntity test_enemy(glm::vec4(2.0f, 0.0f, 0.0f, 1.0f),0,100,1,5);
-
-
-
-
+    GameEntity test_enemy(glm::vec4(2.0f, 0.0f, 0.0f, 1.0f), 0, 100, 1, 5);
 
     if (argc > 1)
     {
@@ -139,11 +136,10 @@ int main(int argc, char *argv[])
     GLuint vertex_array_object_id = DrawHealthHUD();
 
     PointLight projectile_lights[NUM_PROJECTILES] = {};
-    for(int i = 0; i < NUM_PROJECTILES; i++) {
+    for (int i = 0; i < NUM_PROJECTILES; i++)
+    {
         projectile_lights[i] = PointLight();
     }
-
-
 
     TextRendering_Init();
 
@@ -152,7 +148,8 @@ int main(int argc, char *argv[])
     glCullFace(GL_BACK);
     glFrontFace(GL_CCW);
 
-    std::vector<Plane> levelData = BuildLevelData(5, 6, mapData);
+    Level currentLevel = Level(mapData1, 5);
+    std::vector<Plane> levelData = currentLevel.BuildPlaneData();
 
     /* MAIN LOOP */
     while (!glfwWindowShouldClose(window))
@@ -172,40 +169,45 @@ int main(int argc, char *argv[])
         glm::vec4 side = crossproduct(movementDirection, cam.getUpVec());
         if (isKeyDown_W)
         {
-            player.move(timeDelta * player.getWalkspeed() * normalize(movementDirection));
+            player.move(timeDelta * player.getWalkSpeed() * normalize(movementDirection));
         }
         if (isKeyDown_S)
         {
-            player.move(timeDelta * -player.getWalkspeed() * normalize(movementDirection));
+            player.move(timeDelta * -player.getWalkSpeed() * normalize(movementDirection));
         }
         if (isKeyDown_A)
         {
-            player.move(timeDelta * -player.getWalkspeed() * normalize(side));
+            player.move(timeDelta * -player.getWalkSpeed() * normalize(side));
         }
         if (isKeyDown_D)
         {
-            player.move(timeDelta * player.getWalkspeed() * normalize(side));
+            player.move(timeDelta * player.getWalkSpeed() * normalize(side));
         }
-        if(g_LeftMouseButtonPressed && now - last_shot_time > 0.1) {
+        if (g_LeftMouseButtonPressed && now - last_shot_time > 0.1)
+        {
 
-            if(player.getMana() >= 5) {
+            if (player.getMana() >= 5)
+            {
                 projectiles[last_shot % NUM_PROJECTILES].shoot(
-                    cam.getPosition() + glm::vec4(0.0f,-0.2f,0.0f,0.0f),
+                    cam.getPosition() + glm::vec4(0.0f, -0.2f, 0.0f, 0.0f),
                     cam.getViewVec(),
-                    0.0f,20.0f,0.5f,
+                    0.0f, 20.0f, 0.5f,
                     now);
                 last_shot++;
-               player.setMana(player.getMana() - 5);
-               last_shot_time = now;
+                player.setMana(player.getMana() - 5);
+                last_shot_time = now;
             }
         }
         cam.setPosition(player.getPosition());
 
         /* step game entities */
-        for(int i = 0; i < NUM_PROJECTILES; i++) {
-            if(projectiles[i].isActive()) {
+        for (int i = 0; i < NUM_PROJECTILES; i++)
+        {
+            if (projectiles[i].isActive())
+            {
                 projectiles[i].step(timeDelta);
-                if(now - projectiles[i].getStartTime() > projectiles[i].getLifeTime()) {
+                if (now - projectiles[i].getStartTime() > projectiles[i].getLifeTime())
+                {
                     projectiles[i].deactivate();
                 }
             }
@@ -238,7 +240,8 @@ int main(int argc, char *argv[])
         /* TESTING */
 
         float lights[NUM_PROJECTILES * 7] = {};
-        for(int i = 0; i < NUM_PROJECTILES; i++) {
+        for (int i = 0; i < NUM_PROJECTILES; i++)
+        {
             lights[i * 7 + 0] = projectile_lights[i].getPosition().x;
             lights[i * 7 + 1] = projectile_lights[i].getPosition().y;
             lights[i * 7 + 2] = projectile_lights[i].getPosition().z;
@@ -248,7 +251,7 @@ int main(int argc, char *argv[])
             lights[i * 7 + 6] = projectile_lights[i].getIntensity();
         }
 
-        glUniform4fv(g_ligths_uniform,1,lights);
+        glUniform4fv(g_ligths_uniform, 1, lights);
 
         for (const Plane &plane : levelData)
         {
@@ -261,22 +264,22 @@ int main(int argc, char *argv[])
             DrawVirtualObject("the_plane");
         }
 
-
         glBindVertexArray(g_VirtualScene["the_sphere"].vertex_array_object_id);
-        for(int i = 0; i < NUM_PROJECTILES; i++)
+        for (int i = 0; i < NUM_PROJECTILES; i++)
         {
-            model = Matrix_Translate(projectiles[i].getPosition().x,projectiles[i].getPosition().y,projectiles[i].getPosition().z) * Matrix_Scale(0.05,0.05,0.05);
+            model = Matrix_Translate(projectiles[i].getPosition().x, projectiles[i].getPosition().y, projectiles[i].getPosition().z) * Matrix_Scale(0.05, 0.05, 0.05);
             glUniformMatrix4fv(g_model_uniform, 1, GL_FALSE, glm::value_ptr(model));
             glUniform1i(g_object_id_uniform, SPHERE);
-            if(projectiles[i].isActive()) {
-                glDrawElements(g_VirtualScene["the_sphere"].rendering_mode,g_VirtualScene["the_sphere"].num_indices,GL_UNSIGNED_INT,(void *)(g_VirtualScene["the_sphere"].first_index * sizeof(GLuint)));
+            if (projectiles[i].isActive())
+            {
+                glDrawElements(g_VirtualScene["the_sphere"].rendering_mode, g_VirtualScene["the_sphere"].num_indices, GL_UNSIGNED_INT, (void *)(g_VirtualScene["the_sphere"].first_index * sizeof(GLuint)));
             }
         }
 
-        model = Matrix_Translate(test_enemy.get_position().x,test_enemy.get_position().y,test_enemy.get_position().z) * Matrix_Scale(0.5,0.5,0.5);
+        model = Matrix_Translate(test_enemy.get_position().x, test_enemy.get_position().y, test_enemy.get_position().z) * Matrix_Scale(0.5, 0.5, 0.5);
         glUniformMatrix4fv(g_model_uniform, 1, GL_FALSE, glm::value_ptr(model));
         glUniform1i(g_object_id_uniform, ENEMY_TYPE_1);
-        glDrawElements(g_VirtualScene["the_sphere"].rendering_mode,g_VirtualScene["the_sphere"].num_indices,GL_UNSIGNED_INT,(void *)(g_VirtualScene["the_sphere"].first_index * sizeof(GLuint)));
+        glDrawElements(g_VirtualScene["the_sphere"].rendering_mode, g_VirtualScene["the_sphere"].num_indices, GL_UNSIGNED_INT, (void *)(g_VirtualScene["the_sphere"].first_index * sizeof(GLuint)));
 
         /* renderizacao da HUD */
         glDisable(GL_DEPTH_TEST);
@@ -284,32 +287,24 @@ int main(int argc, char *argv[])
         glUniformMatrix4fv(g_view_uniform, 1, GL_FALSE, glm::value_ptr(Matrix_Identity()));
         glUniformMatrix4fv(g_projection_uniform, 1, GL_FALSE, glm::value_ptr(Matrix_Identity()));
 
-
-
-        model = Matrix_Translate(0.0, -0.9, 0.0) * Matrix_Scale(player.getHealthPercent(), 1.0f, 1.0f);
+        // Health bar
+        model = Matrix_Translate(0.0f, -0.9f, 0.0f) * Matrix_Scale(player.getHealthPercent(), 1.0f, 1.0f);
         glUniformMatrix4fv(g_model_uniform, 1, GL_FALSE, glm::value_ptr(model));
         glUniform1i(g_object_id_uniform, HUD_HEALTH);
         glBindVertexArray(vertex_array_object_id);
         glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_BYTE, 0);
 
-        model = Matrix_Translate(-0.7, -0.9, 0.0) * Matrix_Scale(player.getManaPercent(), 1.0f, 1.0f);
+        // Mana bar
+        model = Matrix_Translate(-0.7f, -0.9f, 0.0f) * Matrix_Scale(player.getManaPercent(), 1.0f, 1.0f);
         glUniformMatrix4fv(g_model_uniform, 1, GL_FALSE, glm::value_ptr(model));
         glUniform1i(g_object_id_uniform, HUD_MANA);
         glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_BYTE, 0);
 
-
-
-
         glEnable(GL_DEPTH_TEST);
-
         TextRendering_ShowFramesPerSecond(window);
-
         glfwSwapBuffers(window);
-
         glEnable(GL_CULL_FACE);
-
         glfwPollEvents();
-        //Sleep(10);
     }
 
     glfwTerminate();

@@ -12,12 +12,13 @@
 #define STATE_ROAMING 1
 #define STATE_CHASING 2
 
-class GameEntity {
+class GameEntity
+{
 public:
     GameEntity(glm::vec4 start_pos, int type, float health, float speed, float range);
 
     void set_health(float health);
-    void set_walkspeed(float walkspeed);
+    void set_walkspeed(float walkSpeed);
     void set_range(float range);
     void set_position(const glm::vec4 &position);
     void set_direction(const glm::vec4 &direction);
@@ -36,7 +37,7 @@ public:
 
 private:
     float health;
-    float walkspeed;
+    float walkSpeed;
     float range;
 
     glm::vec4 position;
@@ -46,5 +47,4 @@ private:
     int entity_type;
 };
 
-
-#endif //GAMEENTITY_H
+#endif // GAMEENTITY_H

@@ -11,7 +11,7 @@ GameEntity::GameEntity(glm::vec4 start_pos, int type, float health, float speed,
     this->position = start_pos;
     this->entity_type = type;
     this->health = health;
-    this->walkspeed = speed;
+    this->walkSpeed = speed;
     this->range = range;
     this->state = STATE_IDLE;
     this->target = glm::vec4(0.0,0.0,0.0,0.0);
@@ -22,8 +22,8 @@ void GameEntity::set_health(float health) {
     this->health = health;
 }
 
-void GameEntity::set_walkspeed(float walkspeed) {
-    this->walkspeed = walkspeed;
+void GameEntity::set_walkspeed(float walkSpeed) {
+    this->walkSpeed = walkSpeed;
 }
 
 void GameEntity::set_range(float range) {
@@ -51,7 +51,7 @@ float GameEntity::get_health() const {
 }
 
 float GameEntity::get_walkspeed() const {
-    return walkspeed;
+    return walkSpeed;
 }
 
 float GameEntity::get_range() const {
@@ -82,7 +82,7 @@ void GameEntity::step(float timeDelta) {
             break;
         case STATE_CHASING:
             direction = target - position;
-            position += glm::normalize(direction) * walkspeed;
+            position += glm::normalize(direction) * walkSpeed;
             break;
         default:
             break;

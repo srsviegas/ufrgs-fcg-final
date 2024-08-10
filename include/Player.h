@@ -9,7 +9,7 @@
 #define MAX_MANA 1000
 #define MANA_REGENFACTOR 5
 #define HEALTH_REGENFACTOR 0.1
-#define DEFAULT_SPEED 1.0
+#define DEFAULT_SPEED 2.5
 
 #include <glm/vec4.hpp>
 
@@ -17,14 +17,14 @@ class Player
 {
 public:
     explicit Player(glm::vec4 start_pos);
-    void setWalkspeed(float speed);
+    void setWalkSpeed(float speed);
     void setPosition(glm::vec4 new_pos);
     void move(glm::vec4 displacement);
     void setHealth(float hp);
     void setMana(float amount);
     void damage(float hp);
 
-    float getWalkspeed() const;
+    float getWalkSpeed() const;
     glm::vec4 getPosition() const;
     float getHealth() const;
     float getHealthPercent() const;
@@ -36,10 +36,8 @@ public:
 private:
     float health;
     float mana;
-    float walkspeed;
+    float walkSpeed;
     glm::vec4 player_pos{};
 };
 
-
-
-#endif //PLAYER_H
+#endif // PLAYER_H
