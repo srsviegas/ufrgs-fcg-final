@@ -16,6 +16,7 @@ set(SOURCES
   src/core/Window.cpp
   src/core/Input.cpp
   src/core/Camera.cpp
+  src/core/Collisions.cpp
   src/game/Level.cpp
   src/game/Player.cpp
   src/game/Projectile.cpp
