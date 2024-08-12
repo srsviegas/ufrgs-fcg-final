@@ -10,8 +10,10 @@
 #define MANA_REGENFACTOR 5
 #define HEALTH_REGENFACTOR 0.1
 #define DEFAULT_SPEED 2.5
+#define DEFAULT_COLLISIONRADIUS 0.5
 
 #include <glm/vec4.hpp>
+#include "Level.h"
 
 class Player
 {
@@ -19,7 +21,7 @@ public:
     explicit Player(glm::vec4 start_pos);
     void setWalkSpeed(float speed);
     void setPosition(glm::vec4 new_pos);
-    void move(glm::vec4 displacement);
+    void move(float timeDelta, glm::vec4 movementDirection, Level levelData);
     void setHealth(float hp);
     void setMana(float amount);
     void damage(float hp);
@@ -37,6 +39,7 @@ private:
     float health;
     float mana;
     float walkSpeed;
+    float collisionRadius;
     glm::vec4 player_pos{};
 };
 

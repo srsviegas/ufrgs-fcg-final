@@ -166,22 +166,23 @@ int main(int argc, char *argv[])
         // Calculating free camera movements
         glm::vec4 movementDirection = cam.getViewVec();
         movementDirection.y = 0.0f; // Fixate vertical movement
-        glm::vec4 side = crossproduct(movementDirection, cam.getUpVec());
+        movementDirection = normalize(movementDirection);
+        glm::vec4 side = normalize(crossproduct(movementDirection, cam.getUpVec()));
         if (isKeyDown_W)
         {
-            player.move(timeDelta * player.getWalkSpeed() * normalize(movementDirection));
+            player.move(timeDelta, movementDirection, currentLevel);
         }
         if (isKeyDown_S)
         {
-            player.move(timeDelta * -player.getWalkSpeed() * normalize(movementDirection));
+            player.move(timeDelta, -movementDirection, currentLevel);
         }
         if (isKeyDown_A)
         {
-            player.move(timeDelta * -player.getWalkSpeed() * normalize(side));
+            player.move(timeDelta, -side, currentLevel);
         }
         if (isKeyDown_D)
         {
-            player.move(timeDelta * player.getWalkSpeed() * normalize(side));
+            player.move(timeDelta, side, currentLevel);
         }
         if (g_LeftMouseButtonPressed && now - last_shot_time > 0.1)
         {

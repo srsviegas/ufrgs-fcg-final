@@ -23,7 +23,7 @@ Level::Level(std::string *map, int numRows)
     mapData = map;
     mapHeight = numRows;
     mapWidth = 0;
-    int x, y = 0;
+    int x, z = 0;
 
     // Calculates map width
     for (int i = 0; i < mapHeight; i++)
@@ -43,12 +43,13 @@ Level::Level(std::string *map, int numRows)
             if (mapData[i][j] == 'p')
             {
                 x = j;
-                y = i;
+                z = i;
                 mapData[i][j] = 'X';
             }
         }
     }
-    playerInitialPosition = glm::vec4({(float)x, float(y), 0.0f, 1.0f});
+    printf("Player Initial Position: (%d, %d)\n", x, z);
+    playerInitialPosition = glm::vec4({(float)x, 0.0f, float(z), 1.0f});
 }
 
 /* Builds the plane transformation for each floor tile, wall tile and ceiling tile from
@@ -65,34 +66,34 @@ std::vector<Plane> Level::BuildPlaneData()
             if (mapData[i][j] == 'X')
             {
                 float x = ((float)j - playerInitialPosition.x) * 2.0f;
-                float y = ((float)i - playerInitialPosition.y) * 2.0f;
+                float z = ((float)i - playerInitialPosition.z) * 2.0f;
 
                 // Create plane for tile's floor
-                levelData.push_back({TXT_FLOOR, {x, -1.0f, y}, {0.0f, 0.0f, 0.0f}});
+                levelData.push_back({TXT_FLOOR, {x, -1.0f, z}, {0.0f, 0.0f, 0.0f}});
 
                 // Create plane for tile's ceiling
-                levelData.push_back({TXT_CEIL, {x, 1.0f, y}, {180.0f, 0.0f, 0.0f}});
+                levelData.push_back({TXT_CEIL, {x, 1.0f, z}, {180.0f, 0.0f, 0.0f}});
 
                 // Create planes for tile's walls
                 if (i == 0 || mapData[i - 1][j] == ' ')
                 {
                     // i - i wall
-                    levelData.push_back({TXT_WALL, {x, 0.0f, y - 1}, {90.0f, 0.0f, 0.0f}});
+                    levelData.push_back({TXT_WALL, {x, 0.0f, z - 1}, {90.0f, 0.0f, 0.0f}});
                 }
                 if (i == mapHeight - 1 || mapData[i + 1][j] == ' ')
                 {
                     // i + 1 wall
-                    levelData.push_back({TXT_WALL, {x, 0.0f, y + 1}, {90.0f, 0.0f, 180.0f}});
+                    levelData.push_back({TXT_WALL, {x, 0.0f, z + 1}, {90.0f, 0.0f, 180.0f}});
                 }
                 if (j == 0 || mapData[i][j - 1] == ' ')
                 {
                     // j - 1 wall
-                    levelData.push_back({TXT_WALL, {x - 1, 0.0f, y}, {90.0f, 0.0f, -90.0f}});
+                    levelData.push_back({TXT_WALL, {x - 1, 0.0f, z}, {90.0f, 0.0f, -90.0f}});
                 }
                 if (j == mapWidth - 1 || mapData[i][j + 1] == ' ')
                 {
                     // j + 1 wall
-                    levelData.push_back({TXT_WALL, {x + 1, 0.0f, y}, {90.0f, 0.0f, 90.0f}});
+                    levelData.push_back({TXT_WALL, {x + 1, 0.0f, z}, {90.0f, 0.0f, 90.0f}});
                 }
             }
         }
@@ -101,11 +102,11 @@ std::vector<Plane> Level::BuildPlaneData()
     return levelData;
 }
 
-bool Level::IsFloor(int x, int y)
+bool Level::IsFloor(int x, int z)
 {
-    bool xInBounds = (x > 0) && (x < mapWidth);
-    bool yInBounds = (y > 0) && (y < mapHeight);
-    return xInBounds && yInBounds && (mapData[y][x] == 'X');
+    bool xInBounds = (x >= 0) && (x < mapWidth);
+    bool yInBounds = (z >= 0) && (z < mapHeight);
+    return xInBounds && yInBounds && (mapData[z][x] == 'X');
 }
 
 int Level::GetMapHeight()
@@ -121,4 +122,14 @@ int Level::GetMapWidth()
 glm::vec4 Level::GetPlayerInitialPosition()
 {
     return playerInitialPosition;
+}
+
+int Level::WorldPositionToMapPositionX(float x)
+{
+    return (int)(floor((x + 1.0f) / 2.0f + playerInitialPosition.x));
+}
+
+int Level::WorldPositionToMapPositionZ(float z)
+{
+    return (int)(floor((z + 1.0f) / 2.0f + playerInitialPosition.z));
 }

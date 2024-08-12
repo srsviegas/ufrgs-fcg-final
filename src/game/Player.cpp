@@ -2,6 +2,7 @@
 // Created by walte on 05/08/2024.
 //
 #include "Player.h"
+#include <stdio.h>
 
 Player::Player(glm::vec4 start_pos)
 {
@@ -9,6 +10,7 @@ Player::Player(glm::vec4 start_pos)
     mana = MAX_MANA;
     walkSpeed = DEFAULT_SPEED;
     player_pos = start_pos;
+    collisionRadius = DEFAULT_COLLISIONRADIUS;
 }
 
 void Player::setWalkSpeed(float speed)
@@ -21,9 +23,27 @@ void Player::setPosition(glm::vec4 new_pos)
     player_pos = new_pos;
 }
 
-void Player::move(glm::vec4 displacement)
+void Player::move(float timeDelta, glm::vec4 movementDirection, Level levelData)
 {
-    player_pos += displacement;
+    int oldMapPositionX = levelData.WorldPositionToMapPositionX(player_pos.x);
+    int oldMapPositionZ = levelData.WorldPositionToMapPositionZ(player_pos.z);
+
+    glm::vec4 newWorldPosition = player_pos + (timeDelta * getWalkSpeed() * movementDirection);
+    int newMapPositionX = levelData.WorldPositionToMapPositionX(newWorldPosition.x + collisionRadius * (movementDirection.x > 0 ? 1 : -1));
+    int newMapPositionZ = levelData.WorldPositionToMapPositionZ(newWorldPosition.z + collisionRadius * (movementDirection.z > 0 ? 1 : -1));
+
+    if (levelData.IsFloor(newMapPositionX, newMapPositionZ))
+    {
+        player_pos = newWorldPosition;
+    }
+    else if (levelData.IsFloor(newMapPositionX, oldMapPositionZ))
+    {
+        player_pos.x = newWorldPosition.x;
+    }
+    else if (levelData.IsFloor(oldMapPositionX, newMapPositionZ))
+    {
+        player_pos.z = newWorldPosition.z;
+    }
 }
 
 void Player::setHealth(float hp)

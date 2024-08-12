@@ -32,10 +32,13 @@ public:
     Level(std::string *map, int numRows);
     std::vector<Plane> BuildPlaneData();
 
-    bool IsFloor(int x, int y);
+    bool IsFloor(int x, int z);
     int GetMapHeight();
     int GetMapWidth();
     glm::vec4 GetPlayerInitialPosition();
+
+    int WorldPositionToMapPositionX(float x);
+    int WorldPositionToMapPositionZ(float z);
 
 private:
     std::string *mapData;
