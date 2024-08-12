@@ -50,17 +50,20 @@ Level::Level(std::string *map, int numRows)
     }
     printf("Player Initial Position: (%d, %d)\n", x, z);
     playerInitialPosition = glm::vec4({(float)x, 0.0f, float(z), 1.0f});
+
+    planeData = BuildPlaneData();
 }
 
 /* Builds the plane transformation for each floor tile, wall tile and ceiling tile from
 level data. */
-std::vector<Plane> Level::BuildPlaneData()
+std::vector<std::vector<std::vector<Plane>>> Level::BuildPlaneData()
 {
-    std::vector<Plane> levelData;
+    std::vector<std::vector<std::vector<Plane>>> planes(GetMapHeight(), std::vector<std::vector<Plane>>(GetMapWidth()));
 
     // Create planes for each tile in map
     for (int i = 0; i < mapHeight; i++)
     {
+        // Create planes for each tile in row i and push it inside planes vector
         for (int j = 0; j < mapWidth; j++)
         {
             if (mapData[i][j] == 'X')
@@ -69,37 +72,56 @@ std::vector<Plane> Level::BuildPlaneData()
                 float z = ((float)i - playerInitialPosition.z) * 2.0f;
 
                 // Create plane for tile's floor
-                levelData.push_back({TXT_FLOOR, {x, -1.0f, z}, {0.0f, 0.0f, 0.0f}});
+                planes[i][j].push_back({TXT_FLOOR, {x, -1.0f, z}, {0.0f, 0.0f, 0.0f}});
 
                 // Create plane for tile's ceiling
-                levelData.push_back({TXT_CEIL, {x, 1.0f, z}, {180.0f, 0.0f, 0.0f}});
+                planes[i][j].push_back({TXT_CEIL, {x, 1.0f, z}, {180.0f, 0.0f, 0.0f}});
 
                 // Create planes for tile's walls
                 if (i == 0 || mapData[i - 1][j] == ' ')
                 {
                     // i - i wall
-                    levelData.push_back({TXT_WALL, {x, 0.0f, z - 1}, {90.0f, 0.0f, 0.0f}});
+                    planes[i][j].push_back({TXT_WALL, {x, 0.0f, z - 1}, {90.0f, 0.0f, 0.0f}});
                 }
                 if (i == mapHeight - 1 || mapData[i + 1][j] == ' ')
                 {
                     // i + 1 wall
-                    levelData.push_back({TXT_WALL, {x, 0.0f, z + 1}, {90.0f, 0.0f, 180.0f}});
+                    planes[i][j].push_back({TXT_WALL, {x, 0.0f, z + 1}, {90.0f, 0.0f, 180.0f}});
                 }
                 if (j == 0 || mapData[i][j - 1] == ' ')
                 {
                     // j - 1 wall
-                    levelData.push_back({TXT_WALL, {x - 1, 0.0f, z}, {90.0f, 0.0f, -90.0f}});
+                    planes[i][j].push_back({TXT_WALL, {x - 1, 0.0f, z}, {90.0f, 0.0f, -90.0f}});
                 }
                 if (j == mapWidth - 1 || mapData[i][j + 1] == ' ')
                 {
                     // j + 1 wall
-                    levelData.push_back({TXT_WALL, {x + 1, 0.0f, z}, {90.0f, 0.0f, 90.0f}});
+                    planes[i][j].push_back({TXT_WALL, {x + 1, 0.0f, z}, {90.0f, 0.0f, 90.0f}});
                 }
             }
         }
     }
 
-    return levelData;
+    return planes;
+}
+
+std::vector<std::vector<std::vector<Plane>>> Level::GetPlaneData()
+{
+    return planeData;
+}
+
+/* Gets all plane coordinates associated with the tile (x, z). If a non-empty vector is
+returned, the first plane will be the tile's floor, the second will be the tile's ceiling,
+and the others will be the tile's walls (max. 4). */
+std::vector<Plane> Level::GetPlanesAtTile(int x, int z)
+{
+    if (z < 0 || z >= GetMapHeight() || x < 0 || x >= GetMapWidth())
+    {
+        // (x, z) not out of bounds; returns an empty vector
+        return std::vector<Plane>();
+    }
+
+    return GetPlaneData()[z][x];
 }
 
 bool Level::IsFloor(int x, int z)
@@ -107,6 +129,16 @@ bool Level::IsFloor(int x, int z)
     bool xInBounds = (x >= 0) && (x < mapWidth);
     bool yInBounds = (z >= 0) && (z < mapHeight);
     return xInBounds && yInBounds && (mapData[z][x] == 'X');
+}
+
+int Level::WorldPositionToMapPositionX(float x)
+{
+    return (int)(floor((x + 1.0f) / 2.0f + playerInitialPosition.x));
+}
+
+int Level::WorldPositionToMapPositionZ(float z)
+{
+    return (int)(floor((z + 1.0f) / 2.0f + playerInitialPosition.z));
 }
 
 int Level::GetMapHeight()
@@ -122,14 +154,4 @@ int Level::GetMapWidth()
 glm::vec4 Level::GetPlayerInitialPosition()
 {
     return playerInitialPosition;
-}
-
-int Level::WorldPositionToMapPositionX(float x)
-{
-    return (int)(floor((x + 1.0f) / 2.0f + playerInitialPosition.x));
-}
-
-int Level::WorldPositionToMapPositionZ(float z)
-{
-    return (int)(floor((z + 1.0f) / 2.0f + playerInitialPosition.z));
 }

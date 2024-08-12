@@ -14,6 +14,7 @@
 
 #include <glm/vec4.hpp>
 #include "Level.h"
+#include "Collisions.h"
 
 class Player
 {
@@ -33,6 +34,8 @@ public:
     float getMana() const;
     float getManaPercent() const;
 
+    Sphere GetCollision();
+
     void update(float timeDelta);
 
 private:
@@ -40,6 +43,7 @@ private:
     float mana;
     float walkSpeed;
     float collisionRadius;
+
     glm::vec4 player_pos{};
 };
 

@@ -149,7 +149,6 @@ int main(int argc, char *argv[])
     glFrontFace(GL_CCW);
 
     Level currentLevel = Level(mapData1, 5);
-    std::vector<Plane> levelData = currentLevel.BuildPlaneData();
 
     /* MAIN LOOP */
     while (!glfwWindowShouldClose(window))
@@ -254,15 +253,21 @@ int main(int argc, char *argv[])
 
         glUniform4fv(g_ligths_uniform, 1, lights);
 
-        for (const Plane &plane : levelData)
+        for (int i = 0; i < currentLevel.GetMapHeight(); i++)
         {
-            float tx = plane.position[0];
-            float ty = plane.position[1];
-            float tz = plane.position[2];
-            model = Matrix_Translate(tx, ty, tz) * Matrix_Rotate_X(glm::radians(plane.rotation[0])) * Matrix_Rotate_Y(glm::radians(plane.rotation[1])) * Matrix_Rotate_Z(glm::radians(plane.rotation[2]));
-            glUniformMatrix4fv(g_model_uniform, 1, GL_FALSE, glm::value_ptr(model));
-            glUniform1i(g_object_id_uniform, plane.texture);
-            DrawVirtualObject("the_plane");
+            for (int j = 0; j < currentLevel.GetMapWidth(); j++)
+            {
+                for (const Plane &plane : currentLevel.GetPlanesAtTile(j, i))
+                {
+                    float tx = plane.position[0];
+                    float ty = plane.position[1];
+                    float tz = plane.position[2];
+                    model = Matrix_Translate(tx, ty, tz) * Matrix_Rotate_X(glm::radians(plane.rotation[0])) * Matrix_Rotate_Y(glm::radians(plane.rotation[1])) * Matrix_Rotate_Z(glm::radians(plane.rotation[2]));
+                    glUniformMatrix4fv(g_model_uniform, 1, GL_FALSE, glm::value_ptr(model));
+                    glUniform1i(g_object_id_uniform, plane.texture);
+                    DrawVirtualObject("the_plane");
+                }
+            }
         }
 
         glBindVertexArray(g_VirtualScene["the_sphere"].vertex_array_object_id);

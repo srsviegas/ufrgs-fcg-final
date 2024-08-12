@@ -8,6 +8,12 @@ Sphere::Sphere(glm::vec3 c, float r)
     radius = r;
 }
 
+Sphere::Sphere(glm::vec4 c, float r)
+{
+    center = glm::vec3(c);
+    radius = r;
+}
+
 /* Checks collision between the Sphere object and an AABB object. */
 bool Sphere::IsCollidingAABB(AABB aabb)
 {

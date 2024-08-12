@@ -28,6 +28,14 @@ void Player::move(float timeDelta, glm::vec4 movementDirection, Level levelData)
     int oldMapPositionX = levelData.WorldPositionToMapPositionX(player_pos.x);
     int oldMapPositionZ = levelData.WorldPositionToMapPositionZ(player_pos.z);
 
+    /* TESTING */
+    for (auto &plane : levelData.GetPlanesAtTile(oldMapPositionX, oldMapPositionZ))
+    {
+        plane.DebugPrint();
+    }
+    printf("\n");
+    /* TESTING */
+
     glm::vec4 newWorldPosition = player_pos + (timeDelta * getWalkSpeed() * movementDirection);
     int newMapPositionX = levelData.WorldPositionToMapPositionX(newWorldPosition.x + collisionRadius * (movementDirection.x > 0 ? 1 : -1));
     int newMapPositionZ = levelData.WorldPositionToMapPositionZ(newWorldPosition.z + collisionRadius * (movementDirection.z > 0 ? 1 : -1));
@@ -89,6 +97,11 @@ float Player::getHealthPercent() const
 float Player::getManaPercent() const
 {
     return mana / MAX_MANA;
+}
+
+Sphere Player::GetCollision()
+{
+    return Sphere(player_pos, DEFAULT_COLLISIONRADIUS);
 }
 
 void Player::update(float timeDelta)

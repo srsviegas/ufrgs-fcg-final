@@ -15,6 +15,7 @@ class Sphere
 {
 public:
     Sphere(glm::vec3 c, float r);
+    Sphere(glm::vec4 c, float r);
     bool IsCollidingAABB(AABB aabb);
 
 private:
