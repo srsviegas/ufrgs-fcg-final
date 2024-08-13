@@ -115,6 +115,7 @@ int main(int argc, char *argv[])
 
     /* initializing entities */
 
+    cam.setFarPlane(-20.0f);
     // juntar tudo numa classe posteriormente
     auto player = Player(glm::vec4(0.0f, 0.0f, 0.0f, 1.0f));
     Projectile projectiles[NUM_PROJECTILES] = {};
@@ -166,7 +167,6 @@ int main(int argc, char *argv[])
         glm::vec4 movementDirection = cam.getViewVec();
         movementDirection.y = 0.0f; // Fixate vertical movement
         movementDirection = normalize(movementDirection);
-        glm::vec4 side = normalize(crossproduct(movementDirection, cam.getUpVec()));
         if (isKeyDown_W)
         {
             player.move(timeDelta, movementDirection, currentLevel);
@@ -177,11 +177,11 @@ int main(int argc, char *argv[])
         }
         if (isKeyDown_A)
         {
-            player.move(timeDelta, -side, currentLevel);
+            player.move(timeDelta, -cam.getSideVec(), currentLevel);
         }
         if (isKeyDown_D)
         {
-            player.move(timeDelta, side, currentLevel);
+            player.move(timeDelta, cam.getSideVec(), currentLevel);
         }
         if (g_LeftMouseButtonPressed && now - last_shot_time > 0.1)
         {
@@ -189,7 +189,7 @@ int main(int argc, char *argv[])
             if (player.getMana() >= 5)
             {
                 projectiles[last_shot % NUM_PROJECTILES].shoot(
-                    cam.getPosition() + glm::vec4(0.0f, -0.2f, 0.0f, 0.0f),
+                    cam.getPosition() - 0.2f * cam.getSideVec() + 0.3f * cam.getViewVec() - 0.1f * cam.getUpVec(),
                     cam.getViewVec(),
                     0.0f, 20.0f, 0.5f,
                     now);
@@ -201,14 +201,14 @@ int main(int argc, char *argv[])
         cam.setPosition(player.getPosition());
 
         /* step game entities */
-        for (int i = 0; i < NUM_PROJECTILES; i++)
+        for (auto & projectile : projectiles)
         {
-            if (projectiles[i].isActive())
+            if (projectile.isActive())
             {
-                projectiles[i].step(timeDelta);
-                if (now - projectiles[i].getStartTime() > projectiles[i].getLifeTime())
+                projectile.step(timeDelta);
+                if (now - projectile.getStartTime() > projectile.getLifeTime())
                 {
-                    projectiles[i].deactivate();
+                    projectile.deactivate();
                 }
             }
         }

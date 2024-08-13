@@ -80,6 +80,10 @@ glm::vec4 Camera::getViewVec() const
                      0.0f);
 }
 
+glm::vec4 Camera::getSideVec() const {
+    return glm::normalize(crossproduct(getViewVec(), cam_up));
+}
+
 glm::vec4 Camera::getUpVec() const
 {
     return cam_up;
