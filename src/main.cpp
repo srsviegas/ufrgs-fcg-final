@@ -113,6 +113,10 @@ int main(int argc, char *argv[])
     ComputeNormals(&projectilemodel);
     BuildTrianglesAndAddToVirtualScene(&projectilemodel);
 
+    ObjModel right_arm("../../data/right_arm.obj");
+    ComputeNormals(&right_arm);
+    BuildTrianglesAndAddToVirtualScene(&right_arm);
+
     /* initializing entities */
 
     cam.setFarPlane(-20.0f);
@@ -271,17 +275,30 @@ int main(int argc, char *argv[])
         }
 
         glBindVertexArray(g_VirtualScene["the_sphere"].vertex_array_object_id);
-        for (int i = 0; i < NUM_PROJECTILES; i++)
+        for (auto & projectile : projectiles)
         {
-            model = Matrix_Translate(projectiles[i].getPosition().x, projectiles[i].getPosition().y, projectiles[i].getPosition().z) * Matrix_Scale(0.05, 0.05, 0.05);
+            model = Matrix_Translate(projectile.getPosition().x, projectile.getPosition().y, projectile.getPosition().z) * Matrix_Scale(0.05, 0.05, 0.05);
             glUniformMatrix4fv(g_model_uniform, 1, GL_FALSE, glm::value_ptr(model));
             glUniform1i(g_object_id_uniform, SPHERE);
-            if (projectiles[i].isActive())
+            if (projectile.isActive())
             {
                 glDrawElements(g_VirtualScene["the_sphere"].rendering_mode, g_VirtualScene["the_sphere"].num_indices, GL_UNSIGNED_INT, (void *)(g_VirtualScene["the_sphere"].first_index * sizeof(GLuint)));
             }
         }
 
+        /* modelos fixos a camera */
+        glm::vec4 arm_pos = cam.getPosition() + 0.25f * cam.getSideVec() + 0.3f * cam.getViewVec() - 0.1f * cam.getUpVec();
+
+        model = Matrix_Translate(arm_pos.x,arm_pos.y,arm_pos.z) * Matrix_Scale(0.01f,0.01f,0.01f) *
+            Matrix_Rotate(cam.getPhi(),cam.getSideVec()) *
+            Matrix_Rotate(3.0f,cam.getSideVec()) *
+            Matrix_Rotate(cam.getTheta(),cam.getUpVec());
+        glUniformMatrix4fv(g_model_uniform, 1, GL_FALSE, glm::value_ptr(model));
+        glUniform1i(g_object_id_uniform, HUD_MANA);
+        DrawVirtualObject("arm");
+
+
+        /* inimigos */
         model = Matrix_Translate(test_enemy.get_position().x, test_enemy.get_position().y, test_enemy.get_position().z) * Matrix_Scale(0.5, 0.5, 0.5);
         glUniformMatrix4fv(g_model_uniform, 1, GL_FALSE, glm::value_ptr(model));
         glUniform1i(g_object_id_uniform, ENEMY_TYPE_1);
