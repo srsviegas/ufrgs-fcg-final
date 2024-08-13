@@ -25,32 +25,22 @@ void Player::setPosition(glm::vec4 new_pos)
 
 void Player::move(float timeDelta, glm::vec4 movementDirection, Level levelData)
 {
-    int oldMapPositionX = levelData.WorldPositionToMapPositionX(player_pos.x);
-    int oldMapPositionZ = levelData.WorldPositionToMapPositionZ(player_pos.z);
+    int mapPositionX = levelData.WorldPositionToMapPositionX(getPosition().x);
+    int mapPositionZ = levelData.WorldPositionToMapPositionZ(getPosition().z);
 
-    /* TESTING */
-    for (auto &plane : levelData.GetPlanesAtTile(oldMapPositionX, oldMapPositionZ))
-    {
-        plane.DebugPrint();
-    }
-    printf("\n");
-    /* TESTING */
+    glm::vec4 intendedMovement = timeDelta * getWalkSpeed() * movementDirection;
+    setPosition(getPosition() + intendedMovement);
 
-    glm::vec4 newWorldPosition = player_pos + (timeDelta * getWalkSpeed() * movementDirection);
-    int newMapPositionX = levelData.WorldPositionToMapPositionX(newWorldPosition.x + collisionRadius * (movementDirection.x > 0 ? 1 : -1));
-    int newMapPositionZ = levelData.WorldPositionToMapPositionZ(newWorldPosition.z + collisionRadius * (movementDirection.z > 0 ? 1 : -1));
+    Sphere playerSphere = GetCollision();
 
-    if (levelData.IsFloor(newMapPositionX, newMapPositionZ))
+    for (auto &plane : levelData.GetWallsAtTile(mapPositionX, mapPositionZ))
     {
-        player_pos = newWorldPosition;
-    }
-    else if (levelData.IsFloor(newMapPositionX, oldMapPositionZ))
-    {
-        player_pos.x = newWorldPosition.x;
-    }
-    else if (levelData.IsFloor(oldMapPositionX, newMapPositionZ))
-    {
-        player_pos.z = newWorldPosition.z;
+        if (playerSphere.IsCollidingPlane(plane))
+        {
+            glm::vec4 projectedMovement = intendedMovement - dotproduct(intendedMovement, plane.normal) * plane.normal;
+            setPosition(getPosition() + projectedMovement - intendedMovement);
+            return;
+        }
     }
 }
 

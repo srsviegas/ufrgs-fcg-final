@@ -27,3 +27,11 @@ bool Sphere::IsCollidingAABB(AABB aabb)
 
     return distanceSquared <= (radius * radius);
 }
+
+bool Sphere::IsCollidingPlane(Plane plane)
+{
+    float length = sqrt(glm::dot(plane.normal, plane.normal));
+    float distance = std::abs(glm::dot(glm::vec3(plane.normal), center) + plane.D) / length;
+
+    return distance <= radius;
+}

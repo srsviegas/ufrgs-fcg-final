@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "D:/UFRGS/05 Fundamentos de Computação Gráfica/ufrgs-fcg-final/src/glad.c" "CMakeFiles/main.dir/src/glad.c.obj" "gcc" "CMakeFiles/main.dir/src/glad.c.obj.d"
   "D:/UFRGS/05 Fundamentos de Computação Gráfica/ufrgs-fcg-final/src/core/Camera.cpp" "CMakeFiles/main.dir/src/core/Camera.cpp.obj" "gcc" "CMakeFiles/main.dir/src/core/Camera.cpp.obj.d"
+  "D:/UFRGS/05 Fundamentos de Computação Gráfica/ufrgs-fcg-final/src/core/Collisions.cpp" "CMakeFiles/main.dir/src/core/Collisions.cpp.obj" "gcc" "CMakeFiles/main.dir/src/core/Collisions.cpp.obj.d"
   "D:/UFRGS/05 Fundamentos de Computação Gráfica/ufrgs-fcg-final/src/core/Input.cpp" "CMakeFiles/main.dir/src/core/Input.cpp.obj" "gcc" "CMakeFiles/main.dir/src/core/Input.cpp.obj.d"
   "D:/UFRGS/05 Fundamentos de Computação Gráfica/ufrgs-fcg-final/src/core/Matrices.cpp" "CMakeFiles/main.dir/src/core/Matrices.cpp.obj" "gcc" "CMakeFiles/main.dir/src/core/Matrices.cpp.obj.d"
   "D:/UFRGS/05 Fundamentos de Computação Gráfica/ufrgs-fcg-final/src/core/Renderer.cpp" "CMakeFiles/main.dir/src/core/Renderer.cpp.obj" "gcc" "CMakeFiles/main.dir/src/core/Renderer.cpp.obj.d"

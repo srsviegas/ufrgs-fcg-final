@@ -218,11 +218,26 @@ CMakeFiles/main.dir/src/core/Camera.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/core/Camera.cpp.s"
 	C:\PROGRA~1\CODEBL~1\MinGW\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\UFRGS\05 Fundamentos de Computação Gráfica\ufrgs-fcg-final\src\core\Camera.cpp" -o CMakeFiles\main.dir\src\core\Camera.cpp.s
 
+CMakeFiles/main.dir/src/core/Collisions.cpp.obj: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/src/core/Collisions.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
+CMakeFiles/main.dir/src/core/Collisions.cpp.obj: D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/src/core/Collisions.cpp
+CMakeFiles/main.dir/src/core/Collisions.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\UFRGS\05 Fundamentos de Computação Gráfica\ufrgs-fcg-final\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/main.dir/src/core/Collisions.cpp.obj"
+	C:\PROGRA~1\CODEBL~1\MinGW\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/core/Collisions.cpp.obj -MF CMakeFiles\main.dir\src\core\Collisions.cpp.obj.d -o CMakeFiles\main.dir\src\core\Collisions.cpp.obj -c "D:\UFRGS\05 Fundamentos de Computação Gráfica\ufrgs-fcg-final\src\core\Collisions.cpp"
+
+CMakeFiles/main.dir/src/core/Collisions.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/core/Collisions.cpp.i"
+	C:\PROGRA~1\CODEBL~1\MinGW\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\UFRGS\05 Fundamentos de Computação Gráfica\ufrgs-fcg-final\src\core\Collisions.cpp" > CMakeFiles\main.dir\src\core\Collisions.cpp.i
+
+CMakeFiles/main.dir/src/core/Collisions.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/core/Collisions.cpp.s"
+	C:\PROGRA~1\CODEBL~1\MinGW\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\UFRGS\05 Fundamentos de Computação Gráfica\ufrgs-fcg-final\src\core\Collisions.cpp" -o CMakeFiles\main.dir\src\core\Collisions.cpp.s
+
 CMakeFiles/main.dir/src/game/Level.cpp.obj: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/game/Level.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
 CMakeFiles/main.dir/src/game/Level.cpp.obj: D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/src/game/Level.cpp
 CMakeFiles/main.dir/src/game/Level.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\UFRGS\05 Fundamentos de Computação Gráfica\ufrgs-fcg-final\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/main.dir/src/game/Level.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\UFRGS\05 Fundamentos de Computação Gráfica\ufrgs-fcg-final\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/main.dir/src/game/Level.cpp.obj"
 	C:\PROGRA~1\CODEBL~1\MinGW\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/game/Level.cpp.obj -MF CMakeFiles\main.dir\src\game\Level.cpp.obj.d -o CMakeFiles\main.dir\src\game\Level.cpp.obj -c "D:\UFRGS\05 Fundamentos de Computação Gráfica\ufrgs-fcg-final\src\game\Level.cpp"
 
 CMakeFiles/main.dir/src/game/Level.cpp.i: cmake_force
@@ -237,7 +252,7 @@ CMakeFiles/main.dir/src/game/Player.cpp.obj: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/game/Player.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
 CMakeFiles/main.dir/src/game/Player.cpp.obj: D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/src/game/Player.cpp
 CMakeFiles/main.dir/src/game/Player.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\UFRGS\05 Fundamentos de Computação Gráfica\ufrgs-fcg-final\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/main.dir/src/game/Player.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\UFRGS\05 Fundamentos de Computação Gráfica\ufrgs-fcg-final\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/main.dir/src/game/Player.cpp.obj"
 	C:\PROGRA~1\CODEBL~1\MinGW\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/game/Player.cpp.obj -MF CMakeFiles\main.dir\src\game\Player.cpp.obj.d -o CMakeFiles\main.dir\src\game\Player.cpp.obj -c "D:\UFRGS\05 Fundamentos de Computação Gráfica\ufrgs-fcg-final\src\game\Player.cpp"
 
 CMakeFiles/main.dir/src/game/Player.cpp.i: cmake_force
@@ -252,7 +267,7 @@ CMakeFiles/main.dir/src/game/Projectile.cpp.obj: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/game/Projectile.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
 CMakeFiles/main.dir/src/game/Projectile.cpp.obj: D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/src/game/Projectile.cpp
 CMakeFiles/main.dir/src/game/Projectile.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\UFRGS\05 Fundamentos de Computação Gráfica\ufrgs-fcg-final\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/main.dir/src/game/Projectile.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\UFRGS\05 Fundamentos de Computação Gráfica\ufrgs-fcg-final\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/main.dir/src/game/Projectile.cpp.obj"
 	C:\PROGRA~1\CODEBL~1\MinGW\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/game/Projectile.cpp.obj -MF CMakeFiles\main.dir\src\game\Projectile.cpp.obj.d -o CMakeFiles\main.dir\src\game\Projectile.cpp.obj -c "D:\UFRGS\05 Fundamentos de Computação Gráfica\ufrgs-fcg-final\src\game\Projectile.cpp"
 
 CMakeFiles/main.dir/src/game/Projectile.cpp.i: cmake_force
@@ -267,7 +282,7 @@ CMakeFiles/main.dir/src/game/PointLight.cpp.obj: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/game/PointLight.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
 CMakeFiles/main.dir/src/game/PointLight.cpp.obj: D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/src/game/PointLight.cpp
 CMakeFiles/main.dir/src/game/PointLight.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\UFRGS\05 Fundamentos de Computação Gráfica\ufrgs-fcg-final\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/main.dir/src/game/PointLight.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\UFRGS\05 Fundamentos de Computação Gráfica\ufrgs-fcg-final\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/main.dir/src/game/PointLight.cpp.obj"
 	C:\PROGRA~1\CODEBL~1\MinGW\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/game/PointLight.cpp.obj -MF CMakeFiles\main.dir\src\game\PointLight.cpp.obj.d -o CMakeFiles\main.dir\src\game\PointLight.cpp.obj -c "D:\UFRGS\05 Fundamentos de Computação Gráfica\ufrgs-fcg-final\src\game\PointLight.cpp"
 
 CMakeFiles/main.dir/src/game/PointLight.cpp.i: cmake_force
@@ -282,7 +297,7 @@ CMakeFiles/main.dir/src/game/GameEntity.cpp.obj: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/game/GameEntity.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
 CMakeFiles/main.dir/src/game/GameEntity.cpp.obj: D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/src/game/GameEntity.cpp
 CMakeFiles/main.dir/src/game/GameEntity.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\UFRGS\05 Fundamentos de Computação Gráfica\ufrgs-fcg-final\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/main.dir/src/game/GameEntity.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\UFRGS\05 Fundamentos de Computação Gráfica\ufrgs-fcg-final\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/main.dir/src/game/GameEntity.cpp.obj"
 	C:\PROGRA~1\CODEBL~1\MinGW\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/game/GameEntity.cpp.obj -MF CMakeFiles\main.dir\src\game\GameEntity.cpp.obj.d -o CMakeFiles\main.dir\src\game\GameEntity.cpp.obj -c "D:\UFRGS\05 Fundamentos de Computação Gráfica\ufrgs-fcg-final\src\game\GameEntity.cpp"
 
 CMakeFiles/main.dir/src/game/GameEntity.cpp.i: cmake_force
@@ -305,6 +320,7 @@ main_OBJECTS = \
 "CMakeFiles/main.dir/src/core/Window.cpp.obj" \
 "CMakeFiles/main.dir/src/core/Input.cpp.obj" \
 "CMakeFiles/main.dir/src/core/Camera.cpp.obj" \
+"CMakeFiles/main.dir/src/core/Collisions.cpp.obj" \
 "CMakeFiles/main.dir/src/game/Level.cpp.obj" \
 "CMakeFiles/main.dir/src/game/Player.cpp.obj" \
 "CMakeFiles/main.dir/src/game/Projectile.cpp.obj" \
@@ -324,6 +340,7 @@ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/bin/Debug/m
 D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/bin/Debug/main.exe: CMakeFiles/main.dir/src/core/Window.cpp.obj
 D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/bin/Debug/main.exe: CMakeFiles/main.dir/src/core/Input.cpp.obj
 D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/bin/Debug/main.exe: CMakeFiles/main.dir/src/core/Camera.cpp.obj
+D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/bin/Debug/main.exe: CMakeFiles/main.dir/src/core/Collisions.cpp.obj
 D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/bin/Debug/main.exe: CMakeFiles/main.dir/src/game/Level.cpp.obj
 D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/bin/Debug/main.exe: CMakeFiles/main.dir/src/game/Player.cpp.obj
 D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/bin/Debug/main.exe: CMakeFiles/main.dir/src/game/Projectile.cpp.obj
@@ -334,7 +351,7 @@ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/bin/Debug/m
 D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/bin/Debug/main.exe: CMakeFiles/main.dir/linkLibs.rsp
 D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/bin/Debug/main.exe: CMakeFiles/main.dir/objects1.rsp
 D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/bin/Debug/main.exe: CMakeFiles/main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="D:\UFRGS\05 Fundamentos de Computação Gráfica\ufrgs-fcg-final\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_16) "Linking CXX executable \"D:\UFRGS\05 Fundamentos de Computação Gráfica\ufrgs-fcg-final\bin\Debug\main.exe\""
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="D:\UFRGS\05 Fundamentos de Computação Gráfica\ufrgs-fcg-final\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_17) "Linking CXX executable \"D:\UFRGS\05 Fundamentos de Computação Gráfica\ufrgs-fcg-final\bin\Debug\main.exe\""
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\main.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

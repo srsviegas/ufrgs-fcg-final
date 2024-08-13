@@ -8,6 +8,33 @@ std::string mapData1[5] = {
     "XXXXXX",
 };
 
+Plane::Plane(int tex, glm::vec3 pos, glm::vec3 rot)
+{
+    texture = tex;
+    position = pos;
+    rotation = rot;
+
+    glm::mat4 transformation = Matrix_Translate(position.x, position.y, position.z);
+    transformation *= Matrix_Rotate_X(glm::radians(rotation.x));
+    transformation *= Matrix_Rotate_Y(glm::radians(rotation.y));
+    transformation *= Matrix_Rotate_Z(glm::radians(rotation.z));
+
+    glm::vec4 a = transformation * glm::vec4({1.0f, 0.0f, 1.0f, 1.0f});
+    glm::vec4 b = transformation * glm::vec4({-1.0f, 0.0f, -1.0f, 1.0f});
+    glm::vec4 c = transformation * glm::vec4({-1.0f, 0.0f, 1.0f, 1.0f});
+
+    normal = glm::normalize(crossproduct(b - a, c - a));
+    D = -glm::dot(normal, a);
+}
+
+void Plane::DebugPrint()
+{
+    printf("T(%d)\t P(%f, %f, %f)\t R(%f, %f, %f)\n",
+           texture,
+           position.x, position.y, position.z,
+           rotation.x, rotation.y, rotation.z);
+}
+
 /* Builds a level from a map in format of an array of strings. The 'X' char represents
 a tiled floor, a ' ' (space) char represents an empty floor tile and a 'p' char represents
 the initial player position.
@@ -72,31 +99,31 @@ std::vector<std::vector<std::vector<Plane>>> Level::BuildPlaneData()
                 float z = ((float)i - playerInitialPosition.z) * 2.0f;
 
                 // Create plane for tile's floor
-                planes[i][j].push_back({TXT_FLOOR, {x, -1.0f, z}, {0.0f, 0.0f, 0.0f}});
+                planes[i][j].push_back(Plane(TXT_FLOOR, {x, -1.0f, z}, {0.0f, 0.0f, 0.0f}));
 
                 // Create plane for tile's ceiling
-                planes[i][j].push_back({TXT_CEIL, {x, 1.0f, z}, {180.0f, 0.0f, 0.0f}});
+                planes[i][j].push_back(Plane(TXT_CEIL, {x, 1.0f, z}, {180.0f, 0.0f, 0.0f}));
 
                 // Create planes for tile's walls
                 if (i == 0 || mapData[i - 1][j] == ' ')
                 {
                     // i - i wall
-                    planes[i][j].push_back({TXT_WALL, {x, 0.0f, z - 1}, {90.0f, 0.0f, 0.0f}});
+                    planes[i][j].push_back(Plane(TXT_WALL, {x, 0.0f, z - 1}, {90.0f, 0.0f, 0.0f}));
                 }
                 if (i == mapHeight - 1 || mapData[i + 1][j] == ' ')
                 {
                     // i + 1 wall
-                    planes[i][j].push_back({TXT_WALL, {x, 0.0f, z + 1}, {90.0f, 0.0f, 180.0f}});
+                    planes[i][j].push_back(Plane(TXT_WALL, {x, 0.0f, z + 1}, {90.0f, 0.0f, 180.0f}));
                 }
                 if (j == 0 || mapData[i][j - 1] == ' ')
                 {
                     // j - 1 wall
-                    planes[i][j].push_back({TXT_WALL, {x - 1, 0.0f, z}, {90.0f, 0.0f, -90.0f}});
+                    planes[i][j].push_back(Plane(TXT_WALL, {x - 1, 0.0f, z}, {90.0f, 0.0f, -90.0f}));
                 }
                 if (j == mapWidth - 1 || mapData[i][j + 1] == ' ')
                 {
                     // j + 1 wall
-                    planes[i][j].push_back({TXT_WALL, {x + 1, 0.0f, z}, {90.0f, 0.0f, 90.0f}});
+                    planes[i][j].push_back(Plane(TXT_WALL, {x + 1, 0.0f, z}, {90.0f, 0.0f, 90.0f}));
                 }
             }
         }
@@ -122,6 +149,42 @@ std::vector<Plane> Level::GetPlanesAtTile(int x, int z)
     }
 
     return GetPlaneData()[z][x];
+}
+
+/* Gets all plane coordinates for walls associated with the tile (x, y). If there are no
+walls, an empty vector will be returned. */
+std::vector<Plane> Level::GetWallsAtTile(int x, int z)
+{
+    std::vector<Plane> planes = GetPlanesAtTile(x, z);
+
+    if (planes.size() <= 2)
+    {
+        // There are no walls at (x, z)
+        return std::vector<Plane>();
+    }
+
+    std::vector<Plane> walls(planes.begin() + 2, planes.end());
+
+    return walls;
+}
+
+/* Get all plane coordinates for walls associated to the tiles in a square around the tile
+(x, y). For example, `GetWallsAroundTile(1, 1)` would return all walls related to tiles
+(-1, -1), (-1, 0), (-1, 1), (0, -1), (0, 0), and so on. */
+std::vector<Plane> Level::GetWallsAroundTile(int x, int z)
+{
+    std::vector<Plane> wallsAroundTile;
+
+    for (int i = -1; i < 2; i++)
+    {
+        for (int j = -1; j < 2; j++)
+        {
+            std::vector<Plane> wallsAtTile = GetWallsAtTile(x + i, z + j);
+            wallsAroundTile.insert(wallsAroundTile.end(), wallsAtTile.begin(), wallsAtTile.end());
+        }
+    }
+
+    return wallsAroundTile;
 }
 
 bool Level::IsFloor(int x, int z)

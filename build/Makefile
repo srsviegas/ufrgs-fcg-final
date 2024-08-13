@@ -152,6 +152,30 @@ src/core/Camera.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/core/Camera.cpp.s
 .PHONY : src/core/Camera.cpp.s
 
+src/core/Collisions.obj: src/core/Collisions.cpp.obj
+.PHONY : src/core/Collisions.obj
+
+# target to build an object file
+src/core/Collisions.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/core/Collisions.cpp.obj
+.PHONY : src/core/Collisions.cpp.obj
+
+src/core/Collisions.i: src/core/Collisions.cpp.i
+.PHONY : src/core/Collisions.i
+
+# target to preprocess a source file
+src/core/Collisions.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/core/Collisions.cpp.i
+.PHONY : src/core/Collisions.cpp.i
+
+src/core/Collisions.s: src/core/Collisions.cpp.s
+.PHONY : src/core/Collisions.s
+
+# target to generate assembly for a file
+src/core/Collisions.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/core/Collisions.cpp.s
+.PHONY : src/core/Collisions.cpp.s
+
 src/core/Input.obj: src/core/Input.cpp.obj
 .PHONY : src/core/Input.obj
 
@@ -500,6 +524,9 @@ help:
 	@echo ... src/core/Camera.obj
 	@echo ... src/core/Camera.i
 	@echo ... src/core/Camera.s
+	@echo ... src/core/Collisions.obj
+	@echo ... src/core/Collisions.i
+	@echo ... src/core/Collisions.s
 	@echo ... src/core/Input.obj
 	@echo ... src/core/Input.i
 	@echo ... src/core/Input.s

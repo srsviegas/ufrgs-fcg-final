@@ -5,7 +5,7 @@ Camera::Camera()
     cam_pos = glm::vec4(0.0f, 0.0f, 0.0f, 1.0f);
     cam_up = glm::vec4(0.0f, 1.0f, 0.0f, 0.0f);
     near_plane = -0.1f;
-    far_plane = -9.5f;
+    far_plane = -20.0f;
     g_Theta = 3.141592f / 4;
     g_Phi = 3.141592f / 6;
 }
@@ -80,7 +80,8 @@ glm::vec4 Camera::getViewVec() const
                      0.0f);
 }
 
-glm::vec4 Camera::getSideVec() const {
+glm::vec4 Camera::getSideVec() const
+{
     return glm::normalize(crossproduct(getViewVec(), cam_up));
 }
 

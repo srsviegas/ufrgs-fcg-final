@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/main.dir/src/core/Camera.cpp.obj"
   "CMakeFiles/main.dir/src/core/Camera.cpp.obj.d"
+  "CMakeFiles/main.dir/src/core/Collisions.cpp.obj"
+  "CMakeFiles/main.dir/src/core/Collisions.cpp.obj.d"
   "CMakeFiles/main.dir/src/core/Input.cpp.obj"
   "CMakeFiles/main.dir/src/core/Input.cpp.obj.d"
   "CMakeFiles/main.dir/src/core/Matrices.cpp.obj"

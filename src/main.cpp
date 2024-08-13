@@ -205,7 +205,7 @@ int main(int argc, char *argv[])
         cam.setPosition(player.getPosition());
 
         /* step game entities */
-        for (auto & projectile : projectiles)
+        for (auto &projectile : projectiles)
         {
             if (projectile.isActive())
             {
@@ -263,10 +263,10 @@ int main(int argc, char *argv[])
             {
                 for (const Plane &plane : currentLevel.GetPlanesAtTile(j, i))
                 {
-                    float tx = plane.position[0];
-                    float ty = plane.position[1];
-                    float tz = plane.position[2];
-                    model = Matrix_Translate(tx, ty, tz) * Matrix_Rotate_X(glm::radians(plane.rotation[0])) * Matrix_Rotate_Y(glm::radians(plane.rotation[1])) * Matrix_Rotate_Z(glm::radians(plane.rotation[2]));
+                    model = Matrix_Translate(plane.position.x, plane.position.y, plane.position.z);
+                    model *= Matrix_Rotate_X(glm::radians(plane.rotation.x));
+                    model *= Matrix_Rotate_Y(glm::radians(plane.rotation.y));
+                    model *= Matrix_Rotate_Z(glm::radians(plane.rotation.z));
                     glUniformMatrix4fv(g_model_uniform, 1, GL_FALSE, glm::value_ptr(model));
                     glUniform1i(g_object_id_uniform, plane.texture);
                     DrawVirtualObject("the_plane");
@@ -275,7 +275,7 @@ int main(int argc, char *argv[])
         }
 
         glBindVertexArray(g_VirtualScene["the_sphere"].vertex_array_object_id);
-        for (auto & projectile : projectiles)
+        for (auto &projectile : projectiles)
         {
             model = Matrix_Translate(projectile.getPosition().x, projectile.getPosition().y, projectile.getPosition().z) * Matrix_Scale(0.05, 0.05, 0.05);
             glUniformMatrix4fv(g_model_uniform, 1, GL_FALSE, glm::value_ptr(model));
@@ -289,14 +289,13 @@ int main(int argc, char *argv[])
         /* modelos fixos a camera */
         glm::vec4 arm_pos = cam.getPosition() + 0.25f * cam.getSideVec() + 0.3f * cam.getViewVec() - 0.1f * cam.getUpVec();
 
-        model = Matrix_Translate(arm_pos.x,arm_pos.y,arm_pos.z) * Matrix_Scale(0.01f,0.01f,0.01f) *
-            Matrix_Rotate(cam.getPhi(),cam.getSideVec()) *
-            Matrix_Rotate(3.0f,cam.getSideVec()) *
-            Matrix_Rotate(cam.getTheta(),cam.getUpVec());
+        model = Matrix_Translate(arm_pos.x, arm_pos.y, arm_pos.z) * Matrix_Scale(0.01f, 0.01f, 0.01f) *
+                Matrix_Rotate(cam.getPhi(), cam.getSideVec()) *
+                Matrix_Rotate(3.0f, cam.getSideVec()) *
+                Matrix_Rotate(cam.getTheta(), cam.getUpVec());
         glUniformMatrix4fv(g_model_uniform, 1, GL_FALSE, glm::value_ptr(model));
         glUniform1i(g_object_id_uniform, HUD_MANA);
         DrawVirtualObject("arm");
-
 
         /* inimigos */
         model = Matrix_Translate(test_enemy.get_position().x, test_enemy.get_position().y, test_enemy.get_position().z) * Matrix_Scale(0.5, 0.5, 0.5);
