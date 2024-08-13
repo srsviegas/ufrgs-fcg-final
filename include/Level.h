@@ -19,19 +19,19 @@
 #include <vector>
 #include <string>
 
-struct Plane
-{
-    int texture;       // Texture value
-    float position[3]; // Translation coordinates
-    float rotation[3]; // Rotation (in degrees)
+#include "matrices.h"
 
-    void DebugPrint()
-    {
-        printf("T(%d)\t P(%f, %f, %f)\t R(%f, %f, %f)\n",
-               texture,
-               position[0], position[1], position[2],
-               rotation[0], rotation[1], rotation[2]);
-    }
+class Plane
+{
+public:
+    Plane(int tex, glm::vec3 pos, glm::vec3 rot);
+    void DebugPrint();
+
+    int texture;        // Texture value
+    glm::vec3 position; // Translation coordinates
+    glm::vec3 rotation; // Rotation coordinates (in degrees)
+    glm::vec4 normal;   // Plane's normal vector
+    float D;            // Coefficient for plane's eq. (Ax + By + Cz + D = 0)
 };
 
 class Level
@@ -42,6 +42,8 @@ public:
 
     std::vector<std::vector<std::vector<Plane>>> GetPlaneData();
     std::vector<Plane> GetPlanesAtTile(int x, int z);
+    std::vector<Plane> GetWallsAtTile(int x, int z);
+    std::vector<Plane> GetWallsAroundTile(int x, int z);
 
     bool IsFloor(int x, int z);
     int WorldPositionToMapPositionX(float x);

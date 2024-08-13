@@ -259,10 +259,10 @@ int main(int argc, char *argv[])
             {
                 for (const Plane &plane : currentLevel.GetPlanesAtTile(j, i))
                 {
-                    float tx = plane.position[0];
-                    float ty = plane.position[1];
-                    float tz = plane.position[2];
-                    model = Matrix_Translate(tx, ty, tz) * Matrix_Rotate_X(glm::radians(plane.rotation[0])) * Matrix_Rotate_Y(glm::radians(plane.rotation[1])) * Matrix_Rotate_Z(glm::radians(plane.rotation[2]));
+                    model = Matrix_Translate(plane.position.x, plane.position.y, plane.position.z);
+                    model *= Matrix_Rotate_X(glm::radians(plane.rotation.x));
+                    model *= Matrix_Rotate_Y(glm::radians(plane.rotation.y));
+                    model *= Matrix_Rotate_Z(glm::radians(plane.rotation.z));
                     glUniformMatrix4fv(g_model_uniform, 1, GL_FALSE, glm::value_ptr(model));
                     glUniform1i(g_object_id_uniform, plane.texture);
                     DrawVirtualObject("the_plane");
