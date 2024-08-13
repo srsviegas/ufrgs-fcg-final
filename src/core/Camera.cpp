@@ -5,7 +5,7 @@ Camera::Camera()
     cam_pos = glm::vec4(0.0f, 0.0f, 0.0f, 1.0f);
     cam_up = glm::vec4(0.0f, 1.0f, 0.0f, 0.0f);
     near_plane = -0.1f;
-    far_plane = -9.5f;
+    far_plane = -20.0f;
     g_Theta = 3.141592f / 4;
     g_Phi = 3.141592f / 6;
 }
