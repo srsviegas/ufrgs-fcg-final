@@ -19,7 +19,7 @@ uniform mat4 view;
 uniform mat4 projection;
 
 // Fontes de luz
-uniform float ligths[70];
+uniform float ligthsource;
 
 // Identificador que define qual objeto está sendo desenhado no momento
 #define TXT_FLOOR 1
@@ -42,6 +42,7 @@ uniform vec4 bbox_max;
 uniform sampler2D TextureImage0;
 uniform sampler2D TextureImage1;
 uniform sampler2D TextureImage2;
+uniform sampler2D TextureImage3;
 
 // O valor de saída ("out") de um Fragment Shader é a cor final do fragmento.
 out vec4 color;
@@ -117,9 +118,10 @@ void main()
 
     if ( object_id == SPHERE )
     {
-        Kd = vec3(0.0f,1.0f,1.0f);
+        U = texcoords.x;
+        V = texcoords.y;
+        Kd = texture(TextureImage3, vec2(U,V)).rgb;
     }
-
     if (object_id == TXT_FLOOR)
     {
         Kd = texture(TextureImage1, vec2(U,V)).rgb;
@@ -151,11 +153,11 @@ void main()
         Kd = texture(TextureImage2, vec2(U,V)).rgb;
     }
     else if (object_id == LEFT_ARM)
-        {
-            U = texcoords.x;
-            V = texcoords.y;
-            Kd = texture(TextureImage2, vec2(U,V)).rgb;
-        }
+    {
+        U = texcoords.x;
+        V = texcoords.y;
+        Kd = texture(TextureImage2, vec2(U,V)).rgb;
+    }
     else if(object_id == ENEMY_TYPE_1){
         Kd = vec3(1.0f,0.0f,0.0f);
     }

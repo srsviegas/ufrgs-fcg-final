@@ -20,6 +20,7 @@
 #include <chrono>
 #include <complex>
 #include <ctime>
+#include <random>
 
 #include <glad/glad.h>
 #include <GLFW/glfw3.h>
@@ -106,6 +107,7 @@ int main(int argc, char *argv[])
     LoadTextureImage("../../data/wall-tile1.png");
     LoadTextureImage("../../data/wall-tile2.png");
     LoadTextureImage("../../data/skin_txt.jpg");
+    LoadTextureImage("../../data/water.png");
 
     /* BUILDING OBJECTS */
     ObjModel planemodel("../../data/plane.obj");
@@ -124,32 +126,20 @@ int main(int argc, char *argv[])
     ComputeNormals(&left_arm);
     BuildTrianglesAndAddToVirtualScene(&left_arm);
 
-
-    /* initializing entities */
-
-    ProjectileController projectile_controller = ProjectileController(MAX_PROJECTILES,0.1);
-
-    // juntar tudo numa classe posteriormente
-    auto player = Player(glm::vec4(0.0f, 0.0f, 0.0f, 1.0f));
-
-    GameEntity test_enemy(glm::vec4(2.0f, 0.0f, 0.0f, 1.0f), 0, 100, 1, 5);
-
-    if (argc > 1)
-    {
-        ObjModel model(argv[1]);
-        BuildTrianglesAndAddToVirtualScene(&model);
-    }
-
     GLuint vertex_array_object_id = DrawHealthHUD();
 
-    TextRendering_Init();
+    /* INITIALIZING ENTITIES */
+    auto projectile_controller = ProjectileController(MAX_PROJECTILES,0.1);
+    auto player = Player(glm::vec4(0.0f, 0.0f, 0.0f, 1.0f));
+    auto test_enemy = GameEntity(glm::vec4(2.0f, 0.0f, 0.0f, 1.0f), 0, 100, 1, 5);
+    auto currentLevel = Level(mapData1, 5);
 
+
+    TextRendering_Init();
     glEnable(GL_DEPTH_TEST);
     glEnable(GL_CULL_FACE);
     glCullFace(GL_BACK);
     glFrontFace(GL_CCW);
-
-    Level currentLevel = Level(mapData1, 5);
 
     /* MAIN LOOP */
     while (!glfwWindowShouldClose(window))
@@ -160,7 +150,6 @@ int main(int argc, char *argv[])
 
         glClearColor(1.0f, 1.0f, 1.0f, 1.0f); // Background color
         glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
-
         glUseProgram(g_GpuProgramID);
 
         // Calculating free camera movements
@@ -190,7 +179,7 @@ int main(int argc, char *argv[])
                 if(!projectile_controller.onCooldown(now))
                 {
                     projectile_controller.shoot(
-                        cam.getPosition() - 0.25f * cam.getSideVec() + 0.5f * cam.getViewVec() - 0.1f * cam.getUpVec(),
+                        cam.getPosition() - 0.30f * cam.getSideVec() + 0.6f * cam.getViewVec() - 0.15f * cam.getUpVec(),
                         cam.getViewVec(),
                         20.0f, -40.0f, 0.5f,
                         now);
@@ -198,36 +187,23 @@ int main(int argc, char *argv[])
                 }
             }
         }
-        cam.setPosition(player.getPosition());
 
         /* step game entities */
+        cam.setPosition(player.getPosition());
         projectile_controller.step(now,timeDelta);
         player.update(timeDelta);
 
+        /* set camera mode */
         glm::mat4 view = Matrix_Camera_View(cam.getPosition(), cam.getViewVec(), cam.getUpVec());
         glm::mat4 projection;
-
-        if (g_UsePerspectiveProjection)
-        {
-            float field_of_view = 3.141592 / 3.0f;
-            projection = Matrix_Perspective(field_of_view, g_ScreenRatio, cam.getNearPlane(), cam.getFarPlane());
-        }
-        else
-        {
-            float t = 1.5f * g_CameraDistance / 2.5f;
-            float b = -t;
-            float r = t * g_ScreenRatio;
-            float l = -r;
-            projection = Matrix_Orthographic(l, r, b, t, cam.getNearPlane(), cam.getFarPlane());
-        }
+        float field_of_view = 3.141592 / 3.0f;
+        projection = Matrix_Perspective(field_of_view, g_ScreenRatio, cam.getNearPlane(), cam.getFarPlane());
 
         glm::mat4 model = Matrix_Identity();
-
         glUniformMatrix4fv(g_view_uniform, 1, GL_FALSE, glm::value_ptr(view));
         glUniformMatrix4fv(g_projection_uniform, 1, GL_FALSE, glm::value_ptr(projection));
 
         /* TESTING */
-
 
         for (int i = 0; i < currentLevel.GetMapHeight(); i++)
         {
@@ -246,23 +222,22 @@ int main(int argc, char *argv[])
             }
         }
 
+        /* draw entities */
         Projectile *proj = projectile_controller.getProjectiles();
         glBindVertexArray(g_VirtualScene["the_sphere"].vertex_array_object_id);
+        glUniform1i(g_object_id_uniform, SPHERE);
         for (int i = 0; i < projectile_controller.getSize(); i++)
         {
             model = Matrix_Translate(proj[i].getPosition().x, proj[i].getPosition().y, proj[i].getPosition().z) * Matrix_Scale(0.05, 0.05, 0.05);
             glUniformMatrix4fv(g_model_uniform, 1, GL_FALSE, glm::value_ptr(model));
-            glUniform1i(g_object_id_uniform, SPHERE);
             if (proj[i].isActive())
             {
                 glDrawElements(g_VirtualScene["the_sphere"].rendering_mode, g_VirtualScene["the_sphere"].num_indices, GL_UNSIGNED_INT, (void *)(g_VirtualScene["the_sphere"].first_index * sizeof(GLuint)));
             }
         }
 
-        /* modelos fixos a camera */
-
         //braco direito
-        glm::vec4 arm_pos = cam.getPosition() + 0.25f * cam.getSideVec() + 0.3f * cam.getViewVec() - 0.1f * cam.getUpVec();
+        glm::vec4 arm_pos = cam.getPosition() + 0.25f * cam.getSideVec() + 0.3f * cam.getViewVec() - 0.15f * cam.getUpVec();
         if(isKeyDown_W || isKeyDown_A || isKeyDown_S || isKeyDown_D) {
             arm_pos.y += 0.02f * cos(4 * now);
         } else {
@@ -277,7 +252,7 @@ int main(int argc, char *argv[])
         DrawVirtualObject("right_arm");
 
         //braco esquerdo
-        arm_pos = cam.getPosition() - 0.25f * cam.getSideVec() + 0.3f * cam.getViewVec() - 0.1f * cam.getUpVec();
+        arm_pos = cam.getPosition() - 0.25f * cam.getSideVec() + 0.3f * cam.getViewVec() - 0.15f * cam.getUpVec();
         if(isKeyDown_W || isKeyDown_A || isKeyDown_S || isKeyDown_D) {
             arm_pos.y += 0.02f * cos(4 * now);
         } else {
@@ -316,6 +291,7 @@ int main(int argc, char *argv[])
         glUniformMatrix4fv(g_model_uniform, 1, GL_FALSE, glm::value_ptr(model));
         glUniform1i(g_object_id_uniform, HUD_MANA);
         glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_BYTE, 0);
+
 
         glEnable(GL_DEPTH_TEST);
         TextRendering_ShowFramesPerSecond(window);
