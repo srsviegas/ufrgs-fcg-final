@@ -105,6 +105,7 @@ int main(int argc, char *argv[])
     /* LOADING TEXTURES */
     LoadTextureImage("../../data/wall-tile1.png");
     LoadTextureImage("../../data/wall-tile2.png");
+    LoadTextureImage("../../data/skin_txt.jpg");
 
     /* BUILDING OBJECTS */
     ObjModel planemodel("../../data/plane.obj");
@@ -191,7 +192,7 @@ int main(int argc, char *argv[])
                     projectile_controller.shoot(
                         cam.getPosition() - 0.25f * cam.getSideVec() + 0.5f * cam.getViewVec() - 0.1f * cam.getUpVec(),
                         cam.getViewVec(),
-                        0.0f, 20.0f, 0.5f,
+                        20.0f, -40.0f, 0.5f,
                         now);
                         player.setMana(player.getMana() - 5);
                 }
@@ -272,7 +273,7 @@ int main(int argc, char *argv[])
                 Matrix_Rotate(3.0f, cam.getSideVec()) *
                 Matrix_Rotate(cam.getTheta(), cam.getUpVec());
         glUniformMatrix4fv(g_model_uniform, 1, GL_FALSE, glm::value_ptr(model));
-        glUniform1i(g_object_id_uniform, HUD_MANA);
+        glUniform1i(g_object_id_uniform, RIGHT_ARM);
         DrawVirtualObject("right_arm");
 
         //braco esquerdo
@@ -288,7 +289,7 @@ int main(int argc, char *argv[])
                     Matrix_Rotate(3.0f,cam.getViewVec()) *
                         Matrix_Rotate(cam.getTheta(), cam.getUpVec());
         glUniformMatrix4fv(g_model_uniform, 1, GL_FALSE, glm::value_ptr(model));
-        glUniform1i(g_object_id_uniform, HUD_MANA);
+        glUniform1i(g_object_id_uniform, LEFT_ARM);
         DrawVirtualObject("left_arm");
 
         /* inimigos */
