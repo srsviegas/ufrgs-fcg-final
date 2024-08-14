@@ -18,6 +18,7 @@
 #include <stdexcept>
 #include <algorithm>
 #include <chrono>
+#include <complex>
 #include <ctime>
 
 #include <glad/glad.h>
@@ -41,6 +42,7 @@
 #include "PointLight.h"
 #include "Projectile.h"
 #include "GameEntity.h"
+#include "ProjectileController.h"
 
 using namespace std;
 
@@ -119,16 +121,11 @@ int main(int argc, char *argv[])
 
     /* initializing entities */
 
+    ProjectileController projectile_controller = ProjectileController(MAX_PROJECTILES,0.1);
+
     cam.setFarPlane(-20.0f);
     // juntar tudo numa classe posteriormente
     auto player = Player(glm::vec4(0.0f, 0.0f, 0.0f, 1.0f));
-    Projectile projectiles[NUM_PROJECTILES] = {};
-    for (int i = 0; i < NUM_PROJECTILES; i++)
-    {
-        projectiles[i] = Projectile();
-    }
-    int last_shot = 0;
-    float last_shot_time = 0;
 
     GameEntity test_enemy(glm::vec4(2.0f, 0.0f, 0.0f, 1.0f), 0, 100, 1, 5);
 
@@ -139,12 +136,6 @@ int main(int argc, char *argv[])
     }
 
     GLuint vertex_array_object_id = DrawHealthHUD();
-
-    PointLight projectile_lights[NUM_PROJECTILES] = {};
-    for (int i = 0; i < NUM_PROJECTILES; i++)
-    {
-        projectile_lights[i] = PointLight();
-    }
 
     TextRendering_Init();
 
@@ -187,36 +178,25 @@ int main(int argc, char *argv[])
         {
             player.move(timeDelta, cam.getSideVec(), currentLevel);
         }
-        if (g_LeftMouseButtonPressed && now - last_shot_time > 0.1)
+        if (g_LeftMouseButtonPressed)
         {
-
             if (player.getMana() >= 5)
             {
-                projectiles[last_shot % NUM_PROJECTILES].shoot(
-                    cam.getPosition() - 0.2f * cam.getSideVec() + 0.3f * cam.getViewVec() - 0.1f * cam.getUpVec(),
-                    cam.getViewVec(),
-                    0.0f, 20.0f, 0.5f,
-                    now);
-                last_shot++;
-                player.setMana(player.getMana() - 5);
-                last_shot_time = now;
+                if(!projectile_controller.onCooldown(now))
+                {
+                    projectile_controller.shoot(
+                        cam.getPosition() - 0.2f * cam.getSideVec() + 0.3f * cam.getViewVec() - 0.1f * cam.getUpVec(),
+                        cam.getViewVec(),
+                        0.0f, 20.0f, 0.5f,
+                        now);
+                        player.setMana(player.getMana() - 5);
+                }
             }
         }
         cam.setPosition(player.getPosition());
 
         /* step game entities */
-        for (auto &projectile : projectiles)
-        {
-            if (projectile.isActive())
-            {
-                projectile.step(timeDelta);
-                if (now - projectile.getStartTime() > projectile.getLifeTime())
-                {
-                    projectile.deactivate();
-                }
-            }
-        }
-
+        projectile_controller.step(now,timeDelta);
         player.update(timeDelta);
 
         glm::mat4 view = Matrix_Camera_View(cam.getPosition(), cam.getViewVec(), cam.getUpVec());
@@ -243,19 +223,6 @@ int main(int argc, char *argv[])
 
         /* TESTING */
 
-        float lights[NUM_PROJECTILES * 7] = {};
-        for (int i = 0; i < NUM_PROJECTILES; i++)
-        {
-            lights[i * 7 + 0] = projectile_lights[i].getPosition().x;
-            lights[i * 7 + 1] = projectile_lights[i].getPosition().y;
-            lights[i * 7 + 2] = projectile_lights[i].getPosition().z;
-            lights[i * 7 + 3] = projectile_lights[i].getColor().x;
-            lights[i * 7 + 4] = projectile_lights[i].getColor().y;
-            lights[i * 7 + 5] = projectile_lights[i].getColor().z;
-            lights[i * 7 + 6] = projectile_lights[i].getIntensity();
-        }
-
-        glUniform4fv(g_ligths_uniform, 1, lights);
 
         for (int i = 0; i < currentLevel.GetMapHeight(); i++)
         {
@@ -273,14 +240,14 @@ int main(int argc, char *argv[])
                 }
             }
         }
-
+        Projectile *proj = projectile_controller.getProjectiles();
         glBindVertexArray(g_VirtualScene["the_sphere"].vertex_array_object_id);
-        for (auto &projectile : projectiles)
+        for (int i = 0; i < projectile_controller.getSize(); i++)
         {
-            model = Matrix_Translate(projectile.getPosition().x, projectile.getPosition().y, projectile.getPosition().z) * Matrix_Scale(0.05, 0.05, 0.05);
+            model = Matrix_Translate(proj[i].getPosition().x, proj[i].getPosition().y, proj[i].getPosition().z) * Matrix_Scale(0.05, 0.05, 0.05);
             glUniformMatrix4fv(g_model_uniform, 1, GL_FALSE, glm::value_ptr(model));
             glUniform1i(g_object_id_uniform, SPHERE);
-            if (projectile.isActive())
+            if (proj[i].isActive())
             {
                 glDrawElements(g_VirtualScene["the_sphere"].rendering_mode, g_VirtualScene["the_sphere"].num_indices, GL_UNSIGNED_INT, (void *)(g_VirtualScene["the_sphere"].first_index * sizeof(GLuint)));
             }
