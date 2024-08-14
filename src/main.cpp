@@ -119,11 +119,15 @@ int main(int argc, char *argv[])
     ComputeNormals(&right_arm);
     BuildTrianglesAndAddToVirtualScene(&right_arm);
 
+    ObjModel left_arm("../../data/left_arm.obj");
+    ComputeNormals(&left_arm);
+    BuildTrianglesAndAddToVirtualScene(&left_arm);
+
+
     /* initializing entities */
 
-    ProjectileController projectile_controller = ProjectileController(MAX_PROJECTILES,0.4);
+    ProjectileController projectile_controller = ProjectileController(MAX_PROJECTILES,0.1);
 
-    cam.setFarPlane(-20.0f);
     // juntar tudo numa classe posteriormente
     auto player = Player(glm::vec4(0.0f, 0.0f, 0.0f, 1.0f));
 
@@ -149,7 +153,7 @@ int main(int argc, char *argv[])
     /* MAIN LOOP */
     while (!glfwWindowShouldClose(window))
     {
-        now = (float)glfwGetTime();
+        now = (float) glfwGetTime();
         timeDelta = now - last;
         last = now;
 
@@ -185,7 +189,7 @@ int main(int argc, char *argv[])
                 if(!projectile_controller.onCooldown(now))
                 {
                     projectile_controller.shoot(
-                        cam.getPosition() - 0.2f * cam.getSideVec() + 0.3f * cam.getViewVec() - 0.1f * cam.getUpVec(),
+                        cam.getPosition() - 0.25f * cam.getSideVec() + 0.5f * cam.getViewVec() - 0.1f * cam.getUpVec(),
                         cam.getViewVec(),
                         0.0f, 20.0f, 0.5f,
                         now);
@@ -240,6 +244,7 @@ int main(int argc, char *argv[])
                 }
             }
         }
+
         Projectile *proj = projectile_controller.getProjectiles();
         glBindVertexArray(g_VirtualScene["the_sphere"].vertex_array_object_id);
         for (int i = 0; i < projectile_controller.getSize(); i++)
@@ -262,14 +267,29 @@ int main(int argc, char *argv[])
         } else {
             arm_pos.y += 0.02f * cos(now);
         }
-
         model = Matrix_Translate(arm_pos.x, arm_pos.y, arm_pos.z) * Matrix_Scale(0.01f, 0.01f, 0.01f) *
                 Matrix_Rotate(cam.getPhi(), cam.getSideVec()) *
                 Matrix_Rotate(3.0f, cam.getSideVec()) *
                 Matrix_Rotate(cam.getTheta(), cam.getUpVec());
         glUniformMatrix4fv(g_model_uniform, 1, GL_FALSE, glm::value_ptr(model));
         glUniform1i(g_object_id_uniform, HUD_MANA);
-        DrawVirtualObject("arm");
+        DrawVirtualObject("right_arm");
+
+        //braco esquerdo
+        arm_pos = cam.getPosition() - 0.25f * cam.getSideVec() + 0.3f * cam.getViewVec() - 0.1f * cam.getUpVec();
+        if(isKeyDown_W || isKeyDown_A || isKeyDown_S || isKeyDown_D) {
+            arm_pos.y += 0.02f * cos(4 * now);
+        } else {
+            arm_pos.y += 0.02f * cos(now);
+        }
+        model = Matrix_Translate(arm_pos.x, arm_pos.y, arm_pos.z) * Matrix_Scale(0.01f, 0.01f, 0.01f) *
+                Matrix_Rotate(-cam.getPhi(), cam.getSideVec()) *
+                Matrix_Rotate(3.0f, cam.getSideVec()) *
+                    Matrix_Rotate(3.0f,cam.getViewVec()) *
+                        Matrix_Rotate(cam.getTheta(), cam.getUpVec());
+        glUniformMatrix4fv(g_model_uniform, 1, GL_FALSE, glm::value_ptr(model));
+        glUniform1i(g_object_id_uniform, HUD_MANA);
+        DrawVirtualObject("left_arm");
 
         /* inimigos */
         model = Matrix_Translate(test_enemy.get_position().x, test_enemy.get_position().y, test_enemy.get_position().z) * Matrix_Scale(0.5, 0.5, 0.5);
