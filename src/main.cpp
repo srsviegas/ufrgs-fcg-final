@@ -121,7 +121,7 @@ int main(int argc, char *argv[])
 
     /* initializing entities */
 
-    ProjectileController projectile_controller = ProjectileController(MAX_PROJECTILES,0.1);
+    ProjectileController projectile_controller = ProjectileController(MAX_PROJECTILES,0.4);
 
     cam.setFarPlane(-20.0f);
     // juntar tudo numa classe posteriormente
@@ -254,7 +254,14 @@ int main(int argc, char *argv[])
         }
 
         /* modelos fixos a camera */
+
+        //braco direito
         glm::vec4 arm_pos = cam.getPosition() + 0.25f * cam.getSideVec() + 0.3f * cam.getViewVec() - 0.1f * cam.getUpVec();
+        if(isKeyDown_W || isKeyDown_A || isKeyDown_S || isKeyDown_D) {
+            arm_pos.y += 0.02f * cos(4 * now);
+        } else {
+            arm_pos.y += 0.02f * cos(now);
+        }
 
         model = Matrix_Translate(arm_pos.x, arm_pos.y, arm_pos.z) * Matrix_Scale(0.01f, 0.01f, 0.01f) *
                 Matrix_Rotate(cam.getPhi(), cam.getSideVec()) *
