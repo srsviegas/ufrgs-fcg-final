@@ -129,11 +129,10 @@ int main(int argc, char *argv[])
     GLuint vertex_array_object_id = DrawHealthHUD();
 
     /* INITIALIZING ENTITIES */
-    auto projectile_controller = ProjectileController(MAX_PROJECTILES,0.1);
+    auto projectile_controller = ProjectileController(MAX_PROJECTILES, 0.1);
     auto player = Player(glm::vec4(0.0f, 0.0f, 0.0f, 1.0f));
     auto test_enemy = GameEntity(glm::vec4(2.0f, 0.0f, 0.0f, 1.0f), 0, 100, 1, 5);
     auto currentLevel = Level(mapData1, 5);
-
 
     TextRendering_Init();
     glEnable(GL_DEPTH_TEST);
@@ -144,7 +143,7 @@ int main(int argc, char *argv[])
     /* MAIN LOOP */
     while (!glfwWindowShouldClose(window))
     {
-        now = (float) glfwGetTime();
+        now = (float)glfwGetTime();
         timeDelta = now - last;
         last = now;
 
@@ -176,21 +175,29 @@ int main(int argc, char *argv[])
         {
             if (player.getMana() >= 5)
             {
-                if(!projectile_controller.onCooldown(now))
+                if (!projectile_controller.onCooldown(now))
                 {
                     projectile_controller.shoot(
                         cam.getPosition() - 0.30f * cam.getSideVec() + 0.6f * cam.getViewVec() - 0.15f * cam.getUpVec(),
                         cam.getViewVec(),
                         20.0f, -40.0f, 0.5f,
                         now);
-                        player.setMana(player.getMana() - 5);
+                    player.setMana(player.getMana() - 5);
                 }
             }
         }
 
+        // If "H" key was pressed; log players current position on console (for debugging)
+        if (debugLogPlayerPosition)
+        {
+            glm::vec4 ppos = player.getPosition();
+            printf("Player Position: (%.3f, %.3f, %.3f)\n", ppos.x, ppos.y, ppos.z);
+            debugLogPlayerPosition = false;
+        }
+
         /* step game entities */
         cam.setPosition(player.getPosition());
-        projectile_controller.step(now,timeDelta);
+        projectile_controller.step(now, timeDelta);
         player.update(timeDelta);
 
         /* set camera mode */
@@ -236,11 +243,14 @@ int main(int argc, char *argv[])
             }
         }
 
-        //braco direito
+        // braco direito
         glm::vec4 arm_pos = cam.getPosition() + 0.25f * cam.getSideVec() + 0.3f * cam.getViewVec() - 0.15f * cam.getUpVec();
-        if(isKeyDown_W || isKeyDown_A || isKeyDown_S || isKeyDown_D) {
+        if (isKeyDown_W || isKeyDown_A || isKeyDown_S || isKeyDown_D)
+        {
             arm_pos.y += 0.02f * cos(4 * now);
-        } else {
+        }
+        else
+        {
             arm_pos.y += 0.02f * cos(now);
         }
         model = Matrix_Translate(arm_pos.x, arm_pos.y, arm_pos.z) * Matrix_Scale(0.01f, 0.01f, 0.01f) *
@@ -251,18 +261,21 @@ int main(int argc, char *argv[])
         glUniform1i(g_object_id_uniform, RIGHT_ARM);
         DrawVirtualObject("right_arm");
 
-        //braco esquerdo
+        // braco esquerdo
         arm_pos = cam.getPosition() - 0.25f * cam.getSideVec() + 0.3f * cam.getViewVec() - 0.15f * cam.getUpVec();
-        if(isKeyDown_W || isKeyDown_A || isKeyDown_S || isKeyDown_D) {
+        if (isKeyDown_W || isKeyDown_A || isKeyDown_S || isKeyDown_D)
+        {
             arm_pos.y += 0.02f * cos(4 * now);
-        } else {
+        }
+        else
+        {
             arm_pos.y += 0.02f * cos(now);
         }
         model = Matrix_Translate(arm_pos.x, arm_pos.y, arm_pos.z) * Matrix_Scale(0.01f, 0.01f, 0.01f) *
                 Matrix_Rotate(-cam.getPhi(), cam.getSideVec()) *
                 Matrix_Rotate(3.0f, cam.getSideVec()) *
-                    Matrix_Rotate(3.0f,cam.getViewVec()) *
-                        Matrix_Rotate(cam.getTheta(), cam.getUpVec());
+                Matrix_Rotate(3.0f, cam.getViewVec()) *
+                Matrix_Rotate(cam.getTheta(), cam.getUpVec());
         glUniformMatrix4fv(g_model_uniform, 1, GL_FALSE, glm::value_ptr(model));
         glUniform1i(g_object_id_uniform, LEFT_ARM);
         DrawVirtualObject("left_arm");
@@ -291,7 +304,6 @@ int main(int argc, char *argv[])
         glUniformMatrix4fv(g_model_uniform, 1, GL_FALSE, glm::value_ptr(model));
         glUniform1i(g_object_id_uniform, HUD_MANA);
         glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_BYTE, 0);
-
 
         glEnable(GL_DEPTH_TEST);
         TextRendering_ShowFramesPerSecond(window);

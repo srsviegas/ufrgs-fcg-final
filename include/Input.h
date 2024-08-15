@@ -23,6 +23,8 @@ extern bool isKeyDown_A;
 extern bool isKeyDown_S;
 extern bool isKeyDown_D;
 
+extern bool debugLogPlayerPosition;
+
 void FramebufferSizeCallback(GLFWwindow *window, int width, int height);
 void ErrorCallback(int error, const char *description);
 void KeyCallback(GLFWwindow *window, int key, int scancode, int action, int mode);

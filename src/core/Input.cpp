@@ -20,6 +20,8 @@ bool isKeyDown_A = false;
 bool isKeyDown_S = false;
 bool isKeyDown_D = false;
 
+bool debugLogPlayerPosition = false;
+
 Camera cam = Camera();
 
 // Definição da função que será chamada sempre que a janela do sistema
@@ -252,10 +254,9 @@ void KeyCallback(GLFWwindow *window, int key, int scancode, int action, int mod)
         g_UsePerspectiveProjection = false;
     }
 
-    // Se o usuário apertar a tecla H, fazemos um "toggle" do texto informativo mostrado na tela.
     if (key == GLFW_KEY_H && action == GLFW_PRESS)
     {
-        g_ShowInfoText = !g_ShowInfoText;
+        debugLogPlayerPosition = true;
     }
 }
 
