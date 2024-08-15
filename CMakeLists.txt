@@ -22,6 +22,7 @@ set(SOURCES
   src/game/Projectile.cpp
   src/game/PointLight.cpp
   src/game/GameEntity.cpp
+        src/game/ProjectileController.cpp
 )
 
 cmake_minimum_required(VERSION 3.5.0)

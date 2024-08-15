@@ -28,7 +28,7 @@ uniform float ligthsource;
 #define HUD_HEALTH 4
 #define HUD_MANA 5
 #define HUD_MAPTILE 6
-#define SPHERE 7
+#define PROJECTILE_WATER 7
 #define LEFT_ARM 8
 #define RIGHT_ARM 9
 #define ENEMY_TYPE_1 12
@@ -116,10 +116,18 @@ void main()
     U = texcoords.x;
     V = texcoords.y;
 
-    if ( object_id == SPHERE )
+    if ( object_id == PROJECTILE_WATER )
     {
-        U = texcoords.x;
-        V = texcoords.y;
+        vec4 bbox_center = (bbox_min + bbox_max) / 2.0;
+        float theta;
+        float pho;
+        float radius = length(position_model - bbox_center);
+
+        theta = atan2(position_model.x, position_model.z);
+        pho = asin(position_model.y/radius);
+
+        U = (theta+M_PI)/(2*M_PI);
+        V = (pho + M_PI/2)/(M_PI);
         Kd = texture(TextureImage3, vec2(U,V)).rgb;
     }
     if (object_id == TXT_FLOOR)

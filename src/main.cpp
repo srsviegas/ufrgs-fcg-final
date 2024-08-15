@@ -225,10 +225,10 @@ int main(int argc, char *argv[])
         /* draw entities */
         Projectile *proj = projectile_controller.getProjectiles();
         glBindVertexArray(g_VirtualScene["the_sphere"].vertex_array_object_id);
-        glUniform1i(g_object_id_uniform, SPHERE);
+        glUniform1i(g_object_id_uniform, PROJECTILE_WATER);
         for (int i = 0; i < projectile_controller.getSize(); i++)
         {
-            model = Matrix_Translate(proj[i].getPosition().x, proj[i].getPosition().y, proj[i].getPosition().z) * Matrix_Scale(0.05, 0.05, 0.05);
+            model = Matrix_Translate(proj[i].getPosition().x, proj[i].getPosition().y, proj[i].getPosition().z) * Matrix_Scale(0.07, 0.07, 0.07);
             glUniformMatrix4fv(g_model_uniform, 1, GL_FALSE, glm::value_ptr(model));
             if (proj[i].isActive())
             {

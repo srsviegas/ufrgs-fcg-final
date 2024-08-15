@@ -7,7 +7,7 @@
 #define HUD_HEALTH 4
 #define HUD_MANA 5
 #define HUD_MAPTILE 6
-#define SPHERE 7
+#define PROJECTILE_WATER 7
 #define LEFT_ARM 8
 #define RIGHT_ARM 9
 
