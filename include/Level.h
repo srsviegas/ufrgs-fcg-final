@@ -11,6 +11,7 @@
 #define LEFT_ARM 8
 #define RIGHT_ARM 9
 #define TORCH 10
+#define OBJECTIVE_PORTAL 11
 
 #define ENEMY_TYPE_1 12
 #define POTION_HEALTH 13

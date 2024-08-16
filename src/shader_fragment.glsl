@@ -36,6 +36,7 @@ uniform int waterproj_count;
 #define LEFT_ARM 8
 #define RIGHT_ARM 9
 #define TORCH 10
+#define OBJECTIVE_PORTAL 11
 #define ENEMY_TYPE_1 12
 #define POTION_HEALTH 13
 uniform int object_id;
@@ -50,6 +51,7 @@ uniform sampler2D TextureImage1;
 uniform sampler2D TextureImage2;
 uniform sampler2D TextureImage3;
 uniform sampler2D TextureImage4;
+uniform sampler2D TextureImage5;
 
 // Fragment's color
 out vec4 color;
@@ -116,6 +118,11 @@ void main() {
     } else if (object_id == TORCH) {
         Kd = vec3(1.0);
         Ka = vec3(1.0);
+    } else if (object_id == OBJECTIVE_PORTAL) {
+        vec3 tex = texture(TextureImage5, vec2(U, V)).rgb;
+        Kd = tex;
+        Ks = tex;
+        Ka = tex * 0.25;
     } else if (object_id == ENEMY_TYPE_1) {
         Kd = vec3(1.0, 0.0, 0.0);
         Ks = vec3(0.4);

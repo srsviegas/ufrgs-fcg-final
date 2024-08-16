@@ -109,11 +109,12 @@ int main(int argc, char *argv[])
     LoadShadersFromFiles();
 
     /* LOADING TEXTURES */
-    LoadTextureImage("../../data/wall-tile1.png");
-    LoadTextureImage("../../data/wall-tile2.png");
-    LoadTextureImage("../../data/skin_txt.jpg");
-    LoadTextureImage("../../data/water.png");
-    LoadTextureImage("../../data/health_potion_txt.jpg");
+    LoadTextureImage("../../data/wall-tile1.png");        // TextureImage0
+    LoadTextureImage("../../data/wall-tile2.png");        // TextureImage1
+    LoadTextureImage("../../data/skin_txt.jpg");          // TextureImage2
+    LoadTextureImage("../../data/water.png");             // TextureImage3
+    LoadTextureImage("../../data/health_potion_txt.jpg"); // TextureImage4
+    LoadTextureImage("../../data/portal.png");            // TextureImage5
 
     /* BUILDING OBJECTS */
     ObjModel planemodel("../../data/plane.obj");
@@ -300,7 +301,8 @@ int main(int argc, char *argv[])
         glUniformMatrix4fv(g_view_uniform, 1, GL_FALSE, glm::value_ptr(view));
         glUniformMatrix4fv(g_projection_uniform, 1, GL_FALSE, glm::value_ptr(projection));
 
-        /* Draw Map Planes */
+        /* Draw Map*/
+        // Draw map planes
         glm::vec4 torchlight_position[MAX_TORCHLIGHTS] = {};
         glm::vec3 torchlight_color[MAX_TORCHLIGHTS] = {};
         uint16_t torchlight_count = 0;
@@ -341,6 +343,28 @@ int main(int argc, char *argv[])
         glUniform4fv(g_torchlight_position_uniform, MAX_TORCHLIGHTS, glm::value_ptr(torchlight_position[0]));
         glUniform3fv(g_torchlight_color_uniform, MAX_TORCHLIGHTS, glm::value_ptr(torchlight_color[0]));
         glUniform1i(g_torchlight_count_uniform, torchlight_count);
+
+        // Draw objective portal, using billboarding
+        glm::vec4 portalPosition = currentLevel.GetObjectivePosition();
+        glm::vec4 portalNormal = glm::vec4(0.0f, 0.0f, 1.0f, 0.0f);
+        glm::vec4 portalDirection = glm::normalize(cam.getPosition() - portalPosition);
+        float rotationAngle = glm::acos(glm::dot(portalNormal, portalDirection));
+
+        glm::vec4 crossProduct = crossproduct(portalNormal, portalDirection);
+        glm::vec4 portalUp = glm::vec4(0.0f, 1.0f, 0.0f, 0.0f);
+
+        if (glm::dot(crossProduct, portalUp) < 0.0f)
+        {
+            rotationAngle = 2.0f * glm::pi<float>() - rotationAngle;
+        }
+
+        model = Matrix_Translate(portalPosition.x, 0.0f, portalPosition.z);
+        model *= Matrix_Rotate_Y(rotationAngle);
+        model *= Matrix_Rotate_X(glm::radians(90.0f));
+        model *= Matrix_Scale(0.65625f, 1.0f, 1.0f);
+        glUniformMatrix4fv(g_model_uniform, 1, GL_FALSE, glm::value_ptr(model));
+        glUniform1i(g_object_id_uniform, OBJECTIVE_PORTAL);
+        DrawVirtualObject("the_plane");
 
         /* Draw Entities */
         // Draw projectiles
