@@ -148,7 +148,7 @@ int main(int argc, char *argv[])
 
     /* INITIALIZING ENTITIES */
     auto player_projectiles = ProjectileController(MAX_PROJECTILES, 0.1);
-    auto player = Player(glm::vec4(0.0f, 0.0f, 0.0f, 1.0f));
+    auto player = Player();
     auto enemies = EntityController();
     auto currentLevel = Level(mapData1, 5);
     auto power_ups = PowerupController();
@@ -238,12 +238,26 @@ int main(int argc, char *argv[])
             reloadShaders = false;
         }
 
+        // Level progression
+        if (currentLevel.ObjectiveReached(player.getPosition()))
+        {
+            std::string mapData2[5] = {
+                "oXXXXX",
+                "X   XX",
+                "X  XXX",
+                "X XXXX",
+                "XXXXXp",
+            };
+            player = Player();
+            currentLevel = Level(mapData2, 5);
+        }
+
         /* Step game entities */
         cam.setPosition(player.getPosition());
         player_projectiles.step(now, timeDelta);
         player.update(timeDelta);
         enemies.step(timeDelta, player);
-        power_ups.step(player,timeDelta);
+        power_ups.step(player, timeDelta);
 
         bool was_killed = false;
         /* check collisions */
@@ -259,11 +273,12 @@ int main(int argc, char *argv[])
                     {
                         if (isColliding(proj[i].getBoundingBox(), enem[j].getBoundingBox()))
                         {
-                            //printf("\ncollided");
+                            // printf("\ncollided");
                             was_killed = enem[j].damage(proj[i].getDamage());
                             proj[i].deactivate();
                         }
-                        if(was_killed) {
+                        if (was_killed)
+                        {
                             power_ups.spawn(
                                 enem[j].getPosition(),
                                 20.0f,
@@ -274,8 +289,6 @@ int main(int argc, char *argv[])
                 }
             }
         }
-
-
 
         /* Set camera mode */
         glm::mat4 view = Matrix_Camera_View(cam.getPosition(), cam.getViewVec(), cam.getUpVec());
@@ -369,24 +382,23 @@ int main(int argc, char *argv[])
             }
         }
 
-        //draw powerups
+        // draw powerups
         Powerup *pwrs = power_ups.getPowerUps();
         glBindVertexArray(g_VirtualScene["potion_health"].vertex_array_object_id);
         glUniform1i(g_object_id_uniform, POTION_HEALTH);
         glm::vec4 powerup_pos;
         for (int i = 0; i < MAX_POWERUPS; i++)
         {
-            if(pwrs[i].isActive) {
+            if (pwrs[i].isActive)
+            {
                 powerup_pos = pwrs[i].trajectory.calcTrajectory(pwrs[i].step);
                 model =
-                Matrix_Translate(powerup_pos.x, powerup_pos.y, powerup_pos.z) *
-                Matrix_Scale(0.2, 0.2, 0.2);
+                    Matrix_Translate(powerup_pos.x, powerup_pos.y, powerup_pos.z) *
+                    Matrix_Scale(0.2, 0.2, 0.2);
                 glUniformMatrix4fv(g_model_uniform, 1, GL_FALSE, glm::value_ptr(model));
                 glDrawElements(g_VirtualScene["potion_health"].rendering_mode, g_VirtualScene["potion_health"].num_indices, GL_UNSIGNED_INT, (void *)(g_VirtualScene["potion_health"].first_index * sizeof(GLuint)));
             }
         }
-
-
 
         // Draw right arm
         glm::vec4 arm_pos = cam.getPosition() + 0.25f * cam.getSideVec() + 0.3f * cam.getViewVec() - 0.15f * cam.getUpVec();

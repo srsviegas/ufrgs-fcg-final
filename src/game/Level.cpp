@@ -1,7 +1,7 @@
 #include "Level.h"
 
 std::string mapData1[5] = {
-    "XXXXXX",
+    "oXXXXX",
     "X   XX",
     "X  XXX",
     "X XXpX",
@@ -47,12 +47,12 @@ void Plane::DebugPrint()
 }
 
 /* Builds a level from a map in format of an array of strings. The 'X' char represents
-a tiled floor, a ' ' (space) char represents an empty floor tile and a 'p' char represents
-the initial player position.
+a tiled floor, a ' ' (space) char represents an empty floor tile, a 'p' char represents
+the initial player position, and an 'o' char representes the objective position.
 
 A map with `height = 3` and `width = 6` can be like the following:
 ```
-"XXXXXX"
+"XXXXXo"
 " X   "
 "XXXpX"
 ``` */
@@ -61,7 +61,7 @@ Level::Level(std::string *map, int numRows)
     mapData = map;
     mapHeight = numRows;
     mapWidth = 0;
-    int x, z = 0;
+    int px, pz, ox, oz = 0;
 
     // Calculates map width
     for (int i = 0; i < mapHeight; i++)
@@ -73,21 +73,30 @@ Level::Level(std::string *map, int numRows)
         }
     }
 
-    // Searches for player initial position inside map
+    // Searches for player initial position and objective position in map's matrix
     for (int i = 0; i < mapHeight; i++)
     {
         for (int j = 0; j < mapWidth; j++)
         {
             if (mapData[i][j] == 'p')
             {
-                x = j;
-                z = i;
+                px = j;
+                pz = i;
+                mapData[i][j] = 'X';
+            }
+            else if (mapData[i][j] == 'o')
+            {
+                ox = j;
+                oz = i;
                 mapData[i][j] = 'X';
             }
         }
     }
-    printf("Player Initial Position: (%d, %d)\n", x, z);
-    playerInitialPosition = glm::vec4({(float)x, 0.0f, float(z), 1.0f});
+    playerInitialPosition = glm::vec4({(float)px, 0.0f, (float)pz, 1.0f});
+    printf("Player Initial Map Position: (%d, %d)\n", px, pz);
+
+    objectivePosition = MapPositionToWorldPosition(ox, oz);
+    printf("Objective World Position: (%.2f, %.2f)\n", objectivePosition.x, objectivePosition.z);
 
     planeData = BuildPlaneData();
 }
@@ -205,6 +214,12 @@ bool Level::IsFloor(int x, int z)
     return xInBounds && yInBounds && (mapData[z][x] == 'X');
 }
 
+bool Level::ObjectiveReached(glm::vec4 position)
+{
+    float distanceToObjective = glm::distance(position, GetObjectivePosition());
+    return distanceToObjective <= OBJECTIVE_RADIUS;
+}
+
 int Level::WorldPositionToMapPositionX(float x)
 {
     return (int)(floor((x + 1.0f) / 2.0f + playerInitialPosition.x));
@@ -213,6 +228,13 @@ int Level::WorldPositionToMapPositionX(float x)
 int Level::WorldPositionToMapPositionZ(float z)
 {
     return (int)(floor((z + 1.0f) / 2.0f + playerInitialPosition.z));
+}
+
+glm::vec4 Level::MapPositionToWorldPosition(int x, int z)
+{
+    float wx = 2.0f * (x - playerInitialPosition.x);
+    float wz = 2.0f * (z - playerInitialPosition.z);
+    return glm::vec4(wx, 0.0f, wz, 1.0f);
 }
 
 int Level::GetMapHeight()
@@ -228,4 +250,9 @@ int Level::GetMapWidth()
 glm::vec4 Level::GetPlayerInitialPosition()
 {
     return playerInitialPosition;
+}
+
+glm::vec4 Level::GetObjectivePosition()
+{
+    return objectivePosition;
 }
