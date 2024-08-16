@@ -5,6 +5,7 @@
 #ifndef PROJECTILE_H
 #define PROJECTILE_H
 
+#include "Collisions.h"
 #include <glm/mat4x4.hpp>
 #include <glm/vec4.hpp>
 #include <glm/gtc/type_ptr.hpp>
@@ -13,7 +14,7 @@
 class Projectile {
 public:
         Projectile();
-        void shoot(glm::vec4 start_pos, glm::vec4 direction, float speed, float accel, float lifetime, float startTime);
+        void shoot(glm::vec4 start_pos, glm::vec4 direction, float speed, float accel, float damage, float lifetime, float startTime, glm::vec3 bbox_dimensions);
         void setSpeed(float new_speed);
         void setAccel(float new_accel);
         void setPosition(glm::vec4 new_pos);
@@ -24,10 +25,11 @@ public:
         float getLifeTime();
         float getSpeed() const;
         float getAccel() const;
+        float getDamage() const;
         glm::vec4 getPosition();
         glm::vec4 getDirection();
         void deactivate();
-        void step(float timeDelta);
+        AABB getBoundingBox();
 
 private:
         bool active;
@@ -36,7 +38,9 @@ private:
         glm::vec4 direction;
         float speed;
         float accel;
+        float damage;
         float lifetime;
+        glm::vec3 bbox_dimensions;
 
 };
 

@@ -40,6 +40,12 @@ void GameEntity::setHealth(float health) {
     this->health = health;
 }
 
+void GameEntity::damage(float amount) {
+    health -= amount;
+    if(health <= 0)
+        this->setStatus(false);
+}
+
 void GameEntity::setWalkspeed(float walkSpeed) {
     this->walkSpeed = walkSpeed;
 }
@@ -114,8 +120,11 @@ AABB GameEntity::getBoundingBox() const {
 
     return AABB
     {
-        glm::vec3(-bbox_dimension.x/2,-bbox_dimension.y/2,-bbox_dimension.z/2),
-        glm::vec3(bbox_dimension.x/2,bbox_dimension.y/2,bbox_dimension.z/2)
+        glm::vec3(-bbox_dimension.x/2,-bbox_dimension.y/2,-bbox_dimension.z/2) +
+            glm::vec3(position.x,position.y,position.z),
+
+       glm::vec3(bbox_dimension.x/2,bbox_dimension.y/2,bbox_dimension.z/2) +
+           glm::vec3(position.x,position.y,position.z)
     };
 }
 

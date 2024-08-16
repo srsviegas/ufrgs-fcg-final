@@ -41,6 +41,7 @@
 #include "Projectile.h"
 #include "GameEntity.h"
 #include "ProjectileController.h"
+#include "Collisions.h"
 
 #define MAX_TORCHLIGHTS 100
 
@@ -139,7 +140,7 @@ int main(int argc, char *argv[])
     GLuint vertex_array_object_id = DrawHealthHUD();
 
     /* INITIALIZING ENTITIES */
-    auto projectile_controller = ProjectileController(MAX_PROJECTILES, 0.1);
+    auto player_projectiles = ProjectileController(MAX_PROJECTILES, 0.1);
     auto player = Player(glm::vec4(0.0f, 0.0f, 0.0f, 1.0f));
     auto enemies = EntityController();
     auto currentLevel = Level(mapData1, 5);
@@ -149,9 +150,9 @@ int main(int argc, char *argv[])
         ENEMY_TYPE_1,
         100.0f,
         1.0f,
-        5.0f,
+        3.0f,
         1.0f,
-        glm::vec3(1.0f,1.0f,1.0f)));
+        glm::vec3(0.4f,0.4f,0.4f)));
 
     TextRendering_Init();
     glEnable(GL_DEPTH_TEST);
@@ -195,13 +196,16 @@ int main(int argc, char *argv[])
         {
             if (player.getMana() >= 5)
             {
-                if (!projectile_controller.onCooldown(now))
+                if (!player_projectiles.onCooldown(now))
                 {
-                    projectile_controller.shoot(
+                    player_projectiles.shoot(
                         cam.getPosition() - 0.38f * cam.getSideVec() + 0.6f * cam.getViewVec() - 0.10f * cam.getUpVec(),
                         cam.getViewVec(),
-                        20.0f, -40.0f, 0.5f,
-                        now);
+                        20.0f, -40.0f,
+                        5.0f,
+                        0.5f,
+                        now,
+                        glm::vec3(0.2f,0.2f,0.2f));
                     player.setMana(player.getMana() - 5);
                 }
             }
@@ -225,9 +229,26 @@ int main(int argc, char *argv[])
 
         /* Step game entities */
         cam.setPosition(player.getPosition());
-        projectile_controller.step(now, timeDelta);
+        player_projectiles.step(now, timeDelta);
         player.update(timeDelta);
         enemies.step(timeDelta,player);
+
+        /* check collisions */
+        Projectile *proj = player_projectiles.getProjectiles();
+        GameEntity *enem = enemies.getEntities();
+        for (int i = 0; i < player_projectiles.getSize(); i++) {
+            if(proj[i].isActive()) {
+               for(int j = 0; j < MAX_ENTITIES; j++) {
+                    if(enem[j].isActive()) {
+                        if(isColliding(proj[i].getBoundingBox(),enem[j].getBoundingBox())) {
+                            printf("\ncollided");
+                            enem[j].damage(proj[i].getDamage());
+                            proj[i].deactivate();
+                        }
+                    }
+                }
+            }
+        }
 
         /* Set camera mode */
         glm::mat4 view = Matrix_Camera_View(cam.getPosition(), cam.getViewVec(), cam.getUpVec());
@@ -283,10 +304,9 @@ int main(int argc, char *argv[])
 
         /* Draw Entities */
         // Draw projectiles
-        Projectile *proj = projectile_controller.getProjectiles();
         glBindVertexArray(g_VirtualScene["the_sphere"].vertex_array_object_id);
         glUniform1i(g_object_id_uniform, PROJECTILE_WATER);
-        for (int i = 0; i < projectile_controller.getSize(); i++)
+        for (int i = 0; i < player_projectiles.getSize(); i++)
         {
             model = Matrix_Translate(proj[i].getPosition().x, proj[i].getPosition().y, proj[i].getPosition().z) * Matrix_Scale(0.07, 0.07, 0.07);
             glUniformMatrix4fv(g_model_uniform, 1, GL_FALSE, glm::value_ptr(model));

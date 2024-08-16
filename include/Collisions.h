@@ -19,7 +19,20 @@ struct AABB
                min.x, min.y, min.z,
                max.x, max.y, max.z);
     }
+
+
 };
+
+inline bool isColliding(AABB bbox_1, AABB bbox_2) {
+    return
+    bbox_1.max.x > bbox_2.min.x &&
+        bbox_1.min.x < bbox_2.max.x &&
+            bbox_1.max.y > bbox_2.min.y &&
+                bbox_1.min.y < bbox_2.max.y &&
+                    bbox_1.max.z > bbox_2.min.z &&
+                        bbox_1.min.z < bbox_2.max.z;
+
+}
 
 class Sphere
 {

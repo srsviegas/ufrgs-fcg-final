@@ -13,11 +13,11 @@ class ProjectileController {
 
 public:
     ProjectileController(int size, float cooldown);
-    void shoot(glm::vec4 start_pos, glm::vec4 direction, float speed, float accel, float lifetime, float startTime);
+    void shoot(glm::vec4 start_pos, glm::vec4 direction, float speed, float accel,float damage, float lifetime, float startTime, glm::vec3 bbox_dimensions);
     void step(float current_time, float timeDelta);
-    Projectile* getProjectiles();
     int getSize() const;
     bool onCooldown(float current_time) const;
+    Projectile* getProjectiles();
 
 
 private:

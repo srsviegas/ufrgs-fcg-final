@@ -15,8 +15,8 @@ ProjectileController::ProjectileController(int size, float cooldown) {
     max_projectiles = size;
 }
 
-void ProjectileController::shoot(glm::vec4 start_pos, glm::vec4 direction, float speed, float accel, float lifetime, float startTime) {
-        projectiles[last_shot % MAX_PROJECTILES].shoot(start_pos,direction,speed,accel,lifetime,startTime);
+void ProjectileController::shoot(glm::vec4 start_pos, glm::vec4 direction, float speed, float accel, float damage, float lifetime, float startTime, glm::vec3 bbox_dimensions) {
+        projectiles[last_shot % MAX_PROJECTILES].shoot(start_pos,direction,speed,accel,damage,lifetime,startTime,bbox_dimensions);
         last_shot++;
         last_shot_time = startTime;
 }
@@ -26,7 +26,10 @@ void ProjectileController::step(float current_time, float timeDelta) {
     {
         if (projectile.isActive())
         {
-            projectile.step(timeDelta);
+            projectile.setSpeed(projectile.getSpeed() + projectile.getAccel() * timeDelta);
+            projectile.setPosition(projectile.getPosition() +
+                projectile.getSpeed() *glm::normalize(projectile.getDirection()) * timeDelta);
+
             if (current_time - projectile.getStartTime() > projectile.getLifeTime())
             {
                 projectile.deactivate();
