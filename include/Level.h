@@ -10,10 +10,13 @@
 #define PROJECTILE_WATER 7
 #define LEFT_ARM 8
 #define RIGHT_ARM 9
+#define TORCH 10
 
 #define ENEMY_TYPE_1 12
 
 #define NUM_PROJECTILES 10
+
+#define TORCH_CHANCE_PER_WALL 40
 
 #include <glm/glm.hpp>
 #include <glm/gtc/matrix_transform.hpp>
@@ -22,6 +25,7 @@
 #include <string>
 
 #include "matrices.h"
+#include "utils.h"
 
 class Plane
 {
@@ -34,6 +38,9 @@ public:
     glm::vec3 rotation; // Rotation coordinates (in degrees)
     glm::vec4 normal;   // Plane's normal vector
     float D;            // Coefficient for plane's eq. (Ax + By + Cz + D = 0)
+
+    bool hasTorch;        // Indicates if that plane should have a torch light
+    glm::vec3 torchColor; // The color of the torch, if it has one
 };
 
 class Level

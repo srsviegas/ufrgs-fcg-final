@@ -8,11 +8,22 @@ std::string mapData1[5] = {
     "XXXXXX",
 };
 
+glm::vec3 torchColors[3] = {
+    glm::vec3(1.0f, 0.0f, 0.0f),
+    glm::vec3(1.0f, 0.4f, 0.0f),
+    glm::vec3(1.0f, 0.1f, 0.0f)};
+
 Plane::Plane(int tex, glm::vec3 pos, glm::vec3 rot)
 {
     texture = tex;
     position = pos;
     rotation = rot;
+    hasTorch = (pos.y == 0.0f) ? chance(TORCH_CHANCE_PER_WALL) : false;
+
+    if (hasTorch)
+    {
+        torchColor = torchColors[random(3)];
+    }
 
     glm::mat4 transformation = Matrix_Translate(position.x, position.y, position.z);
     transformation *= Matrix_Rotate_X(glm::radians(rotation.x));

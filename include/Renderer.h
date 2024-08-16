@@ -99,16 +99,19 @@ extern GLint g_object_id_uniform;
 extern GLint g_bbox_min_uniform;
 extern GLint g_bbox_max_uniform;
 extern GLuint g_NumLoadedTextures;
-extern GLint g_ligths_uniform;
+
+extern GLint g_torchlight_position_uniform;
+extern GLint g_torchlight_color_uniform;
+extern GLint g_torchlight_count_uniform;
 
 void PushMatrix(glm::mat4 M);
 void PopMatrix(glm::mat4 &M);
 
-void BuildTrianglesAndAddToVirtualScene(ObjModel *);                         // Constrói representação de um ObjModel como malha de triângulos para renderização
-void ComputeNormals(ObjModel *model);                                        // Computa normais de um ObjModel, caso não existam.
-void LoadShadersFromFiles();                                                 // Carrega os shaders de vértice e fragmento, criando um programa de GPU
-void LoadTextureImage(const char *filename);                                 // Função que carrega imagens de textura
-void DrawVirtualObject(const char *object_name);                             // Desenha um objeto armazenado em g_VirtualScene
+void BuildTrianglesAndAddToVirtualScene(ObjModel *); // Constrói representação de um ObjModel como malha de triângulos para renderização
+void ComputeNormals(ObjModel *model);                // Computa normais de um ObjModel, caso não existam.
+void LoadShadersFromFiles();                         // Carrega os shaders de vértice e fragmento, criando um programa de GPU
+void LoadTextureImage(const char *filename);         // Função que carrega imagens de textura
+void DrawVirtualObject(const char *object_name);     // Desenha um objeto armazenado em g_VirtualScene
 GLuint DrawHealthHUD();
 GLuint LoadShader_Vertex(const char *filename);                              // Carrega um vertex shader
 GLuint LoadShader_Fragment(const char *filename);                            // Carrega um fragment shader

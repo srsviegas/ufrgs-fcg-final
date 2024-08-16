@@ -24,6 +24,7 @@ extern bool isKeyDown_S;
 extern bool isKeyDown_D;
 
 extern bool debugLogPlayerPosition;
+extern bool reloadShaders;
 
 void FramebufferSizeCallback(GLFWwindow *window, int width, int height);
 void ErrorCallback(int error, const char *description);
