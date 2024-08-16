@@ -10,7 +10,10 @@ GLint g_projection_uniform;
 GLint g_object_id_uniform;
 GLint g_bbox_min_uniform;
 GLint g_bbox_max_uniform;
-GLint g_ligths_uniform;
+
+GLint g_torchlight_position_uniform;
+GLint g_torchlight_color_uniform;
+GLint g_torchlight_count_uniform;
 
 GLuint g_NumLoadedTextures = 0;
 
@@ -100,12 +103,11 @@ void ComputeNormals(ObjModel *model)
 GLuint DrawHealthHUD()
 {
     GLfloat NDC_coefficients[] = {
-    //    X      Y     Z     W
+        //    X      Y     Z     W
         -0.2f, 0.05f, 0.0f, 1.0f,
-         -0.2f, -0.05f, 0.0f, 1.0f,
-         0.2f,  0.05f, 0.0f, 1.0f,
-         0.2f,  -0.05f, 0.0f, 1.0f
-    };
+        -0.2f, -0.05f, 0.0f, 1.0f,
+        0.2f, 0.05f, 0.0f, 1.0f,
+        0.2f, -0.05f, 0.0f, 1.0f};
     GLuint VBO_NDC_coefficients_id;
     glGenBuffers(1, &VBO_NDC_coefficients_id);
     GLuint vertex_array_object_id;
@@ -114,29 +116,28 @@ GLuint DrawHealthHUD()
     glBindBuffer(GL_ARRAY_BUFFER, VBO_NDC_coefficients_id);
     glBufferData(GL_ARRAY_BUFFER, sizeof(NDC_coefficients), NULL, GL_STATIC_DRAW);
     glBufferSubData(GL_ARRAY_BUFFER, 0, sizeof(NDC_coefficients), NDC_coefficients);
-    GLuint location = 0; // "(location = 0)" em "shader_vertex.glsl"
-    GLint  number_of_dimensions = 4; // vec4 em "shader_vertex.glsl"
+    GLuint location = 0;            // "(location = 0)" em "shader_vertex.glsl"
+    GLint number_of_dimensions = 4; // vec4 em "shader_vertex.glsl"
     glVertexAttribPointer(location, number_of_dimensions, GL_FLOAT, GL_FALSE, 0, 0);
     glEnableVertexAttribArray(location);
     glBindBuffer(GL_ARRAY_BUFFER, 0);
     GLfloat color_coefficients[] = {
-    //  R     G     B     A
+        //  R     G     B     A
         1.0f, 0.0f, 0.0f, 1.0f,
         1.0f, 1.0f, 0.0f, 1.0f,
         1.0f, 0.0f, 1.0f, 1.0f,
-        1.0f, 1.0f, 1.0f, 1.0f
-    };
+        1.0f, 1.0f, 1.0f, 1.0f};
     GLuint VBO_color_coefficients_id;
     glGenBuffers(1, &VBO_color_coefficients_id);
     glBindBuffer(GL_ARRAY_BUFFER, VBO_color_coefficients_id);
     glBufferData(GL_ARRAY_BUFFER, sizeof(color_coefficients), NULL, GL_STATIC_DRAW);
     glBufferSubData(GL_ARRAY_BUFFER, 0, sizeof(color_coefficients), color_coefficients);
-    location = 1; // "(location = 1)" em "shader_vertex.glsl"
+    location = 1;             // "(location = 1)" em "shader_vertex.glsl"
     number_of_dimensions = 4; // vec4 em "shader_vertex.glsl"
     glVertexAttribPointer(location, number_of_dimensions, GL_FLOAT, GL_FALSE, 0, 0);
     glEnableVertexAttribArray(location);
     glBindBuffer(GL_ARRAY_BUFFER, 0);
-    GLubyte indices[] = { 0,1,2, 2,1,3 };
+    GLubyte indices[] = {0, 1, 2, 2, 1, 3};
     GLuint indices_id;
     glGenBuffers(1, &indices_id);
     glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, indices_id);
@@ -146,7 +147,6 @@ GLuint DrawHealthHUD()
 
     return vertex_array_object_id;
 }
-
 
 // Constrói triângulos para futura renderização a partir de um ObjModel.
 void BuildTrianglesAndAddToVirtualScene(ObjModel *model)
@@ -754,7 +754,11 @@ void LoadShadersFromFiles()
     g_object_id_uniform = glGetUniformLocation(g_GpuProgramID, "object_id");   // Variável "object_id" em shader_fragment.glsl
     g_bbox_min_uniform = glGetUniformLocation(g_GpuProgramID, "bbox_min");
     g_bbox_max_uniform = glGetUniformLocation(g_GpuProgramID, "bbox_max");
-    g_ligths_uniform = glGetUniformLocation(g_GpuProgramID, "lightsource");
+
+    // Torch lightsources; position vector (vec4) and color value (vec3)
+    g_torchlight_position_uniform = glGetUniformLocation(g_GpuProgramID, "torchlight_position");
+    g_torchlight_color_uniform = glGetUniformLocation(g_GpuProgramID, "torchlight_color");
+    g_torchlight_count_uniform = glGetUniformLocation(g_GpuProgramID, "torchlight_count");
 
     // Variáveis em "shader_fragment.glsl" para acesso das imagens de textura
     glUseProgram(g_GpuProgramID);

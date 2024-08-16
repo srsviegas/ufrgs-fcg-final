@@ -21,6 +21,7 @@ bool isKeyDown_S = false;
 bool isKeyDown_D = false;
 
 bool debugLogPlayerPosition = false;
+bool reloadShaders = false;
 
 Camera cam = Camera();
 
@@ -257,6 +258,11 @@ void KeyCallback(GLFWwindow *window, int key, int scancode, int action, int mod)
     if (key == GLFW_KEY_H && action == GLFW_PRESS)
     {
         debugLogPlayerPosition = true;
+    }
+
+    if (key == GLFW_KEY_F5 && action == GLFW_PRESS)
+    {
+        reloadShaders = true;
     }
 }
 

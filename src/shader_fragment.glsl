@@ -15,7 +15,10 @@ uniform mat4 view;
 uniform mat4 projection;
 
 // Light sources
-uniform float ligthsource;
+#define MAX_TORCHLIGHTS 100
+uniform vec4 torchlight_position[MAX_TORCHLIGHTS];
+uniform vec3 torchlight_color[MAX_TORCHLIGHTS];
+uniform int torchlight_count;
 
 // Object ID
 #define TXT_FLOOR 1
@@ -27,6 +30,7 @@ uniform float ligthsource;
 #define PROJECTILE_WATER 7
 #define LEFT_ARM 8
 #define RIGHT_ARM 9
+#define TORCH 10
 #define ENEMY_TYPE_1 12
 uniform int object_id;
 
@@ -60,9 +64,19 @@ void main()
     vec4 camera_position = inverse(view) * origin;
 
     vec4 normal = normalize(normal);
-    vec4 light_direction = normalize(vec4(0.1,0.4,0.8,0.0));
     vec4 camera_direction = normalize(camera_position - position_world);
 
+    vec3 lambert = vec3(0.0);
+
+    // Torch light illumination
+    for (int i = 0; i < torchlight_count; i++)
+    {
+        vec4 torchlight_direction = normalize(torchlight_position[i] - position_world);
+        float distance = length(torchlight_position[i] - position_world);
+        float attenuation = 1.0 / (1.0 + 0.05 * distance + 0.025 * distance * distance);
+        lambert += max(0, dot(normal, torchlight_direction)) * torchlight_color[i] * attenuation;
+    }
+    
     float U = 0.0;
     float V = 0.0;
 
@@ -93,11 +107,13 @@ void main()
         case TXT_WALL: 
             Kd = texture(TextureImage0, vec2(U,V)).rgb;
             break;
-        case HUD_HEALTH: 
-            Kd = vec3(1.0f,0.0f,0.0f);
+        case HUD_HEALTH:
+            lambert = vec3(1.0,0.0,0.0);
+            Kd = vec3(1.0,1.0,1.0);
             break;
         case HUD_MANA: 
-            Kd = vec3(0.0f,0.0f,1.0f);
+            lambert = vec3(0.0,0.0,1.0);
+            Kd = vec3(1.0,1.0,1.0);
             break;
         case RIGHT_ARM:
         case LEFT_ARM:
@@ -105,14 +121,14 @@ void main()
             V = texcoords.y;
             Kd = texture(TextureImage2, vec2(U,V)).rgb;
             break;
+        case TORCH:
+            Kd = vec3(1.0,1.0,1.0);
         case ENEMY_TYPE_1:
-            Kd = vec3(1.0f,0.0f,0.0f);
+            Kd = vec3(1.0,1.0,1.0);
             break;
     }
-
-    float lambert = max(0, dot(normal, light_direction));
     
-    color.rgb = Kd * (lambert + 0.01);
+    color.rgb = Kd * lambert;
     color.a = 1;
     color.rgb = pow(color.rgb, vec3(1.0,1.0,1.0)/2.2);
 }
