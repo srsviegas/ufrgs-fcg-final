@@ -24,7 +24,6 @@ set(SOURCES
   src/game/GameEntity.cpp
         src/game/ProjectileController.cpp
         src/game/EntityController.cpp
-        src/game/EntityController.h
 )
 
 cmake_minimum_required(VERSION 3.5.0)
