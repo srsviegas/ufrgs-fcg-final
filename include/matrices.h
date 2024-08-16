@@ -20,6 +20,8 @@ glm::mat4 Matrix(
 // Identity matrix
 glm::mat4 Matrix_Identity();
 
+
+
 // Translation matrix
 glm::mat4 Matrix_Translate(float tx, float ty, float tz);
 
@@ -53,6 +55,8 @@ float norm(glm::vec4 v);
 
 // Cross product of two 3D vectors
 glm::vec4 crossproduct(glm::vec4 u, glm::vec4 v);
+
+float angleAroundY(glm::vec4 v);
 
 // Dot product of two vectors (error if used on points with w != 0)
 float dotproduct(glm::vec4 u, glm::vec4 v);

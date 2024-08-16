@@ -124,7 +124,7 @@ void main()
         case TORCH:
             Kd = vec3(1.0,1.0,1.0);
         case ENEMY_TYPE_1:
-            Kd = vec3(1.0,1.0,1.0);
+            Kd = vec3(1.0,0.0,0.0);
             break;
     }
     

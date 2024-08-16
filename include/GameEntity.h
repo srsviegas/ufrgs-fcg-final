@@ -7,6 +7,7 @@
 
 #include <glm/vec3.hpp>
 #include <glm/vec4.hpp>
+#include "Collisions.h"
 
 #define STATE_IDLE 0
 #define STATE_ROAMING 1
@@ -15,36 +16,43 @@
 class GameEntity
 {
 public:
-    GameEntity(glm::vec4 start_pos, int type, float health, float speed, float range);
+    GameEntity(glm::vec4 start_pos, int type, float health, float speed, float range, float min_dist, glm::vec3 bbox_dimensions);
+    GameEntity();
 
-    void set_health(float health);
-    void set_walkspeed(float walkSpeed);
-    void set_range(float range);
-    void set_position(const glm::vec4 &position);
-    void set_direction(const glm::vec4 &direction);
-    void set_target(const glm::vec4 &target);
-    void set_state(int state);
+    void setHealth(float health);
+    void setWalkspeed(float walkSpeed);
+    void setRange(float range);
+    void setPosition(const glm::vec4 &position);
+    void setDirection(const glm::vec4 &direction);
+    void setTarget(const glm::vec4 &target);
+    void setState(int state);
 
-    float get_health() const;
-    float get_walkspeed() const;
-    float get_range() const;
-    glm::vec4 get_position() const;
-    glm::vec4 get_direction() const;
-    glm::vec4 get_target() const;
-    int get_state() const;
-
-    void step(float timeDelta);
+    float getHealth() const;
+    float getWalkspeed() const;
+    float getRange() const;
+    float getMinDist() const;
+    glm::vec4 getPosition() const;
+    glm::vec4 getDirection() const;
+    glm::vec4 getTarget() const;
+    int getState() const;
+    bool isActive() const;
+    void setStatus(bool status);
+    void _move(glm::vec4 displacement);
+    AABB getBoundingBox() const;
 
 private:
     float health;
     float walkSpeed;
-    float range;
+    float range; //distãncia de detecção máxima
+    float min_dist; //distância mínima que a entidade se aproximará do jogador
+    int entity_type;
 
     glm::vec4 position;
     glm::vec4 direction;
     glm::vec4 target;
+    glm::vec3 bbox_dimension;
     int state;
-    int entity_type;
+    bool status;
 };
 
 #endif // GAMEENTITY_H
