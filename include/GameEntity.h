@@ -20,7 +20,7 @@ public:
     GameEntity();
 
     void setHealth(float health);
-    void damage(float amount);
+    bool damage(float amount);
     void setWalkspeed(float walkSpeed);
     void setRange(float range);
     void setPosition(const glm::vec4 &position);

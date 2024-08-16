@@ -37,6 +37,7 @@ uniform int waterproj_count;
 #define RIGHT_ARM 9
 #define TORCH 10
 #define ENEMY_TYPE_1 12
+#define POTION_HEALTH 13
 uniform int object_id;
 
 // Model's bounding box parameters
@@ -48,6 +49,7 @@ uniform sampler2D TextureImage0;
 uniform sampler2D TextureImage1;
 uniform sampler2D TextureImage2;
 uniform sampler2D TextureImage3;
+uniform sampler2D TextureImage4;
 
 // Fragment's color
 out vec4 color;
@@ -117,6 +119,13 @@ void main() {
         Kd = vec3(1.0, 0.0, 0.0);
         Ks = vec3(0.4);
     }
+    else if (object_id == POTION_HEALTH) {
+            vec3 tex = texture(TextureImage4, vec2(U, V)).rgb;
+            Kd = tex;
+            Ks = tex;
+            Ka = tex * 0.3;
+    }
+
 
     vec3 lambert = vec3(0.0);
     vec3 ambient = Ka * Ia;

@@ -40,10 +40,13 @@ void GameEntity::setHealth(float health) {
     this->health = health;
 }
 
-void GameEntity::damage(float amount) {
+bool GameEntity::damage(float amount) {
     health -= amount;
-    if(health <= 0)
+    if(health <= 0) {
         this->setStatus(false);
+        return true;
+    }
+    return  false;
 }
 
 void GameEntity::setWalkspeed(float walkSpeed) {

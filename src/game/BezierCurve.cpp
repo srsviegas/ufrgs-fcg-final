@@ -8,16 +8,37 @@
 
 
 BezierCurve::BezierCurve(glm::vec4 p1, glm::vec4 p2, glm::vec4 p3, glm::vec4 p4) {
-    this->points[0] = p1; this->points[1] = p2; this->points[2] = p3; this->points[3] = p4;
+    this->p1 = p1; this->p2 = p2; this->p3 = p3; this->p4 = p4;
 }
+
+BezierCurve::BezierCurve() {
+    p1 = glm::vec4(0.0f,0.0f,0.0f,0.0f);
+    p2 = glm::vec4(0.0f,0.0f,0.0f,0.0f);
+    p3 = glm::vec4(0.0f,0.0f,0.0f,0.0f);
+    p4 = glm::vec4(0.0f,0.0f,0.0f,0.0f);
+}
+
+void BezierCurve::setP1(glm::vec4 p1) {
+    this->p1 = p1;
+}
+void BezierCurve::setP2(glm::vec4 p2) {
+    this->p2 = p2;
+}
+void BezierCurve::setP3(glm::vec4 p3) {
+    this->p3 = p3;
+}
+void BezierCurve::setP4(glm::vec4 p4) {
+    this->p4 = p4;
+}
+
 
 glm::vec4 BezierCurve::calcTrajectory(float t) {
 
     //polinomios de Bernstein
     float b03 = glm::pow(1-t,3);
     float b13 = 3.0f * t * glm::pow(1-t,2);
-    float b23 = 3.0f * glm::pow(1-t,2) * (1-t);
+    float b23 = 3.0f * glm::pow(t,2) * (1-t);
     float b33 = glm::pow(t,3);
-    return b03 * points[0] + b13 * points[1] + b23 * points[2] + b33 * points[3];
+    return b03 * p1 + b13 * p2 + b23 * p3 + b33 * p4;
 }
 

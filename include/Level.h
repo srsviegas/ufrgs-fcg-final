@@ -13,9 +13,11 @@
 #define TORCH 10
 
 #define ENEMY_TYPE_1 12
+#define POTION_HEALTH 13
+
+
 
 #define NUM_PROJECTILES 10
-
 #define TORCH_CHANCE_PER_WALL 25
 
 #include <glm/glm.hpp>

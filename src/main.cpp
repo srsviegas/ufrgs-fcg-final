@@ -17,6 +17,7 @@
 #include <sstream>
 #include <stdexcept>
 #include <algorithm>
+#include <BezierCurve.h>
 #include <chrono>
 #include <complex>
 #include <ctime>
@@ -42,6 +43,8 @@
 #include "GameEntity.h"
 #include "ProjectileController.h"
 #include "Collisions.h"
+#include "BezierCurve.h"
+#include "PowerupController.h"
 
 #define MAX_TORCHLIGHTS 100
 
@@ -110,6 +113,7 @@ int main(int argc, char *argv[])
     LoadTextureImage("../../data/wall-tile2.png");
     LoadTextureImage("../../data/skin_txt.jpg");
     LoadTextureImage("../../data/water.png");
+    LoadTextureImage("../../data/health_potion_txt.jpg");
 
     /* BUILDING OBJECTS */
     ObjModel planemodel("../../data/plane.obj");
@@ -136,6 +140,10 @@ int main(int argc, char *argv[])
     ComputeNormals(&enemy_1);
     BuildTrianglesAndAddToVirtualScene(&enemy_1);
 
+    ObjModel potion_health("../../data/potion_health.obj");
+    ComputeNormals(&potion_health);
+    BuildTrianglesAndAddToVirtualScene(&potion_health);
+
     GLuint vertex_array_object_id = DrawHealthHUD();
 
     /* INITIALIZING ENTITIES */
@@ -143,6 +151,7 @@ int main(int argc, char *argv[])
     auto player = Player(glm::vec4(0.0f, 0.0f, 0.0f, 1.0f));
     auto enemies = EntityController();
     auto currentLevel = Level(mapData1, 5);
+    auto power_ups = PowerupController();
 
     enemies.addEntity(GameEntity(
         glm::vec4(0.0f, 0.0f, -5.0f, 0.0f),
@@ -231,7 +240,9 @@ int main(int argc, char *argv[])
         player_projectiles.step(now, timeDelta);
         player.update(timeDelta);
         enemies.step(timeDelta, player);
+        power_ups.step(player,timeDelta);
 
+        bool was_killed = false;
         /* check collisions */
         Projectile *proj = player_projectiles.getProjectiles();
         GameEntity *enem = enemies.getEntities();
@@ -245,14 +256,23 @@ int main(int argc, char *argv[])
                     {
                         if (isColliding(proj[i].getBoundingBox(), enem[j].getBoundingBox()))
                         {
-                            printf("\ncollided");
-                            enem[j].damage(proj[i].getDamage());
+                            //printf("\ncollided");
+                            was_killed = enem[j].damage(proj[i].getDamage());
                             proj[i].deactivate();
+                        }
+                        if(was_killed) {
+                            power_ups.spawn(
+                                enem[j].getPosition(),
+                                20.0f,
+                                50.0f,
+                                0);
                         }
                     }
                 }
             }
         }
+
+
 
         /* Set camera mode */
         glm::mat4 view = Matrix_Camera_View(cam.getPosition(), cam.getViewVec(), cam.getUpVec());
@@ -345,6 +365,25 @@ int main(int argc, char *argv[])
                 glDrawElements(g_VirtualScene["the_bunny"].rendering_mode, g_VirtualScene["the_bunny"].num_indices, GL_UNSIGNED_INT, (void *)(g_VirtualScene["the_bunny"].first_index * sizeof(GLuint)));
             }
         }
+
+        //draw powerups
+        Powerup *pwrs = power_ups.getPowerUps();
+        glBindVertexArray(g_VirtualScene["potion_health"].vertex_array_object_id);
+        glUniform1i(g_object_id_uniform, POTION_HEALTH);
+        glm::vec4 powerup_pos;
+        for (int i = 0; i < MAX_POWERUPS; i++)
+        {
+            if(pwrs[i].isActive) {
+                powerup_pos = pwrs[i].trajectory.calcTrajectory(pwrs[i].step);
+                model =
+                Matrix_Translate(powerup_pos.x, powerup_pos.y, powerup_pos.z) *
+                Matrix_Scale(0.2, 0.2, 0.2);
+                glUniformMatrix4fv(g_model_uniform, 1, GL_FALSE, glm::value_ptr(model));
+                glDrawElements(g_VirtualScene["potion_health"].rendering_mode, g_VirtualScene["potion_health"].num_indices, GL_UNSIGNED_INT, (void *)(g_VirtualScene["potion_health"].first_index * sizeof(GLuint)));
+            }
+        }
+
+
 
         // Draw right arm
         glm::vec4 arm_pos = cam.getPosition() + 0.25f * cam.getSideVec() + 0.3f * cam.getViewVec() - 0.15f * cam.getUpVec();

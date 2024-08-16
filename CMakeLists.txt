@@ -24,6 +24,9 @@ set(SOURCES
   src/game/GameEntity.cpp
         src/game/ProjectileController.cpp
         src/game/EntityController.cpp
+        src/game/BezierCurve.cpp
+        include/PowerupController.h
+        src/game/PowerupController.cpp
 )
 
 cmake_minimum_required(VERSION 3.5.0)
