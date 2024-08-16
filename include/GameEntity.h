@@ -16,6 +16,7 @@ class GameEntity
 {
 public:
     GameEntity(glm::vec4 start_pos, int type, float health, float speed, float range);
+    GameEntity();
 
     void set_health(float health);
     void set_walkspeed(float walkSpeed);
@@ -32,19 +33,21 @@ public:
     glm::vec4 get_direction() const;
     glm::vec4 get_target() const;
     int get_state() const;
-
-    void step(float timeDelta);
+    bool is_status() const;
+    void set_status(bool status);
 
 private:
     float health;
     float walkSpeed;
-    float range;
+    float range; //distãncia de detecção máxima
+    float min_dist; //distância mínima que a entidade se aproximará do jogador
+    int entity_type;
 
     glm::vec4 position;
     glm::vec4 direction;
     glm::vec4 target;
     int state;
-    int entity_type;
+    bool status;
 };
 
 #endif // GAMEENTITY_H

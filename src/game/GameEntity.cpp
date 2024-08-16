@@ -18,6 +18,18 @@ GameEntity::GameEntity(glm::vec4 start_pos, int type, float health, float speed,
     this->direction = glm::vec4(1.0,0.0,0.0,0.0);
 }
 
+GameEntity::GameEntity() {
+    this->position = glm::vec4(0.0,0.0,0.0,0.0);;
+    this->entity_type = 0;
+    this->health = 0;
+    this->walkSpeed = 0;
+    this->range = 0;
+    this->state = STATE_IDLE;
+    this->target = glm::vec4(0.0,0.0,0.0,0.0);
+    this->direction = glm::vec4(1.0,0.0,0.0,0.0);
+}
+
+
 void GameEntity::set_health(float health) {
     this->health = health;
 }
@@ -74,17 +86,12 @@ int GameEntity::get_state() const {
     return state;
 }
 
-void GameEntity::step(float timeDelta) {
-    switch (state) {
-        case STATE_IDLE:
-            break;
-        case STATE_ROAMING:
-            break;
-        case STATE_CHASING:
-            direction = target - position;
-            position += glm::normalize(direction) * walkSpeed;
-            break;
-        default:
-            break;
-    }
+void GameEntity::set_status(bool status) {
+    this->status = status;
 }
+
+bool GameEntity::is_status() const {
+    return  status;
+}
+
+

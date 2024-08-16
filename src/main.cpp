@@ -126,6 +126,10 @@ int main(int argc, char *argv[])
     ComputeNormals(&left_arm);
     BuildTrianglesAndAddToVirtualScene(&left_arm);
 
+    ObjModel left_arm_casting("../../data/left_arm_casting.obj");
+    ComputeNormals(&left_arm_casting);
+    BuildTrianglesAndAddToVirtualScene(&left_arm_casting);
+
     GLuint vertex_array_object_id = DrawHealthHUD();
 
     /* INITIALIZING ENTITIES */
@@ -178,7 +182,7 @@ int main(int argc, char *argv[])
                 if (!projectile_controller.onCooldown(now))
                 {
                     projectile_controller.shoot(
-                        cam.getPosition() - 0.30f * cam.getSideVec() + 0.6f * cam.getViewVec() - 0.15f * cam.getUpVec(),
+                        cam.getPosition() - 0.38f * cam.getSideVec() + 0.6f * cam.getViewVec() - 0.10f * cam.getUpVec(),
                         cam.getViewVec(),
                         20.0f, -40.0f, 0.5f,
                         now);
@@ -278,7 +282,12 @@ int main(int argc, char *argv[])
                 Matrix_Rotate(cam.getTheta(), cam.getUpVec());
         glUniformMatrix4fv(g_model_uniform, 1, GL_FALSE, glm::value_ptr(model));
         glUniform1i(g_object_id_uniform, LEFT_ARM);
-        DrawVirtualObject("left_arm");
+        if(g_LeftMouseButtonPressed) {
+            DrawVirtualObject("left_arm_casting");
+        }else {
+            DrawVirtualObject("left_arm");
+        }
+
 
         /* inimigos */
         model = Matrix_Translate(test_enemy.get_position().x, test_enemy.get_position().y, test_enemy.get_position().z) * Matrix_Scale(0.5, 0.5, 0.5);
