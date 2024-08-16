@@ -26,6 +26,7 @@
 
 #include <vector>
 #include <string>
+#include <fstream>
 
 #include "matrices.h"
 #include "utils.h"
@@ -49,7 +50,7 @@ public:
 class Level
 {
 public:
-    Level(std::string *map, int numRows);
+    Level(uint16_t levelNumber);
     std::vector<std::vector<std::vector<Plane>>> BuildPlaneData();
 
     std::vector<std::vector<std::vector<Plane>>> GetPlaneData();

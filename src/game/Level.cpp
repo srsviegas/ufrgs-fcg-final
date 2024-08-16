@@ -1,13 +1,5 @@
 #include "Level.h"
 
-std::string mapData1[5] = {
-    "oXXXXX",
-    "X   XX",
-    "X  XXX",
-    "X XXpX",
-    "XXXXXX",
-};
-
 glm::vec3 torchColors[3] = {
     glm::vec3(1.0f, 0.25f, 0.01f),
     glm::vec3(1.0f, 0.15f, 0.01f),
@@ -56,8 +48,34 @@ A map with `height = 3` and `width = 6` can be like the following:
 " X   "
 "XXXpX"
 ``` */
-Level::Level(std::string *map, int numRows)
+Level::Level(uint16_t levelNumber)
 {
+    std::string filename = "../../data/levels/level" + std::to_string(levelNumber) + ".dat";
+    std::ifstream file(filename);
+
+    if (!file.is_open())
+    {
+        printf("ERROR: Couldn't open file %s!\n", filename.c_str());
+        return;
+    }
+    else
+    {
+        printf("Loaded map file %s\n", filename.c_str());
+    }
+
+    int i = 0;
+    std::string line;
+    std::getline(file, line);
+    int numRows = std::stoi(line);
+
+    std::string map[numRows];
+
+    while (std::getline(file, line))
+    {
+        map[i] = line;
+        i++;
+    }
+
     mapData = map;
     mapHeight = numRows;
     mapWidth = 0;

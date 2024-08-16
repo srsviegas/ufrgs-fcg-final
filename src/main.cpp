@@ -147,11 +147,13 @@ int main(int argc, char *argv[])
 
     GLuint vertex_array_object_id = DrawHealthHUD();
 
+    uint16_t currentLevel = 1;
+
     /* INITIALIZING ENTITIES */
     auto player_projectiles = ProjectileController(MAX_PROJECTILES, 0.1);
     auto player = Player();
     auto enemies = EntityController();
-    auto currentLevel = Level(mapData1, 5);
+    auto level = Level(currentLevel);
     auto power_ups = PowerupController();
 
     enemies.addEntity(GameEntity(
@@ -176,7 +178,7 @@ int main(int argc, char *argv[])
         timeDelta = now - last;
         last = now;
 
-        glClearColor(1.0f, 1.0f, 1.0f, 1.0f); // Background color
+        glClearColor(0.0f, 0.0f, 0.0f, 1.0f); // Background color
         glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
         glUseProgram(g_GpuProgramID);
 
@@ -187,19 +189,19 @@ int main(int argc, char *argv[])
         movementDirection = normalize(movementDirection);
         if (isKeyDown_W)
         {
-            player.move(timeDelta, movementDirection, currentLevel);
+            player.move(timeDelta, movementDirection, level);
         }
         if (isKeyDown_S)
         {
-            player.move(timeDelta, -movementDirection, currentLevel);
+            player.move(timeDelta, -movementDirection, level);
         }
         if (isKeyDown_A)
         {
-            player.move(timeDelta, -cam.getSideVec(), currentLevel);
+            player.move(timeDelta, -cam.getSideVec(), level);
         }
         if (isKeyDown_D)
         {
-            player.move(timeDelta, cam.getSideVec(), currentLevel);
+            player.move(timeDelta, cam.getSideVec(), level);
         }
         if (g_LeftMouseButtonPressed)
         {
@@ -225,8 +227,8 @@ int main(int argc, char *argv[])
         if (debugLogPlayerPosition)
         {
             glm::vec4 ppos = player.getPosition();
-            int mposx = currentLevel.WorldPositionToMapPositionX(ppos.x);
-            int mposz = currentLevel.WorldPositionToMapPositionZ(ppos.z);
+            int mposx = level.WorldPositionToMapPositionX(ppos.x);
+            int mposz = level.WorldPositionToMapPositionZ(ppos.z);
             printf("World Position: (%.3f, %.3f, %.3f)\t Map Position (%d, %d)\n",
                    ppos.x, ppos.y, ppos.z, mposx, mposz);
             debugLogPlayerPosition = false;
@@ -240,17 +242,11 @@ int main(int argc, char *argv[])
         }
 
         // Level progression
-        if (currentLevel.ObjectiveReached(player.getPosition()))
+        if (level.ObjectiveReached(player.getPosition()))
         {
-            std::string mapData2[5] = {
-                "oXXXXX",
-                "X   XX",
-                "X  XXX",
-                "X XXXX",
-                "XXXXXp",
-            };
+            currentLevel++;
             player = Player();
-            currentLevel = Level(mapData2, 5);
+            level = Level(currentLevel);
         }
 
         /* Step game entities */
@@ -306,12 +302,12 @@ int main(int argc, char *argv[])
         glm::vec4 torchlight_position[MAX_TORCHLIGHTS] = {};
         glm::vec3 torchlight_color[MAX_TORCHLIGHTS] = {};
         uint16_t torchlight_count = 0;
-        for (int i = 0; i < currentLevel.GetMapHeight(); i++)
+        for (int i = 0; i < level.GetMapHeight(); i++)
         {
-            for (int j = 0; j < currentLevel.GetMapWidth(); j++)
+            for (int j = 0; j < level.GetMapWidth(); j++)
             {
                 // Transform and draw planes for tile (j, i)
-                for (const Plane &plane : currentLevel.GetPlanesAtTile(j, i))
+                for (const Plane &plane : level.GetPlanesAtTile(j, i))
                 {
                     model = Matrix_Translate(plane.position.x, plane.position.y, plane.position.z);
                     model *= Matrix_Rotate_X(glm::radians(plane.rotation.x));
@@ -345,7 +341,7 @@ int main(int argc, char *argv[])
         glUniform1i(g_torchlight_count_uniform, torchlight_count);
 
         // Draw objective portal, using billboarding
-        glm::vec4 portalPosition = currentLevel.GetObjectivePosition();
+        glm::vec4 portalPosition = level.GetObjectivePosition();
         glm::vec4 portalNormal = glm::vec4(0.0f, 0.0f, 1.0f, 0.0f);
         glm::vec4 portalDirection = glm::normalize(cam.getPosition() - portalPosition);
         float rotationAngle = glm::acos(glm::dot(portalNormal, portalDirection));

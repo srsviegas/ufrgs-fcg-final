@@ -134,17 +134,20 @@ void main() {
             Ka = tex * 0.3;
     }
 
-
     vec3 lambert = vec3(0.0);
     vec3 ambient = Ka * Ia;
     vec3 phong = vec3(0.0);
 
     // Torchlight lighting
     for (int i = 0; i < torchlight_count; i++) {
-        float distance = length(torchlight_position[i].xyz - position_world.xyz);   
+        float distance = length(torchlight_position[i].xyz - position_world.xyz);
+        if (distance > 10.0f)
+        {
+            continue;
+        }
         vec3 torchlight_direction = normalize((torchlight_position[i] - position_world).xyz);
         vec3 reflection = -torchlight_direction + 2 * n * dot(n, torchlight_direction);
-        float attenuation = 1.0 / (0.25 + 0.1 * distance + 0.05 * distance * distance);
+        float attenuation = 1.0 / (0.25 + 0.1 * distance + 0.1 * distance * distance);
 
         lambert += Kd * max(dot(n, torchlight_direction), 0.0) * torchlight_color[i] * attenuation;
         phong += Ks * pow(max(dot(reflection, camera_direction), 0.0), q) * torchlight_color[i] * attenuation;
