@@ -15,9 +15,9 @@
 #define ENEMY_TYPE_1 12
 #define POTION_HEALTH 13
 
-
-
 #define NUM_PROJECTILES 10
+
+#define OBJECTIVE_RADIUS 0.5
 #define TORCH_CHANCE_PER_WALL 25
 
 #include <glm/glm.hpp>
@@ -57,18 +57,22 @@ public:
     std::vector<Plane> GetWallsAroundTile(int x, int z);
 
     bool IsFloor(int x, int z);
+    bool ObjectiveReached(glm::vec4 position);
     int WorldPositionToMapPositionX(float x);
     int WorldPositionToMapPositionZ(float z);
+    glm::vec4 MapPositionToWorldPosition(int x, int z);
 
     int GetMapHeight();
     int GetMapWidth();
     glm::vec4 GetPlayerInitialPosition();
+    glm::vec4 GetObjectivePosition();
 
 private:
     std::string *mapData;
     int mapHeight;
     int mapWidth;
     glm::vec4 playerInitialPosition;
+    glm::vec4 objectivePosition;
     std::vector<std::vector<std::vector<Plane>>> planeData;
 };
 

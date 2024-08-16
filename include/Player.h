@@ -19,6 +19,7 @@
 class Player
 {
 public:
+    Player();
     explicit Player(glm::vec4 start_pos);
     void setWalkSpeed(float speed);
     void setPosition(glm::vec4 new_pos);

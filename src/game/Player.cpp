@@ -4,6 +4,8 @@
 #include "Player.h"
 #include <stdio.h>
 
+Player::Player() : Player(glm::vec4(0.0f, 0.0f, 0.0f, 1.0f)) {}
+
 Player::Player(glm::vec4 start_pos)
 {
     health = MAX_HEALTH;
