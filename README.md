@@ -50,7 +50,7 @@
     - [ ] Todos os objetos devem ter suas cores definidas através de texturas
 
 - Curvas de Bézier
-    - [ ] No mínimo um objeto com movimentação por curva de Bézier.
+    - [x] No mínimo um objeto com movimentação por curva de Bézier.
 
 - Animação do movimento baseada no tempo
     - [x] Todas as movimentações devem ser computadas no tempo.
