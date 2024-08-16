@@ -224,7 +224,10 @@ int main(int argc, char *argv[])
         if (debugLogPlayerPosition)
         {
             glm::vec4 ppos = player.getPosition();
-            printf("Player Position: (%.3f, %.3f, %.3f)\n", ppos.x, ppos.y, ppos.z);
+            int mposx = currentLevel.WorldPositionToMapPositionX(ppos.x);
+            int mposz = currentLevel.WorldPositionToMapPositionZ(ppos.z);
+            printf("World Position: (%.3f, %.3f, %.3f)\t Map Position (%d, %d)\n",
+                   ppos.x, ppos.y, ppos.z, mposx, mposz);
             debugLogPlayerPosition = false;
         }
         // If "F5" key was pressed: Reload GLSL shaders

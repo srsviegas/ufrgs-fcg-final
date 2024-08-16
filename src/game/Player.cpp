@@ -37,9 +37,17 @@ void Player::move(float timeDelta, glm::vec4 movementDirection, Level levelData)
     {
         if (playerSphere.IsCollidingPlane(plane))
         {
-            glm::vec4 projectedMovement = intendedMovement - dotproduct(intendedMovement, plane.normal) * plane.normal;
+            float normalProjection = dotproduct(intendedMovement, plane.normal);
+
+            if (normalProjection >= 0)
+            {
+                // Move player from the back side of the wall
+                setPosition(getPosition() + plane.normal * glm::vec4(0.05, 0.05, 0.05, 0.0));
+                continue;
+            }
+
+            glm::vec4 projectedMovement = intendedMovement - normalProjection * plane.normal;
             setPosition(getPosition() + projectedMovement - intendedMovement);
-            return;
         }
     }
 }

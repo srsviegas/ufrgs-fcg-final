@@ -54,7 +54,7 @@ uniform sampler2D TextureImage4;
 // Fragment's color
 out vec4 color;
 
-const vec3 Ia = vec3(0.1, 0.1, 0.1);
+const vec3 Ia = vec3(1.0, 1.0, 1.0);
 
 // Constantes
 #define M_PI   3.14159265358979323846
@@ -93,15 +93,15 @@ void main() {
         Ka = texture(TextureImage3, vec2(U, V)).rgb;
     } else if (object_id == TXT_FLOOR || object_id == TXT_CEIL) {
         vec3 tex = texture(TextureImage1, vec2(U, V)).rgb;
-        Kd = tex;
-        Ks = tex + 0.01;
-        Ka = tex * 0.1;
+        Kd = tex * 0.6;
+        Ks = tex * 0.8;
+        Ka = tex * 0.01;
         q = 8.0;
     } else if (object_id == TXT_WALL) {
         vec3 tex = texture(TextureImage0, vec2(U, V)).rgb;
-        Kd = tex;
-        Ks = tex + 0.01;
-        Ka = tex * 0.1;
+        Kd = tex * 0.6;
+        Ks = tex * 0.8;
+        Ka = tex * 0.01;
         q = 8.0;
     } else if (object_id == HUD_HEALTH) {
         Ka = vec3(1.0, 0.0, 0.0);
@@ -109,9 +109,10 @@ void main() {
         Ka = vec3(0.0, 0.0, 1.0);
     } else if (object_id == RIGHT_ARM || object_id == LEFT_ARM) {
         vec3 tex = texture(TextureImage2, vec2(U, V)).rgb;
-        Kd = tex;
-        Ks = tex;
-        Ka = tex * 0.3;
+        Kd = tex * 0.5;
+        Ks = tex * 0.3;
+        Ka = tex * 0.5;
+        q = 1.0;
     } else if (object_id == TORCH) {
         Kd = vec3(1.0);
         Ka = vec3(1.0);
@@ -147,7 +148,7 @@ void main() {
         float distance = length(waterproj_position[i].xyz - position_world.xyz);   
         vec3 waterproj_direction = normalize((waterproj_position[i] - position_world).xyz);
         vec3 reflection = -waterproj_direction + 2 * n * dot(n, waterproj_direction);
-        float attenuation = 1.0 / (0.25 + 0.1 * distance + 0.05 * distance * distance);
+        float attenuation = 1.0 / (0.1 + 0.01 * distance + 1.0 * distance * distance);
 
         lambert += Kd * max(dot(n, waterproj_direction), 0.0) * waterproj_color * attenuation;
         phong += Ks * pow(max(dot(reflection, camera_direction), 0.0), q) * waterproj_color * attenuation;
