@@ -16,7 +16,7 @@
 
 #define NUM_PROJECTILES 10
 
-#define TORCH_CHANCE_PER_WALL 40
+#define TORCH_CHANCE_PER_WALL 25
 
 #include <glm/glm.hpp>
 #include <glm/gtc/matrix_transform.hpp>

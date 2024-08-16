@@ -15,6 +15,9 @@ GLint g_torchlight_position_uniform;
 GLint g_torchlight_color_uniform;
 GLint g_torchlight_count_uniform;
 
+GLint g_waterproj_position_uniform;
+GLint g_waterproj_count_uniform;
+
 GLuint g_NumLoadedTextures = 0;
 
 // Função que pega a matriz M e guarda a mesma no topo da pilha
@@ -759,6 +762,10 @@ void LoadShadersFromFiles()
     g_torchlight_position_uniform = glGetUniformLocation(g_GpuProgramID, "torchlight_position");
     g_torchlight_color_uniform = glGetUniformLocation(g_GpuProgramID, "torchlight_color");
     g_torchlight_count_uniform = glGetUniformLocation(g_GpuProgramID, "torchlight_count");
+
+    // Water particles light sources
+    GLint g_waterproj_position_uniform = glGetUniformLocation(g_GpuProgramID, "waterproj_position");
+    GLint g_waterproj_count_uniform = glGetUniformLocation(g_GpuProgramID, "waterproj_count");
 
     // Variáveis em "shader_fragment.glsl" para acesso das imagens de textura
     glUseProgram(g_GpuProgramID);

@@ -136,7 +136,6 @@ int main(int argc, char *argv[])
     ComputeNormals(&enemy_1);
     BuildTrianglesAndAddToVirtualScene(&enemy_1);
 
-
     GLuint vertex_array_object_id = DrawHealthHUD();
 
     /* INITIALIZING ENTITIES */
@@ -146,13 +145,13 @@ int main(int argc, char *argv[])
     auto currentLevel = Level(mapData1, 5);
 
     enemies.addEntity(GameEntity(
-        glm::vec4(0.0f,0.0f,-5.0f,0.0f),
+        glm::vec4(0.0f, 0.0f, -5.0f, 0.0f),
         ENEMY_TYPE_1,
         100.0f,
         1.0f,
         3.0f,
         1.0f,
-        glm::vec3(0.4f,0.4f,0.4f)));
+        glm::vec3(0.4f, 0.4f, 0.4f)));
 
     TextRendering_Init();
     glEnable(GL_DEPTH_TEST);
@@ -205,7 +204,7 @@ int main(int argc, char *argv[])
                         5.0f,
                         0.5f,
                         now,
-                        glm::vec3(0.2f,0.2f,0.2f));
+                        glm::vec3(0.2f, 0.2f, 0.2f));
                     player.setMana(player.getMana() - 5);
                 }
             }
@@ -231,16 +230,21 @@ int main(int argc, char *argv[])
         cam.setPosition(player.getPosition());
         player_projectiles.step(now, timeDelta);
         player.update(timeDelta);
-        enemies.step(timeDelta,player);
+        enemies.step(timeDelta, player);
 
         /* check collisions */
         Projectile *proj = player_projectiles.getProjectiles();
         GameEntity *enem = enemies.getEntities();
-        for (int i = 0; i < player_projectiles.getSize(); i++) {
-            if(proj[i].isActive()) {
-               for(int j = 0; j < MAX_ENTITIES; j++) {
-                    if(enem[j].isActive()) {
-                        if(isColliding(proj[i].getBoundingBox(),enem[j].getBoundingBox())) {
+        for (int i = 0; i < player_projectiles.getSize(); i++)
+        {
+            if (proj[i].isActive())
+            {
+                for (int j = 0; j < MAX_ENTITIES; j++)
+                {
+                    if (enem[j].isActive())
+                    {
+                        if (isColliding(proj[i].getBoundingBox(), enem[j].getBoundingBox()))
+                        {
                             printf("\ncollided");
                             enem[j].damage(proj[i].getDamage());
                             proj[i].deactivate();
@@ -304,6 +308,8 @@ int main(int argc, char *argv[])
 
         /* Draw Entities */
         // Draw projectiles
+        glm::vec4 projectile_position[MAX_PROJECTILES] = {};
+        uint16_t projectile_count = 0;
         glBindVertexArray(g_VirtualScene["the_sphere"].vertex_array_object_id);
         glUniform1i(g_object_id_uniform, PROJECTILE_WATER);
         for (int i = 0; i < player_projectiles.getSize(); i++)
@@ -312,11 +318,18 @@ int main(int argc, char *argv[])
             glUniformMatrix4fv(g_model_uniform, 1, GL_FALSE, glm::value_ptr(model));
             if (proj[i].isActive())
             {
+                // Draw projectile's lighting
+                projectile_position[projectile_count] = proj[i].getPosition();
+                projectile_count++;
+
+                // Draw projectile
                 glDrawElements(g_VirtualScene["the_sphere"].rendering_mode, g_VirtualScene["the_sphere"].num_indices, GL_UNSIGNED_INT, (void *)(g_VirtualScene["the_sphere"].first_index * sizeof(GLuint)));
             }
         }
+        glUniform4fv(g_waterproj_position_uniform, MAX_PROJECTILES, glm::value_ptr(projectile_position[0]));
+        glUniform1i(g_waterproj_count_uniform, projectile_count);
 
-        //draw enemies
+        // draw enemies
         GameEntity *enms = enemies.getEntities();
         glBindVertexArray(g_VirtualScene["the_bunny"].vertex_array_object_id);
         glUniform1i(g_object_id_uniform, ENEMY_TYPE_1);
@@ -325,7 +338,7 @@ int main(int argc, char *argv[])
             model =
                 Matrix_Translate(enms[i].getPosition().x, enms[i].getPosition().y, enms[i].getPosition().z) *
                 Matrix_Scale(0.2, 0.2, 0.2) *
-                    Matrix_Rotate_Y(3.14f -angleAroundY(enms[i].getDirection()));
+                Matrix_Rotate_Y(3.14f - angleAroundY(enms[i].getDirection()));
             glUniformMatrix4fv(g_model_uniform, 1, GL_FALSE, glm::value_ptr(model));
             if (enms[i].isActive())
             {
@@ -368,12 +381,14 @@ int main(int argc, char *argv[])
                 Matrix_Rotate(cam.getTheta(), cam.getUpVec());
         glUniformMatrix4fv(g_model_uniform, 1, GL_FALSE, glm::value_ptr(model));
         glUniform1i(g_object_id_uniform, LEFT_ARM);
-        if(g_LeftMouseButtonPressed) {
+        if (g_LeftMouseButtonPressed)
+        {
             DrawVirtualObject("left_arm_casting");
-        }else {
+        }
+        else
+        {
             DrawVirtualObject("left_arm");
         }
-
 
         /* HUD Rendering */
         glDisable(GL_DEPTH_TEST);

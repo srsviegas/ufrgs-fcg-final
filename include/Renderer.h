@@ -104,6 +104,9 @@ extern GLint g_torchlight_position_uniform;
 extern GLint g_torchlight_color_uniform;
 extern GLint g_torchlight_count_uniform;
 
+extern GLint g_waterproj_position_uniform;
+extern GLint g_waterproj_count_uniform;
+
 void PushMatrix(glm::mat4 M);
 void PopMatrix(glm::mat4 &M);
 

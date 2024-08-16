@@ -9,9 +9,9 @@ std::string mapData1[5] = {
 };
 
 glm::vec3 torchColors[3] = {
-    glm::vec3(1.0f, 0.0f, 0.0f),
-    glm::vec3(1.0f, 0.4f, 0.0f),
-    glm::vec3(1.0f, 0.1f, 0.0f)};
+    glm::vec3(1.0f, 0.25f, 0.01f),
+    glm::vec3(1.0f, 0.15f, 0.01f),
+    glm::vec3(1.0f, 0.05f, 0.01f)};
 
 Plane::Plane(int tex, glm::vec3 pos, glm::vec3 rot)
 {
