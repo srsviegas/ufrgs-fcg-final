@@ -20,6 +20,7 @@
 #include <chrono>
 #include <complex>
 #include <ctime>
+#include <EntityController.h>
 #include <random>
 
 #include <glad/glad.h>
@@ -130,13 +131,27 @@ int main(int argc, char *argv[])
     ComputeNormals(&left_arm_casting);
     BuildTrianglesAndAddToVirtualScene(&left_arm_casting);
 
+    ObjModel enemy_1("../../data/bunny.obj");
+    ComputeNormals(&enemy_1);
+    BuildTrianglesAndAddToVirtualScene(&enemy_1);
+
+
     GLuint vertex_array_object_id = DrawHealthHUD();
 
     /* INITIALIZING ENTITIES */
     auto projectile_controller = ProjectileController(MAX_PROJECTILES, 0.1);
     auto player = Player(glm::vec4(0.0f, 0.0f, 0.0f, 1.0f));
-    auto test_enemy = GameEntity(glm::vec4(2.0f, 0.0f, 0.0f, 1.0f), 0, 100, 1, 5);
+    auto enemies = EntityController();
     auto currentLevel = Level(mapData1, 5);
+
+    enemies.addEntity(GameEntity(
+        glm::vec4(0.0f,0.0f,-5.0f,0.0f),
+        ENEMY_TYPE_1,
+        100.0f,
+        1.0f,
+        5.0f,
+        1.0f,
+        glm::vec3(1.0f,1.0f,1.0f)));
 
     TextRendering_Init();
     glEnable(GL_DEPTH_TEST);
@@ -176,7 +191,6 @@ int main(int argc, char *argv[])
         {
             player.move(timeDelta, cam.getSideVec(), currentLevel);
         }
-
         if (g_LeftMouseButtonPressed)
         {
             if (player.getMana() >= 5)
@@ -213,6 +227,7 @@ int main(int argc, char *argv[])
         cam.setPosition(player.getPosition());
         projectile_controller.step(now, timeDelta);
         player.update(timeDelta);
+        enemies.step(timeDelta,player);
 
         /* Set camera mode */
         glm::mat4 view = Matrix_Camera_View(cam.getPosition(), cam.getViewVec(), cam.getUpVec());
@@ -281,6 +296,23 @@ int main(int argc, char *argv[])
             }
         }
 
+        //draw enemies
+        GameEntity *enms = enemies.getEntities();
+        glBindVertexArray(g_VirtualScene["the_bunny"].vertex_array_object_id);
+        glUniform1i(g_object_id_uniform, ENEMY_TYPE_1);
+        for (int i = 0; i < MAX_ENTITIES; i++)
+        {
+            model =
+                Matrix_Translate(enms[i].getPosition().x, enms[i].getPosition().y, enms[i].getPosition().z) *
+                Matrix_Scale(0.2, 0.2, 0.2) *
+                    Matrix_Rotate_Y(3.14f -angleAroundY(enms[i].getDirection()));
+            glUniformMatrix4fv(g_model_uniform, 1, GL_FALSE, glm::value_ptr(model));
+            if (enms[i].isActive())
+            {
+                glDrawElements(g_VirtualScene["the_bunny"].rendering_mode, g_VirtualScene["the_bunny"].num_indices, GL_UNSIGNED_INT, (void *)(g_VirtualScene["the_bunny"].first_index * sizeof(GLuint)));
+            }
+        }
+
         // Draw right arm
         glm::vec4 arm_pos = cam.getPosition() + 0.25f * cam.getSideVec() + 0.3f * cam.getViewVec() - 0.15f * cam.getUpVec();
         if (isKeyDown_W || isKeyDown_A || isKeyDown_S || isKeyDown_D)
@@ -322,12 +354,6 @@ int main(int argc, char *argv[])
             DrawVirtualObject("left_arm");
         }
 
-
-        // Draw enemies
-        model = Matrix_Translate(test_enemy.get_position().x, test_enemy.get_position().y, test_enemy.get_position().z) * Matrix_Scale(0.5, 0.5, 0.5);
-        glUniformMatrix4fv(g_model_uniform, 1, GL_FALSE, glm::value_ptr(model));
-        glUniform1i(g_object_id_uniform, ENEMY_TYPE_1);
-        glDrawElements(g_VirtualScene["the_sphere"].rendering_mode, g_VirtualScene["the_sphere"].num_indices, GL_UNSIGNED_INT, (void *)(g_VirtualScene["the_sphere"].first_index * sizeof(GLuint)));
 
         /* HUD Rendering */
         glDisable(GL_DEPTH_TEST);
