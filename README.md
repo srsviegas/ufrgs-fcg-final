@@ -38,7 +38,7 @@
 - No mínimo 3 testes de intersecção entre objetos virtuais
     - [x] Intersecção Esfera / Plano
     - [ ] Intersecção Esfera / AABB
-    - [ ] Intersecção AABB / AABB
+    - [x] Intersecção AABB / AABB
 
 - Modelos de iluminação de objetos geométricos
     - [x] Objeto com iluminação difusa (lambert)
