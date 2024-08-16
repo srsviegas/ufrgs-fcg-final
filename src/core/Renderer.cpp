@@ -764,8 +764,8 @@ void LoadShadersFromFiles()
     g_torchlight_count_uniform = glGetUniformLocation(g_GpuProgramID, "torchlight_count");
 
     // Water particles light sources
-    GLint g_waterproj_position_uniform = glGetUniformLocation(g_GpuProgramID, "waterproj_position");
-    GLint g_waterproj_count_uniform = glGetUniformLocation(g_GpuProgramID, "waterproj_count");
+    g_waterproj_position_uniform = glGetUniformLocation(g_GpuProgramID, "waterproj_position");
+    g_waterproj_count_uniform = glGetUniformLocation(g_GpuProgramID, "waterproj_count");
 
     // Variáveis em "shader_fragment.glsl" para acesso das imagens de textura
     glUseProgram(g_GpuProgramID);
