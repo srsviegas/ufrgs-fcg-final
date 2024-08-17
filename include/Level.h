@@ -71,7 +71,7 @@ public:
     glm::vec4 GetObjectivePosition();
 
 private:
-    std::string *mapData;
+    std::vector<std::string> mapData;
     int mapHeight;
     int mapWidth;
     glm::vec4 playerInitialPosition;

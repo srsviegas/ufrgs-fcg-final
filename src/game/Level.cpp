@@ -66,18 +66,14 @@ Level::Level(uint16_t levelNumber)
     int i = 0;
     std::string line;
     std::getline(file, line);
-    int numRows = std::stoi(line);
-
-    std::string map[numRows];
+    mapHeight = std::stoi(line);
 
     while (std::getline(file, line))
     {
-        map[i] = line;
+        mapData.push_back(line);
         i++;
     }
 
-    mapData = map;
-    mapHeight = numRows;
     mapWidth = 0;
     int px, pz, ox, oz = 0;
 
