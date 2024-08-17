@@ -39,7 +39,6 @@
 #include "Level.h"
 #include "Player.h"
 #include "PointLight.h"
-#include "Projectile.h"
 #include "GameEntity.h"
 #include "ProjectileController.h"
 #include "Collisions.h"
@@ -47,6 +46,7 @@
 #include "PowerupController.h"
 
 #define MAX_TORCHLIGHTS 100
+#define PLAYER_ID 0
 
 using namespace std;
 
@@ -152,7 +152,7 @@ int main(int argc, char *argv[])
     uint16_t currentLevel = 1;
 
     /* INITIALIZING ENTITIES */
-    auto player_projectiles = ProjectileController(MAX_PROJECTILES, 0.1);
+    auto projectiles = ProjectileController();
     auto player = Player();
     auto level = Level(currentLevel);
     auto enemies = EntityController(level);
@@ -200,9 +200,11 @@ int main(int argc, char *argv[])
         {
             if (player.getMana() >= 5)
             {
-                if (!player_projectiles.onCooldown(now))
+                if (!projectiles.onCooldown(PLAYER_ID,now))
                 {
-                    player_projectiles.shoot(
+                    projectiles.shoot(
+                        PLAYER_ID,
+                        0.15f,
                         cam.getPosition() - 0.38f * cam.getSideVec() + 0.6f * cam.getViewVec() - 0.10f * cam.getUpVec(),
                         cam.getViewVec(),
                         20.0f, -40.0f,
@@ -245,26 +247,26 @@ int main(int argc, char *argv[])
 
         /* Step game entities */
         cam.setPosition(player.getPosition());
-        player_projectiles.step(now, timeDelta);
+        projectiles.step(now, timeDelta);
         player.update(timeDelta);
         enemies.step(timeDelta, player);
         power_ups.step(&player, timeDelta);
 
         /* check collisions */
-        Projectile *proj = player_projectiles.getProjectiles();
+        Projectile *proj = projectiles.getProjectiles();
         GameEntity *enem = enemies.getEntities();
-        for (int i = 0; i < player_projectiles.getSize(); i++)
+        for (int i = 0; i < projectiles.getSize(); i++)
         {
-            if (proj[i].isActive())
+            if (proj[i].status && proj[i].shooter_id == PLAYER_ID)
             {
                 for (int j = 0; j < MAX_ENTITIES; j++)
                 {
                     if (enem[j].isActive())
                     {
-                        if (isColliding(proj[i].getBoundingBox(), enem[j].getBoundingBox()))
+                        if (isColliding(proj[i].bbox, enem[j].getBoundingBox()))
                         {
-                            proj[i].deactivate();
-                            if (enem[j].damage(proj[i].getDamage()))
+                            proj[i].status = false;
+                            if (enem[j].damage(proj[i].damage))
                                 power_ups.spawn(
                                     enem[j].getPosition(),
                                     20.0f,
@@ -361,14 +363,14 @@ int main(int argc, char *argv[])
         uint16_t projectile_count = 0;
         glBindVertexArray(g_VirtualScene["the_sphere"].vertex_array_object_id);
         glUniform1i(g_object_id_uniform, PROJECTILE_WATER);
-        for (int i = 0; i < player_projectiles.getSize(); i++)
+        for (int i = 0; i < projectiles.getSize(); i++)
         {
-            model = Matrix_Translate(proj[i].getPosition().x, proj[i].getPosition().y, proj[i].getPosition().z) * Matrix_Scale(0.07, 0.07, 0.07);
+            model = Matrix_Translate(proj[i].position.x, proj[i].position.y, proj[i].position.z) * Matrix_Scale(0.07, 0.07, 0.07);
             glUniformMatrix4fv(g_model_uniform, 1, GL_FALSE, glm::value_ptr(model));
-            if (proj[i].isActive())
+            if (proj[i].status)
             {
                 // Draw projectile's lighting
-                projectile_position[projectile_count] = proj[i].getPosition();
+                projectile_position[projectile_count] = proj[i].position;
                 projectile_count++;
 
                 // Draw projectile

@@ -17,7 +17,7 @@ Projectile::Projectile() {
     this->bbox_dimensions = glm::vec3(1.0f,1.0f,1.0f);
 }
 
-void Projectile::shoot(glm::vec4 start_pos, glm::vec4 direction, float speed, float accel, float damage, float lifetime, float startTime, glm::vec3 bbox_dimensions) {
+void Projectile::shoot(int shooter_id, glm::vec4 start_pos, glm::vec4 direction, float speed, float accel, float damage, float lifetime, float startTime, glm::vec3 bbox_dimensions) {
     this->position = start_pos;
     this->direction = direction;
     this->speed = speed;
@@ -26,6 +26,7 @@ void Projectile::shoot(glm::vec4 start_pos, glm::vec4 direction, float speed, fl
     this->lifetime = lifetime;
     this->startTime = startTime;
     this->active = true;
+    this->shooter_id = shooter_id;
     this->bbox_dimensions = bbox_dimensions;
 }
 
@@ -49,6 +50,9 @@ float Projectile::getDamage() const {
     return  damage;
 }
 
+int Projectile::getShooter() {
+    return  shooter_id;
+}
 
 glm::vec4 Projectile::getDirection() {
     return  direction;

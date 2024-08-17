@@ -14,7 +14,7 @@
 class Projectile {
 public:
         Projectile();
-        void shoot(glm::vec4 start_pos, glm::vec4 direction, float speed, float accel, float damage, float lifetime, float startTime, glm::vec3 bbox_dimensions);
+        void shoot(int shooter_id, glm::vec4 start_pos, glm::vec4 direction, float speed, float accel, float damage, float lifetime, float startTime, glm::vec3 bbox_dimensions);
         void setSpeed(float new_speed);
         void setAccel(float new_accel);
         void setPosition(glm::vec4 new_pos);
@@ -26,21 +26,23 @@ public:
         float getSpeed() const;
         float getAccel() const;
         float getDamage() const;
+        int getShooter();
         glm::vec4 getPosition();
         glm::vec4 getDirection();
         void deactivate();
         AABB getBoundingBox();
 
 private:
-        bool active;
+        int shooter_id{};
         float startTime;
-        glm::vec4 position;
-        glm::vec4 direction;
         float speed;
         float accel;
-        float damage;
+        float damage{};
         float lifetime;
-        glm::vec3 bbox_dimensions;
+        glm::vec4 position{};
+        glm::vec4 direction{};
+        glm::vec3 bbox_dimensions{};
+        bool active;
 
 };
 
