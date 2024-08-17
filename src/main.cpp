@@ -373,7 +373,9 @@ int main(int argc, char *argv[])
         // Draw objective portal, using billboarding
         glm::vec4 portalPosition = level.GetObjectivePosition();
         glm::vec4 portalNormal = glm::vec4(0.0f, 0.0f, 1.0f, 0.0f);
-        glm::vec4 portalDirection = glm::normalize(cam.getPosition() - portalPosition);
+        glm::vec4 vec = camera_position;
+        vec.y = 0;
+        glm::vec4 portalDirection = glm::normalize(vec - portalPosition);
         float rotationAngle = glm::acos(glm::dot(portalNormal, portalDirection));
 
         glm::vec4 crossProduct = crossproduct(portalNormal, portalDirection);
