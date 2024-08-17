@@ -112,6 +112,11 @@ Level::Level(uint16_t levelNumber)
     objectivePosition = MapPositionToWorldPosition(ox, oz);
     printf("Objective World Position: (%.2f, %.2f)\n", objectivePosition.x, objectivePosition.z);
 
+    glm::vec4 a = MapPositionToWorldPosition(0, 0);
+    glm::vec4 b = MapPositionToWorldPosition(mapHeight - 1, mapWidth - 1);
+
+    center = (b + a) / 2.0f;
+
     planeData = BuildPlaneData();
 }
 
@@ -282,4 +287,9 @@ glm::vec4 Level::GetPlayerInitialPosition()
 glm::vec4 Level::GetObjectivePosition()
 {
     return objectivePosition;
+}
+
+glm::vec4 Level::GetCenterWorldPosition()
+{
+    return center;
 }

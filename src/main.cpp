@@ -183,8 +183,9 @@ int main(int argc, char *argv[])
         }
         else if (cam.GetMode() == CAMERA_LOOK_AT)
         {
-            camera_position = glm::vec4(LOOK_AT_RADIUS * glm::vec3(cam.getViewVec()), 1.0f);
-            view_vector = cam.GetLookAt() - camera_position;
+            glm::vec4 center = level.GetCenterWorldPosition();
+            view_vector = -glm::vec4(mapCameraDistance * cam.getViewVec());
+            camera_position = center - view_vector;
             gameplayIsActive = false;
         }
 
@@ -376,9 +377,9 @@ int main(int argc, char *argv[])
         float rotationAngle = glm::acos(glm::dot(portalNormal, portalDirection));
 
         glm::vec4 crossProduct = crossproduct(portalNormal, portalDirection);
-        glm::vec4 portalUp = glm::vec4(0.0f, 1.0f, 0.0f, 0.0f);
+        glm::vec4 upVector = glm::vec4(0.0f, 1.0f, 0.0f, 0.0f);
 
-        if (glm::dot(crossProduct, portalUp) < 0.0f)
+        if (glm::dot(crossProduct, upVector) < 0.0f)
         {
             rotationAngle = 2.0f * glm::pi<float>() - rotationAngle;
         }
@@ -446,21 +447,21 @@ int main(int argc, char *argv[])
         // First person mode rendering phase (arms and HUD)
         if (cam.GetMode() == CAMERA_FIRST_PERSON)
         {
-            // Draw enemy health
+            // Draw enemy health bars
             for (int i = 0; i < MAX_ENTITIES; i++)
             {
-                portalPosition = enms[i].position + glm::vec4(0.0f, 0.5f, 0.0f, 0.0f);
-                portalNormal = glm::vec4(0.0f, 0.0f, 1.0f, 0.0f);
-                portalDirection = glm::normalize(cam.getPosition() - portalPosition);
-                rotationAngle = glm::acos(glm::dot(portalNormal, portalDirection));
-                crossProduct = crossproduct(portalNormal, portalDirection);
+                glm::vec4 barPosition = enms[i].position + glm::vec4(0.0f, 0.5f, 0.0f, 0.0f);
+                glm::vec4 barNormal = glm::vec4(0.0f, 0.0f, 1.0f, 0.0f);
+                glm::vec4 barDirection = glm::normalize(cam.getPosition() - barPosition);
+                float rotationAngleY = glm::acos(glm::dot(barNormal, barDirection));
+                glm::vec4 crossProduct = crossproduct(barNormal, barDirection);
 
-                portalUp = glm::vec4(0.0f, 1.0f, 0.0f, 0.0f);
+                upVector = glm::vec4(0.0f, 1.0f, 0.0f, 0.0f);
 
-                if (glm::dot(crossProduct, portalUp) < 0.0f)
+                if (glm::dot(crossProduct, upVector) < 0.0f)
                     rotationAngle = 2.0f * glm::pi<float>() - rotationAngle;
 
-                model = Matrix_Translate(portalPosition.x, portalPosition.y, portalPosition.z);
+                model = Matrix_Translate(barPosition.x, barPosition.y, barPosition.z);
                 model *= Matrix_Rotate_Y(rotationAngle);
                 model *= Matrix_Rotate_X(glm::radians(90.0f));
                 model *= Matrix_Scale(enms[i].health / enms[i].maxhealth * 0.3, 0.03f, 0.03f);

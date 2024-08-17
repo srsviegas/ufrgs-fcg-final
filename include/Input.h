@@ -16,7 +16,7 @@ extern bool g_LeftMouseButtonPressed;
 extern bool g_RightMouseButtonPressed;
 extern bool g_MiddleMouseButtonPressed;
 
-extern float g_CameraDistance;
+extern float mapCameraDistance;
 
 extern bool isKeyDown_W;
 extern bool isKeyDown_A;

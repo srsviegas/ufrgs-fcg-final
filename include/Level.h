@@ -51,6 +51,7 @@ public:
     int GetMapWidth();
     glm::vec4 GetPlayerInitialPosition();
     glm::vec4 GetObjectivePosition();
+    glm::vec4 GetCenterWorldPosition();
 
 private:
     std::vector<std::string> mapData;
@@ -58,6 +59,7 @@ private:
     int mapWidth;
     glm::vec4 playerInitialPosition;
     glm::vec4 objectivePosition;
+    glm::vec4 center;
     std::vector<std::vector<std::vector<Plane>>> planeData;
 };
 

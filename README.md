@@ -32,7 +32,7 @@
     - [x] No mínimo um objeto copiado com duas ou mais instâncias
 
 - Controle de câmeras virtuais
-    - [ ] Câmera look-at
+    - [x] Câmera look-at
     - [x] Câmera livre
 
 - No mínimo 3 testes de intersecção entre objetos virtuais

@@ -51,4 +51,7 @@
 /* Camera modes */
 #define CAMERA_FIRST_PERSON 0 // First person camera (Free camera)
 #define CAMERA_LOOK_AT 1      // Map camera (Look-at camera)
-#define LOOK_AT_RADIUS 5.0f
+
+#define LOOK_AT_DISTANCE_DEFAULT 5.0f
+#define LOOK_AT_DISTANCE_MIN 2.0f
+#define LOOK_AT_DISTANCE_MAX 20.0f

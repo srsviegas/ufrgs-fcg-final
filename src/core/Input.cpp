@@ -13,7 +13,7 @@ bool g_LeftMouseButtonPressed = false;
 bool g_RightMouseButtonPressed = false;
 bool g_MiddleMouseButtonPressed = false;
 
-float g_CameraDistance = 0.0f;
+float mapCameraDistance = LOOK_AT_DISTANCE_DEFAULT;
 
 bool isKeyDown_W = false;
 bool isKeyDown_A = false;
@@ -137,18 +137,19 @@ void CursorPosCallback(GLFWwindow *window, double xpos, double ypos)
 // Função callback chamada sempre que o usuário movimenta a "rodinha" do mouse.
 void ScrollCallback(GLFWwindow *window, double xoffset, double yoffset)
 {
-    // Atualizamos a distância da câmera para a origem utilizando a
-    // movimentação da "rodinha", simulando um ZOOM.
-    g_CameraDistance -= 0.1f * yoffset;
+    if (cam.GetMode() == CAMERA_LOOK_AT)
+    {
+        mapCameraDistance -= 0.1f * yoffset;
 
-    // Uma câmera look-at nunca pode estar exatamente "em cima" do ponto para
-    // onde ela está olhando, pois isto gera problemas de divisão por zero na
-    // definição do sistema de coordenadas da câmera. Isto é, a variável abaixo
-    // nunca pode ser zero. Versões anteriores deste código possuíam este bug,
-    // o qual foi detectado pelo aluno Vinicius Fraga (2017/2).
-    const float verysmallnumber = std::numeric_limits<float>::epsilon();
-    if (g_CameraDistance < verysmallnumber)
-        g_CameraDistance = verysmallnumber;
+        if (mapCameraDistance < LOOK_AT_DISTANCE_MIN)
+        {
+            mapCameraDistance = LOOK_AT_DISTANCE_MIN;
+        }
+        else if (mapCameraDistance > LOOK_AT_DISTANCE_MAX)
+        {
+            mapCameraDistance = LOOK_AT_DISTANCE_MAX;
+        }
+    }
 }
 
 // Definição da função que será chamada sempre que o usuário pressionar alguma
