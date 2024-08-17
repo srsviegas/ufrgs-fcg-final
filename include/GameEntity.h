@@ -10,9 +10,11 @@
 #include "Collisions.h"
 
 struct GameEntity {
+    int global_id;
+    int type;
+
     float health;
     float maxhealth;
-    int type;
     float walkSpeed;
     float range;    // distãncia de detecção máxima
     float min_dist; // distância mínima que a entidade se aproximará do jogador

@@ -44,7 +44,6 @@
 #include "PowerupController.h"
 
 #define MAX_TORCHLIGHTS 100
-#define PLAYER_ID 0
 
 using namespace std;
 
@@ -59,6 +58,7 @@ int main(int argc, char *argv[])
         std::exit(EXIT_FAILURE);
     }
 
+    //e
     float now;
     float last = 0;
     float timeDelta;
@@ -199,6 +199,7 @@ int main(int argc, char *argv[])
                 if (!projectiles.onCooldown(PLAYER_ID,now))
                 {
                     projectiles.shoot(
+                        0,
                         PLAYER_ID,
                         0.15f,
                         cam.getPosition() - 0.38f * cam.getSideVec() + 0.6f * cam.getViewVec() - 0.10f * cam.getUpVec(),
@@ -245,14 +246,15 @@ int main(int argc, char *argv[])
         cam.setPosition(player.getPosition());
         projectiles.step(now, timeDelta);
         player.update(timeDelta);
-        enemies.step(timeDelta, player);
+        enemies.step(now,timeDelta,&player,&projectiles);
         power_ups.step(&player, timeDelta);
 
         /* check collisions */
+
+        //player projetiles with enemies
         Projectile *proj = projectiles.getProjectiles();
         GameEntity *enem = enemies.getEntities();
-        for (int i = 0; i < projectiles.getSize(); i++)
-        {
+        for (int i = 0; i < projectiles.getSize(); i++) {
             if (proj[i].status && proj[i].shooter_id == PLAYER_ID)
             {
                 for (int j = 0; j < MAX_ENTITIES; j++)
@@ -276,6 +278,19 @@ int main(int argc, char *argv[])
                 }
             }
         }
+
+        //enemy projectiles with player
+        for (int i = 0; i < projectiles.getSize(); i++)
+        {
+            if (proj[i].status && proj[i].shooter_id != PLAYER_ID)
+            {
+                if (player.GetCollision().IsCollidingAABB(proj[i].bbox)){
+                    player.damage(proj[i].damage);
+                    proj[i].status = false;
+                }
+            }
+        }
+
 
         /* Set camera mode */
         glm::mat4 view = Matrix_Camera_View(cam.getPosition(), cam.getViewVec(), cam.getUpVec());

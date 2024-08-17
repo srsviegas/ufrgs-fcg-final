@@ -12,7 +12,9 @@
 
 struct Projectile
 {
+        int shooter_type;
         int shooter_id;
+
         float startTime;
         float speed;
         float accel;

@@ -10,6 +10,7 @@ ProjectileController::ProjectileController() {
 }
 
 void ProjectileController::shoot(
+    int shooter_type,
     int shooter_id,
     float cooldown,
     glm::vec4 start_pos,
@@ -23,6 +24,7 @@ void ProjectileController::shoot(
     {
         projectiles[last_shot % MAX_PROJECTILES] =
         {
+            shooter_type,
             shooter_id,
             startTime,
             speed,
