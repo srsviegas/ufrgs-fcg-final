@@ -5,27 +5,8 @@
 #ifndef PROJETILECONTROLLER_H
 #define PROJETILECONTROLLER_H
 
-#include <Collisions.h>
-#include <glm/vec3.hpp>
-#include <glm/vec4.hpp>
-
+#include "Projectile.h"
 #include "Constants.h"
-
-struct Projectile
-{
-    int shooter_id;
-    float startTime;
-    float speed;
-    float accel;
-    float damage;
-    float lifetime;
-    glm::vec4 position;
-    glm::vec4 direction;
-    glm::vec3 bbox_dimensions;
-    AABB bbox;
-    bool status;
-};
-
 
 class ProjectileController
 {

@@ -39,10 +39,8 @@
 #include "Level.h"
 #include "Player.h"
 #include "PointLight.h"
-#include "GameEntity.h"
 #include "ProjectileController.h"
 #include "Collisions.h"
-#include "BezierCurve.h"
 #include "PowerupController.h"
 
 #define MAX_TORCHLIGHTS 100
@@ -261,17 +259,20 @@ int main(int argc, char *argv[])
             {
                 for (int j = 0; j < MAX_ENTITIES; j++)
                 {
-                    if (enem[j].isActive())
+                    if (enem[j].status)
                     {
-                        if (isColliding(proj[i].bbox, enem[j].getBoundingBox()))
+                        if (isColliding(proj[i].bbox, enem[j].bbox))
                         {
                             proj[i].status = false;
-                            if (enem[j].damage(proj[i].damage))
+                            enem[j].health -= proj[i].damage;
+                            if (enem[j].health <= 0) {
                                 power_ups.spawn(
-                                    enem[j].getPosition(),
+                                    enem[j].position,
                                     20.0f,
                                     50.0f,
                                     0);
+                                enem[j].status = false;
+                            }
                         }
                     }
                 }
@@ -386,12 +387,12 @@ int main(int argc, char *argv[])
         glUniform1i(g_object_id_uniform, ENEMY_TYPE_1);
         for (int i = 0; i < MAX_ENTITIES; i++)
         {
-            if (enms[i].isActive())
+            if (enms[i].status)
             {
                 model =
-                    Matrix_Translate(enms[i].getPosition().x, enms[i].getPosition().y, enms[i].getPosition().z) *
+                    Matrix_Translate(enms[i].position.x, enms[i].position.y, enms[i].position.z) *
                     Matrix_Scale(0.2, 0.2, 0.2) *
-                    Matrix_Rotate_Y(3.14f - angleAroundY(enms[i].getDirection()));
+                    Matrix_Rotate_Y(3.14f - angleAroundY(enms[i].direction));
                 glUniformMatrix4fv(g_model_uniform, 1, GL_FALSE, glm::value_ptr(model));
                 glDrawElements(g_VirtualScene["the_bunny"].rendering_mode, g_VirtualScene["the_bunny"].num_indices, GL_UNSIGNED_INT, (void *)(g_VirtualScene["the_bunny"].first_index * sizeof(GLuint)));
             }
@@ -400,7 +401,7 @@ int main(int argc, char *argv[])
         // enemy billboards
         for (int i = 0; i < MAX_ENTITIES; i++)
         {
-            portalPosition = enms[i].getPosition() + glm::vec4(0.0f, 0.5f, 0.0f, 0.0f);
+            portalPosition = enms[i].position + glm::vec4(0.0f, 0.5f, 0.0f, 0.0f);
             portalNormal = glm::vec4(0.0f, 0.0f, 1.0f, 0.0f);
             portalDirection = glm::normalize(cam.getPosition() - portalPosition);
             rotationAngle = glm::acos(glm::dot(portalNormal, portalDirection));
@@ -414,7 +415,7 @@ int main(int argc, char *argv[])
             model = Matrix_Translate(portalPosition.x, portalPosition.y, portalPosition.z);
             model *= Matrix_Rotate_Y(rotationAngle);
             model *= Matrix_Rotate_X(glm::radians(90.0f));
-            model *= Matrix_Scale(enms[i].getHealthPercent() * 0.3, 0.03f, 0.03f);
+            model *= Matrix_Scale(enms[i].health/enms[i].maxhealth * 0.3, 0.03f, 0.03f);
             glUniformMatrix4fv(g_model_uniform, 1, GL_FALSE, glm::value_ptr(model));
             glUniform1i(g_object_id_uniform, HUD_HEALTH_BAR);
             DrawVirtualObject("the_plane");

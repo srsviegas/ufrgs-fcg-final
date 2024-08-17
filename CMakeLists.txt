@@ -19,9 +19,7 @@ set(SOURCES
   src/core/Collisions.cpp
   src/game/Level.cpp
   src/game/Player.cpp
-  src/game/Projectile.cpp
   src/game/PointLight.cpp
-  src/game/GameEntity.cpp
         src/game/ProjectileController.cpp
         src/game/EntityController.cpp
         src/game/BezierCurve.cpp
