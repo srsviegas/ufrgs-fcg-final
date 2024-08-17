@@ -22,6 +22,7 @@ public:
     glm::vec3 position; // Translation coordinates
     glm::vec3 rotation; // Rotation coordinates (in degrees)
     glm::vec4 normal;   // Plane's normal vector
+    glm::vec4 side;     // Plane's side vector
     float D;            // Coefficient for plane's eq. (Ax + By + Cz + D = 0)
 
     bool hasTorch;        // Indicates if that plane should have a torch light

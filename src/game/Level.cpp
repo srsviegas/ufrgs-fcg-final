@@ -27,6 +27,7 @@ Plane::Plane(int tex, glm::vec3 pos, glm::vec3 rot)
     glm::vec4 c = transformation * glm::vec4({-1.0f, 0.0f, 1.0f, 1.0f});
 
     normal = glm::normalize(crossproduct(b - a, c - a));
+    side = glm::normalize(crossproduct(glm::vec4(0.0f, 1.0f, 0.0f, 0.0f), normal));
     D = -glm::dot(normal, a);
 }
 

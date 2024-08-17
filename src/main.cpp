@@ -115,6 +115,7 @@ int main(int argc, char *argv[])
     LoadTextureImage("../../data/portal.png");            // TextureImage5
     LoadTextureImage("../../data/bar-health.png");        // TextureImage6
     LoadTextureImage("../../data/bar-mana.png");          // TextureImage7
+    LoadTextureImage("../../data/torch.png");             // TextureImage8
 
     /* BUILDING OBJECTS */
     ObjModel planemodel("../../data/plane.obj");
@@ -144,6 +145,10 @@ int main(int argc, char *argv[])
     ObjModel potion_health("../../data/potion_health.obj");
     ComputeNormals(&potion_health);
     BuildTrianglesAndAddToVirtualScene(&potion_health);
+
+    ObjModel torch("../../data/torch.obj");
+    ComputeNormals(&torch);
+    BuildTrianglesAndAddToVirtualScene(&torch);
 
     uint16_t currentLevel = 1;
 
@@ -359,8 +364,10 @@ int main(int argc, char *argv[])
                         torchlight_count++;
 
                         // Draw torch model
-                        model = Matrix_Translate(tpos.x, tpos.y, tpos.z) * Matrix_Scale(0.07, 0.07, 0.07);
-                        DrawObjectModel(model, TORCH, "the_sphere");
+                        model = Matrix_Translate(tpos.x, tpos.y - 0.20, tpos.z);
+                        model *= Matrix_Rotate(0.35f, plane.side);
+                        model *= Matrix_Scale(0.5, 0.5, 0.5);
+                        DrawObjectModel(model, TORCH, "torch");
                     }
                 }
             }
@@ -396,8 +403,6 @@ int main(int argc, char *argv[])
         // Draw projectiles
         glm::vec4 projectile_position[MAX_PROJECTILES] = {};
         uint16_t projectile_count = 0;
-        glBindVertexArray(g_VirtualScene["the_sphere"].vertex_array_object_id);
-        glUniform1i(g_object_id_uniform, PROJECTILE_WATER);
         for (int i = 0; i < projectiles.getSize(); i++)
         {
             model = Matrix_Translate(proj[i].position.x, proj[i].position.y, proj[i].position.z) * Matrix_Scale(0.07, 0.07, 0.07);

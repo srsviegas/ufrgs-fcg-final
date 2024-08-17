@@ -55,6 +55,7 @@ uniform sampler2D TextureImage4;
 uniform sampler2D TextureImage5;
 uniform sampler2D TextureImage6;
 uniform sampler2D TextureImage7;
+uniform sampler2D TextureImage8;
 
 // Fragment's color
 out vec4 color;
@@ -96,8 +97,13 @@ void main() {
         U = (theta + M_PI) / (2.0 * M_PI);
         V = (pho + M_PI_2) / M_PI;
 
+        vec3 tex = texture(TextureImage3, vec2(U, V)).rgb;
+
+        Kd = vec3(0.05, 0.05, 1.0);
         Ks = vec3(0.05, 0.05, 1.0);
-        Ka = texture(TextureImage3, vec2(U, V)).rgb;
+        Ka = tex;
+        q = 8.0;
+        color.a = 0.8;
     } else if (object_id == TXT_FLOOR || object_id == TXT_CEIL) {
         vec3 tex = texture(TextureImage1, vec2(U, V)).rgb;
         Kd = tex * 0.6;
@@ -129,8 +135,9 @@ void main() {
         Ka = tex * 0.5;
         q = 1.0;
     } else if (object_id == TORCH) {
-        Kd = vec3(1.0);
-        Ka = vec3(1.0);
+        vec3 tex = texture(TextureImage8, vec2(U, V)).rgb;
+        Kd = vec3(0.5);
+        Ka = tex;
     } else if (object_id == OBJECTIVE_PORTAL) {
         vec4 tex = texture(TextureImage5, vec2(U, V));
         Kd = tex.rgb;
