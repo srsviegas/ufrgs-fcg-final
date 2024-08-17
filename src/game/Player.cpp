@@ -57,11 +57,15 @@ void Player::move(float timeDelta, glm::vec4 movementDirection, Level levelData)
 void Player::setHealth(float hp)
 {
     health = hp;
+    if(health > MAX_HEALTH)
+        health = MAX_HEALTH;
 }
 
 void Player::setMana(float amount)
 {
     mana = amount;
+    if(mana > MAX_MANA)
+        mana = MAX_MANA;
 }
 
 void Player::damage(float hp)

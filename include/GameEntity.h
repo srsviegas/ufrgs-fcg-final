@@ -29,6 +29,7 @@ public:
     void setState(int state);
 
     float getHealth() const;
+    float getHealthPercent();
     float getWalkspeed() const;
     float getRange() const;
     float getMinDist() const;
@@ -43,6 +44,7 @@ public:
 
 private:
     float health;
+    float starter_health;
     float walkSpeed;
     float range; //distãncia de detecção máxima
     float min_dist; //distância mínima que a entidade se aproximará do jogador

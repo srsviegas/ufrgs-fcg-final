@@ -11,6 +11,7 @@ GameEntity::GameEntity(glm::vec4 start_pos, int type, float health, float speed,
     this->position = start_pos;
     this->entity_type = type;
     this->health = health;
+    this->starter_health = health;
     this->walkSpeed = speed;
     this->range = range;
     this->min_dist = min_dist;
@@ -26,6 +27,7 @@ GameEntity::GameEntity() {
     this->position = glm::vec4(0.0,0.0,0.0,0.0);;
     this->entity_type = 0;
     this->health = 0;
+    this->starter_health = 1.0f;
     this->walkSpeed = 0;
     this->range = 0;
     this->status = false;
@@ -76,6 +78,11 @@ void GameEntity::setState(int state) {
 float GameEntity::getHealth() const {
     return health;
 }
+
+float GameEntity::getHealthPercent() {
+    return health/starter_health;
+}
+
 
 float GameEntity::getWalkspeed() const {
     return walkSpeed;

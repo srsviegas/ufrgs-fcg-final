@@ -27,7 +27,7 @@ class PowerupController {
 public:
     PowerupController();
     void spawn(glm::vec4 start_pos, float health, float mana, int model_type);
-    void step(Player player, float timeDelta);
+    void step(Player *player, float timeDelta);
     Powerup* getPowerUps();
 
 private:
