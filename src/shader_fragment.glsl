@@ -148,9 +148,9 @@ void main() {
         Ka = tex * 0.3;
     }
 
-    vec3 lambert = vec3(0.0);
+    vec3 diffuse = vec3(0.0);
     vec3 ambient = Ka * Ia;
-    vec3 phong = vec3(0.0);
+    vec3 specular = vec3(0.0);
 
     // Torchlight lighting
     for (int i = 0; i < torchlight_count; i++) {
@@ -159,25 +159,33 @@ void main() {
         {
             continue;
         }
+
         vec3 torchlight_direction = normalize((torchlight_position[i] - position_world).xyz);
-        vec3 reflection = -torchlight_direction + 2 * n * dot(n, torchlight_direction);
+        vec3 halfway_direction = normalize(torchlight_direction + camera_direction);
+
         float attenuation = 1.0 / (0.25 + 0.1 * distance + 0.1 * distance * distance);
 
-        lambert += Kd * max(dot(n, torchlight_direction), 0.0) * torchlight_color[i] * attenuation;
-        phong += Ks * pow(max(dot(reflection, camera_direction), 0.0), q) * torchlight_color[i] * attenuation;
+        diffuse += Kd * max(dot(n, torchlight_direction), 0.0) * torchlight_color[i] * attenuation;
+        specular += Ks * pow(max(dot(n, halfway_direction), 0.0), q) * torchlight_color[i] * attenuation;
     }
 
     // Water Projectile Lighting
     for (int i = 0; i < waterproj_count; i++) {
         float distance = length(waterproj_position[i].xyz - position_world.xyz);   
+        if (distance > 10.0f)
+        {
+            continue;
+        }
+
         vec3 waterproj_direction = normalize((waterproj_position[i] - position_world).xyz);
-        vec3 reflection = -waterproj_direction + 2 * n * dot(n, waterproj_direction);
+        vec3 halfway_direction = normalize(waterproj_direction + camera_direction);
+
         float attenuation = 1.0 / (0.1 + 0.01 * distance + 1.0 * distance * distance);
 
-        lambert += Kd * max(dot(n, waterproj_direction), 0.0) * waterproj_color * attenuation;
-        phong += Ks * pow(max(dot(reflection, camera_direction), 0.0), q) * waterproj_color * attenuation;
+        diffuse += Kd * max(dot(n, waterproj_direction), 0.0) * waterproj_color * attenuation;
+        specular += Ks * pow(max(dot(n, halfway_direction), 0.0), q) * waterproj_color * attenuation;
     }
 
-    color.rgb = pow(lambert + ambient + phong, vec3(1.0 / 2.2));
+    color.rgb = pow(diffuse + ambient + specular, vec3(1.0 / 2.2));
 }
 
