@@ -41,3 +41,7 @@
 /* Entity Controller values */
 #define ENEMY_CHANCE_PER_TILE 30 // Enemy spawn chance per tile (0-100%)
 #define MAX_ENTITIES 30          // Maximum number of enemy entities
+
+/* Camera modes */
+#define CAMERA_FIRST_PERSON 0 // First person camera (Free camera)
+#define CAMERA_LOOK_AT 1      // Map camera (Look-at camera)

@@ -8,6 +8,8 @@ Camera::Camera()
     far_plane = -50.0f;
     g_Theta = 3.141592f / 4;
     g_Phi = 3.141592f / 6;
+    lookat = glm::vec4(0.0f, 0.0f, 0.0f, 1.0f);
+    mode = CAMERA_FIRST_PERSON;
 }
 
 Camera::Camera(glm::vec4 start_pos, glm::vec4 up_vec, float near_val, float far_val)
@@ -113,4 +115,36 @@ float Camera::getTheta()
 glm::mat4 Camera::calcViewMatrix()
 {
     return Matrix_Camera_View(cam_pos, glm::vec4(glm::cos(g_Phi) * glm::sin(g_Theta), glm::sin(g_Phi), glm::cos(g_Phi) * glm::cos(g_Theta), 0.0f), cam_up);
+}
+
+void Camera::SetLookAt(glm::vec4 point)
+{
+    if (point.w == 0.0f)
+    {
+        printf("WARNING: Look-at should be a point, not a vector.\n");
+        point.w = 1.0f;
+    }
+    lookat = point;
+}
+
+glm::vec4 Camera::GetLookAt()
+{
+    return lookat;
+}
+
+int Camera::GetMode()
+{
+    return mode;
+}
+
+void Camera::SwitchMode()
+{
+    if (GetMode() == CAMERA_FIRST_PERSON)
+    {
+        mode = CAMERA_LOOK_AT;
+    }
+    else
+    {
+        mode = CAMERA_FIRST_PERSON;
+    }
 }

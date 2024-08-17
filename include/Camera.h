@@ -31,6 +31,12 @@ public:
     float getNearPlane() const;
     float getFarPlane() const;
 
+    void SetLookAt(glm::vec4 point);
+    glm::vec4 GetLookAt();
+
+    int GetMode();
+    void SwitchMode();
+
 private:
     float g_Theta;
     float g_Phi;
@@ -39,6 +45,8 @@ private:
     float near_plane;
     float far_plane;
     float fov;
+    glm::vec4 lookat;
+    int mode;
 };
 
 #endif

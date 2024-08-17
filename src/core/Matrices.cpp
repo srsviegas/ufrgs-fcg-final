@@ -249,9 +249,10 @@ glm::mat4 Matrix_Orthographic(float l, float r, float b, float t, float n, float
     return M;
 }
 
-float angleAroundY(glm::vec4 v) {
+float angleAroundY(glm::vec4 v)
+{
 
-    glm::vec4 ref(1.0f, 0.0f, 0.0f,0.0f);
+    glm::vec4 ref(1.0f, 0.0f, 0.0f, 0.0f);
 
     float dotProduct = dot(ref, v);
 
@@ -261,12 +262,11 @@ float angleAroundY(glm::vec4 v) {
     float cosTheta = dotProduct / (magnitudeRef * magnitudeV);
     cosTheta = std::fmax(-1.0f, std::fmin(1.0f, cosTheta));
 
-    if(v.z > 0) {
+    if (v.z > 0)
+    {
         return abs(std::acos(cosTheta));
     }
     return -abs(std::acos(cosTheta));
-
-
 }
 
 // Matriz de projeção perspectiva

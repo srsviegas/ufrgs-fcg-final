@@ -196,7 +196,7 @@ int main(int argc, char *argv[])
         {
             if (player.getMana() >= 5)
             {
-                if (!projectiles.onCooldown(PLAYER_ID,now))
+                if (!projectiles.onCooldown(PLAYER_ID, now))
                 {
                     projectiles.shoot(
                         PLAYER_ID,
@@ -263,7 +263,8 @@ int main(int argc, char *argv[])
                         {
                             proj[i].status = false;
                             enem[j].health -= proj[i].damage;
-                            if (enem[j].health <= 0) {
+                            if (enem[j].health <= 0)
+                            {
                                 power_ups.spawn(
                                     enem[j].position,
                                     20.0f,
@@ -278,7 +279,17 @@ int main(int argc, char *argv[])
         }
 
         /* Set camera mode */
-        glm::mat4 view = Matrix_Camera_View(cam.getPosition(), cam.getViewVec(), cam.getUpVec());
+        glm::mat4 view;
+        if (cam.GetMode() == CAMERA_FIRST_PERSON)
+        {
+            view = Matrix_Camera_View(cam.getPosition(), cam.getViewVec(), cam.getUpVec());
+        }
+        else if (cam.GetMode() == CAMERA_LOOK_AT)
+        {
+            glm::vec4 view_vector = cam.GetLookAt() - cam.getPosition();
+            view = Matrix_Camera_View(cam.getPosition(), view_vector, cam.getUpVec());
+        }
+
         glm::mat4 projection;
         float field_of_view = 3.141592 / 3.0f;
         projection = Matrix_Perspective(field_of_view, g_ScreenRatio, cam.getNearPlane(), cam.getFarPlane());
@@ -360,7 +371,7 @@ int main(int argc, char *argv[])
             model = Matrix_Translate(proj[i].position.x, proj[i].position.y, proj[i].position.z) * Matrix_Scale(0.07, 0.07, 0.07);
             glUniformMatrix4fv(g_model_uniform, 1, GL_FALSE, glm::value_ptr(model));
             if (proj[i].status)
-            model = Matrix_Translate(proj[i].position.x, proj[i].position.y, proj[i].position.z) * Matrix_Scale(0.07, 0.07, 0.07);
+                model = Matrix_Translate(proj[i].position.x, proj[i].position.y, proj[i].position.z) * Matrix_Scale(0.07, 0.07, 0.07);
             if (proj[i].status)
             {
                 // Draw projectile's lighting
@@ -405,7 +416,7 @@ int main(int argc, char *argv[])
             model = Matrix_Translate(portalPosition.x, portalPosition.y, portalPosition.z);
             model *= Matrix_Rotate_Y(rotationAngle);
             model *= Matrix_Rotate_X(glm::radians(90.0f));
-            model *= Matrix_Scale(enms[i].health/enms[i].maxhealth * 0.3, 0.03f, 0.03f);
+            model *= Matrix_Scale(enms[i].health / enms[i].maxhealth * 0.3, 0.03f, 0.03f);
             DrawObjectModel(model, HUD_HEALTH_BAR, "the_plane");
         }
 
