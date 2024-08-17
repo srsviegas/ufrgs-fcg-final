@@ -60,11 +60,13 @@ public:
     std::vector<Plane> GetWallsAroundTile(int x, int z);
 
     bool IsFloor(int x, int z);
+    bool IsPlayerSpawn(int x, int z);
     bool ObjectiveReached(glm::vec4 position);
     int WorldPositionToMapPositionX(float x);
     int WorldPositionToMapPositionZ(float z);
     glm::vec4 MapPositionToWorldPosition(int x, int z);
 
+    std::vector<std::string> GetMap();
     int GetMapHeight();
     int GetMapWidth();
     glm::vec4 GetPlayerInitialPosition();

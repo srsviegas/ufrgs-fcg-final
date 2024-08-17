@@ -228,6 +228,14 @@ bool Level::IsFloor(int x, int z)
     return xInBounds && yInBounds && (mapData[z][x] == 'X');
 }
 
+bool Level::IsPlayerSpawn(int x, int z)
+{
+    glm::vec4 playerSpawn = GetPlayerInitialPosition();
+    int px = (int)playerSpawn.x;
+    int pz = (int)playerSpawn.z;
+    return (px == x) && (pz == z);
+}
+
 bool Level::ObjectiveReached(glm::vec4 position)
 {
     float distanceToObjective = glm::distance(position, GetObjectivePosition());
@@ -249,6 +257,11 @@ glm::vec4 Level::MapPositionToWorldPosition(int x, int z)
     float wx = 2.0f * (x - playerInitialPosition.x);
     float wz = 2.0f * (z - playerInitialPosition.z);
     return glm::vec4(wx, 0.0f, wz, 1.0f);
+}
+
+std::vector<std::string> Level::GetMap()
+{
+    return mapData;
 }
 
 int Level::GetMapHeight()

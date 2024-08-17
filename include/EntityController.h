@@ -5,21 +5,27 @@
 #ifndef ENTITYCONTROLLER_H
 #define ENTITYCONTROLLER_H
 
-#include <glad/glad.h>
-#define MAX_ENTITIES 10
+#define ENEMY_CHANCE_PER_TILE 30
+#define MAX_ENTITIES 30
 
-#include <Player.h>
+#include <glad/glad.h>
+
+#include <algorithm>
 
 #include "GameEntity.h"
+#include "Player.h"
+#include "Level.h"
 
-class EntityController {
+class EntityController
+{
 
 public:
     EntityController();
+    EntityController(Level levelData);
     void addEntity(GameEntity new_entity);
     void killAll();
     void step(float timeDelta, Player player);
-    GameEntity* getEntities();
+    GameEntity *getEntities();
 
 private:
     GameEntity entities[MAX_ENTITIES];
@@ -27,6 +33,4 @@ private:
     int entity_count;
 };
 
-
-
-#endif //ENTITYCONTROLLER_H
+#endif // ENTITYCONTROLLER_H

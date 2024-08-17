@@ -154,18 +154,9 @@ int main(int argc, char *argv[])
     /* INITIALIZING ENTITIES */
     auto player_projectiles = ProjectileController(MAX_PROJECTILES, 0.1);
     auto player = Player();
-    auto enemies = EntityController();
     auto level = Level(currentLevel);
+    auto enemies = EntityController(level);
     auto power_ups = PowerupController();
-
-    enemies.addEntity(GameEntity(
-        glm::vec4(0.0f, 0.0f, -5.0f, 0.0f),
-        ENEMY_TYPE_1,
-        100.0f,
-        1.0f,
-        3.0f,
-        1.0f,
-        glm::vec3(0.4f, 0.4f, 0.4f)));
 
     TextRendering_Init();
     glEnable(GL_DEPTH_TEST);
@@ -249,6 +240,7 @@ int main(int argc, char *argv[])
             currentLevel++;
             player = Player();
             level = Level(currentLevel);
+            enemies = EntityController(level);
         }
 
         /* Step game entities */
