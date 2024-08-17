@@ -28,6 +28,7 @@
 #define TORCH 11            // Map torches
 #define OBJECTIVE_PORTAL 12 // Objective portal
 #define POTION_HEALTH 14    // Health potion
+#define MAP_POINTER 15      // Map pointer
 
 #define OBJECTIVE_RADIUS 0.5 // Radius of objective collision
 
