@@ -115,6 +115,8 @@ int main(int argc, char *argv[])
     LoadTextureImage("../../data/water.png");             // TextureImage3
     LoadTextureImage("../../data/health_potion_txt.jpg"); // TextureImage4
     LoadTextureImage("../../data/portal.png");            // TextureImage5
+    LoadTextureImage("../../data/bar-health.png");        // TextureImage6
+    LoadTextureImage("../../data/bar-mana.png");          // TextureImage7
 
     /* BUILDING OBJECTS */
     ObjModel planemodel("../../data/plane.obj");
@@ -145,7 +147,7 @@ int main(int argc, char *argv[])
     ComputeNormals(&potion_health);
     BuildTrianglesAndAddToVirtualScene(&potion_health);
 
-    GLuint vertex_array_object_id = DrawHealthHUD();
+    GLuint vertex_array_object_id = DrawHealthHUD(window);
 
     uint16_t currentLevel = 1;
 
@@ -296,6 +298,10 @@ int main(int argc, char *argv[])
         glm::mat4 model = Matrix_Identity();
         glUniformMatrix4fv(g_view_uniform, 1, GL_FALSE, glm::value_ptr(view));
         glUniformMatrix4fv(g_projection_uniform, 1, GL_FALSE, glm::value_ptr(projection));
+
+        // Enable texture transparency
+        glEnable(GL_BLEND);
+        glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
 
         /* Draw Map*/
         // Draw map planes
@@ -471,16 +477,33 @@ int main(int argc, char *argv[])
         glUniformMatrix4fv(g_projection_uniform, 1, GL_FALSE, glm::value_ptr(Matrix_Identity()));
 
         // Health bar
-        model = Matrix_Translate(0.0f, -0.9f, 0.0f) * Matrix_Scale(player.getHealthPercent(), 1.0f, 1.0f);
+        float hudBarTextureRatio = 91.0f / 24.0f;
+        float hudBarScale = 1.4f;
+
+        model = Matrix_Translate(-0.6f, -0.8f, 0.0f);
+        model *= Matrix_Scale(hudBarTextureRatio * hudBarScale, hudBarScale, 1.0f);
+
         glUniformMatrix4fv(g_model_uniform, 1, GL_FALSE, glm::value_ptr(model));
         glUniform1i(g_object_id_uniform, HUD_HEALTH);
         glBindVertexArray(vertex_array_object_id);
         glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_BYTE, 0);
 
+        PushMatrix(model);
+        model *= Matrix_Scale(0.625f * player.getHealthPercent(), 0.15f, 1.0f);
+        glUniformMatrix4fv(g_model_uniform, 1, GL_FALSE, glm::value_ptr(model));
+        glUniform1i(g_object_id_uniform, HUD_HEALTH_BAR);
+        glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_BYTE, 0);
+        PopMatrix(model);
+
         // Mana bar
-        model = Matrix_Translate(-0.7f, -0.9f, 0.0f) * Matrix_Scale(player.getManaPercent(), 1.0f, 1.0f);
+        model *= Matrix_Translate(0.125f, 0.0f, 0.0f);
         glUniformMatrix4fv(g_model_uniform, 1, GL_FALSE, glm::value_ptr(model));
         glUniform1i(g_object_id_uniform, HUD_MANA);
+        glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_BYTE, 0);
+
+        model *= Matrix_Scale(0.625f * player.getManaPercent(), 0.15f, 1.0f);
+        glUniformMatrix4fv(g_model_uniform, 1, GL_FALSE, glm::value_ptr(model));
+        glUniform1i(g_object_id_uniform, HUD_MANA_BAR);
         glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_BYTE, 0);
 
         glEnable(GL_DEPTH_TEST);

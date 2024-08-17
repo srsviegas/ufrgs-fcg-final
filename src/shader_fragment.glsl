@@ -30,13 +30,14 @@ uniform int waterproj_count;
 #define TXT_WALL 2
 #define TXT_CEIL 3
 #define HUD_HEALTH 4
-#define HUD_MANA 5
-#define HUD_MAPTILE 6
-#define PROJECTILE_WATER 7
-#define LEFT_ARM 8
-#define RIGHT_ARM 9
-#define TORCH 10
-#define OBJECTIVE_PORTAL 11
+#define HUD_HEALTH_BAR 5
+#define HUD_MANA 6
+#define HUD_MANA_BAR 7
+#define PROJECTILE_WATER 8
+#define LEFT_ARM 9
+#define RIGHT_ARM 10
+#define TORCH 11
+#define OBJECTIVE_PORTAL 12
 #define ENEMY_TYPE_1 12
 #define POTION_HEALTH 13
 uniform int object_id;
@@ -52,6 +53,8 @@ uniform sampler2D TextureImage2;
 uniform sampler2D TextureImage3;
 uniform sampler2D TextureImage4;
 uniform sampler2D TextureImage5;
+uniform sampler2D TextureImage6;
+uniform sampler2D TextureImage7;
 
 // Fragment's color
 out vec4 color;
@@ -82,6 +85,8 @@ void main() {
     vec3 Ka = vec3(0.0);
     float q = 1.0;
 
+    color.a = 1.0;
+
     if (object_id == PROJECTILE_WATER) {
         vec3 bbox_center = (bbox_min.xyz + bbox_max.xyz) * 0.5;
         float radius = length(position_model.xyz - bbox_center);
@@ -105,10 +110,18 @@ void main() {
         Ks = tex * 0.8;
         Ka = tex * 0.01;
         q = 8.0;
+    } else if (object_id == HUD_HEALTH_BAR) {
+        Ka = vec3(1.0, 0.0, 0.05);
     } else if (object_id == HUD_HEALTH) {
-        Ka = vec3(1.0, 0.0, 0.0);
+        vec4 tex = texture(TextureImage6, vec2(U, V));
+        Ka = tex.rgb;
+        color.a = tex.a;
+    } else if (object_id == HUD_MANA_BAR) {
+        Ka = vec3(0.0, 0.3, 1.0);
     } else if (object_id == HUD_MANA) {
-        Ka = vec3(0.0, 0.0, 1.0);
+        vec4 tex = texture(TextureImage7, vec2(U, V));
+        Ka = tex.rgb;
+        color.a = tex.a;
     } else if (object_id == RIGHT_ARM || object_id == LEFT_ARM) {
         vec3 tex = texture(TextureImage2, vec2(U, V)).rgb;
         Kd = tex * 0.5;
@@ -119,19 +132,20 @@ void main() {
         Kd = vec3(1.0);
         Ka = vec3(1.0);
     } else if (object_id == OBJECTIVE_PORTAL) {
-        vec3 tex = texture(TextureImage5, vec2(U, V)).rgb;
-        Kd = tex;
-        Ks = tex;
-        Ka = tex * 0.25;
+        vec4 tex = texture(TextureImage5, vec2(U, V));
+        Kd = tex.rgb;
+        Ks = tex.rgb;
+        Ka = tex.rgb * 0.25;
+        color.a = tex.a;
     } else if (object_id == ENEMY_TYPE_1) {
         Kd = vec3(1.0, 0.0, 0.0);
         Ks = vec3(0.4);
     }
     else if (object_id == POTION_HEALTH) {
-            vec3 tex = texture(TextureImage4, vec2(U, V)).rgb;
-            Kd = tex;
-            Ks = tex;
-            Ka = tex * 0.3;
+        vec3 tex = texture(TextureImage4, vec2(U, V)).rgb;
+        Kd = tex;
+        Ks = tex;
+        Ka = tex * 0.3;
     }
 
     vec3 lambert = vec3(0.0);
@@ -165,7 +179,5 @@ void main() {
     }
 
     color.rgb = pow(lambert + ambient + phong, vec3(1.0 / 2.2));
-
-    color.a = 1.0;
 }
 

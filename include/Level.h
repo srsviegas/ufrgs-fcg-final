@@ -5,13 +5,14 @@
 #define TXT_WALL 2
 #define TXT_CEIL 3
 #define HUD_HEALTH 4
-#define HUD_MANA 5
-#define HUD_MAPTILE 6
-#define PROJECTILE_WATER 7
-#define LEFT_ARM 8
-#define RIGHT_ARM 9
-#define TORCH 10
-#define OBJECTIVE_PORTAL 11
+#define HUD_HEALTH_BAR 5
+#define HUD_MANA 6
+#define HUD_MANA_BAR 7
+#define PROJECTILE_WATER 8
+#define LEFT_ARM 9
+#define RIGHT_ARM 10
+#define TORCH 11
+#define OBJECTIVE_PORTAL 12
 
 #define ENEMY_TYPE_1 12
 #define POTION_HEALTH 13

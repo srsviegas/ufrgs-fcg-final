@@ -103,14 +103,21 @@ void ComputeNormals(ObjModel *model)
     }
 }
 
-GLuint DrawHealthHUD()
+GLuint DrawHealthHUD(GLFWwindow *window)
 {
+    int width, height;
+    glfwGetWindowSize(window, &width, &height);
+
+    // Calculate the aspect ratio
+    float aspect_ratio = (float)width / (float)height;
+
     GLfloat NDC_coefficients[] = {
-        //    X      Y     Z     W
-        -0.2f, 0.05f, 0.0f, 1.0f,
-        -0.2f, -0.05f, 0.0f, 1.0f,
-        0.2f, 0.05f, 0.0f, 1.0f,
-        0.2f, -0.05f, 0.0f, 1.0f};
+        // X             Y     Z     W
+        -0.1f / aspect_ratio, 0.1f, 0.0f, 1.0f,  // Top-left
+        -0.1f / aspect_ratio, -0.1f, 0.0f, 1.0f, // Bottom-left
+        0.1f / aspect_ratio, 0.1f, 0.0f, 1.0f,   // Top-right
+        0.1f / aspect_ratio, -0.1f, 0.0f, 1.0f   // Bottom-right
+    };
     GLuint VBO_NDC_coefficients_id;
     glGenBuffers(1, &VBO_NDC_coefficients_id);
     GLuint vertex_array_object_id;
@@ -124,6 +131,7 @@ GLuint DrawHealthHUD()
     glVertexAttribPointer(location, number_of_dimensions, GL_FLOAT, GL_FALSE, 0, 0);
     glEnableVertexAttribArray(location);
     glBindBuffer(GL_ARRAY_BUFFER, 0);
+
     GLfloat color_coefficients[] = {
         //  R     G     B     A
         1.0f, 0.0f, 0.0f, 1.0f,
@@ -140,6 +148,26 @@ GLuint DrawHealthHUD()
     glVertexAttribPointer(location, number_of_dimensions, GL_FLOAT, GL_FALSE, 0, 0);
     glEnableVertexAttribArray(location);
     glBindBuffer(GL_ARRAY_BUFFER, 0);
+
+    GLfloat texture_coefficients[] = {
+        // U     V
+        0.0f, 1.0f, // Top-left
+        0.0f, 0.0f, // Bottom-left
+        1.0f, 1.0f, // Top-right
+        1.0f, 0.0f  // Bottom-right
+    };
+
+    GLuint VBO_texture_coefficients_id;
+    glGenBuffers(1, &VBO_texture_coefficients_id);
+    glBindBuffer(GL_ARRAY_BUFFER, VBO_texture_coefficients_id);
+    glBufferData(GL_ARRAY_BUFFER, sizeof(texture_coefficients), NULL, GL_STATIC_DRAW);
+    glBufferSubData(GL_ARRAY_BUFFER, 0, sizeof(texture_coefficients), texture_coefficients);
+    location = 2;
+    number_of_dimensions = 2;
+    glVertexAttribPointer(location, number_of_dimensions, GL_FLOAT, GL_FALSE, 0, 0);
+    glEnableVertexAttribArray(location);
+    glBindBuffer(GL_ARRAY_BUFFER, 0);
+
     GLubyte indices[] = {0, 1, 2, 2, 1, 3};
     GLuint indices_id;
     glGenBuffers(1, &indices_id);
@@ -641,7 +669,7 @@ void LoadTextureImage(const char *filename)
     int width;
     int height;
     int channels;
-    unsigned char *data = stbi_load(filename, &width, &height, &channels, 3);
+    unsigned char *data = stbi_load(filename, &width, &height, &channels, 0);
 
     if (data == NULL)
     {
@@ -674,7 +702,22 @@ void LoadTextureImage(const char *filename)
     GLuint textureunit = g_NumLoadedTextures;
     glActiveTexture(GL_TEXTURE0 + textureunit);
     glBindTexture(GL_TEXTURE_2D, texture_id);
-    glTexImage2D(GL_TEXTURE_2D, 0, GL_SRGB8, width, height, 0, GL_RGB, GL_UNSIGNED_BYTE, data);
+
+    if (channels == 3)
+    {
+        glTexImage2D(GL_TEXTURE_2D, 0, GL_SRGB8, width, height, 0, GL_RGB, GL_UNSIGNED_BYTE, data);
+    }
+    else if (channels == 4)
+    {
+        glTexImage2D(GL_TEXTURE_2D, 0, GL_SRGB8_ALPHA8, width, height, 0, GL_RGBA, GL_UNSIGNED_BYTE, data);
+    }
+    else
+    {
+        fprintf(stderr, "ERROR: Unsupported number of channels in image file \"%s\".\n", filename);
+        stbi_image_free(data);
+        std::exit(EXIT_FAILURE);
+    }
+
     glGenerateMipmap(GL_TEXTURE_2D);
     glBindSampler(textureunit, sampler_id);
 
@@ -775,5 +818,8 @@ void LoadShadersFromFiles()
     glUniform1i(glGetUniformLocation(g_GpuProgramID, "TextureImage3"), 3);
     glUniform1i(glGetUniformLocation(g_GpuProgramID, "TextureImage4"), 4);
     glUniform1i(glGetUniformLocation(g_GpuProgramID, "TextureImage5"), 5);
+    glUniform1i(glGetUniformLocation(g_GpuProgramID, "TextureImage6"), 6);
+    glUniform1i(glGetUniformLocation(g_GpuProgramID, "TextureImage7"), 7);
+
     glUseProgram(0);
 }
