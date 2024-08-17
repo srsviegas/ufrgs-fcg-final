@@ -27,6 +27,7 @@ public:
     glm::vec4 getPosition() const;
     glm::vec4 getViewVec() const;
     glm::vec4 getUpVec() const;
+    glm::vec4 getPerpendicular() const;
     glm::vec4 getSideVec() const;
     float getNearPlane() const;
     float getFarPlane() const;

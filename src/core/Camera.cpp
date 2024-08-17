@@ -39,6 +39,11 @@ void Camera::setPosition(glm::vec4 new_pos)
     cam_pos = new_pos;
 }
 
+glm::vec4 Camera::getPerpendicular() const {
+    return  glm::normalize(crossproduct(getSideVec(),getViewVec()));
+}
+
+
 void Camera::setUpVector(glm::vec4 up_vec)
 {
     cam_up = up_vec;

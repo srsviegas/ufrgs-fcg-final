@@ -115,6 +115,7 @@ void EntityController::behaviour_flyer(GameEntity *entity, float current_time, f
                 projectiles->shoot(
                     entity->type,
                     entity->global_id,
+                    PROJECTILE_WATER,
                     1.5f,
                     entity->position,
                     entity->direction,

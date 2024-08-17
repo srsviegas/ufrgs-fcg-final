@@ -12,6 +12,7 @@ ProjectileController::ProjectileController() {
 void ProjectileController::shoot(
     int shooter_type,
     int shooter_id,
+    int projectile_type,
     float cooldown,
     glm::vec4 start_pos,
     glm::vec4 direction,
@@ -26,6 +27,7 @@ void ProjectileController::shoot(
         {
             shooter_type,
             shooter_id,
+            projectile_type,
             startTime,
             speed,
             accel,

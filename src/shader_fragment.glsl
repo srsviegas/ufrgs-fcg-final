@@ -40,6 +40,8 @@ uniform int waterproj_count;
 #define OBJECTIVE_PORTAL 12 // Objective portal
 #define ENTITY_FLYER 13     // Enemy 1
 #define POTION_HEALTH 14    // Health potion
+#define SWORD 15            // Sword
+
 uniform int object_id;
 
 // Model's bounding box parameters
@@ -57,6 +59,8 @@ uniform sampler2D TextureImage6;
 uniform sampler2D TextureImage7;
 uniform sampler2D TextureImage8;
 uniform sampler2D TextureImage9;
+uniform sampler2D TextureImage10;
+
 
 // Fragment's color
 out vec4 color;
@@ -157,6 +161,12 @@ void main() {
         Ks = tex;
         Ka = tex * 0.3;
     }
+    else if (object_id == SWORD) {
+            vec3 tex = texture(TextureImage10, vec2(U, V)).rgb;
+            Kd = tex;
+            Ks = tex;
+            Ka = tex * 0.3;
+        }
 
     vec3 diffuse = vec3(0.0);
     vec3 ambient = Ka * Ia;

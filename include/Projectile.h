@@ -12,19 +12,20 @@
 
 struct Projectile
 {
-        int shooter_type;
-        int shooter_id;
+        int shooter_type; //tipo de entidade que disparou - jogador, entidade1, entidade2
+        int shooter_id; //identificador único da entidade que disparou, evita compartilhar cooldown
 
-        float startTime;
-        float speed;
-        float accel;
-        float damage;
-        float lifetime;
+        int projectile_type; //aparência do projétil
+        float startTime; //timestamp do momento que foi disparado
+        float speed; //velocidade
+        float accel; //aceleração
+        float damage; //dano ao colidir
+        float lifetime; //tempo máximo de vida
         glm::vec4 position;
         glm::vec4 direction;
-        glm::vec3 bbox_dimensions;
-        AABB bbox;
-        bool status;
+        glm::vec3 bbox_dimensions; //tamanho da área de colisão
+        AABB bbox; //(derivado)área de colisão
+        bool status; //estado - ativo, inativo
 };
 
 #endif //PROJECTILE_H
