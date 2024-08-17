@@ -26,20 +26,20 @@ const vec3 waterproj_color = vec3(0.0,0.1,1.0);
 uniform int waterproj_count;
 
 // Object ID
-#define TXT_FLOOR 1
-#define TXT_WALL 2
-#define TXT_CEIL 3
-#define HUD_HEALTH 4
-#define HUD_HEALTH_BAR 5
-#define HUD_MANA 6
-#define HUD_MANA_BAR 7
-#define PROJECTILE_WATER 8
-#define LEFT_ARM 9
-#define RIGHT_ARM 10
-#define TORCH 11
-#define OBJECTIVE_PORTAL 12
-#define ENEMY_TYPE_1 12
-#define POTION_HEALTH 13
+#define TXT_FLOOR 1         // Floor plane
+#define TXT_WALL 2          // Wall plane
+#define TXT_CEIL 3          // Ceiling plane
+#define HUD_HEALTH 4        // Health HUD frame
+#define HUD_HEALTH_BAR 5    // Health HUD bar
+#define HUD_MANA 6          // Mana HUD frame
+#define HUD_MANA_BAR 7      // Mana HUD bar
+#define PROJECTILE_WATER 8  // Water projectile
+#define LEFT_ARM 9          // Player's left arm
+#define RIGHT_ARM 10        // Player's right arm
+#define TORCH 11            // Map torches
+#define OBJECTIVE_PORTAL 12 // Objective portal
+#define ENEMY_TYPE_1 13     // Enemy 1
+#define POTION_HEALTH 14    // Health potion
 uniform int object_id;
 
 // Model's bounding box parameters

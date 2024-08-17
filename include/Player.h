@@ -5,16 +5,10 @@
 #ifndef PLAYER_H
 #define PLAYER_H
 
-#define MAX_HEALTH 100
-#define MAX_MANA 100
-#define MANA_REGENFACTOR 5
-#define HEALTH_REGENFACTOR 0.1
-#define DEFAULT_SPEED 2.5
-#define DEFAULT_COLLISIONRADIUS 0.5
-
 #include <glm/vec4.hpp>
 #include "Level.h"
 #include "Collisions.h"
+#include "Constants.h"
 
 class Player
 {

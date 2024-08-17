@@ -6,19 +6,18 @@
 #define PROJETILECONTROLLER_H
 
 #include "Projectile.h"
+#include "Constants.h"
 
-#define MAX_PROJECTILES 10
-
-class ProjectileController {
+class ProjectileController
+{
 
 public:
     ProjectileController(int size, float cooldown);
-    void shoot(glm::vec4 start_pos, glm::vec4 direction, float speed, float accel,float damage, float lifetime, float startTime, glm::vec3 bbox_dimensions);
+    void shoot(glm::vec4 start_pos, glm::vec4 direction, float speed, float accel, float damage, float lifetime, float startTime, glm::vec3 bbox_dimensions);
     void step(float current_time, float timeDelta);
     int getSize() const;
     bool onCooldown(float current_time) const;
-    Projectile* getProjectiles();
-
+    Projectile *getProjectiles();
 
 private:
     Projectile projectiles[MAX_PROJECTILES];
@@ -28,5 +27,4 @@ private:
     int max_projectiles;
 };
 
-
-#endif //PROJETILECONTROLLER_H
+#endif // PROJETILECONTROLLER_H

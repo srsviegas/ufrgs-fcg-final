@@ -5,9 +5,6 @@
 #ifndef ENTITYCONTROLLER_H
 #define ENTITYCONTROLLER_H
 
-#define ENEMY_CHANCE_PER_TILE 30
-#define MAX_ENTITIES 30
-
 #include <glad/glad.h>
 
 #include <algorithm>
@@ -15,6 +12,7 @@
 #include "GameEntity.h"
 #include "Player.h"
 #include "Level.h"
+#include "Constants.h"
 
 class EntityController
 {

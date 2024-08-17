@@ -1,27 +1,6 @@
 #ifndef LEVEL_H
 #define LEVEL_H
 
-#define TXT_FLOOR 1
-#define TXT_WALL 2
-#define TXT_CEIL 3
-#define HUD_HEALTH 4
-#define HUD_HEALTH_BAR 5
-#define HUD_MANA 6
-#define HUD_MANA_BAR 7
-#define PROJECTILE_WATER 8
-#define LEFT_ARM 9
-#define RIGHT_ARM 10
-#define TORCH 11
-#define OBJECTIVE_PORTAL 12
-
-#define ENEMY_TYPE_1 12
-#define POTION_HEALTH 13
-
-#define NUM_PROJECTILES 10
-
-#define OBJECTIVE_RADIUS 0.5
-#define TORCH_CHANCE_PER_WALL 25
-
 #include <glm/glm.hpp>
 #include <glm/gtc/matrix_transform.hpp>
 
@@ -31,6 +10,7 @@
 
 #include "matrices.h"
 #include "utils.h"
+#include "Constants.h"
 
 class Plane
 {

@@ -7,9 +7,7 @@
 #include <Player.h>
 #include <glm/vec4.hpp>
 #include "BezierCurve.h"
-
-#define MAX_POWERUPS 10
-#define POWERUP_COLLECT_SPEED 0.7f
+#include "Constants.h"
 
 struct Powerup
 {
@@ -22,18 +20,17 @@ struct Powerup
     float step;
 };
 
-
-class PowerupController {
+class PowerupController
+{
 public:
     PowerupController();
     void spawn(glm::vec4 start_pos, float health, float mana, int model_type);
     void step(Player *player, float timeDelta);
-    Powerup* getPowerUps();
+    Powerup *getPowerUps();
 
 private:
     int last_spawned;
     Powerup powerups[MAX_POWERUPS] = {};
-
 };
 
-#endif //POWERUPCONTROLLER_H
+#endif // POWERUPCONTROLLER_H

@@ -8,10 +8,7 @@
 #include <glm/vec3.hpp>
 #include <glm/vec4.hpp>
 #include "Collisions.h"
-
-#define STATE_IDLE 0
-#define STATE_ROAMING 1
-#define STATE_CHASING 2
+#include "Constants.h"
 
 class GameEntity
 {
@@ -46,8 +43,8 @@ private:
     float health;
     float starter_health;
     float walkSpeed;
-    float range; //distãncia de detecção máxima
-    float min_dist; //distância mínima que a entidade se aproximará do jogador
+    float range;    // distãncia de detecção máxima
+    float min_dist; // distância mínima que a entidade se aproximará do jogador
     int entity_type;
 
     glm::vec4 position;
