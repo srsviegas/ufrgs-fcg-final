@@ -147,8 +147,6 @@ int main(int argc, char *argv[])
     ComputeNormals(&potion_health);
     BuildTrianglesAndAddToVirtualScene(&potion_health);
 
-    GLuint vertex_array_object_id = DrawHealthHUD(window);
-
     uint16_t currentLevel = 1;
 
     /* INITIALIZING ENTITIES */
@@ -306,9 +304,7 @@ int main(int argc, char *argv[])
                     model *= Matrix_Rotate_X(glm::radians(plane.rotation.x));
                     model *= Matrix_Rotate_Y(glm::radians(plane.rotation.y));
                     model *= Matrix_Rotate_Z(glm::radians(plane.rotation.z));
-                    glUniformMatrix4fv(g_model_uniform, 1, GL_FALSE, glm::value_ptr(model));
-                    glUniform1i(g_object_id_uniform, plane.texture);
-                    DrawVirtualObject("the_plane");
+                    DrawObjectModel(model, plane.texture, "the_plane");
 
                     if (plane.hasTorch && torchlight_count < MAX_TORCHLIGHTS)
                     {
@@ -319,11 +315,8 @@ int main(int argc, char *argv[])
                         torchlight_count++;
 
                         // Draw torch model
-                        glBindVertexArray(g_VirtualScene["the_sphere"].vertex_array_object_id);
-                        glUniform1i(g_object_id_uniform, TORCH);
                         model = Matrix_Translate(tpos.x, tpos.y, tpos.z) * Matrix_Scale(0.07, 0.07, 0.07);
-                        glUniformMatrix4fv(g_model_uniform, 1, GL_FALSE, glm::value_ptr(model));
-                        glDrawElements(g_VirtualScene["the_sphere"].rendering_mode, g_VirtualScene["the_sphere"].num_indices, GL_UNSIGNED_INT, (void *)(g_VirtualScene["the_sphere"].first_index * sizeof(GLuint)));
+                        DrawObjectModel(model, TORCH, "the_sphere");
                     }
                 }
             }
@@ -351,20 +344,15 @@ int main(int argc, char *argv[])
         model *= Matrix_Rotate_Y(rotationAngle);
         model *= Matrix_Rotate_X(glm::radians(90.0f));
         model *= Matrix_Scale(0.65625f, 1.0f, 1.0f);
-        glUniformMatrix4fv(g_model_uniform, 1, GL_FALSE, glm::value_ptr(model));
-        glUniform1i(g_object_id_uniform, OBJECTIVE_PORTAL);
-        DrawVirtualObject("the_plane");
+        DrawObjectModel(model, OBJECTIVE_PORTAL, "the_plane");
 
         /* Draw Entities */
         // Draw projectiles
         glm::vec4 projectile_position[MAX_PROJECTILES] = {};
         uint16_t projectile_count = 0;
-        glBindVertexArray(g_VirtualScene["the_sphere"].vertex_array_object_id);
-        glUniform1i(g_object_id_uniform, PROJECTILE_WATER);
         for (int i = 0; i < player_projectiles.getSize(); i++)
         {
             model = Matrix_Translate(proj[i].getPosition().x, proj[i].getPosition().y, proj[i].getPosition().z) * Matrix_Scale(0.07, 0.07, 0.07);
-            glUniformMatrix4fv(g_model_uniform, 1, GL_FALSE, glm::value_ptr(model));
             if (proj[i].isActive())
             {
                 // Draw projectile's lighting
@@ -372,7 +360,7 @@ int main(int argc, char *argv[])
                 projectile_count++;
 
                 // Draw projectile
-                glDrawElements(g_VirtualScene["the_sphere"].rendering_mode, g_VirtualScene["the_sphere"].num_indices, GL_UNSIGNED_INT, (void *)(g_VirtualScene["the_sphere"].first_index * sizeof(GLuint)));
+                DrawObjectModel(model, PROJECTILE_WATER, "the_sphere");
             }
         }
         glUniform4fv(g_waterproj_position_uniform, MAX_PROJECTILES, glm::value_ptr(projectile_position[0]));
@@ -380,8 +368,6 @@ int main(int argc, char *argv[])
 
         // draw enemies
         GameEntity *enms = enemies.getEntities();
-        glBindVertexArray(g_VirtualScene["the_bunny"].vertex_array_object_id);
-        glUniform1i(g_object_id_uniform, ENEMY_TYPE_1);
         for (int i = 0; i < MAX_ENTITIES; i++)
         {
             if (enms[i].isActive())
@@ -390,8 +376,7 @@ int main(int argc, char *argv[])
                     Matrix_Translate(enms[i].getPosition().x, enms[i].getPosition().y, enms[i].getPosition().z) *
                     Matrix_Scale(0.2, 0.2, 0.2) *
                     Matrix_Rotate_Y(3.14f - angleAroundY(enms[i].getDirection()));
-                glUniformMatrix4fv(g_model_uniform, 1, GL_FALSE, glm::value_ptr(model));
-                glDrawElements(g_VirtualScene["the_bunny"].rendering_mode, g_VirtualScene["the_bunny"].num_indices, GL_UNSIGNED_INT, (void *)(g_VirtualScene["the_bunny"].first_index * sizeof(GLuint)));
+                DrawObjectModel(model, ENEMY_TYPE_1, "the_bunny");
             }
         }
 
@@ -413,15 +398,11 @@ int main(int argc, char *argv[])
             model *= Matrix_Rotate_Y(rotationAngle);
             model *= Matrix_Rotate_X(glm::radians(90.0f));
             model *= Matrix_Scale(enms[i].getHealthPercent() * 0.3, 0.03f, 0.03f);
-            glUniformMatrix4fv(g_model_uniform, 1, GL_FALSE, glm::value_ptr(model));
-            glUniform1i(g_object_id_uniform, HUD_HEALTH_BAR);
-            DrawVirtualObject("the_plane");
+            DrawObjectModel(model, HUD_HEALTH_BAR, "the_plane");
         }
 
         // draw powerups
         Powerup *pwrs = power_ups.getPowerUps();
-        glBindVertexArray(g_VirtualScene["potion_health"].vertex_array_object_id);
-        glUniform1i(g_object_id_uniform, POTION_HEALTH);
         glm::vec4 powerup_pos;
         for (int i = 0; i < MAX_POWERUPS; i++)
         {
@@ -431,8 +412,7 @@ int main(int argc, char *argv[])
                 model =
                     Matrix_Translate(powerup_pos.x, powerup_pos.y, powerup_pos.z) *
                     Matrix_Scale(0.2, 0.2, 0.2);
-                glUniformMatrix4fv(g_model_uniform, 1, GL_FALSE, glm::value_ptr(model));
-                glDrawElements(g_VirtualScene["potion_health"].rendering_mode, g_VirtualScene["potion_health"].num_indices, GL_UNSIGNED_INT, (void *)(g_VirtualScene["potion_health"].first_index * sizeof(GLuint)));
+                DrawObjectModel(model, POTION_HEALTH, "potion_health");
             }
         }
 
@@ -450,9 +430,7 @@ int main(int argc, char *argv[])
                 Matrix_Rotate(cam.getPhi(), cam.getSideVec()) *
                 Matrix_Rotate(3.0f, cam.getSideVec()) *
                 Matrix_Rotate(cam.getTheta(), cam.getUpVec());
-        glUniformMatrix4fv(g_model_uniform, 1, GL_FALSE, glm::value_ptr(model));
-        glUniform1i(g_object_id_uniform, RIGHT_ARM);
-        DrawVirtualObject("right_arm");
+        DrawObjectModel(model, RIGHT_ARM, "right_arm");
 
         // Draw left arm
         arm_pos = cam.getPosition() - 0.25f * cam.getSideVec() + 0.3f * cam.getViewVec() - 0.15f * cam.getUpVec();
@@ -469,15 +447,13 @@ int main(int argc, char *argv[])
                 Matrix_Rotate(3.0f, cam.getSideVec()) *
                 Matrix_Rotate(3.0f, cam.getViewVec()) *
                 Matrix_Rotate(cam.getTheta(), cam.getUpVec());
-        glUniformMatrix4fv(g_model_uniform, 1, GL_FALSE, glm::value_ptr(model));
-        glUniform1i(g_object_id_uniform, LEFT_ARM);
         if (g_LeftMouseButtonPressed)
         {
-            DrawVirtualObject("left_arm_casting");
+            DrawObjectModel(model, LEFT_ARM, "left_arm_casting");
         }
         else
         {
-            DrawVirtualObject("left_arm");
+            DrawObjectModel(model, LEFT_ARM, "left_arm");
         }
 
         /* HUD Rendering */
@@ -486,35 +462,7 @@ int main(int argc, char *argv[])
         glUniformMatrix4fv(g_view_uniform, 1, GL_FALSE, glm::value_ptr(Matrix_Identity()));
         glUniformMatrix4fv(g_projection_uniform, 1, GL_FALSE, glm::value_ptr(Matrix_Identity()));
 
-        // Health bar
-        float hudBarTextureRatio = 91.0f / 24.0f;
-        float hudBarScale = 1.4f;
-
-        model = Matrix_Translate(-0.6f, -0.8f, 0.0f);
-        model *= Matrix_Scale(hudBarTextureRatio * hudBarScale, hudBarScale, 1.0f);
-
-        glUniformMatrix4fv(g_model_uniform, 1, GL_FALSE, glm::value_ptr(model));
-        glUniform1i(g_object_id_uniform, HUD_HEALTH);
-        glBindVertexArray(vertex_array_object_id);
-        glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_BYTE, 0);
-
-        PushMatrix(model);
-        model *= Matrix_Scale(0.625f * player.getHealthPercent(), 0.15f, 1.0f);
-        glUniformMatrix4fv(g_model_uniform, 1, GL_FALSE, glm::value_ptr(model));
-        glUniform1i(g_object_id_uniform, HUD_HEALTH_BAR);
-        glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_BYTE, 0);
-        PopMatrix(model);
-
-        // Mana bar
-        model *= Matrix_Translate(0.125f, 0.0f, 0.0f);
-        glUniformMatrix4fv(g_model_uniform, 1, GL_FALSE, glm::value_ptr(model));
-        glUniform1i(g_object_id_uniform, HUD_MANA);
-        glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_BYTE, 0);
-
-        model *= Matrix_Scale(0.625f * player.getManaPercent(), 0.15f, 1.0f);
-        glUniformMatrix4fv(g_model_uniform, 1, GL_FALSE, glm::value_ptr(model));
-        glUniform1i(g_object_id_uniform, HUD_MANA_BAR);
-        glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_BYTE, 0);
+        DrawHUD(window, player);
 
         glEnable(GL_DEPTH_TEST);
         TextRendering_ShowFramesPerSecond(window);

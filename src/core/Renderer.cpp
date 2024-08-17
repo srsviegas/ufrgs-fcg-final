@@ -103,82 +103,6 @@ void ComputeNormals(ObjModel *model)
     }
 }
 
-GLuint DrawHealthHUD(GLFWwindow *window)
-{
-    int width, height;
-    glfwGetWindowSize(window, &width, &height);
-
-    // Calculate the aspect ratio
-    float aspect_ratio = (float)width / (float)height;
-
-    GLfloat NDC_coefficients[] = {
-        // X             Y     Z     W
-        -0.1f / aspect_ratio, 0.1f, 0.0f, 1.0f,  // Top-left
-        -0.1f / aspect_ratio, -0.1f, 0.0f, 1.0f, // Bottom-left
-        0.1f / aspect_ratio, 0.1f, 0.0f, 1.0f,   // Top-right
-        0.1f / aspect_ratio, -0.1f, 0.0f, 1.0f   // Bottom-right
-    };
-    GLuint VBO_NDC_coefficients_id;
-    glGenBuffers(1, &VBO_NDC_coefficients_id);
-    GLuint vertex_array_object_id;
-    glGenVertexArrays(1, &vertex_array_object_id);
-    glBindVertexArray(vertex_array_object_id);
-    glBindBuffer(GL_ARRAY_BUFFER, VBO_NDC_coefficients_id);
-    glBufferData(GL_ARRAY_BUFFER, sizeof(NDC_coefficients), NULL, GL_STATIC_DRAW);
-    glBufferSubData(GL_ARRAY_BUFFER, 0, sizeof(NDC_coefficients), NDC_coefficients);
-    GLuint location = 0;            // "(location = 0)" em "shader_vertex.glsl"
-    GLint number_of_dimensions = 4; // vec4 em "shader_vertex.glsl"
-    glVertexAttribPointer(location, number_of_dimensions, GL_FLOAT, GL_FALSE, 0, 0);
-    glEnableVertexAttribArray(location);
-    glBindBuffer(GL_ARRAY_BUFFER, 0);
-
-    GLfloat color_coefficients[] = {
-        //  R     G     B     A
-        1.0f, 0.0f, 0.0f, 1.0f,
-        1.0f, 1.0f, 0.0f, 1.0f,
-        1.0f, 0.0f, 1.0f, 1.0f,
-        1.0f, 1.0f, 1.0f, 1.0f};
-    GLuint VBO_color_coefficients_id;
-    glGenBuffers(1, &VBO_color_coefficients_id);
-    glBindBuffer(GL_ARRAY_BUFFER, VBO_color_coefficients_id);
-    glBufferData(GL_ARRAY_BUFFER, sizeof(color_coefficients), NULL, GL_STATIC_DRAW);
-    glBufferSubData(GL_ARRAY_BUFFER, 0, sizeof(color_coefficients), color_coefficients);
-    location = 1;             // "(location = 1)" em "shader_vertex.glsl"
-    number_of_dimensions = 4; // vec4 em "shader_vertex.glsl"
-    glVertexAttribPointer(location, number_of_dimensions, GL_FLOAT, GL_FALSE, 0, 0);
-    glEnableVertexAttribArray(location);
-    glBindBuffer(GL_ARRAY_BUFFER, 0);
-
-    GLfloat texture_coefficients[] = {
-        // U     V
-        0.0f, 1.0f, // Top-left
-        0.0f, 0.0f, // Bottom-left
-        1.0f, 1.0f, // Top-right
-        1.0f, 0.0f  // Bottom-right
-    };
-
-    GLuint VBO_texture_coefficients_id;
-    glGenBuffers(1, &VBO_texture_coefficients_id);
-    glBindBuffer(GL_ARRAY_BUFFER, VBO_texture_coefficients_id);
-    glBufferData(GL_ARRAY_BUFFER, sizeof(texture_coefficients), NULL, GL_STATIC_DRAW);
-    glBufferSubData(GL_ARRAY_BUFFER, 0, sizeof(texture_coefficients), texture_coefficients);
-    location = 2;
-    number_of_dimensions = 2;
-    glVertexAttribPointer(location, number_of_dimensions, GL_FLOAT, GL_FALSE, 0, 0);
-    glEnableVertexAttribArray(location);
-    glBindBuffer(GL_ARRAY_BUFFER, 0);
-
-    GLubyte indices[] = {0, 1, 2, 2, 1, 3};
-    GLuint indices_id;
-    glGenBuffers(1, &indices_id);
-    glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, indices_id);
-    glBufferData(GL_ELEMENT_ARRAY_BUFFER, sizeof(indices), NULL, GL_STATIC_DRAW);
-    glBufferSubData(GL_ELEMENT_ARRAY_BUFFER, 0, sizeof(indices), indices);
-    glBindVertexArray(0);
-
-    return vertex_array_object_id;
-}
-
 // Constrói triângulos para futura renderização a partir de um ObjModel.
 void BuildTrianglesAndAddToVirtualScene(ObjModel *model)
 {
@@ -756,6 +680,122 @@ void DrawVirtualObject(const char *object_name)
     // "Desligamos" o VAO, evitando assim que operações posteriores venham a
     // alterar o mesmo. Isso evita bugs.
     glBindVertexArray(0);
+}
+
+void DrawObjectModel(glm::mat4 model, int object_id, const char *object_name)
+{
+    glUniformMatrix4fv(g_model_uniform, 1, GL_FALSE, glm::value_ptr(model));
+    glUniform1i(g_object_id_uniform, object_id);
+    DrawVirtualObject(object_name);
+}
+
+void DrawHUD(GLFWwindow *window, Player player)
+{
+    GLuint vertex_array_object_id = BuildSquare(window);
+    float hudBarTextureRatio = 91.0f / 24.0f;
+    float hudBarScale = 1.4f;
+
+    glm::mat4 model = Matrix_Translate(-0.6f, -0.8f, 0.0f);
+    model *= Matrix_Scale(hudBarTextureRatio * hudBarScale, hudBarScale, 1.0f);
+
+    glUniformMatrix4fv(g_model_uniform, 1, GL_FALSE, glm::value_ptr(model));
+    glUniform1i(g_object_id_uniform, HUD_HEALTH);
+    glBindVertexArray(vertex_array_object_id);
+    glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_BYTE, 0);
+
+    PushMatrix(model);
+    model *= Matrix_Scale(0.625f * player.getHealthPercent(), 0.15f, 1.0f);
+    glUniformMatrix4fv(g_model_uniform, 1, GL_FALSE, glm::value_ptr(model));
+    glUniform1i(g_object_id_uniform, HUD_HEALTH_BAR);
+    glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_BYTE, 0);
+    PopMatrix(model);
+
+    // Mana bar
+    model *= Matrix_Translate(0.125f, 0.0f, 0.0f);
+    glUniformMatrix4fv(g_model_uniform, 1, GL_FALSE, glm::value_ptr(model));
+    glUniform1i(g_object_id_uniform, HUD_MANA);
+    glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_BYTE, 0);
+
+    model *= Matrix_Scale(0.625f * player.getManaPercent(), 0.15f, 1.0f);
+    glUniformMatrix4fv(g_model_uniform, 1, GL_FALSE, glm::value_ptr(model));
+    glUniform1i(g_object_id_uniform, HUD_MANA_BAR);
+    glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_BYTE, 0);
+}
+
+GLuint BuildSquare(GLFWwindow *window)
+{
+    int width, height;
+    glfwGetWindowSize(window, &width, &height);
+
+    // Calculate the aspect ratio
+    float aspect_ratio = (float)width / (float)height;
+
+    GLfloat NDC_coefficients[] = {
+        // X             Y     Z     W
+        -0.1f / aspect_ratio, 0.1f, 0.0f, 1.0f,  // Top-left
+        -0.1f / aspect_ratio, -0.1f, 0.0f, 1.0f, // Bottom-left
+        0.1f / aspect_ratio, 0.1f, 0.0f, 1.0f,   // Top-right
+        0.1f / aspect_ratio, -0.1f, 0.0f, 1.0f   // Bottom-right
+    };
+    GLuint VBO_NDC_coefficients_id;
+    glGenBuffers(1, &VBO_NDC_coefficients_id);
+    GLuint vertex_array_object_id;
+    glGenVertexArrays(1, &vertex_array_object_id);
+    glBindVertexArray(vertex_array_object_id);
+    glBindBuffer(GL_ARRAY_BUFFER, VBO_NDC_coefficients_id);
+    glBufferData(GL_ARRAY_BUFFER, sizeof(NDC_coefficients), NULL, GL_STATIC_DRAW);
+    glBufferSubData(GL_ARRAY_BUFFER, 0, sizeof(NDC_coefficients), NDC_coefficients);
+    GLuint location = 0;            // "(location = 0)" em "shader_vertex.glsl"
+    GLint number_of_dimensions = 4; // vec4 em "shader_vertex.glsl"
+    glVertexAttribPointer(location, number_of_dimensions, GL_FLOAT, GL_FALSE, 0, 0);
+    glEnableVertexAttribArray(location);
+    glBindBuffer(GL_ARRAY_BUFFER, 0);
+
+    GLfloat color_coefficients[] = {
+        //  R     G     B     A
+        1.0f, 0.0f, 0.0f, 1.0f,
+        1.0f, 1.0f, 0.0f, 1.0f,
+        1.0f, 0.0f, 1.0f, 1.0f,
+        1.0f, 1.0f, 1.0f, 1.0f};
+    GLuint VBO_color_coefficients_id;
+    glGenBuffers(1, &VBO_color_coefficients_id);
+    glBindBuffer(GL_ARRAY_BUFFER, VBO_color_coefficients_id);
+    glBufferData(GL_ARRAY_BUFFER, sizeof(color_coefficients), NULL, GL_STATIC_DRAW);
+    glBufferSubData(GL_ARRAY_BUFFER, 0, sizeof(color_coefficients), color_coefficients);
+    location = 1;             // "(location = 1)" em "shader_vertex.glsl"
+    number_of_dimensions = 4; // vec4 em "shader_vertex.glsl"
+    glVertexAttribPointer(location, number_of_dimensions, GL_FLOAT, GL_FALSE, 0, 0);
+    glEnableVertexAttribArray(location);
+    glBindBuffer(GL_ARRAY_BUFFER, 0);
+
+    GLfloat texture_coefficients[] = {
+        // U     V
+        0.0f, 1.0f, // Top-left
+        0.0f, 0.0f, // Bottom-left
+        1.0f, 1.0f, // Top-right
+        1.0f, 0.0f  // Bottom-right
+    };
+
+    GLuint VBO_texture_coefficients_id;
+    glGenBuffers(1, &VBO_texture_coefficients_id);
+    glBindBuffer(GL_ARRAY_BUFFER, VBO_texture_coefficients_id);
+    glBufferData(GL_ARRAY_BUFFER, sizeof(texture_coefficients), NULL, GL_STATIC_DRAW);
+    glBufferSubData(GL_ARRAY_BUFFER, 0, sizeof(texture_coefficients), texture_coefficients);
+    location = 2;
+    number_of_dimensions = 2;
+    glVertexAttribPointer(location, number_of_dimensions, GL_FLOAT, GL_FALSE, 0, 0);
+    glEnableVertexAttribArray(location);
+    glBindBuffer(GL_ARRAY_BUFFER, 0);
+
+    GLubyte indices[] = {0, 1, 2, 2, 1, 3};
+    GLuint indices_id;
+    glGenBuffers(1, &indices_id);
+    glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, indices_id);
+    glBufferData(GL_ELEMENT_ARRAY_BUFFER, sizeof(indices), NULL, GL_STATIC_DRAW);
+    glBufferSubData(GL_ELEMENT_ARRAY_BUFFER, 0, sizeof(indices), indices);
+    glBindVertexArray(0);
+
+    return vertex_array_object_id;
 }
 
 // Função que carrega os shaders de vértices e de fragmentos que serão
