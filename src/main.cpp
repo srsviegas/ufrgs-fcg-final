@@ -58,7 +58,7 @@ int main(int argc, char *argv[])
         std::exit(EXIT_FAILURE);
     }
 
-    //e
+    // e
     float now;
     float last = 0;
     float timeDelta;
@@ -167,49 +167,69 @@ int main(int argc, char *argv[])
         timeDelta = now - last;
         last = now;
 
+        bool gameplayIsActive = true;
+
         glClearColor(0.0f, 0.0f, 0.0f, 1.0f); // Background color
         glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
         glUseProgram(g_GpuProgramID);
 
+        /* Set camera mode */
+        glm::vec4 view_vector;
+        glm::vec4 camera_position;
+        if (cam.GetMode() == CAMERA_FIRST_PERSON)
+        {
+            view_vector = cam.getViewVec();
+            gameplayIsActive = true;
+        }
+        else if (cam.GetMode() == CAMERA_LOOK_AT)
+        {
+            camera_position = glm::vec4(LOOK_AT_RADIUS * glm::vec3(cam.getViewVec()), 1.0f);
+            view_vector = cam.GetLookAt() - camera_position;
+            gameplayIsActive = false;
+        }
+
         /* Gameplay macros */
-        // Calculate free camera movements
-        glm::vec4 movementDirection = cam.getViewVec();
-        movementDirection.y = 0.0f; // Fixate vertical movement
-        movementDirection = normalize(movementDirection);
-        if (isKeyDown_W)
+        if (gameplayIsActive)
         {
-            player.move(timeDelta, movementDirection, level);
-        }
-        if (isKeyDown_S)
-        {
-            player.move(timeDelta, -movementDirection, level);
-        }
-        if (isKeyDown_A)
-        {
-            player.move(timeDelta, -cam.getSideVec(), level);
-        }
-        if (isKeyDown_D)
-        {
-            player.move(timeDelta, cam.getSideVec(), level);
-        }
-        if (g_LeftMouseButtonPressed)
-        {
-            if (player.getMana() >= 5)
+            // Calculate free camera movements
+            glm::vec4 movementDirection = cam.getViewVec();
+            movementDirection.y = 0.0f; // Fixate vertical movement
+            movementDirection = normalize(movementDirection);
+            if (isKeyDown_W)
             {
-                if (!projectiles.onCooldown(PLAYER_ID, now))
+                player.move(timeDelta, movementDirection, level);
+            }
+            if (isKeyDown_S)
+            {
+                player.move(timeDelta, -movementDirection, level);
+            }
+            if (isKeyDown_A)
+            {
+                player.move(timeDelta, -cam.getSideVec(), level);
+            }
+            if (isKeyDown_D)
+            {
+                player.move(timeDelta, cam.getSideVec(), level);
+            }
+            if (g_LeftMouseButtonPressed)
+            {
+                if (player.getMana() >= 5)
                 {
-                    projectiles.shoot(
-                        0,
-                        PLAYER_ID,
-                        0.15f,
-                        cam.getPosition() - 0.38f * cam.getSideVec() + 0.6f * cam.getViewVec() - 0.10f * cam.getUpVec(),
-                        cam.getViewVec(),
-                        20.0f, -40.0f,
-                        5.0f,
-                        0.5f,
-                        now,
-                        glm::vec3(0.2f, 0.2f, 0.2f));
-                    player.setMana(player.getMana() - 5);
+                    if (!projectiles.onCooldown(PLAYER_ID, now))
+                    {
+                        projectiles.shoot(
+                            0,
+                            PLAYER_ID,
+                            0.15f,
+                            cam.getPosition() - 0.38f * cam.getSideVec() + 0.6f * cam.getViewVec() - 0.10f * cam.getUpVec(),
+                            cam.getViewVec(),
+                            20.0f, -40.0f,
+                            5.0f,
+                            0.5f,
+                            now,
+                            glm::vec3(0.2f, 0.2f, 0.2f));
+                        player.setMana(player.getMana() - 5);
+                    }
                 }
             }
         }
@@ -243,18 +263,23 @@ int main(int argc, char *argv[])
         }
 
         /* Step game entities */
-        cam.setPosition(player.getPosition());
-        projectiles.step(now, timeDelta);
-        player.update(timeDelta);
-        enemies.step(now,timeDelta,&player,&projectiles);
-        power_ups.step(&player, timeDelta);
+        if (gameplayIsActive)
+        {
+            cam.setPosition(player.getPosition());
+            camera_position = cam.getPosition();
+            projectiles.step(now, timeDelta);
+            player.update(timeDelta);
+            enemies.step(now, timeDelta, &player, &projectiles);
+            power_ups.step(&player, timeDelta);
+        }
 
         /* check collisions */
 
-        //player projetiles with enemies
+        // player projetiles with enemies
         Projectile *proj = projectiles.getProjectiles();
         GameEntity *enem = enemies.getEntities();
-        for (int i = 0; i < projectiles.getSize(); i++) {
+        for (int i = 0; i < projectiles.getSize(); i++)
+        {
             if (proj[i].status && proj[i].shooter_id == PLAYER_ID)
             {
                 for (int j = 0; j < MAX_ENTITIES; j++)
@@ -280,31 +305,20 @@ int main(int argc, char *argv[])
             }
         }
 
-        //enemy projectiles with player
+        // enemy projectiles with player
         for (int i = 0; i < projectiles.getSize(); i++)
         {
             if (proj[i].status && proj[i].shooter_id != PLAYER_ID)
             {
-                if (player.GetCollision().IsCollidingAABB(proj[i].bbox)){
+                if (player.GetCollision().IsCollidingAABB(proj[i].bbox))
+                {
                     player.damage(proj[i].damage);
                     proj[i].status = false;
                 }
             }
         }
 
-
-        /* Set camera mode */
-        glm::mat4 view;
-        if (cam.GetMode() == CAMERA_FIRST_PERSON)
-        {
-            view = Matrix_Camera_View(cam.getPosition(), cam.getViewVec(), cam.getUpVec());
-        }
-        else if (cam.GetMode() == CAMERA_LOOK_AT)
-        {
-            glm::vec4 view_vector = cam.GetLookAt() - cam.getPosition();
-            view = Matrix_Camera_View(cam.getPosition(), view_vector, cam.getUpVec());
-        }
-
+        glm::mat4 view = Matrix_Camera_View(camera_position, view_vector, cam.getUpVec());
         glm::mat4 projection;
         float field_of_view = 3.141592 / 3.0f;
         projection = Matrix_Perspective(field_of_view, g_ScreenRatio, cam.getNearPlane(), cam.getFarPlane());
@@ -414,27 +428,6 @@ int main(int argc, char *argv[])
             }
         }
 
-        // enemy billboards
-        for (int i = 0; i < MAX_ENTITIES; i++)
-        {
-            portalPosition = enms[i].position + glm::vec4(0.0f, 0.5f, 0.0f, 0.0f);
-            portalNormal = glm::vec4(0.0f, 0.0f, 1.0f, 0.0f);
-            portalDirection = glm::normalize(cam.getPosition() - portalPosition);
-            rotationAngle = glm::acos(glm::dot(portalNormal, portalDirection));
-            crossProduct = crossproduct(portalNormal, portalDirection);
-
-            portalUp = glm::vec4(0.0f, 1.0f, 0.0f, 0.0f);
-
-            if (glm::dot(crossProduct, portalUp) < 0.0f)
-                rotationAngle = 2.0f * glm::pi<float>() - rotationAngle;
-
-            model = Matrix_Translate(portalPosition.x, portalPosition.y, portalPosition.z);
-            model *= Matrix_Rotate_Y(rotationAngle);
-            model *= Matrix_Rotate_X(glm::radians(90.0f));
-            model *= Matrix_Scale(enms[i].health / enms[i].maxhealth * 0.3, 0.03f, 0.03f);
-            DrawObjectModel(model, HUD_HEALTH_BAR, "the_plane");
-        }
-
         // draw powerups
         Powerup *pwrs = power_ups.getPowerUps();
         glm::vec4 powerup_pos;
@@ -450,53 +443,86 @@ int main(int argc, char *argv[])
             }
         }
 
-        // Draw right arm
-        glm::vec4 arm_pos = cam.getPosition() + 0.25f * cam.getSideVec() + 0.3f * cam.getViewVec() - 0.15f * cam.getUpVec();
-        if (isKeyDown_W || isKeyDown_A || isKeyDown_S || isKeyDown_D)
+        // First person mode rendering phase (arms and HUD)
+        if (cam.GetMode() == CAMERA_FIRST_PERSON)
         {
-            arm_pos.y += 0.02f * cos(4 * now);
-        }
-        else
-        {
-            arm_pos.y += 0.02f * cos(now);
-        }
-        model = Matrix_Translate(arm_pos.x, arm_pos.y, arm_pos.z) * Matrix_Scale(0.01f, 0.01f, 0.01f) *
-                Matrix_Rotate(cam.getPhi(), cam.getSideVec()) *
-                Matrix_Rotate(3.0f, cam.getSideVec()) *
-                Matrix_Rotate(cam.getTheta(), cam.getUpVec());
-        DrawObjectModel(model, RIGHT_ARM, "right_arm");
+            // Draw enemy health
+            for (int i = 0; i < MAX_ENTITIES; i++)
+            {
+                portalPosition = enms[i].position + glm::vec4(0.0f, 0.5f, 0.0f, 0.0f);
+                portalNormal = glm::vec4(0.0f, 0.0f, 1.0f, 0.0f);
+                portalDirection = glm::normalize(cam.getPosition() - portalPosition);
+                rotationAngle = glm::acos(glm::dot(portalNormal, portalDirection));
+                crossProduct = crossproduct(portalNormal, portalDirection);
 
-        // Draw left arm
-        arm_pos = cam.getPosition() - 0.25f * cam.getSideVec() + 0.3f * cam.getViewVec() - 0.15f * cam.getUpVec();
-        if (isKeyDown_W || isKeyDown_A || isKeyDown_S || isKeyDown_D)
-        {
-            arm_pos.y += 0.02f * cos(4 * now);
-        }
-        else
-        {
-            arm_pos.y += 0.02f * cos(now);
-        }
-        model = Matrix_Translate(arm_pos.x, arm_pos.y, arm_pos.z) * Matrix_Scale(0.01f, 0.01f, 0.01f) *
-                Matrix_Rotate(-cam.getPhi(), cam.getSideVec()) *
-                Matrix_Rotate(3.0f, cam.getSideVec()) *
-                Matrix_Rotate(3.0f, cam.getViewVec()) *
-                Matrix_Rotate(cam.getTheta(), cam.getUpVec());
-        if (g_LeftMouseButtonPressed)
-        {
-            DrawObjectModel(model, LEFT_ARM, "left_arm_casting");
-        }
-        else
-        {
-            DrawObjectModel(model, LEFT_ARM, "left_arm");
-        }
+                portalUp = glm::vec4(0.0f, 1.0f, 0.0f, 0.0f);
 
-        /* HUD Rendering */
-        glDisable(GL_DEPTH_TEST);
-        glDisable(GL_CULL_FACE);
-        glUniformMatrix4fv(g_view_uniform, 1, GL_FALSE, glm::value_ptr(Matrix_Identity()));
-        glUniformMatrix4fv(g_projection_uniform, 1, GL_FALSE, glm::value_ptr(Matrix_Identity()));
+                if (glm::dot(crossProduct, portalUp) < 0.0f)
+                    rotationAngle = 2.0f * glm::pi<float>() - rotationAngle;
 
-        DrawHUD(window, player);
+                model = Matrix_Translate(portalPosition.x, portalPosition.y, portalPosition.z);
+                model *= Matrix_Rotate_Y(rotationAngle);
+                model *= Matrix_Rotate_X(glm::radians(90.0f));
+                model *= Matrix_Scale(enms[i].health / enms[i].maxhealth * 0.3, 0.03f, 0.03f);
+                DrawObjectModel(model, HUD_HEALTH_BAR, "the_plane");
+            }
+
+            // Draw right arm
+            glm::vec4 arm_pos = cam.getPosition() + 0.25f * cam.getSideVec() + 0.3f * cam.getViewVec() - 0.15f * cam.getUpVec();
+            if (isKeyDown_W || isKeyDown_A || isKeyDown_S || isKeyDown_D)
+            {
+                arm_pos.y += 0.02f * cos(4 * now);
+            }
+            else
+            {
+                arm_pos.y += 0.02f * cos(now);
+            }
+            model = Matrix_Translate(arm_pos.x, arm_pos.y, arm_pos.z) * Matrix_Scale(0.01f, 0.01f, 0.01f) *
+                    Matrix_Rotate(cam.getPhi(), cam.getSideVec()) *
+                    Matrix_Rotate(3.0f, cam.getSideVec()) *
+                    Matrix_Rotate(cam.getTheta(), cam.getUpVec());
+            DrawObjectModel(model, RIGHT_ARM, "right_arm");
+
+            // Draw left arm
+            arm_pos = cam.getPosition() - 0.25f * cam.getSideVec() + 0.3f * cam.getViewVec() - 0.15f * cam.getUpVec();
+            if (isKeyDown_W || isKeyDown_A || isKeyDown_S || isKeyDown_D)
+            {
+                arm_pos.y += 0.02f * cos(4 * now);
+            }
+            else
+            {
+                arm_pos.y += 0.02f * cos(now);
+            }
+            model = Matrix_Translate(arm_pos.x, arm_pos.y, arm_pos.z) * Matrix_Scale(0.01f, 0.01f, 0.01f) *
+                    Matrix_Rotate(-cam.getPhi(), cam.getSideVec()) *
+                    Matrix_Rotate(3.0f, cam.getSideVec()) *
+                    Matrix_Rotate(3.0f, cam.getViewVec()) *
+                    Matrix_Rotate(cam.getTheta(), cam.getUpVec());
+            if (g_LeftMouseButtonPressed)
+            {
+                DrawObjectModel(model, LEFT_ARM, "left_arm_casting");
+            }
+            else
+            {
+                DrawObjectModel(model, LEFT_ARM, "left_arm");
+            }
+
+            // Draw HUD
+            glDisable(GL_DEPTH_TEST);
+            glDisable(GL_CULL_FACE);
+            glUniformMatrix4fv(g_view_uniform, 1, GL_FALSE, glm::value_ptr(Matrix_Identity()));
+            glUniformMatrix4fv(g_projection_uniform, 1, GL_FALSE, glm::value_ptr(Matrix_Identity()));
+
+            DrawHUD(window, player);
+        }
+        // Map viewing mode rendering phase
+        else if (cam.GetMode() == CAMERA_LOOK_AT)
+        {
+            glm::vec4 playerPosition = player.getPosition();
+            model = Matrix_Scale(0.5f, 0.5f, 0.5f);
+            model *= Matrix_Translate(playerPosition.x, playerPosition.y, playerPosition.z);
+            DrawObjectModel(model, TORCH, "the_sphere");
+        }
 
         glEnable(GL_DEPTH_TEST);
         TextRendering_ShowFramesPerSecond(window);
