@@ -116,6 +116,7 @@ int main(int argc, char *argv[])
     LoadTextureImage("../../data/bar-health.png");        // TextureImage6
     LoadTextureImage("../../data/bar-mana.png");          // TextureImage7
     LoadTextureImage("../../data/torch.png");             // TextureImage8
+    LoadTextureImage("../../data/ghoul_txt.png");             // TextureImage9
 
     /* BUILDING OBJECTS */
     ObjModel planemodel("../../data/plane.obj");
@@ -149,6 +150,10 @@ int main(int argc, char *argv[])
     ObjModel torch("../../data/torch.obj");
     ComputeNormals(&torch);
     BuildTrianglesAndAddToVirtualScene(&torch);
+
+    ObjModel enemy_flyer("../../data/ghoul.obj");
+    ComputeNormals(&enemy_flyer);
+    BuildTrianglesAndAddToVirtualScene(&enemy_flyer);
 
     uint16_t currentLevel = 1;
 
@@ -430,9 +435,9 @@ int main(int argc, char *argv[])
             {
                 model =
                     Matrix_Translate(enms[i].position.x, enms[i].position.y, enms[i].position.z) *
-                    Matrix_Scale(0.2, 0.2, 0.2) *
-                    Matrix_Rotate_Y(3.14f - angleAroundY(enms[i].direction));
-                DrawObjectModel(model, ENEMY_TYPE_1, "the_bunny");
+                    Matrix_Scale(0.003, 0.003, 0.003) *
+                    Matrix_Rotate_Y(0.5f * glm::pi<float>() - angleAroundY(enms[i].direction));
+                DrawObjectModel(model, ENTITY_FLYER, "ghoul");
             }
         }
 
@@ -471,7 +476,7 @@ int main(int argc, char *argv[])
                 model = Matrix_Translate(barPosition.x, barPosition.y, barPosition.z);
                 model *= Matrix_Rotate_Y(rotationAngle);
                 model *= Matrix_Rotate_X(glm::radians(90.0f));
-                model *= Matrix_Scale(enms[i].health / enms[i].maxhealth * 0.3, 0.03f, 0.03f);
+                model *= Matrix_Scale(enms[i].health/enms[i].maxhealth * 0.3, 0.03f, 0.03f);
                 DrawObjectModel(model, HUD_HEALTH_BAR, "the_plane");
             }
 

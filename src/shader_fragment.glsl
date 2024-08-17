@@ -38,7 +38,7 @@ uniform int waterproj_count;
 #define RIGHT_ARM 10        // Player's right arm
 #define TORCH 11            // Map torches
 #define OBJECTIVE_PORTAL 12 // Objective portal
-#define ENEMY_TYPE_1 13     // Enemy 1
+#define ENTITY_FLYER 13     // Enemy 1
 #define POTION_HEALTH 14    // Health potion
 uniform int object_id;
 
@@ -56,6 +56,7 @@ uniform sampler2D TextureImage5;
 uniform sampler2D TextureImage6;
 uniform sampler2D TextureImage7;
 uniform sampler2D TextureImage8;
+uniform sampler2D TextureImage9;
 
 // Fragment's color
 out vec4 color;
@@ -144,9 +145,11 @@ void main() {
         Ks = tex.rgb;
         Ka = tex.rgb * 0.25;
         color.a = tex.a;
-    } else if (object_id == ENEMY_TYPE_1) {
-        Kd = vec3(1.0, 0.0, 0.0);
-        Ks = vec3(0.4);
+    } else if (object_id == ENTITY_FLYER) {
+        vec3 tex = texture(TextureImage9, vec2(U, V)).rgb;
+        Kd = tex;
+        Ks = tex;
+        Ka = tex * 0.3;
     }
     else if (object_id == POTION_HEALTH) {
         vec3 tex = texture(TextureImage4, vec2(U, V)).rgb;

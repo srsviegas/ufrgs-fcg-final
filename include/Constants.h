@@ -27,7 +27,6 @@
 #define RIGHT_ARM 10        // Player's right arm
 #define TORCH 11            // Map torches
 #define OBJECTIVE_PORTAL 12 // Objective portal
-#define ENEMY_TYPE_1 13     // Enemy 1
 #define POTION_HEALTH 14    // Health potion
 
 #define OBJECTIVE_RADIUS 0.5 // Radius of objective collision
@@ -40,7 +39,7 @@
 #define STATE_CHASING 2
 
 /* Game Entity types */
-#define ENTITY_FLYER 0
+#define ENTITY_FLYER 13
 #define ENTITY_RUNNER 1
 #define ENTITY_CRAWLER 2
 
