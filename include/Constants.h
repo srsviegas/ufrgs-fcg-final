@@ -1,11 +1,12 @@
 /* Projectiles */
-#define MAX_PROJECTILES 10 // Maximum number of player projectiles at once
+#define MAX_PROJECTILES 20 // Maximum number of global projectiles at once
 
 /* Powerups */
 #define MAX_POWERUPS 10            // Maximum number of powerups at once
 #define POWERUP_COLLECT_SPEED 0.7f // Speed of powerup item movement
 
 /* Player default values */
+#define PLAYER_ID 0
 #define MAX_HEALTH 100              // Player health
 #define MAX_MANA 100                // Player mana
 #define MANA_REGENFACTOR 5          // Player mana regeneration factor
@@ -37,6 +38,11 @@
 #define STATE_IDLE 0
 #define STATE_ROAMING 1
 #define STATE_CHASING 2
+
+/* Game Entity types */
+#define ENTITY_FLYER 0
+#define ENTITY_RUNNER 1
+#define ENTITY_CRAWLER 2
 
 /* Entity Controller values */
 #define ENEMY_CHANCE_PER_TILE 30 // Enemy spawn chance per tile (0-100%)

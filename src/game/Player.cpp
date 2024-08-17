@@ -71,6 +71,8 @@ void Player::setMana(float amount)
 void Player::damage(float hp)
 {
     health -= hp;
+    if(health < 0)
+        health = 0;
 }
 
 float Player::getWalkSpeed() const
