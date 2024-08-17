@@ -118,6 +118,8 @@ int main(int argc, char *argv[])
     LoadTextureImage("../../data/torch.png");             // TextureImage8
     LoadTextureImage("../../data/ghoul_txt.png");         // TextureImage9
     LoadTextureImage("../../data/map-pointer.jpg");       // TextureImage10
+    LoadTextureImage("../../data/mana.png");              // TextureImage11
+    LoadTextureImage("../../data/health.png");            // TextureImage12
 
     /* BUILDING OBJECTS */
     ObjModel planemodel("../../data/plane.obj");

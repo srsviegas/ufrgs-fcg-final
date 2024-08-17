@@ -863,6 +863,8 @@ void LoadShadersFromFiles()
     glUniform1i(glGetUniformLocation(g_GpuProgramID, "TextureImage8"), 8);
     glUniform1i(glGetUniformLocation(g_GpuProgramID, "TextureImage9"), 9);
     glUniform1i(glGetUniformLocation(g_GpuProgramID, "TextureImage10"), 10);
+    glUniform1i(glGetUniformLocation(g_GpuProgramID, "TextureImage11"), 11);
+    glUniform1i(glGetUniformLocation(g_GpuProgramID, "TextureImage12"), 12);
 
     glUseProgram(0);
 }
