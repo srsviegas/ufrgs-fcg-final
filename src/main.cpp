@@ -115,6 +115,8 @@ int main(int argc, char *argv[])
     LoadTextureImage("../../data/water.png");             // TextureImage3
     LoadTextureImage("../../data/health_potion_txt.jpg"); // TextureImage4
     LoadTextureImage("../../data/portal.png");            // TextureImage5
+    LoadTextureImage("../../data/health_txt.jpg"); // TextureImage6
+    LoadTextureImage("../../data/mana_txt.jpg");            // TextureImage7
 
     /* BUILDING OBJECTS */
     ObjModel planemodel("../../data/plane.obj");
@@ -254,9 +256,8 @@ int main(int argc, char *argv[])
         player_projectiles.step(now, timeDelta);
         player.update(timeDelta);
         enemies.step(timeDelta, player);
-        power_ups.step(player, timeDelta);
+        power_ups.step(&player, timeDelta);
 
-        bool was_killed = false;
         /* check collisions */
         Projectile *proj = player_projectiles.getProjectiles();
         GameEntity *enem = enemies.getEntities();
@@ -270,13 +271,9 @@ int main(int argc, char *argv[])
                     {
                         if (isColliding(proj[i].getBoundingBox(), enem[j].getBoundingBox()))
                         {
-                            // printf("\ncollided");
-                            was_killed = enem[j].damage(proj[i].getDamage());
                             proj[i].deactivate();
-                        }
-                        if (was_killed)
-                        {
-                            power_ups.spawn(
+                            if(enem[j].damage(proj[i].getDamage()))
+                                power_ups.spawn(
                                 enem[j].getPosition(),
                                 20.0f,
                                 50.0f,
@@ -391,16 +388,39 @@ int main(int argc, char *argv[])
         glUniform1i(g_object_id_uniform, ENEMY_TYPE_1);
         for (int i = 0; i < MAX_ENTITIES; i++)
         {
-            model =
-                Matrix_Translate(enms[i].getPosition().x, enms[i].getPosition().y, enms[i].getPosition().z) *
-                Matrix_Scale(0.2, 0.2, 0.2) *
-                Matrix_Rotate_Y(3.14f - angleAroundY(enms[i].getDirection()));
-            glUniformMatrix4fv(g_model_uniform, 1, GL_FALSE, glm::value_ptr(model));
             if (enms[i].isActive())
             {
+                model =
+                    Matrix_Translate(enms[i].getPosition().x, enms[i].getPosition().y, enms[i].getPosition().z) *
+                    Matrix_Scale(0.2, 0.2, 0.2) *
+                    Matrix_Rotate_Y(3.14f - angleAroundY(enms[i].getDirection()));
+                glUniformMatrix4fv(g_model_uniform, 1, GL_FALSE, glm::value_ptr(model));
                 glDrawElements(g_VirtualScene["the_bunny"].rendering_mode, g_VirtualScene["the_bunny"].num_indices, GL_UNSIGNED_INT, (void *)(g_VirtualScene["the_bunny"].first_index * sizeof(GLuint)));
             }
         }
+
+        //enemy billboards
+        for(int i = 0; i < MAX_ENTITIES; i++) {
+            portalPosition = enms[i].getPosition() + glm::vec4(0.0f,0.5f,0.0f,0.0f);
+            portalNormal = glm::vec4(0.0f, 0.0f, 1.0f, 0.0f);
+            portalDirection = glm::normalize(cam.getPosition() - portalPosition);
+            rotationAngle = glm::acos(glm::dot(portalNormal, portalDirection));
+            crossProduct = crossproduct(portalNormal, portalDirection);
+
+            portalUp = glm::vec4(0.0f, 1.0f, 0.0f, 0.0f);
+
+            if (glm::dot(crossProduct, portalUp) < 0.0f)
+                rotationAngle = 2.0f * glm::pi<float>() - rotationAngle;
+
+            model = Matrix_Translate(portalPosition.x, portalPosition.y, portalPosition.z);
+            model *= Matrix_Rotate_Y(rotationAngle);
+            model *= Matrix_Rotate_X(glm::radians(90.0f));
+            model *= Matrix_Scale(enms[i].getHealthPercent() * 0.3, 0.03f, 0.03f);
+            glUniformMatrix4fv(g_model_uniform, 1, GL_FALSE, glm::value_ptr(model));
+            glUniform1i(g_object_id_uniform, HUD_HEALTH);
+            DrawVirtualObject("the_plane");
+        }
+
 
         // draw powerups
         Powerup *pwrs = power_ups.getPowerUps();
@@ -471,17 +491,21 @@ int main(int argc, char *argv[])
         glUniformMatrix4fv(g_projection_uniform, 1, GL_FALSE, glm::value_ptr(Matrix_Identity()));
 
         // Health bar
-        model = Matrix_Translate(0.0f, -0.9f, 0.0f) * Matrix_Scale(player.getHealthPercent(), 1.0f, 1.0f);
+        model =
+            Matrix_Rotate_X(glm::radians(90.0f)) *
+                Matrix_Translate(0.0f, -0.0f, 0.9f) *
+                    Matrix_Scale(player.getHealthPercent() * 0.2, 0.05f, 0.05f);
         glUniformMatrix4fv(g_model_uniform, 1, GL_FALSE, glm::value_ptr(model));
         glUniform1i(g_object_id_uniform, HUD_HEALTH);
-        glBindVertexArray(vertex_array_object_id);
-        glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_BYTE, 0);
+        DrawVirtualObject("the_plane");
 
         // Mana bar
-        model = Matrix_Translate(-0.7f, -0.9f, 0.0f) * Matrix_Scale(player.getManaPercent(), 1.0f, 1.0f);
+        model = Matrix_Rotate_X(glm::radians(90.0f)) *
+            Matrix_Translate(-0.7f, -0.9f, 0.9f) *
+                Matrix_Scale(player.getManaPercent() * 0.2, 0.05f, 0.05f);
         glUniformMatrix4fv(g_model_uniform, 1, GL_FALSE, glm::value_ptr(model));
         glUniform1i(g_object_id_uniform, HUD_MANA);
-        glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_BYTE, 0);
+        DrawVirtualObject("the_plane");
 
         glEnable(GL_DEPTH_TEST);
         TextRendering_ShowFramesPerSecond(window);

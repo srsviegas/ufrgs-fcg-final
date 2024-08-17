@@ -52,6 +52,8 @@ uniform sampler2D TextureImage2;
 uniform sampler2D TextureImage3;
 uniform sampler2D TextureImage4;
 uniform sampler2D TextureImage5;
+uniform sampler2D TextureImage6;
+uniform sampler2D TextureImage7;
 
 // Fragment's color
 out vec4 color;
@@ -106,9 +108,17 @@ void main() {
         Ka = tex * 0.01;
         q = 8.0;
     } else if (object_id == HUD_HEALTH) {
-        Ka = vec3(1.0, 0.0, 0.0);
+        vec3 tex = texture(TextureImage6, vec2(U,V)).rgb;
+                Kd = tex;
+                Ks = tex;
+                Ka = tex;
+                q = 0.0;
     } else if (object_id == HUD_MANA) {
-        Ka = vec3(0.0, 0.0, 1.0);
+        vec3 tex = texture(TextureImage7, vec2(U,V)).rgb;
+        Kd = tex;
+        Ks = tex;
+        Ka = tex;
+        q = 0.0;
     } else if (object_id == RIGHT_ARM || object_id == LEFT_ARM) {
         vec3 tex = texture(TextureImage2, vec2(U, V)).rgb;
         Kd = tex * 0.5;
