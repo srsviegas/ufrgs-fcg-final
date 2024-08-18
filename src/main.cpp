@@ -346,6 +346,10 @@ int main(int argc, char *argv[])
         if (level.ObjectiveReached(player.getPosition()))
         {
             currentLevel++;
+            if (currentLevel > LEVEL_COUNT)
+            {
+                currentLevel = 1;
+            }
             player = Player();
             level = Level(currentLevel);
             enemies = EntityController(level);
