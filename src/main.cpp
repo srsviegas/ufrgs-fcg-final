@@ -168,6 +168,8 @@ int main(int argc, char *argv[])
     ComputeNormals(&sword);
     BuildTrianglesAndAddToVirtualScene(&sword);
 
+    GLuint vertex_array_object_id = BuildSquare(window);
+    glBindVertexArray(vertex_array_object_id);
 
     uint16_t currentLevel = 1;
 
@@ -183,6 +185,10 @@ int main(int argc, char *argv[])
     glEnable(GL_CULL_FACE);
     glCullFace(GL_BACK);
     glFrontFace(GL_CCW);
+
+    Projectile *proj = projectiles.getProjectiles();
+    GameEntity *enem = enemies.getEntities();
+    Powerup *pwrs = power_ups.getPowerUps();
 
     /* MAIN LOOP */
     while (!glfwWindowShouldClose(window))
@@ -319,8 +325,6 @@ int main(int argc, char *argv[])
         /* check collisions */
 
         // player projetiles with enemies
-        Projectile *proj = projectiles.getProjectiles();
-        GameEntity *enem = enemies.getEntities();
         for (int i = 0; i < projectiles.getSize(); i++)
         {
             if (proj[i].status && proj[i].shooter_type == PLAYER_ID)
@@ -351,7 +355,7 @@ int main(int argc, char *argv[])
         // enemy projectiles with player
         for (int i = 0; i < projectiles.getSize(); i++)
         {
-            if (proj[i].status && proj[i].shooter_id != PLAYER_ID)
+            if (proj[i].status && proj[i].shooter_type != PLAYER_ID)
             {
                 if (player.GetCollision().IsCollidingAABB(proj[i].bbox))
                 {
@@ -467,21 +471,30 @@ int main(int argc, char *argv[])
         glUniform1i(g_waterproj_count_uniform, projectile_count);
 
         // draw enemies
-        GameEntity *enms = enemies.getEntities();
         for (int i = 0; i < MAX_ENTITIES; i++)
         {
-            if (enms[i].status)
+            if (enem[i].status)
             {
-                model =
-                    Matrix_Translate(enms[i].position.x, enms[i].position.y, enms[i].position.z) *
+                if(enem[i].type == ENTITY_FLYER) {
+                    model =
+                    Matrix_Translate(enem[i].position.x, enem[i].position.y, enem[i].position.z) *
                     Matrix_Scale(0.003, 0.003, 0.003) *
-                    Matrix_Rotate_Y(0.5f * glm::pi<float>() - angleAroundY(enms[i].direction));
-                DrawObjectModel(model, ENTITY_FLYER, "ghoul");
+                    Matrix_Rotate_Y(0.5f * glm::pi<float>() - angleAroundY(enem[i].direction));
+                    DrawObjectModel(model, ENTITY_FLYER, "ghoul");
+                }
+                else if(enem[i].type == ENTITY_CRAWLER) {
+                    model =
+                    Matrix_Translate(enem[i].position.x, enem[i].position.y, enem[i].position.z) *
+                    Matrix_Scale(0.3, 0.3, 0.3) *
+                    Matrix_Rotate_Y(0.5f * glm::pi<float>() - angleAroundY(enem[i].direction));
+                    DrawObjectModel(model, ENTITY_FLYER, "the_bunny");
+                }
+                else if(enem[i].type == ENTITY_RUNNER) {
+                }
             }
         }
 
         // draw powerups
-        Powerup *pwrs = power_ups.getPowerUps();
         glm::vec4 powerup_pos;
         for (int i = 0; i < MAX_POWERUPS; i++)
         {
@@ -501,11 +514,11 @@ int main(int argc, char *argv[])
             // Draw enemy health bars
             for (int i = 0; i < MAX_ENTITIES; i++)
             {
-                glm::vec4 barPosition = enms[i].position + glm::vec4(0.0f, 0.5f, 0.0f, 0.0f);
+                glm::vec4 barPosition = enem[i].position + glm::vec4(0.0f, 0.5f, 0.0f, 0.0f);
                 glm::vec4 barNormal = glm::vec4(0.0f, 0.0f, 1.0f, 0.0f);
                 glm::vec4 barDirection = glm::normalize(cam.getPosition() - barPosition);
-                float rotationAngle = glm::acos(glm::dot(barNormal, barDirection));
-                glm::vec4 crossProduct = crossproduct(barNormal, barDirection);
+                rotationAngle = glm::acos(glm::dot(barNormal, barDirection));
+                crossProduct = crossproduct(barNormal, barDirection);
 
                 upVector = glm::vec4(0.0f, 1.0f, 0.0f, 0.0f);
 
@@ -515,7 +528,7 @@ int main(int argc, char *argv[])
                 model = Matrix_Translate(barPosition.x, barPosition.y, barPosition.z);
                 model *= Matrix_Rotate_Y(rotationAngle);
                 model *= Matrix_Rotate_X(glm::radians(90.0f));
-                model *= Matrix_Scale(enms[i].health / enms[i].maxhealth * 0.3, 0.03f, 0.03f);
+                model *= Matrix_Scale(enem[i].health / enem[i].maxhealth * 0.3, 0.03f, 0.03f);
                 DrawObjectModel(model, HUD_HEALTH_BAR, "the_plane");
             }
 
@@ -544,7 +557,7 @@ int main(int argc, char *argv[])
                         Matrix_Scale(0.8f,0.8f,0.8f);
             DrawObjectModel(model, SWORD, "sword2");
 
-            
+
             // Draw left arm
             arm_pos = cam.getPosition() - 0.25f * cam.getSideVec() + 0.3f * cam.getViewVec() - 0.15f * cam.getPerpendicular();
             if (isKeyDown_W || isKeyDown_A || isKeyDown_S || isKeyDown_D)

@@ -22,14 +22,15 @@ EntityController::EntityController(Level levelData)
         for (int x = 0; x < levelData.GetMapWidth(); x++) {
             if (chance(ENEMY_CHANCE_PER_TILE) && levelData.IsFloor(x, z) && !(levelData.IsPlayerSpawn(x, z))) {
                 addEntity(
-                    last_added,
-                    ENTITY_FLYER,
-                    100.0f,
-                    1.0f,
-                    3.0f,
-                    1.0f,
-                    levelData.MapPositionToWorldPosition(x,z),
-                    glm::vec3(0.4f, 0.4f, 0.4f));
+                        last_added,
+                        ENTITY_FLYER,
+                        100.0f,
+                        1.0f,
+                        3.0f,
+                        1.5f,
+                        levelData.MapPositionToWorldPosition(x,z),
+                        glm::vec3(0.4f, 0.4f, 0.4f));
+                break;
             }
         }
     }
@@ -81,6 +82,7 @@ void EntityController::step(float current_time, float timeDelta, Player *player,
             case ENTITY_RUNNER:
                 break;
             case ENTITY_CRAWLER:
+                behaviour_crawler(&entity,current_time,timeDelta,player,projectiles);
                 break;
             default:
                 std::cout <<  "invalid entity type";
@@ -122,7 +124,7 @@ void EntityController::behaviour_flyer(GameEntity *entity, float current_time, f
                     2.0f,
                     0.0f,
                     10.0f,
-                    5.0f,
+                    2.5f,
                     current_time,
                     glm::vec3(0.3f,0.3f,0.3f)
                     );
@@ -132,16 +134,68 @@ void EntityController::behaviour_flyer(GameEntity *entity, float current_time, f
             std::cout <<  "invalid entity state";
             break;
     }
-    entity->position.y = 0.45f;
+    entity->position.y = 0.35f;
 
     //update bounding box
-    entity->bbox = AABB
-        {
-            glm::vec3(-entity->bbox_dimensions.x/2,-entity->bbox_dimensions.y/2,-entity->bbox_dimensions.z/2) +
+    entity->bbox.min = glm::vec3(-entity->bbox_dimensions.x/2,-entity->bbox_dimensions.y/2,-entity->bbox_dimensions.z/2) +
                 glm::vec3(entity->position.x,entity->position.y,entity->position.z),
-            glm::vec3(entity->bbox_dimensions.x/2,entity->bbox_dimensions.y/2,entity->bbox_dimensions.z/2) +
-                glm::vec3(entity->position.x,entity->position.y,entity->position.z)
-        };
+    entity->bbox.max = glm::vec3(entity->bbox_dimensions.x/2,entity->bbox_dimensions.y/2,entity->bbox_dimensions.z/2) +
+                glm::vec3(entity->position.x,entity->position.y,entity->position.z);
+}
+
+void EntityController::behaviour_crawler(GameEntity *entity, float current_time, float timeDelta, Player *player, ProjectileController *projectiles) {
+    //update state;
+    if (glm::length(entity->position - player->getPosition()) < entity->range){
+        entity->state = STATE_CHASING;
+    }else{
+        entity->state = STATE_ROAMING;
+    }
+
+    //step
+    switch (entity->state)
+    {
+        case STATE_IDLE:
+            break;
+        case STATE_ROAMING:
+            break;
+        case STATE_CHASING:
+            entity->target = player->getPosition();
+            entity->direction = (glm::normalize(player->getPosition() - entity->position));
+            if (glm::length(entity->position - player->getPosition()) > entity->min_dist)
+            {
+                entity->position += entity->direction * entity->walkSpeed * timeDelta;
+            }
+            else
+            {
+                if(!projectiles->onCooldown(entity->global_id,current_time)) {
+                projectiles->shoot(
+                    entity->type,
+                    entity->global_id,
+                    PROJECTILE_INVIS,
+                    1.5f,
+                    entity->position,
+                    entity->direction,
+                    2.0f,
+                    0.0f,
+                    10.0f,
+                    0.5f,
+                    current_time,
+                    glm::vec3(0.3f,0.3f,0.3f)
+                    );
+                }
+            }
+            break;
+        default:
+            std::cout <<  "invalid entity state";
+            break;
+    }
+    entity->position.y = -0.60f;
+
+    //update bounding box
+    entity->bbox.min = glm::vec3(-entity->bbox_dimensions.x/2,-entity->bbox_dimensions.y/2,-entity->bbox_dimensions.z/2) +
+                glm::vec3(entity->position.x,entity->position.y,entity->position.z),
+    entity->bbox.max = glm::vec3(entity->bbox_dimensions.x/2,entity->bbox_dimensions.y/2,entity->bbox_dimensions.z/2) +
+                glm::vec3(entity->position.x,entity->position.y,entity->position.z);
 }
 
 GameEntity *EntityController::getEntities()

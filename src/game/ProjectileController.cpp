@@ -66,13 +66,10 @@ void ProjectileController::step(float current_time, float timeDelta) {
             {
                 projectile.status = false;
             }
-            projectile.bbox = AABB
-            {
-                    glm::vec3(-projectile.bbox_dimensions.x/2,-projectile.bbox_dimensions.y/2,-projectile.bbox_dimensions.z/2) +
-                        glm::vec3(projectile.position.x,projectile.position.y,projectile.position.z),
-                   glm::vec3(projectile.bbox_dimensions.x/2,projectile.bbox_dimensions.y/2,projectile.bbox_dimensions.z/2) +
-                       glm::vec3(projectile.position.x,projectile.position.y,projectile.position.z)
-            };
+            projectile.bbox.min = glm::vec3(-projectile.bbox_dimensions.x/2,-projectile.bbox_dimensions.y/2,-projectile.bbox_dimensions.z/2) +
+                        glm::vec3(projectile.position.x,projectile.position.y,projectile.position.z);
+            projectile.bbox.max = glm::vec3(projectile.bbox_dimensions.x/2,projectile.bbox_dimensions.y/2,projectile.bbox_dimensions.z/2) +
+                       glm::vec3(projectile.position.x,projectile.position.y,projectile.position.z);
         }
     }
 }

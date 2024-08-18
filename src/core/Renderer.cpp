@@ -691,7 +691,6 @@ void DrawObjectModel(glm::mat4 model, int object_id, const char *object_name)
 
 void DrawHUD(GLFWwindow *window, Player player)
 {
-    GLuint vertex_array_object_id = BuildSquare(window);
     float hudBarTextureRatio = 91.0f / 24.0f;
     float hudBarScale = 1.4f;
 
@@ -700,7 +699,6 @@ void DrawHUD(GLFWwindow *window, Player player)
 
     glUniformMatrix4fv(g_model_uniform, 1, GL_FALSE, glm::value_ptr(model));
     glUniform1i(g_object_id_uniform, HUD_HEALTH);
-    glBindVertexArray(vertex_array_object_id);
     glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_BYTE, 0);
 
     PushMatrix(model);
