@@ -12,7 +12,7 @@
 #define MANA_REGENFACTOR 5          // Player mana regeneration factor
 #define HEALTH_REGENFACTOR 0.1      // Player health regeneration factor
 #define DEFAULT_SPEED 2.5           // Player default movement speed
-#define DEFAULT_COLLISIONRADIUS 0.2 // Player model default collision radius
+#define DEFAULT_COLLISIONRADIUS 0.4 // Player model default collision radius
 
 /* Object ID's */
 #define TXT_FLOOR 1         // Floor plane
