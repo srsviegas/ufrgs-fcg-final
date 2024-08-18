@@ -113,9 +113,9 @@ Level::Level(uint16_t levelNumber)
     printf("Objective World Position: (%.2f, %.2f)\n", objectivePosition.x, objectivePosition.z);
 
     glm::vec4 a = MapPositionToWorldPosition(0, 0);
-    glm::vec4 b = MapPositionToWorldPosition(mapHeight - 1, mapWidth - 1);
+    glm::vec4 b = MapPositionToWorldPosition(mapWidth - 1, mapHeight - 1);
 
-    center = (b + a) / 2.0f;
+    center = (a + b) / 2.0f;
 
     planeData = BuildPlaneData();
 }
