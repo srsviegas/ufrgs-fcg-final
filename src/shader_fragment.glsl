@@ -171,9 +171,10 @@ void main() {
         color.a = tex.a;
     } else if (object_id == ENTITY_FLYER) {
         vec3 tex = texture(TextureImage9, vec2(U, V)).rgb;
-        Kd = tex;
-        Ks = tex;
+        Kd = tex * 0.8;
+        Ks = tex * 0.25;
         Ka = tex * 0.3;
+        color.a = 0.9;
     }
     else if (object_id == POTION_HEALTH) {
         vec3 tex = texture(TextureImage4, vec2(U, V)).rgb;
@@ -197,9 +198,9 @@ void main() {
     else if (object_id == ENTITY_CRAWLER) {
         vec3 tex = texture(TextureImage14, vec2(U, V)).rgb;
         Kd = tex;
-        Ks = tex;
+        Ks = vec3(0.25);
         Ka = tex * 0.3;
-        q = 1.0;
+        q = 32;
     }
     else if (object_id == POTION_MANA) {
         vec3 tex = texture(TextureImage15, vec2(U, V)).rgb;

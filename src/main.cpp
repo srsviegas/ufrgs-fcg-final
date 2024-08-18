@@ -512,7 +512,7 @@ int main(int argc, char *argv[])
                 {
                     model =
                         Matrix_Translate(enem[i].position.x, enem[i].position.y, enem[i].position.z) *
-                        Matrix_Scale(0.003, 0.003, 0.003) *
+                        Matrix_Scale(0.005, 0.005, 0.005) *
                         Matrix_Rotate_Y(0.5f * glm::pi<float>() - angleAroundY(enem[i].direction));
                     DrawObjectModel(model, ENTITY_FLYER, "ghoul");
                 }
