@@ -418,6 +418,23 @@ int main(int argc, char *argv[])
             }
         }
 
+        //enemies with enemies
+        for (int i = 0; i < MAX_ENTITIES; i++)
+        {
+            if(enem[i].status)
+            for(int j = 0; j < MAX_ENTITIES; j++) {
+                if(enem[j].status)
+                if(i != j) {
+                    float distance = glm::length(enem[i].position - enem[j].position);
+                    if(distance < 1.0f) {
+                        glm::vec4 direction = glm::normalize(enem[i].position - enem[j].position);
+                        enem[i].position += direction * 0.001f;
+                        enem[j].position += -direction * 0.001f;
+                    }
+                }
+            }
+        }
+
         glm::mat4 view = Matrix_Camera_View(camera_position, view_vector, cam.getUpVec());
         glm::mat4 projection;
         float field_of_view = 3.141592 / 3.0f;
