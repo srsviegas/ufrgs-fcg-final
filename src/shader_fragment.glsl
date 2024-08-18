@@ -74,6 +74,9 @@ uniform sampler2D TextureImage15;
 // Fragment's color
 out vec4 color;
 
+// Vertex's color
+in vec4 color_v;
+
 const vec3 Ia = vec3(1.0, 1.0, 1.0);
 
 // Constantes
@@ -145,11 +148,10 @@ void main() {
         Ka = tex.rgb;
         color.a = tex.a;
     } else if (object_id == RIGHT_ARM || object_id == LEFT_ARM) {
+        // Use Gouraud
         vec3 tex = texture(TextureImage2, vec2(U, V)).rgb;
-        Kd = tex * 0.5;
-        Ks = tex * 0.3;
-        Ka = tex * 0.5;
-        q = 1.0;
+        color.rgb = color_v.rgb;
+        return;
     } else if (object_id == TORCH) {
         vec3 tex = texture(TextureImage8, vec2(U, V)).rgb;
         Kd = vec3(0.5);
@@ -173,11 +175,11 @@ void main() {
         Ka = tex * 0.3;
     }
     else if (object_id == SWORD) {
-            vec3 tex = texture(TextureImage13, vec2(U, V)).rgb;
-            Kd = tex;
-            Ks = tex;
-            Ka = tex * 0.3;
-        }
+        vec3 tex = texture(TextureImage13, vec2(U, V)).rgb;
+        Kd = tex;
+        Ks = tex;
+        Ka = tex * 0.3;
+    }
     else if (object_id == MAP_POINTER) {
         vec3 tex = texture(TextureImage10, vec2(U, V)).rgb;
         Kd = tex * vec3(0.6);

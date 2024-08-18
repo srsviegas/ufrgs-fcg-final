@@ -43,7 +43,7 @@
 - Modelos de iluminação de objetos geométricos
     - [x] Objeto com iluminação difusa (lambert)
     - [x] Objeto com iluminação Blinn-Phong
-    - [ ] Objeto com interpolação no modelo de Gourad
+    - [x] Objeto com interpolação no modelo de Gourad
     - [x] Objeto com interpolação no modelo de Phong
 
 - Mapeamento de texturas
