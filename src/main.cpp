@@ -123,6 +123,7 @@ int main(int argc, char *argv[])
     LoadTextureImage("../../data/sword_txt.png");         // TextureImage13
     LoadTextureImage("../../data/spider_txt.png");        // TextureImage14
     LoadTextureImage("../../data/potion_mana_txt.png");   // TextureImage15
+    LoadTextureImage("../../data/game-over.png");         // TextureImage16
 
     /* BUILDING OBJECTS */
     ObjModel planemodel("../../data/plane.obj");
@@ -231,8 +232,10 @@ int main(int argc, char *argv[])
         /* Game Over screen */
         if (player.IsDead())
         {
+            // Disable gameplay
             gameplayIsActive = false;
 
+            // If mouse was clicked: Restart game from level 0
             if (g_LeftMouseButtonPressed || g_RightMouseButtonPressed)
             {
                 currentLevel = 0;
@@ -626,7 +629,15 @@ int main(int argc, char *argv[])
             glUniformMatrix4fv(g_view_uniform, 1, GL_FALSE, glm::value_ptr(Matrix_Identity()));
             glUniformMatrix4fv(g_projection_uniform, 1, GL_FALSE, glm::value_ptr(Matrix_Identity()));
 
-            DrawHUD(window, player, hud_VAO);
+            if (player.IsDead())
+            {
+                // Draw Game Over screen
+                DrawGameOver(hud_VAO);
+            }
+            else
+            {
+                DrawHUD(player, hud_VAO);
+            }
         }
         // Map viewing mode rendering phase
         else if (cam.GetMode() == CAMERA_LOOK_AT)

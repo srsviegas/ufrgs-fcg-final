@@ -118,7 +118,8 @@ void LoadShadersFromFiles();                         // Carrega os shaders de v�
 void LoadTextureImage(const char *filename);         // Função que carrega imagens de textura
 void DrawVirtualObject(const char *object_name);     // Desenha um objeto armazenado em g_VirtualScene
 void DrawObjectModel(glm::mat4 model, int object_id, const char *object_name);
-void DrawHUD(GLFWwindow *window, Player player, GLuint hudVAO);
+void DrawHUD(Player player, GLuint hudVAO);
+void DrawGameOver(GLuint hudVAO);
 GLuint BuildSquare(GLFWwindow *window);
 GLuint LoadShader_Vertex(const char *filename);                              // Carrega um vertex shader
 GLuint LoadShader_Fragment(const char *filename);                            // Carrega um fragment shader

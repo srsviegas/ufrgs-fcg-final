@@ -689,7 +689,7 @@ void DrawObjectModel(glm::mat4 model, int object_id, const char *object_name)
     DrawVirtualObject(object_name);
 }
 
-void DrawHUD(GLFWwindow *window, Player player, GLuint hudVAO)
+void DrawHUD(Player player, GLuint hudVAO)
 {
     float hudBarTextureRatio = 91.0f / 24.0f;
     float hudBarScale = 1.4f;
@@ -717,6 +717,18 @@ void DrawHUD(GLFWwindow *window, Player player, GLuint hudVAO)
     model *= Matrix_Scale(0.625f * player.getManaPercent(), 0.15f, 1.0f);
     glUniformMatrix4fv(g_model_uniform, 1, GL_FALSE, glm::value_ptr(model));
     glUniform1i(g_object_id_uniform, HUD_MANA_BAR);
+    glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_BYTE, 0);
+}
+
+void DrawGameOver(GLuint hudVAO)
+{
+    float gameOverScreenImageRatio = 1280.0f / 720.0f;
+    float screenScale = 10.0f;
+
+    glm::mat4 model = Matrix_Scale(screenScale * gameOverScreenImageRatio, screenScale, 1.0f);
+    glBindVertexArray(hudVAO);
+    glUniformMatrix4fv(g_model_uniform, 1, GL_FALSE, glm::value_ptr(model));
+    glUniform1i(g_object_id_uniform, HUD_GAME_OVER);
     glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_BYTE, 0);
 }
 
@@ -866,6 +878,7 @@ void LoadShadersFromFiles()
     glUniform1i(glGetUniformLocation(g_GpuProgramID, "TextureImage13"), 13);
     glUniform1i(glGetUniformLocation(g_GpuProgramID, "TextureImage14"), 14);
     glUniform1i(glGetUniformLocation(g_GpuProgramID, "TextureImage15"), 15);
+    glUniform1i(glGetUniformLocation(g_GpuProgramID, "TextureImage16"), 16);
 
     glUseProgram(0);
 }

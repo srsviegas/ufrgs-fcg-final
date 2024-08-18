@@ -42,6 +42,7 @@ uniform int waterproj_count;
 #define POTION_HEALTH 14    // Health potion
 #define MAP_POINTER 15      // Map pointer
 #define POTION_MANA 16      // Mana potion
+#define HUD_GAME_OVER 17    // Game Over screen
 #define SWORD 54            // Sword
 #define PROJECTILE_INVIS 55 // Invisible projectile
 #define ENTITY_RUNNER 20
@@ -70,6 +71,7 @@ uniform sampler2D TextureImage12;
 uniform sampler2D TextureImage13;
 uniform sampler2D TextureImage14;
 uniform sampler2D TextureImage15;
+uniform sampler2D TextureImage16;
 
 // Fragment's color
 out vec4 color;
@@ -134,19 +136,21 @@ void main() {
         Ka = tex * 0.01;
         q = 8.0;
     } else if (object_id == HUD_HEALTH_BAR) {
-        vec3 tex = texture(TextureImage12, vec2(U, V)).rgb;
-        Ka = tex * vec3(2.5);
+        color.rgb = texture(TextureImage12, vec2(U, V)).rgb * vec3(2.5);
+        color.rgb = pow(color.rgb, vec3(1.0 / 2.2));
+        return;
     } else if (object_id == HUD_HEALTH) {
-        vec4 tex = texture(TextureImage6, vec2(U, V));
-        Ka = tex.rgb;
-        color.a = tex.a;
+        color = texture(TextureImage6, vec2(U, V));
+        color.rgb = pow(color.rgb, vec3(1.0 / 2.2));
+        return;
     } else if (object_id == HUD_MANA_BAR) {
-        vec3 tex = texture(TextureImage11, vec2(U, V)).rgb;
-        Ka = tex * vec3(2.5);
+        color.rgb = texture(TextureImage11, vec2(U, V)).rgb * vec3(2.5);
+        color.rgb = pow(color.rgb, vec3(1.0 / 2.2));
+        return;
     } else if (object_id == HUD_MANA) {
-        vec4 tex = texture(TextureImage7, vec2(U, V));
-        Ka = tex.rgb;
-        color.a = tex.a;
+        color = texture(TextureImage7, vec2(U, V));
+        color.rgb = pow(color.rgb, vec3(1.0 / 2.2));
+        return;
     } else if (object_id == RIGHT_ARM || object_id == LEFT_ARM) {
         // Use Gouraud
         vec3 tex = texture(TextureImage2, vec2(U, V)).rgb;
@@ -187,13 +191,6 @@ void main() {
         Ka = tex * vec3(0.2);
         q = 32.0;
     }
-    else if (object_id == MAP_POINTER) {
-        vec3 tex = texture(TextureImage10, vec2(U, V)).rgb;
-        Kd = tex * vec3(0.6);
-        Ks = vec3(1.0, 1.0, 1.0);
-        Ka = tex * vec3(0.2);
-        q = 32.0;
-    }
     else if (object_id == ENTITY_CRAWLER) {
         vec3 tex = texture(TextureImage14, vec2(U, V)).rgb;
         Kd = tex;
@@ -207,6 +204,11 @@ void main() {
         Ks = tex;
         Ka = tex * 0.3;
         q = 1.0;
+    }
+    else if (object_id == HUD_GAME_OVER) {
+        color = texture(TextureImage16, vec2(U, V));
+        color.rgb = pow(color.rgb, vec3(1.0 / 2.2));
+        return;
     }
 
     vec3 diffuse = vec3(0.0);
