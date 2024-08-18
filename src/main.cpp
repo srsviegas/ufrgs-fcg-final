@@ -189,6 +189,7 @@ int main(int argc, char *argv[])
     auto power_ups = PowerupController();
 
     GLuint hud_VAO = BuildSquare(window);
+    float gameOverAnimationOpacity = 0.0f;
 
     TextRendering_Init();
     glEnable(GL_DEPTH_TEST);
@@ -242,6 +243,8 @@ int main(int argc, char *argv[])
                 player = Player();
                 level = Level(currentLevel);
                 enemies = EntityController(level);
+
+                gameOverAnimationOpacity = 0.0f;
             }
         }
 
@@ -632,7 +635,8 @@ int main(int argc, char *argv[])
             if (player.IsDead())
             {
                 // Draw Game Over screen
-                DrawGameOver(hud_VAO);
+                gameOverAnimationOpacity += timeDelta;
+                DrawGameOver(hud_VAO, gameOverAnimationOpacity);
             }
             else
             {

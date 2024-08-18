@@ -25,6 +25,9 @@ uniform vec4 waterproj_position[MAX_PROJECTILES];
 const vec3 waterproj_color = vec3(0.0,0.1,1.0);
 uniform int waterproj_count;
 
+// HUD
+uniform float game_over_opacity;
+
 // Object ID
 #define TXT_FLOOR 1         // Floor plane
 #define TXT_WALL 2          // Wall plane
@@ -208,6 +211,7 @@ void main() {
     else if (object_id == HUD_GAME_OVER) {
         color = texture(TextureImage16, vec2(U, V));
         color.rgb = pow(color.rgb, vec3(1.0 / 2.2));
+        color.a = color.a * game_over_opacity;
         return;
     }
 

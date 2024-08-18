@@ -18,6 +18,8 @@ GLint g_torchlight_count_uniform;
 GLint g_waterproj_position_uniform;
 GLint g_waterproj_count_uniform;
 
+GLint g_game_over_opacity_uniform;
+
 GLuint g_NumLoadedTextures = 0;
 
 // Função que pega a matriz M e guarda a mesma no topo da pilha
@@ -720,10 +722,21 @@ void DrawHUD(Player player, GLuint hudVAO)
     glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_BYTE, 0);
 }
 
-void DrawGameOver(GLuint hudVAO)
+void DrawGameOver(GLuint hudVAO, float opacity)
 {
     float gameOverScreenImageRatio = 1280.0f / 720.0f;
     float screenScale = 10.0f;
+
+    if (opacity < 0.0f)
+    {
+        opacity = 0.0f;
+    }
+    else if (opacity > 1.0f)
+    {
+        opacity = 1.0f;
+    }
+
+    glUniform1f(g_game_over_opacity_uniform, opacity);
 
     glm::mat4 model = Matrix_Scale(screenScale * gameOverScreenImageRatio, screenScale, 1.0f);
     glBindVertexArray(hudVAO);
@@ -859,6 +872,8 @@ void LoadShadersFromFiles()
     // Water particles light sources
     g_waterproj_position_uniform = glGetUniformLocation(g_GpuProgramID, "waterproj_position");
     g_waterproj_count_uniform = glGetUniformLocation(g_GpuProgramID, "waterproj_count");
+
+    g_game_over_opacity_uniform = glGetUniformLocation(g_GpuProgramID, "game_over_opacity");
 
     // Variáveis em "shader_fragment.glsl" para acesso das imagens de textura
     glUseProgram(g_GpuProgramID);
