@@ -511,7 +511,7 @@ int main(int argc, char *argv[])
                 if (enem[i].type == ENTITY_FLYER)
                 {
                     model =
-                        Matrix_Translate(enem[i].position.x, enem[i].position.y, enem[i].position.z) *
+                        Matrix_Translate(enem[i].position.x, enem[i].position.y - 0.1f, enem[i].position.z) *
                         Matrix_Scale(0.003, 0.003, 0.003) *
                         Matrix_Rotate_Y(0.5f * glm::pi<float>() - angleAroundY(enem[i].direction));
                     DrawObjectModel(model, ENTITY_FLYER, "ghoul");
@@ -574,7 +574,7 @@ int main(int argc, char *argv[])
                 model = Matrix_Translate(barPosition.x, barPosition.y, barPosition.z);
                 model *= Matrix_Rotate_Y(rotationAngle);
                 model *= Matrix_Rotate_X(glm::radians(90.0f));
-                model *= Matrix_Scale(enem[i].health / enem[i].maxhealth * 0.3, 0.03f, 0.03f);
+                model *= Matrix_Scale(enem[i].health/enem[i].maxhealth * 0.3, 0.03f, 0.03f);
                 DrawObjectModel(model, HUD_HEALTH_BAR, "the_plane");
             }
 

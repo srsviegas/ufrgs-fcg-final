@@ -45,13 +45,13 @@ void ProjectileController::shoot(
                 },
             true,
         };
-        shooter_cooldown[shooter_id] = cooldown;
-        shooter_lastshot[shooter_id] = startTime;
+        shooter_cooldown[shooter_id % MAX_PROJECTILES] = cooldown;
+        shooter_lastshot[shooter_id % MAX_PROJECTILES] = startTime;
         last_shot++;
 }
 
 bool ProjectileController::onCooldown(int shooter_id, float current_time) {
-    return current_time - shooter_lastshot[shooter_id] < shooter_cooldown[shooter_id];
+    return current_time - shooter_lastshot[shooter_id % MAX_PROJECTILES] < shooter_cooldown[shooter_id % MAX_PROJECTILES];
 }
 
 void ProjectileController::step(float current_time, float timeDelta) {

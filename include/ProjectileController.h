@@ -21,8 +21,8 @@ public:
 
 private:
     Projectile projectiles[MAX_PROJECTILES]{};
-    float shooter_cooldown[MAX_PROJECTILES]{};
-    float shooter_lastshot[MAX_PROJECTILES]{};
+    float shooter_cooldown[100]{};
+    float shooter_lastshot[100]{};
 
     int last_shot;
     int max_projectiles;
