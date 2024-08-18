@@ -120,7 +120,7 @@ int main(int argc, char *argv[])
     LoadTextureImage("../../data/map-pointer.jpg");       // TextureImage10
     LoadTextureImage("../../data/mana.png");              // TextureImage11
     LoadTextureImage("../../data/health.png");            // TextureImage12
-    LoadTextureImage("../../data/sword_txt.png");         // TextureImage13
+    LoadTextureImage("../../data/sword_txt.jpg");         // TextureImage13
     LoadTextureImage("../../data/spider_txt.png");        // TextureImage14
     LoadTextureImage("../../data/potion_mana_txt.png");   // TextureImage15
     LoadTextureImage("../../data/game-over.png");         // TextureImage16
@@ -625,7 +625,7 @@ int main(int argc, char *argv[])
 
             DrawObjectModel(model, RIGHT_ARM, "right_arm");
 
-            glm::vec4 sword_pos = arm_pos + 0.25f * cam.getViewVec() + 0.05f * cam.getSideVec() - 0.15f * cam.getPerpendicular();
+            glm::vec4 sword_pos = arm_pos + 0.25f * cam.getViewVec() + 0.05f * cam.getSideVec() - 0.05f * cam.getPerpendicular();
             sword_pos -= 0.2f * swordAnimation * cam.getViewVec();
             sword_pos -= 0.25f * swordAnimation * cam.getSideVec();
             model = Matrix_Translate(sword_pos.x, sword_pos.y, sword_pos.z) *
@@ -635,7 +635,7 @@ int main(int argc, char *argv[])
             DrawObjectModel(model, SWORD, "sword2");
 
             // Draw left arm
-            arm_pos = cam.getPosition() - 0.25f * cam.getSideVec() + 0.3f * cam.getViewVec() - 0.15f * cam.getPerpendicular();
+            arm_pos = cam.getPosition() - 0.25f * cam.getSideVec() + 0.32f * cam.getViewVec() - 0.15f * cam.getPerpendicular();
             if (isKeyDown_W || isKeyDown_A || isKeyDown_S || isKeyDown_D)
             {
                 arm_pos.y += 0.02f * cos(4 * now);

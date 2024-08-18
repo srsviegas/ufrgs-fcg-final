@@ -1,7 +1,7 @@
 # Blender 4.2.0 MTL File: 'None'
 # www.blender.org
 
-newmtl startingFBXASC032shordFBXASC032swordSG
+newmtl lambert3SG
 Ns 0.000000
 Ka 1.000000 1.000000 1.000000
 Kd 0.800000 0.800000 0.800000
