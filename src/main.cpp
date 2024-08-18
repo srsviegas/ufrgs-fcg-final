@@ -191,6 +191,9 @@ int main(int argc, char *argv[])
     GLuint hud_VAO = BuildSquare(window);
     float gameOverAnimationOpacity = 0.0f;
 
+    float swordAnimation = 0.0f;
+    bool swordAnimationPlaying = false;
+
     TextRendering_Init();
     glEnable(GL_DEPTH_TEST);
     glEnable(GL_CULL_FACE);
@@ -274,19 +277,23 @@ int main(int argc, char *argv[])
             if (g_LeftMouseButtonPressed)
             {
                 if (!projectiles.onCooldown(PLAYER_ID + 1, now))
+                {
+                    swordAnimationPlaying = true;
+                    swordAnimation = 0.0f;
                     projectiles.shoot(
                         PLAYER_ID,
                         PLAYER_ID + 1,
                         PROJECTILE_INVIS,
-                        0.5f,
+                        0.3f,
                         cam.getPosition() + 0.6f * cam.getViewVec() - 0.10f * cam.getUpVec(),
                         cam.getViewVec(),
                         0.0f,
                         0.0f,
-                        20.0f,
+                        30.0f,
                         0.1f,
                         now,
                         glm::vec3(0.8f, 0.8f, 0.8f));
+                }
             }
             if (g_RightMouseButtonPressed)
             {
@@ -511,8 +518,8 @@ int main(int argc, char *argv[])
                 if (enem[i].type == ENTITY_FLYER)
                 {
                     model =
-                        Matrix_Translate(enem[i].position.x, enem[i].position.y - 0.1f, enem[i].position.z) *
-                        Matrix_Scale(0.003, 0.003, 0.003) *
+                        Matrix_Translate(enem[i].position.x, enem[i].position.y, enem[i].position.z) *
+                        Matrix_Scale(0.005, 0.005, 0.005) *
                         Matrix_Rotate_Y(0.5f * glm::pi<float>() - angleAroundY(enem[i].direction));
                     DrawObjectModel(model, ENTITY_FLYER, "ghoul");
                 }
@@ -579,7 +586,18 @@ int main(int argc, char *argv[])
             }
 
             // Draw right arm
+            if (swordAnimationPlaying)
+            {
+                swordAnimation += timeDelta * 8.0f;
+                if (swordAnimation > SWORD_MAX_ROTATION)
+                {
+                    swordAnimation = 0.0f;
+                    swordAnimationPlaying = false;
+                }
+            }
             glm::vec4 arm_pos = cam.getPosition() + 0.25f * cam.getSideVec() + 0.3f * cam.getViewVec() - 0.15f * cam.getPerpendicular();
+            arm_pos -= 0.1f * swordAnimation * cam.getViewVec();
+
             if (isKeyDown_W || isKeyDown_A || isKeyDown_S || isKeyDown_D)
             {
                 arm_pos.y += 0.02f * cos(4 * now);
@@ -589,16 +607,18 @@ int main(int argc, char *argv[])
                 arm_pos.y += 0.02f * cos(now);
             }
             model = Matrix_Translate(arm_pos.x, arm_pos.y, arm_pos.z) * Matrix_Scale(0.01f, 0.01f, 0.01f) *
-                    Matrix_Rotate(cam.getPhi(), cam.getSideVec()) *
+                    Matrix_Rotate(cam.getPhi() - swordAnimation / 3, cam.getSideVec()) *
                     Matrix_Rotate(3.0f, cam.getSideVec()) *
-                    Matrix_Rotate(cam.getTheta(), cam.getUpVec());
+                    Matrix_Rotate(cam.getTheta() - swordAnimation, cam.getUpVec());
 
             DrawObjectModel(model, RIGHT_ARM, "right_arm");
 
             glm::vec4 sword_pos = arm_pos + 0.25f * cam.getViewVec() + 0.05f * cam.getSideVec() - 0.15f * cam.getPerpendicular();
+            sword_pos -= 0.2f * swordAnimation * cam.getViewVec();
+            sword_pos -= 0.25f * swordAnimation * cam.getSideVec();
             model = Matrix_Translate(sword_pos.x, sword_pos.y, sword_pos.z) *
-                    Matrix_Rotate(cam.getPhi(), cam.getSideVec()) *
-                    Matrix_Rotate(0.5f * glm::pi<float>() + cam.getTheta(), cam.getUpVec()) *
+                    Matrix_Rotate(cam.getPhi() - swordAnimation, cam.getSideVec()) *
+                    Matrix_Rotate(0.5f * glm::pi<float>() + cam.getTheta() + swordAnimation, cam.getUpVec()) *
                     Matrix_Scale(0.8f, 0.8f, 0.8f);
             DrawObjectModel(model, SWORD, "sword2");
 
