@@ -7,11 +7,11 @@ C_DEFINES =
 
 C_INCLUDES = @CMakeFiles/main.dir/includes_C.rsp
 
-C_FLAGS = -g
+C_FLAGS = -O3 -DNDEBUG
 
 CXX_DEFINES = 
 
 CXX_INCLUDES = @CMakeFiles/main.dir/includes_CXX.rsp
 
-CXX_FLAGS = -g -std=c++11
+CXX_FLAGS = -O3 -DNDEBUG -std=c++11
 

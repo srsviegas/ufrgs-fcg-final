@@ -1,98 +1,110 @@
 [
 {
   "directory": "D:/UFRGS/05 Fundamentos de Computação Gráfica/ufrgs-fcg-final/build",
-  "command": "C:\\PROGRA~1\\CODEBL~1\\MinGW\\bin\\G__~1.EXE  @CMakeFiles/main.dir/includes_CXX.rsp -g -std=c++11 -o CMakeFiles\\main.dir\\src\\main.cpp.obj -c \"D:\\UFRGS\\05 Fundamentos de Computação Gráfica\\ufrgs-fcg-final\\src\\main.cpp\"",
+  "command": "C:\\PROGRA~1\\CODEBL~1\\MinGW\\bin\\G__~1.EXE  @CMakeFiles/main.dir/includes_CXX.rsp -O3 -DNDEBUG -std=c++11 -o CMakeFiles\\main.dir\\src\\main.cpp.obj -c \"D:\\UFRGS\\05 Fundamentos de Computação Gráfica\\ufrgs-fcg-final\\src\\main.cpp\"",
   "file": "D:/UFRGS/05 Fundamentos de Computação Gráfica/ufrgs-fcg-final/src/main.cpp",
   "output": "CMakeFiles/main.dir/src/main.cpp.obj"
 },
 {
   "directory": "D:/UFRGS/05 Fundamentos de Computação Gráfica/ufrgs-fcg-final/build",
-  "command": "C:\\PROGRA~1\\CODEBL~1\\MinGW\\bin\\G__~1.EXE  @CMakeFiles/main.dir/includes_CXX.rsp -g -std=c++11 -o CMakeFiles\\main.dir\\src\\tiny_obj_loader.cpp.obj -c \"D:\\UFRGS\\05 Fundamentos de Computação Gráfica\\ufrgs-fcg-final\\src\\tiny_obj_loader.cpp\"",
+  "command": "C:\\PROGRA~1\\CODEBL~1\\MinGW\\bin\\G__~1.EXE  @CMakeFiles/main.dir/includes_CXX.rsp -O3 -DNDEBUG -std=c++11 -o CMakeFiles\\main.dir\\src\\tiny_obj_loader.cpp.obj -c \"D:\\UFRGS\\05 Fundamentos de Computação Gráfica\\ufrgs-fcg-final\\src\\tiny_obj_loader.cpp\"",
   "file": "D:/UFRGS/05 Fundamentos de Computação Gráfica/ufrgs-fcg-final/src/tiny_obj_loader.cpp",
   "output": "CMakeFiles/main.dir/src/tiny_obj_loader.cpp.obj"
 },
 {
   "directory": "D:/UFRGS/05 Fundamentos de Computação Gráfica/ufrgs-fcg-final/build",
-  "command": "C:\\PROGRA~1\\CODEBL~1\\MinGW\\bin\\G__~1.EXE  @CMakeFiles/main.dir/includes_CXX.rsp -g -std=c++11 -o CMakeFiles\\main.dir\\src\\stb_image.cpp.obj -c \"D:\\UFRGS\\05 Fundamentos de Computação Gráfica\\ufrgs-fcg-final\\src\\stb_image.cpp\"",
+  "command": "C:\\PROGRA~1\\CODEBL~1\\MinGW\\bin\\G__~1.EXE  @CMakeFiles/main.dir/includes_CXX.rsp -O3 -DNDEBUG -std=c++11 -o CMakeFiles\\main.dir\\src\\stb_image.cpp.obj -c \"D:\\UFRGS\\05 Fundamentos de Computação Gráfica\\ufrgs-fcg-final\\src\\stb_image.cpp\"",
   "file": "D:/UFRGS/05 Fundamentos de Computação Gráfica/ufrgs-fcg-final/src/stb_image.cpp",
   "output": "CMakeFiles/main.dir/src/stb_image.cpp.obj"
 },
 {
   "directory": "D:/UFRGS/05 Fundamentos de Computação Gráfica/ufrgs-fcg-final/build",
-  "command": "C:\\PROGRA~1\\CODEBL~1\\MinGW\\bin\\gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -o CMakeFiles\\main.dir\\src\\glad.c.obj -c \"D:\\UFRGS\\05 Fundamentos de Computação Gráfica\\ufrgs-fcg-final\\src\\glad.c\"",
+  "command": "C:\\PROGRA~1\\CODEBL~1\\MinGW\\bin\\gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -O3 -DNDEBUG -o CMakeFiles\\main.dir\\src\\glad.c.obj -c \"D:\\UFRGS\\05 Fundamentos de Computação Gráfica\\ufrgs-fcg-final\\src\\glad.c\"",
   "file": "D:/UFRGS/05 Fundamentos de Computação Gráfica/ufrgs-fcg-final/src/glad.c",
   "output": "CMakeFiles/main.dir/src/glad.c.obj"
 },
 {
   "directory": "D:/UFRGS/05 Fundamentos de Computação Gráfica/ufrgs-fcg-final/build",
-  "command": "C:\\PROGRA~1\\CODEBL~1\\MinGW\\bin\\G__~1.EXE  @CMakeFiles/main.dir/includes_CXX.rsp -g -std=c++11 -o CMakeFiles\\main.dir\\src\\dejavufont.cpp.obj -c \"D:\\UFRGS\\05 Fundamentos de Computação Gráfica\\ufrgs-fcg-final\\src\\dejavufont.cpp\"",
+  "command": "C:\\PROGRA~1\\CODEBL~1\\MinGW\\bin\\G__~1.EXE  @CMakeFiles/main.dir/includes_CXX.rsp -O3 -DNDEBUG -std=c++11 -o CMakeFiles\\main.dir\\src\\dejavufont.cpp.obj -c \"D:\\UFRGS\\05 Fundamentos de Computação Gráfica\\ufrgs-fcg-final\\src\\dejavufont.cpp\"",
   "file": "D:/UFRGS/05 Fundamentos de Computação Gráfica/ufrgs-fcg-final/src/dejavufont.cpp",
   "output": "CMakeFiles/main.dir/src/dejavufont.cpp.obj"
 },
 {
   "directory": "D:/UFRGS/05 Fundamentos de Computação Gráfica/ufrgs-fcg-final/build",
-  "command": "C:\\PROGRA~1\\CODEBL~1\\MinGW\\bin\\G__~1.EXE  @CMakeFiles/main.dir/includes_CXX.rsp -g -std=c++11 -o CMakeFiles\\main.dir\\src\\core\\Matrices.cpp.obj -c \"D:\\UFRGS\\05 Fundamentos de Computação Gráfica\\ufrgs-fcg-final\\src\\core\\Matrices.cpp\"",
+  "command": "C:\\PROGRA~1\\CODEBL~1\\MinGW\\bin\\G__~1.EXE  @CMakeFiles/main.dir/includes_CXX.rsp -O3 -DNDEBUG -std=c++11 -o CMakeFiles\\main.dir\\src\\core\\Matrices.cpp.obj -c \"D:\\UFRGS\\05 Fundamentos de Computação Gráfica\\ufrgs-fcg-final\\src\\core\\Matrices.cpp\"",
   "file": "D:/UFRGS/05 Fundamentos de Computação Gráfica/ufrgs-fcg-final/src/core/Matrices.cpp",
   "output": "CMakeFiles/main.dir/src/core/Matrices.cpp.obj"
 },
 {
   "directory": "D:/UFRGS/05 Fundamentos de Computação Gráfica/ufrgs-fcg-final/build",
-  "command": "C:\\PROGRA~1\\CODEBL~1\\MinGW\\bin\\G__~1.EXE  @CMakeFiles/main.dir/includes_CXX.rsp -g -std=c++11 -o CMakeFiles\\main.dir\\src\\core\\Renderer.cpp.obj -c \"D:\\UFRGS\\05 Fundamentos de Computação Gráfica\\ufrgs-fcg-final\\src\\core\\Renderer.cpp\"",
+  "command": "C:\\PROGRA~1\\CODEBL~1\\MinGW\\bin\\G__~1.EXE  @CMakeFiles/main.dir/includes_CXX.rsp -O3 -DNDEBUG -std=c++11 -o CMakeFiles\\main.dir\\src\\core\\Renderer.cpp.obj -c \"D:\\UFRGS\\05 Fundamentos de Computação Gráfica\\ufrgs-fcg-final\\src\\core\\Renderer.cpp\"",
   "file": "D:/UFRGS/05 Fundamentos de Computação Gráfica/ufrgs-fcg-final/src/core/Renderer.cpp",
   "output": "CMakeFiles/main.dir/src/core/Renderer.cpp.obj"
 },
 {
   "directory": "D:/UFRGS/05 Fundamentos de Computação Gráfica/ufrgs-fcg-final/build",
-  "command": "C:\\PROGRA~1\\CODEBL~1\\MinGW\\bin\\G__~1.EXE  @CMakeFiles/main.dir/includes_CXX.rsp -g -std=c++11 -o CMakeFiles\\main.dir\\src\\core\\Window.cpp.obj -c \"D:\\UFRGS\\05 Fundamentos de Computação Gráfica\\ufrgs-fcg-final\\src\\core\\Window.cpp\"",
+  "command": "C:\\PROGRA~1\\CODEBL~1\\MinGW\\bin\\G__~1.EXE  @CMakeFiles/main.dir/includes_CXX.rsp -O3 -DNDEBUG -std=c++11 -o CMakeFiles\\main.dir\\src\\core\\Window.cpp.obj -c \"D:\\UFRGS\\05 Fundamentos de Computação Gráfica\\ufrgs-fcg-final\\src\\core\\Window.cpp\"",
   "file": "D:/UFRGS/05 Fundamentos de Computação Gráfica/ufrgs-fcg-final/src/core/Window.cpp",
   "output": "CMakeFiles/main.dir/src/core/Window.cpp.obj"
 },
 {
   "directory": "D:/UFRGS/05 Fundamentos de Computação Gráfica/ufrgs-fcg-final/build",
-  "command": "C:\\PROGRA~1\\CODEBL~1\\MinGW\\bin\\G__~1.EXE  @CMakeFiles/main.dir/includes_CXX.rsp -g -std=c++11 -o CMakeFiles\\main.dir\\src\\core\\Input.cpp.obj -c \"D:\\UFRGS\\05 Fundamentos de Computação Gráfica\\ufrgs-fcg-final\\src\\core\\Input.cpp\"",
+  "command": "C:\\PROGRA~1\\CODEBL~1\\MinGW\\bin\\G__~1.EXE  @CMakeFiles/main.dir/includes_CXX.rsp -O3 -DNDEBUG -std=c++11 -o CMakeFiles\\main.dir\\src\\core\\Input.cpp.obj -c \"D:\\UFRGS\\05 Fundamentos de Computação Gráfica\\ufrgs-fcg-final\\src\\core\\Input.cpp\"",
   "file": "D:/UFRGS/05 Fundamentos de Computação Gráfica/ufrgs-fcg-final/src/core/Input.cpp",
   "output": "CMakeFiles/main.dir/src/core/Input.cpp.obj"
 },
 {
   "directory": "D:/UFRGS/05 Fundamentos de Computação Gráfica/ufrgs-fcg-final/build",
-  "command": "C:\\PROGRA~1\\CODEBL~1\\MinGW\\bin\\G__~1.EXE  @CMakeFiles/main.dir/includes_CXX.rsp -g -std=c++11 -o CMakeFiles\\main.dir\\src\\core\\Camera.cpp.obj -c \"D:\\UFRGS\\05 Fundamentos de Computação Gráfica\\ufrgs-fcg-final\\src\\core\\Camera.cpp\"",
+  "command": "C:\\PROGRA~1\\CODEBL~1\\MinGW\\bin\\G__~1.EXE  @CMakeFiles/main.dir/includes_CXX.rsp -O3 -DNDEBUG -std=c++11 -o CMakeFiles\\main.dir\\src\\core\\Camera.cpp.obj -c \"D:\\UFRGS\\05 Fundamentos de Computação Gráfica\\ufrgs-fcg-final\\src\\core\\Camera.cpp\"",
   "file": "D:/UFRGS/05 Fundamentos de Computação Gráfica/ufrgs-fcg-final/src/core/Camera.cpp",
   "output": "CMakeFiles/main.dir/src/core/Camera.cpp.obj"
 },
 {
   "directory": "D:/UFRGS/05 Fundamentos de Computação Gráfica/ufrgs-fcg-final/build",
-  "command": "C:\\PROGRA~1\\CODEBL~1\\MinGW\\bin\\G__~1.EXE  @CMakeFiles/main.dir/includes_CXX.rsp -g -std=c++11 -o CMakeFiles\\main.dir\\src\\core\\Collisions.cpp.obj -c \"D:\\UFRGS\\05 Fundamentos de Computação Gráfica\\ufrgs-fcg-final\\src\\core\\Collisions.cpp\"",
+  "command": "C:\\PROGRA~1\\CODEBL~1\\MinGW\\bin\\G__~1.EXE  @CMakeFiles/main.dir/includes_CXX.rsp -O3 -DNDEBUG -std=c++11 -o CMakeFiles\\main.dir\\src\\core\\Collisions.cpp.obj -c \"D:\\UFRGS\\05 Fundamentos de Computação Gráfica\\ufrgs-fcg-final\\src\\core\\Collisions.cpp\"",
   "file": "D:/UFRGS/05 Fundamentos de Computação Gráfica/ufrgs-fcg-final/src/core/Collisions.cpp",
   "output": "CMakeFiles/main.dir/src/core/Collisions.cpp.obj"
 },
 {
   "directory": "D:/UFRGS/05 Fundamentos de Computação Gráfica/ufrgs-fcg-final/build",
-  "command": "C:\\PROGRA~1\\CODEBL~1\\MinGW\\bin\\G__~1.EXE  @CMakeFiles/main.dir/includes_CXX.rsp -g -std=c++11 -o CMakeFiles\\main.dir\\src\\game\\Level.cpp.obj -c \"D:\\UFRGS\\05 Fundamentos de Computação Gráfica\\ufrgs-fcg-final\\src\\game\\Level.cpp\"",
+  "command": "C:\\PROGRA~1\\CODEBL~1\\MinGW\\bin\\G__~1.EXE  @CMakeFiles/main.dir/includes_CXX.rsp -O3 -DNDEBUG -std=c++11 -o CMakeFiles\\main.dir\\src\\game\\Level.cpp.obj -c \"D:\\UFRGS\\05 Fundamentos de Computação Gráfica\\ufrgs-fcg-final\\src\\game\\Level.cpp\"",
   "file": "D:/UFRGS/05 Fundamentos de Computação Gráfica/ufrgs-fcg-final/src/game/Level.cpp",
   "output": "CMakeFiles/main.dir/src/game/Level.cpp.obj"
 },
 {
   "directory": "D:/UFRGS/05 Fundamentos de Computação Gráfica/ufrgs-fcg-final/build",
-  "command": "C:\\PROGRA~1\\CODEBL~1\\MinGW\\bin\\G__~1.EXE  @CMakeFiles/main.dir/includes_CXX.rsp -g -std=c++11 -o CMakeFiles\\main.dir\\src\\game\\Player.cpp.obj -c \"D:\\UFRGS\\05 Fundamentos de Computação Gráfica\\ufrgs-fcg-final\\src\\game\\Player.cpp\"",
+  "command": "C:\\PROGRA~1\\CODEBL~1\\MinGW\\bin\\G__~1.EXE  @CMakeFiles/main.dir/includes_CXX.rsp -O3 -DNDEBUG -std=c++11 -o CMakeFiles\\main.dir\\src\\game\\Player.cpp.obj -c \"D:\\UFRGS\\05 Fundamentos de Computação Gráfica\\ufrgs-fcg-final\\src\\game\\Player.cpp\"",
   "file": "D:/UFRGS/05 Fundamentos de Computação Gráfica/ufrgs-fcg-final/src/game/Player.cpp",
   "output": "CMakeFiles/main.dir/src/game/Player.cpp.obj"
 },
 {
   "directory": "D:/UFRGS/05 Fundamentos de Computação Gráfica/ufrgs-fcg-final/build",
-  "command": "C:\\PROGRA~1\\CODEBL~1\\MinGW\\bin\\G__~1.EXE  @CMakeFiles/main.dir/includes_CXX.rsp -g -std=c++11 -o CMakeFiles\\main.dir\\src\\game\\Projectile.cpp.obj -c \"D:\\UFRGS\\05 Fundamentos de Computação Gráfica\\ufrgs-fcg-final\\src\\game\\Projectile.cpp\"",
-  "file": "D:/UFRGS/05 Fundamentos de Computação Gráfica/ufrgs-fcg-final/src/game/Projectile.cpp",
-  "output": "CMakeFiles/main.dir/src/game/Projectile.cpp.obj"
-},
-{
-  "directory": "D:/UFRGS/05 Fundamentos de Computação Gráfica/ufrgs-fcg-final/build",
-  "command": "C:\\PROGRA~1\\CODEBL~1\\MinGW\\bin\\G__~1.EXE  @CMakeFiles/main.dir/includes_CXX.rsp -g -std=c++11 -o CMakeFiles\\main.dir\\src\\game\\PointLight.cpp.obj -c \"D:\\UFRGS\\05 Fundamentos de Computação Gráfica\\ufrgs-fcg-final\\src\\game\\PointLight.cpp\"",
+  "command": "C:\\PROGRA~1\\CODEBL~1\\MinGW\\bin\\G__~1.EXE  @CMakeFiles/main.dir/includes_CXX.rsp -O3 -DNDEBUG -std=c++11 -o CMakeFiles\\main.dir\\src\\game\\PointLight.cpp.obj -c \"D:\\UFRGS\\05 Fundamentos de Computação Gráfica\\ufrgs-fcg-final\\src\\game\\PointLight.cpp\"",
   "file": "D:/UFRGS/05 Fundamentos de Computação Gráfica/ufrgs-fcg-final/src/game/PointLight.cpp",
   "output": "CMakeFiles/main.dir/src/game/PointLight.cpp.obj"
 },
 {
   "directory": "D:/UFRGS/05 Fundamentos de Computação Gráfica/ufrgs-fcg-final/build",
-  "command": "C:\\PROGRA~1\\CODEBL~1\\MinGW\\bin\\G__~1.EXE  @CMakeFiles/main.dir/includes_CXX.rsp -g -std=c++11 -o CMakeFiles\\main.dir\\src\\game\\GameEntity.cpp.obj -c \"D:\\UFRGS\\05 Fundamentos de Computação Gráfica\\ufrgs-fcg-final\\src\\game\\GameEntity.cpp\"",
-  "file": "D:/UFRGS/05 Fundamentos de Computação Gráfica/ufrgs-fcg-final/src/game/GameEntity.cpp",
-  "output": "CMakeFiles/main.dir/src/game/GameEntity.cpp.obj"
+  "command": "C:\\PROGRA~1\\CODEBL~1\\MinGW\\bin\\G__~1.EXE  @CMakeFiles/main.dir/includes_CXX.rsp -O3 -DNDEBUG -std=c++11 -o CMakeFiles\\main.dir\\src\\game\\ProjectileController.cpp.obj -c \"D:\\UFRGS\\05 Fundamentos de Computação Gráfica\\ufrgs-fcg-final\\src\\game\\ProjectileController.cpp\"",
+  "file": "D:/UFRGS/05 Fundamentos de Computação Gráfica/ufrgs-fcg-final/src/game/ProjectileController.cpp",
+  "output": "CMakeFiles/main.dir/src/game/ProjectileController.cpp.obj"
+},
+{
+  "directory": "D:/UFRGS/05 Fundamentos de Computação Gráfica/ufrgs-fcg-final/build",
+  "command": "C:\\PROGRA~1\\CODEBL~1\\MinGW\\bin\\G__~1.EXE  @CMakeFiles/main.dir/includes_CXX.rsp -O3 -DNDEBUG -std=c++11 -o CMakeFiles\\main.dir\\src\\game\\EntityController.cpp.obj -c \"D:\\UFRGS\\05 Fundamentos de Computação Gráfica\\ufrgs-fcg-final\\src\\game\\EntityController.cpp\"",
+  "file": "D:/UFRGS/05 Fundamentos de Computação Gráfica/ufrgs-fcg-final/src/game/EntityController.cpp",
+  "output": "CMakeFiles/main.dir/src/game/EntityController.cpp.obj"
+},
+{
+  "directory": "D:/UFRGS/05 Fundamentos de Computação Gráfica/ufrgs-fcg-final/build",
+  "command": "C:\\PROGRA~1\\CODEBL~1\\MinGW\\bin\\G__~1.EXE  @CMakeFiles/main.dir/includes_CXX.rsp -O3 -DNDEBUG -std=c++11 -o CMakeFiles\\main.dir\\src\\game\\BezierCurve.cpp.obj -c \"D:\\UFRGS\\05 Fundamentos de Computação Gráfica\\ufrgs-fcg-final\\src\\game\\BezierCurve.cpp\"",
+  "file": "D:/UFRGS/05 Fundamentos de Computação Gráfica/ufrgs-fcg-final/src/game/BezierCurve.cpp",
+  "output": "CMakeFiles/main.dir/src/game/BezierCurve.cpp.obj"
+},
+{
+  "directory": "D:/UFRGS/05 Fundamentos de Computação Gráfica/ufrgs-fcg-final/build",
+  "command": "C:\\PROGRA~1\\CODEBL~1\\MinGW\\bin\\G__~1.EXE  @CMakeFiles/main.dir/includes_CXX.rsp -O3 -DNDEBUG -std=c++11 -o CMakeFiles\\main.dir\\src\\game\\PowerupController.cpp.obj -c \"D:\\UFRGS\\05 Fundamentos de Computação Gráfica\\ufrgs-fcg-final\\src\\game\\PowerupController.cpp\"",
+  "file": "D:/UFRGS/05 Fundamentos de Computação Gráfica/ufrgs-fcg-final/src/game/PowerupController.cpp",
+  "output": "CMakeFiles/main.dir/src/game/PowerupController.cpp.obj"
 }
 ]

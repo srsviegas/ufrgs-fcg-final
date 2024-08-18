@@ -296,29 +296,53 @@ src/dejavufont.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/dejavufont.cpp.s
 .PHONY : src/dejavufont.cpp.s
 
-src/game/GameEntity.obj: src/game/GameEntity.cpp.obj
-.PHONY : src/game/GameEntity.obj
+src/game/BezierCurve.obj: src/game/BezierCurve.cpp.obj
+.PHONY : src/game/BezierCurve.obj
 
 # target to build an object file
-src/game/GameEntity.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/game/GameEntity.cpp.obj
-.PHONY : src/game/GameEntity.cpp.obj
+src/game/BezierCurve.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/game/BezierCurve.cpp.obj
+.PHONY : src/game/BezierCurve.cpp.obj
 
-src/game/GameEntity.i: src/game/GameEntity.cpp.i
-.PHONY : src/game/GameEntity.i
+src/game/BezierCurve.i: src/game/BezierCurve.cpp.i
+.PHONY : src/game/BezierCurve.i
 
 # target to preprocess a source file
-src/game/GameEntity.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/game/GameEntity.cpp.i
-.PHONY : src/game/GameEntity.cpp.i
+src/game/BezierCurve.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/game/BezierCurve.cpp.i
+.PHONY : src/game/BezierCurve.cpp.i
 
-src/game/GameEntity.s: src/game/GameEntity.cpp.s
-.PHONY : src/game/GameEntity.s
+src/game/BezierCurve.s: src/game/BezierCurve.cpp.s
+.PHONY : src/game/BezierCurve.s
 
 # target to generate assembly for a file
-src/game/GameEntity.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/game/GameEntity.cpp.s
-.PHONY : src/game/GameEntity.cpp.s
+src/game/BezierCurve.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/game/BezierCurve.cpp.s
+.PHONY : src/game/BezierCurve.cpp.s
+
+src/game/EntityController.obj: src/game/EntityController.cpp.obj
+.PHONY : src/game/EntityController.obj
+
+# target to build an object file
+src/game/EntityController.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/game/EntityController.cpp.obj
+.PHONY : src/game/EntityController.cpp.obj
+
+src/game/EntityController.i: src/game/EntityController.cpp.i
+.PHONY : src/game/EntityController.i
+
+# target to preprocess a source file
+src/game/EntityController.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/game/EntityController.cpp.i
+.PHONY : src/game/EntityController.cpp.i
+
+src/game/EntityController.s: src/game/EntityController.cpp.s
+.PHONY : src/game/EntityController.s
+
+# target to generate assembly for a file
+src/game/EntityController.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/game/EntityController.cpp.s
+.PHONY : src/game/EntityController.cpp.s
 
 src/game/Level.obj: src/game/Level.cpp.obj
 .PHONY : src/game/Level.obj
@@ -392,29 +416,53 @@ src/game/PointLight.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/game/PointLight.cpp.s
 .PHONY : src/game/PointLight.cpp.s
 
-src/game/Projectile.obj: src/game/Projectile.cpp.obj
-.PHONY : src/game/Projectile.obj
+src/game/PowerupController.obj: src/game/PowerupController.cpp.obj
+.PHONY : src/game/PowerupController.obj
 
 # target to build an object file
-src/game/Projectile.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/game/Projectile.cpp.obj
-.PHONY : src/game/Projectile.cpp.obj
+src/game/PowerupController.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/game/PowerupController.cpp.obj
+.PHONY : src/game/PowerupController.cpp.obj
 
-src/game/Projectile.i: src/game/Projectile.cpp.i
-.PHONY : src/game/Projectile.i
+src/game/PowerupController.i: src/game/PowerupController.cpp.i
+.PHONY : src/game/PowerupController.i
 
 # target to preprocess a source file
-src/game/Projectile.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/game/Projectile.cpp.i
-.PHONY : src/game/Projectile.cpp.i
+src/game/PowerupController.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/game/PowerupController.cpp.i
+.PHONY : src/game/PowerupController.cpp.i
 
-src/game/Projectile.s: src/game/Projectile.cpp.s
-.PHONY : src/game/Projectile.s
+src/game/PowerupController.s: src/game/PowerupController.cpp.s
+.PHONY : src/game/PowerupController.s
 
 # target to generate assembly for a file
-src/game/Projectile.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/game/Projectile.cpp.s
-.PHONY : src/game/Projectile.cpp.s
+src/game/PowerupController.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/game/PowerupController.cpp.s
+.PHONY : src/game/PowerupController.cpp.s
+
+src/game/ProjectileController.obj: src/game/ProjectileController.cpp.obj
+.PHONY : src/game/ProjectileController.obj
+
+# target to build an object file
+src/game/ProjectileController.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/game/ProjectileController.cpp.obj
+.PHONY : src/game/ProjectileController.cpp.obj
+
+src/game/ProjectileController.i: src/game/ProjectileController.cpp.i
+.PHONY : src/game/ProjectileController.i
+
+# target to preprocess a source file
+src/game/ProjectileController.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/game/ProjectileController.cpp.i
+.PHONY : src/game/ProjectileController.cpp.i
+
+src/game/ProjectileController.s: src/game/ProjectileController.cpp.s
+.PHONY : src/game/ProjectileController.s
+
+# target to generate assembly for a file
+src/game/ProjectileController.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/game/ProjectileController.cpp.s
+.PHONY : src/game/ProjectileController.cpp.s
 
 src/glad.obj: src/glad.c.obj
 .PHONY : src/glad.obj
@@ -542,9 +590,12 @@ help:
 	@echo ... src/dejavufont.obj
 	@echo ... src/dejavufont.i
 	@echo ... src/dejavufont.s
-	@echo ... src/game/GameEntity.obj
-	@echo ... src/game/GameEntity.i
-	@echo ... src/game/GameEntity.s
+	@echo ... src/game/BezierCurve.obj
+	@echo ... src/game/BezierCurve.i
+	@echo ... src/game/BezierCurve.s
+	@echo ... src/game/EntityController.obj
+	@echo ... src/game/EntityController.i
+	@echo ... src/game/EntityController.s
 	@echo ... src/game/Level.obj
 	@echo ... src/game/Level.i
 	@echo ... src/game/Level.s
@@ -554,9 +605,12 @@ help:
 	@echo ... src/game/PointLight.obj
 	@echo ... src/game/PointLight.i
 	@echo ... src/game/PointLight.s
-	@echo ... src/game/Projectile.obj
-	@echo ... src/game/Projectile.i
-	@echo ... src/game/Projectile.s
+	@echo ... src/game/PowerupController.obj
+	@echo ... src/game/PowerupController.i
+	@echo ... src/game/PowerupController.s
+	@echo ... src/game/ProjectileController.obj
+	@echo ... src/game/ProjectileController.i
+	@echo ... src/game/ProjectileController.s
 	@echo ... src/glad.obj
 	@echo ... src/glad.i
 	@echo ... src/glad.s

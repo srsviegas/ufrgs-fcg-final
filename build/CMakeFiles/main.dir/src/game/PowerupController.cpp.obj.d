@@ -1,5 +1,6 @@
-CMakeFiles/main.dir/src/game/Player.cpp.obj: \
- D:\UFRGS\05\ Fundamentos\ de\ Computação\ Gráfica\ufrgs-fcg-final\src\game\Player.cpp \
+CMakeFiles/main.dir/src/game/PowerupController.cpp.obj: \
+ D:\UFRGS\05\ Fundamentos\ de\ Computação\ Gráfica\ufrgs-fcg-final\src\game\PowerupController.cpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/PowerupController.h \
  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/Player.h \
  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/vec4.hpp \
  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_bool4.hpp \
@@ -503,4 +504,5 @@ CMakeFiles/main.dir/src/game/Player.cpp.obj: \
  C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_heap.h \
  C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_tempbuf.h \
  C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/uniform_int_dist.h \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/Level.h
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/Level.h \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/BezierCurve.h

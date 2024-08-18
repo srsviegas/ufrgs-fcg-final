@@ -163,6 +163,28 @@ CMakeFiles/main.dir/src/main.cpp.obj: \
  C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_heap.h \
  C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_tempbuf.h \
  C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/uniform_int_dist.h \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/BezierCurve.h \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/vec4.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_bool4.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_vec4.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/qualifier.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/setup.hpp \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cassert \
+ C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/assert.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstddef \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/simd/platform.h \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_vec4.inl \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/compute_vector_relational.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_bool4_precision.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_float4.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_float4_precision.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_double4.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_double4_precision.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/setup.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_int4.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_int4_precision.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_uint4.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_uint4_precision.hpp \
  C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/chrono \
  C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ratio \
  C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ctime \
@@ -170,6 +192,144 @@ CMakeFiles/main.dir/src/main.cpp.obj: \
  C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/_timeval.h \
  C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/pthread_time.h \
  C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/parse_numbers.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/complex \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/EntityController.h \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/GameEntity.h \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/vec3.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_bool3.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_vec3.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_vec3.inl \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_bool3_precision.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_float3.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_float3_precision.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_double3.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_double3_precision.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_int3.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_int3_precision.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_uint3.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_uint3_precision.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/Collisions.h \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/glm.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/_fixes.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/setup.hpp \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/climits \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cfloat \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/float.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/float.h \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/fwd.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/vec2.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_bool2.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_vec2.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_vec2.inl \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_bool2_precision.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_float2.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_float2_precision.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_double2.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_double2_precision.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_int2.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_int2_precision.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_uint2.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_uint2_precision.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/mat2x2.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double2x2.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat2x2.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat2x2.inl \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/matrix.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/mat2x3.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double2x3.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat2x3.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat2x3.inl \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double2x3_precision.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float2x3.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float2x3_precision.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/mat2x4.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double2x4.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat2x4.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat2x4.inl \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double2x4_precision.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float2x4.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float2x4_precision.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/mat3x2.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double3x2.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat3x2.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat3x2.inl \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double3x2_precision.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float3x2.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float3x2_precision.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/mat3x3.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double3x3.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat3x3.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat3x3.inl \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double3x3_precision.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float3x3.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float3x3_precision.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/mat3x4.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double3x4.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat3x4.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat3x4.inl \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double3x4_precision.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float3x4.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float3x4_precision.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/mat4x2.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double4x2.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat4x2.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat4x2.inl \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double4x2_precision.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float4x2.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float4x2_precision.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/mat4x3.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double4x3.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat4x3.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat4x3.inl \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double4x3_precision.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float4x3.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float4x3_precision.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/mat4x4.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double4x4.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat4x4.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat4x4.inl \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double4x4_precision.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float4x4.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float4x4_precision.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/func_matrix.inl \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/geometric.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/func_geometric.inl \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/exponential.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_vec1.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_vec1.inl \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/func_exponential.inl \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/vector_relational.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/func_vector_relational.inl \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/_vectorize.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/common.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/func_common.inl \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/compute_common.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double2x2_precision.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float2x2.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float2x2_precision.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/trigonometric.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/func_trigonometric.inl \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/packing.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/func_packing.inl \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_half.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_half.inl \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/integer.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/func_integer.inl \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/Level.h \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/gtc/matrix_transform.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_projection.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/gtc/constants.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/scalar_constants.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/scalar_constants.inl \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/gtc/constants.inl \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_projection.inl \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_clip_space.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_clip_space.inl \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_transform.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_transform.inl \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/gtc/matrix_transform.inl \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/matrices.h \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/utils.h \
  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glad/glad.h \
  C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/windows.h \
  C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/sdkddkver.h \
@@ -326,148 +486,8 @@ CMakeFiles/main.dir/src/main.cpp.obj: \
  C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/imm.h \
  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/KHR/khrplatform.h \
  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/GLFW/glfw3.h \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/mat4x4.hpp \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double4x4.hpp \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat4x4.hpp \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_vec4.hpp \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/qualifier.hpp \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/setup.hpp \
- C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cassert \
- C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/assert.h \
- C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstddef \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/simd/platform.h \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_vec4.inl \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/compute_vector_relational.hpp \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat4x4.inl \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/matrix.hpp \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/setup.hpp \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/vec2.hpp \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_bool2.hpp \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_vec2.hpp \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_vec2.inl \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_bool2_precision.hpp \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_float2.hpp \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_float2_precision.hpp \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_double2.hpp \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_double2_precision.hpp \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_int2.hpp \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_int2_precision.hpp \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_uint2.hpp \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_uint2_precision.hpp \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/vec3.hpp \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_bool3.hpp \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_vec3.hpp \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_vec3.inl \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_bool3_precision.hpp \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_float3.hpp \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_float3_precision.hpp \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_double3.hpp \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_double3_precision.hpp \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_int3.hpp \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_int3_precision.hpp \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_uint3.hpp \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_uint3_precision.hpp \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/vec4.hpp \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_bool4.hpp \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_bool4_precision.hpp \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_float4.hpp \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_float4_precision.hpp \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_double4.hpp \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_double4_precision.hpp \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/setup.hpp \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_int4.hpp \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_int4_precision.hpp \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_uint4.hpp \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_uint4_precision.hpp \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/mat2x2.hpp \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double2x2.hpp \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat2x2.hpp \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat2x2.inl \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double2x2_precision.hpp \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float2x2.hpp \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float2x2_precision.hpp \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/mat2x3.hpp \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double2x3.hpp \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat2x3.hpp \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat2x3.inl \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double2x3_precision.hpp \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float2x3.hpp \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float2x3_precision.hpp \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/mat2x4.hpp \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double2x4.hpp \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat2x4.hpp \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat2x4.inl \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double2x4_precision.hpp \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float2x4.hpp \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float2x4_precision.hpp \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/mat3x2.hpp \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double3x2.hpp \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat3x2.hpp \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat3x2.inl \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double3x2_precision.hpp \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float3x2.hpp \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float3x2_precision.hpp \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/mat3x3.hpp \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double3x3.hpp \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat3x3.hpp \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat3x3.inl \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double3x3_precision.hpp \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float3x3.hpp \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float3x3_precision.hpp \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/mat3x4.hpp \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double3x4.hpp \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat3x4.hpp \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat3x4.inl \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double3x4_precision.hpp \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float3x4.hpp \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float3x4_precision.hpp \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/mat4x2.hpp \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double4x2.hpp \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat4x2.hpp \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat4x2.inl \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double4x2_precision.hpp \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float4x2.hpp \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float4x2_precision.hpp \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/mat4x3.hpp \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double4x3.hpp \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat4x3.hpp \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat4x3.inl \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double4x3_precision.hpp \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float4x3.hpp \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float4x3_precision.hpp \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/func_matrix.inl \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/geometric.hpp \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/func_geometric.inl \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/exponential.hpp \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_vec1.hpp \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_vec1.inl \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/func_exponential.inl \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/vector_relational.hpp \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/func_vector_relational.inl \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/_vectorize.hpp \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/common.hpp \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/_fixes.hpp \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/func_common.inl \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/compute_common.hpp \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double4x4_precision.hpp \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float4x4.hpp \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float4x4_precision.hpp \
  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/gtc/type_ptr.hpp \
  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/gtc/quaternion.hpp \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/gtc/constants.hpp \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/scalar_constants.hpp \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/scalar_constants.inl \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/gtc/constants.inl \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/gtc/matrix_transform.hpp \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_projection.hpp \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/trigonometric.hpp \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/func_trigonometric.inl \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_projection.inl \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_clip_space.hpp \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_clip_space.inl \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_transform.hpp \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_transform.inl \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/gtc/matrix_transform.inl \
  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_relational.hpp \
  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_relational.inl \
  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_float.hpp \
@@ -504,35 +524,31 @@ CMakeFiles/main.dir/src/main.cpp.obj: \
  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_uint1_precision.hpp \
  C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstring \
  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/gtc/type_ptr.inl \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/Constants.h \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/Player.h \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/Level.h \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/ProjectileController.h \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/Projectile.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/random \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/random.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/opt_random.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/random.tcc \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/numeric \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_numeric.h \
  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/tiny_obj_loader.h \
  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/stb_image.h \
  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/utils.h \
  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/matrices.h \
  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/Camera.h \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/matrices.h \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/Level.h \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/glm.hpp \
- C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/climits \
- C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cfloat \
- C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/float.h \
- C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/float.h \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/fwd.hpp \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/packing.hpp \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/func_packing.inl \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_half.hpp \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_half.inl \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/integer.hpp \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/func_integer.inl \
  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/Renderer.h \
  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/Window.h \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/utils.h \
  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/dejavufont.h \
  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/Camera.h \
  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/Input.h \
  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/Window.h \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/Level.h \
  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/Player.h \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/Collisions.h \
  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/PointLight.h \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/Projectile.h \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/GameEntity.h
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/ProjectileController.h \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/Collisions.h \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/PowerupController.h \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/BezierCurve.h

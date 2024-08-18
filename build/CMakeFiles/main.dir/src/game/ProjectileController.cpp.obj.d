@@ -1,16 +1,17 @@
-CMakeFiles/main.dir/src/game/Player.cpp.obj: \
- D:\UFRGS\05\ Fundamentos\ de\ Computação\ Gráfica\ufrgs-fcg-final\src\game\Player.cpp \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/Player.h \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/vec4.hpp \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_bool4.hpp \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_vec4.hpp \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/qualifier.hpp \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/setup.hpp \
- C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cassert \
+CMakeFiles/main.dir/src/game/ProjectileController.cpp.obj: \
+ D:\UFRGS\05\ Fundamentos\ de\ Computação\ Gráfica\ufrgs-fcg-final\src\game\ProjectileController.cpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/ProjectileController.h \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/Projectile.h \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/Collisions.h \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/glm.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/_fixes.hpp \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cmath \
  C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
  C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h \
  C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/cpu_defines.h \
- C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/assert.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/cpp_type_traits.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/type_traits.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/math.h \
  C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/crtdefs.h \
  C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/_mingw.h \
  C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/_mingw_mac.h \
@@ -18,15 +19,18 @@ CMakeFiles/main.dir/src/game/Player.cpp.obj: \
  C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/vadefs.h \
  C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/sdks/_mingw_directx.h \
  C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
- C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/stdlib.h \
- C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstdlib \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/std_abs.h \
  C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/stdlib.h \
  C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed/limits.h \
  C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed/syslimits.h \
  C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/limits.h \
  C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/stdlib.h \
  C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/malloc.h \
- C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/std_abs.h \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/setup.hpp \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cassert \
+ C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/assert.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstdlib \
  C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstddef \
  C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stddef.h \
  C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/stddef.h \
@@ -35,36 +39,19 @@ CMakeFiles/main.dir/src/game/Player.cpp.obj: \
  C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stdint.h \
  C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/stdint.h \
  C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/type_traits \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_vec4.inl \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/compute_vector_relational.hpp \
- C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/limits \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_bool4_precision.hpp \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_float4.hpp \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_float4_precision.hpp \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_double4.hpp \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_double4_precision.hpp \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/setup.hpp \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_int4.hpp \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_int4_precision.hpp \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_uint4.hpp \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_uint4_precision.hpp \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/Level.h \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/glm.hpp \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/_fixes.hpp \
- C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cmath \
- C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/cpp_type_traits.h \
- C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/type_traits.h \
- C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/math.h \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/setup.hpp \
  C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/climits \
  C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cfloat \
  C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/float.h \
  C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/float.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/limits \
  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/fwd.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/qualifier.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/setup.hpp \
  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/vec2.hpp \
  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_bool2.hpp \
  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_vec2.hpp \
  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_vec2.inl \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/compute_vector_relational.hpp \
  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_bool2_precision.hpp \
  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_float2.hpp \
  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_float2_precision.hpp \
@@ -87,6 +74,20 @@ CMakeFiles/main.dir/src/game/Player.cpp.obj: \
  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_int3_precision.hpp \
  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_uint3.hpp \
  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_uint3_precision.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/vec4.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_bool4.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_vec4.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_vec4.inl \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_bool4_precision.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_float4.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_float4_precision.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_double4.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_double4_precision.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/setup.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_int4.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_int4_precision.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_uint4.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_uint4_precision.hpp \
  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/mat2x2.hpp \
  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double2x2.hpp \
  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat2x2.hpp \
@@ -172,6 +173,48 @@ CMakeFiles/main.dir/src/game/Player.cpp.obj: \
  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_half.inl \
  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/integer.hpp \
  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/func_integer.inl \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/algorithm \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/utility \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_relops.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_pair.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/move.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/concept_check.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/initializer_list \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_algobase.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/functexcept.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/exception_defines.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/numeric_traits.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_iterator_base_types.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_iterator_base_funcs.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/debug/assertions.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_iterator.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ptr_traits.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/debug/debug.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/predefined_ops.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_algo.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/algorithmfwd.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_heap.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_tempbuf.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_construct.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/new \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/exception \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/exception.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/exception_ptr.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/cxxabi_init_exception.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/typeinfo \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/hash_bytes.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/nested_exception.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/alloc_traits.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/alloc_traits.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/memoryfwd.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/uniform_int_dist.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/stdio.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/_mingw_print_push.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/_mingw_off_t.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/swprintf.inl \
+ C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/_mingw_print_pop.h \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/Level.h \
  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/gtc/matrix_transform.hpp \
  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_projection.hpp \
  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/gtc/constants.hpp \
@@ -185,38 +228,11 @@ CMakeFiles/main.dir/src/game/Player.cpp.obj: \
  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_transform.inl \
  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/gtc/matrix_transform.inl \
  C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/vector \
- C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_algobase.h \
- C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/functexcept.h \
- C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/exception_defines.h \
- C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/numeric_traits.h \
- C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_pair.h \
- C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/move.h \
- C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/concept_check.h \
- C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_iterator_base_types.h \
- C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_iterator_base_funcs.h \
- C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/debug/assertions.h \
- C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_iterator.h \
- C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ptr_traits.h \
- C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/debug/debug.h \
- C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/predefined_ops.h \
  C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/allocator.h \
  C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/c++allocator.h \
  C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/new_allocator.h \
- C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/new \
- C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/exception \
- C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/exception.h \
- C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/exception_ptr.h \
- C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/cxxabi_init_exception.h \
- C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/typeinfo \
- C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/hash_bytes.h \
- C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/nested_exception.h \
- C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/memoryfwd.h \
- C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_construct.h \
- C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/alloc_traits.h \
- C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/alloc_traits.h \
  C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_uninitialized.h \
  C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_vector.h \
- C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/initializer_list \
  C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_bvector.h \
  C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/functional_hash.h \
  C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/range_access.h \
@@ -227,18 +243,12 @@ CMakeFiles/main.dir/src/game/Player.cpp.obj: \
  C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/postypes.h \
  C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cwchar \
  C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/wchar.h \
- C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/_mingw_print_push.h \
- C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/_mingw_off_t.h \
  C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/_mingw_stat64.h \
- C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/swprintf.inl \
  C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/sec_api/wchar_s.h \
- C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/_mingw_print_pop.h \
  C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/localefwd.h \
  C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/c++locale.h \
  C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/clocale \
  C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/locale.h \
- C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/stdio.h \
- C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
  C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iosfwd \
  C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cctype \
  C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/ctype.h \
@@ -493,14 +503,4 @@ CMakeFiles/main.dir/src/game/Player.cpp.obj: \
  C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/time.h \
  C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/_timeval.h \
  C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/pthread_time.h \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/Constants.h \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/Collisions.h \
- C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/algorithm \
- C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/utility \
- C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_relops.h \
- C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_algo.h \
- C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/algorithmfwd.h \
- C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_heap.h \
- C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_tempbuf.h \
- C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/uniform_int_dist.h \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/Level.h
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/Constants.h

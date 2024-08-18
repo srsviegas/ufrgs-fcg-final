@@ -4,12 +4,43 @@
 CMakeFiles/main.dir/src/core/Camera.cpp.obj: D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/src/core/Camera.cpp \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed/limits.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed/syslimits.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/adxintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/ammintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx2intrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx5124fmapsintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx5124vnniwintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512bitalgintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512bwintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512cdintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512dqintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512erintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512fintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512ifmaintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512ifmavlintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512pfintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vbmi2intrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vbmi2vlintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vbmiintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vbmivlintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vlbwintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vldqintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vlintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vnniintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vnnivlintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vpopcntdqintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vpopcntdqvlintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avxintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/bmi2intrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/bmiintrin.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward/binders.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/alloc_traits.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/allocator.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/basic_ios.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/basic_ios.tcc \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/basic_string.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/basic_string.tcc \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/char_traits.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/codecvt.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/concept_check.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/cpp_type_traits.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/cxxabi_forced.h \
@@ -17,13 +48,21 @@ CMakeFiles/main.dir/src/core/Camera.cpp.obj: D:/UFRGS/05\ Fundamentos\ de\ Compu
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/exception.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/exception_defines.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/exception_ptr.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/fstream.tcc \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/functexcept.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/functional_hash.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/hash_bytes.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ios_base.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/istream.tcc \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/locale_classes.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/locale_classes.tcc \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/locale_facets.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/locale_facets.tcc \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/localefwd.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/memoryfwd.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/move.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/nested_exception.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ostream.tcc \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ostream_insert.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/postypes.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/predefined_ops.h \
@@ -40,6 +79,8 @@ CMakeFiles/main.dir/src/core/Camera.cpp.obj: D:/UFRGS/05\ Fundamentos\ de\ Compu
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_pair.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_uninitialized.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_vector.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/streambuf.tcc \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/streambuf_iterator.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stringfwd.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/vector.tcc \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cassert \
@@ -54,7 +95,9 @@ CMakeFiles/main.dir/src/core/Camera.cpp.obj: D:/UFRGS/05\ Fundamentos\ de\ Compu
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstdio \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstdlib \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstring \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ctime \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cwchar \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cwctype \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/debug/assertions.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/debug/debug.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/exception \
@@ -64,26 +107,82 @@ CMakeFiles/main.dir/src/core/Camera.cpp.obj: D:/UFRGS/05\ Fundamentos\ de\ Compu
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/numeric_traits.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/string_conversions.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/type_traits.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/fstream \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/initializer_list \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ios \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iosfwd \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/istream \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/limits \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/new \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/stdexcept \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/stdlib.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/streambuf \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/string \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/system_error \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/type_traits \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/typeinfo \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/vector \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/atomic_word.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/basic_file.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/c++allocator.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/c++io.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/c++locale.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/cpu_defines.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/ctype_base.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/ctype_inline.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/error_constants.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/gthr-default.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/gthr.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/cetintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/clflushoptintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/clwbintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/clzerointrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/emmintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/f16cintrin.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/float.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/fma4intrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/fmaintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/fxsrintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/gfniintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/ia32intrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/immintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/lwpintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/lzcntintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/mm3dnow.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/mm_malloc.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/mmintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/movdirintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/mwaitxintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/pconfigintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/pkuintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/pmmintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/popcntintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/prfchwintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/rdseedintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/rtmintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/sgxintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/shaintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/smmintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stdarg.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stddef.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stdint.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/tbmintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/tmmintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/vaesintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/vpclmulqdqintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/wbnoinvdintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/wmmintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/x86intrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xmmintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xopintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xsavecintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xsaveintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xsaveoptintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xsavesintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xtestintrin.h \
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/_mingw.h \
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/_mingw_mac.h \
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/_mingw_off_t.h \
@@ -91,41 +190,124 @@ CMakeFiles/main.dir/src/core/Camera.cpp.obj: D:/UFRGS/05\ Fundamentos\ de\ Compu
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/_mingw_print_push.h \
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/_mingw_secapi.h \
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/_mingw_stat64.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/_mingw_stdarg.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/_mingw_unicode.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/_timeval.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/apiset.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/apisetcconv.h \
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/assert.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/basetsd.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/bemapiset.h \
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/corecrt_startup.h \
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/crtdefs.h \
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/ctype.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/datetimeapi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/debugapi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/driverspecs.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/errhandlingapi.h \
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/errno.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/excpt.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/fibersapi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/fileapi.h \
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/float.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/fltwinerror.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/guiddef.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/handleapi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/heapapi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/imm.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/interlockedapi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/ioapiset.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/jobapi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/ktmtypes.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/libloaderapi.h \
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/limits.h \
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/locale.h \
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/malloc.h \
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/math.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/mcx.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/memoryapi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/minwinbase.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/minwindef.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/namedpipeapi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/namespaceapi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/poppack.h \
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/process.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/processenv.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/processthreadsapi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/processtopologyapi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/profileapi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/psdk_inc/intrin-impl.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/pshpack1.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/pshpack2.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/pshpack4.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/pshpack8.h \
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/pthread.h \
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/pthread_compat.h \
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/pthread_signal.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/pthread_time.h \
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/pthread_unistd.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/realtimeapiset.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/reason.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/sal.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/sdkddkver.h \
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/sdks/_mingw_directx.h \
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/sec_api/stralign_s.h \
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/sec_api/string_s.h \
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/sec_api/sys/timeb_s.h \
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/sec_api/wchar_s.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/securityappcontainer.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/securitybaseapi.h \
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/signal.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/specstrings.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/stdarg.h \
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/stddef.h \
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/stdint.h \
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/stdio.h \
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/stdlib.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/stralign.h \
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/string.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/stringapiset.h \
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/swprintf.inl \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/synchapi.h \
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/sys/timeb.h \
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/sys/types.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/sysinfoapi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/systemtopologyapi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/threadpoolapiset.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/threadpoollegacyapiset.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/time.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/timezoneapi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/tvout.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/utilapiset.h \
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/vadefs.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/virtdisk.h \
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/wchar.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/wctype.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/winapifamily.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/winbase.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/wincon.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/windef.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/windows.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/winerror.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/wingdi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/winnetwk.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/winnls.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/winnt.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/winreg.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/winsvc.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/winuser.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/winver.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/wnnc.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/wow64apiset.h \
   D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/Camera.h \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/Constants.h \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/GLFW/glfw3.h \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/KHR/khrplatform.h \
   D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/Level.h \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glad/glad.h \
   D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/common.hpp \
   D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/_fixes.hpp \
   D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/_vectorize.hpp \
@@ -305,215 +487,10 @@ CMakeFiles/main.dir/src/core/Camera.cpp.obj: D:/UFRGS/05\ Fundamentos\ de\ Compu
   D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/vec3.hpp \
   D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/vec4.hpp \
   D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/vector_relational.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/matrices.h
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/matrices.h \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/utils.h
 
 CMakeFiles/main.dir/src/core/Collisions.cpp.obj: D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/src/core/Collisions.cpp \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed/limits.h \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed/syslimits.h \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/algorithm \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/algorithmfwd.h \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/alloc_traits.h \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/concept_check.h \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/cpp_type_traits.h \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/cxxabi_init_exception.h \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/exception.h \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/exception_defines.h \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/exception_ptr.h \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/functexcept.h \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/hash_bytes.h \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/memoryfwd.h \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/move.h \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/nested_exception.h \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/predefined_ops.h \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ptr_traits.h \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/std_abs.h \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_algo.h \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_algobase.h \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_construct.h \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_heap.h \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_iterator.h \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_iterator_base_funcs.h \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_iterator_base_types.h \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_pair.h \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_relops.h \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_tempbuf.h \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/uniform_int_dist.h \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cassert \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cfloat \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/climits \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cmath \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstddef \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstdint \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstdlib \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/debug/assertions.h \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/debug/debug.h \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/exception \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/alloc_traits.h \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/numeric_traits.h \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/type_traits.h \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/initializer_list \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/limits \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/new \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/stdlib.h \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/type_traits \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/typeinfo \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/utility \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/cpu_defines.h \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/float.h \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stddef.h \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stdint.h \
-  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/_mingw.h \
-  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/_mingw_mac.h \
-  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/_mingw_secapi.h \
-  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/assert.h \
-  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/crtdefs.h \
-  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/float.h \
-  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/limits.h \
-  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/malloc.h \
-  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/math.h \
-  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
-  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/sdks/_mingw_directx.h \
-  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
-  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/stddef.h \
-  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/stdint.h \
-  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/stdlib.h \
-  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/vadefs.h \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/Collisions.h \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/common.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/_fixes.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/_vectorize.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/compute_common.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/compute_vector_relational.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/func_common.inl \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/func_exponential.inl \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/func_geometric.inl \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/func_integer.inl \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/func_matrix.inl \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/func_packing.inl \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/func_trigonometric.inl \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/func_vector_relational.inl \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/qualifier.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/setup.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_half.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_half.inl \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat2x2.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat2x2.inl \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat2x3.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat2x3.inl \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat2x4.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat2x4.inl \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat3x2.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat3x2.inl \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat3x3.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat3x3.inl \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat3x4.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat3x4.inl \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat4x2.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat4x2.inl \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat4x3.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat4x3.inl \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat4x4.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat4x4.inl \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_vec1.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_vec1.inl \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_vec2.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_vec2.inl \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_vec3.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_vec3.inl \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_vec4.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_vec4.inl \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/exponential.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double2x2.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double2x2_precision.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double2x3.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double2x3_precision.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double2x4.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double2x4_precision.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double3x2.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double3x2_precision.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double3x3.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double3x3_precision.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double3x4.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double3x4_precision.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double4x2.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double4x2_precision.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double4x3.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double4x3_precision.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double4x4.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double4x4_precision.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float2x2.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float2x2_precision.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float2x3.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float2x3_precision.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float2x4.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float2x4_precision.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float3x2.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float3x2_precision.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float3x3.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float3x3_precision.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float3x4.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float3x4_precision.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float4x2.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float4x2_precision.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float4x3.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float4x3_precision.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float4x4.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float4x4_precision.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_bool2.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_bool2_precision.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_bool3.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_bool3_precision.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_bool4.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_bool4_precision.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_double2.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_double2_precision.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_double3.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_double3_precision.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_double4.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_double4_precision.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_float2.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_float2_precision.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_float3.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_float3_precision.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_float4.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_float4_precision.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_int2.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_int2_precision.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_int3.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_int3_precision.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_int4.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_int4_precision.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_uint2.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_uint2_precision.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_uint3.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_uint3_precision.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_uint4.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_uint4_precision.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/fwd.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/geometric.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/glm.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/integer.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/mat2x2.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/mat2x3.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/mat2x4.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/mat3x2.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/mat3x3.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/mat3x4.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/mat4x2.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/mat4x3.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/mat4x4.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/matrix.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/packing.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/simd/platform.h \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/trigonometric.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/vec2.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/vec3.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/vec4.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/vector_relational.hpp
-
-CMakeFiles/main.dir/src/core/Input.cpp.obj: D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/src/core/Input.cpp \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed/limits.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed/syslimits.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/adxintrin.h \
@@ -544,12 +521,17 @@ CMakeFiles/main.dir/src/core/Input.cpp.obj: D:/UFRGS/05\ Fundamentos\ de\ Comput
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avxintrin.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/bmi2intrin.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/bmiintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/algorithm \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward/binders.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/algorithmfwd.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/alloc_traits.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/allocator.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/basic_ios.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/basic_ios.tcc \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/basic_string.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/basic_string.tcc \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/char_traits.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/codecvt.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/concept_check.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/cpp_type_traits.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/cxxabi_forced.h \
@@ -557,30 +539,45 @@ CMakeFiles/main.dir/src/core/Input.cpp.obj: D:/UFRGS/05\ Fundamentos\ de\ Comput
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/exception.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/exception_defines.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/exception_ptr.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/fstream.tcc \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/functexcept.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/functional_hash.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/hash_bytes.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ios_base.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/istream.tcc \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/locale_classes.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/locale_classes.tcc \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/locale_facets.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/locale_facets.tcc \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/localefwd.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/memoryfwd.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/move.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/nested_exception.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ostream.tcc \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ostream_insert.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/postypes.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/predefined_ops.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ptr_traits.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/range_access.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/std_abs.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_algo.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_algobase.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_bvector.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_construct.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_function.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_heap.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_iterator.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_iterator_base_funcs.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_iterator_base_types.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_pair.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_relops.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_tempbuf.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_uninitialized.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_vector.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/streambuf.tcc \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/streambuf_iterator.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stringfwd.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/uniform_int_dist.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/vector.tcc \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cassert \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cctype \
@@ -594,7 +591,9 @@ CMakeFiles/main.dir/src/core/Input.cpp.obj: D:/UFRGS/05\ Fundamentos\ de\ Comput
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstdio \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstdlib \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstring \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ctime \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cwchar \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cwctype \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/debug/assertions.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/debug/debug.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/exception \
@@ -604,20 +603,33 @@ CMakeFiles/main.dir/src/core/Input.cpp.obj: D:/UFRGS/05\ Fundamentos\ de\ Comput
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/numeric_traits.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/string_conversions.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/type_traits.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/fstream \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/initializer_list \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ios \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iosfwd \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/istream \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/limits \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/new \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/stdexcept \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/stdlib.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/streambuf \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/string \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/system_error \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/type_traits \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/typeinfo \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/utility \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/vector \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/atomic_word.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/basic_file.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/c++allocator.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/c++io.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/c++locale.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/cpu_defines.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/ctype_base.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/ctype_inline.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/error_constants.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/gthr-default.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/gthr.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h \
@@ -677,6 +689,7 @@ CMakeFiles/main.dir/src/core/Input.cpp.obj: D:/UFRGS/05\ Fundamentos\ de\ Comput
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/_mingw_stat64.h \
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/_mingw_stdarg.h \
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/_mingw_unicode.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/_timeval.h \
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/apiset.h \
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/apisetcconv.h \
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/assert.h \
@@ -728,6 +741,7 @@ CMakeFiles/main.dir/src/core/Input.cpp.obj: D:/UFRGS/05\ Fundamentos\ de\ Comput
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/pthread.h \
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/pthread_compat.h \
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/pthread_signal.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/pthread_time.h \
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/pthread_unistd.h \
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/realtimeapiset.h \
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/reason.h \
@@ -761,12 +775,503 @@ CMakeFiles/main.dir/src/core/Input.cpp.obj: D:/UFRGS/05\ Fundamentos\ de\ Comput
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/systemtopologyapi.h \
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/threadpoolapiset.h \
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/threadpoollegacyapiset.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/time.h \
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/timezoneapi.h \
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/tvout.h \
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/utilapiset.h \
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/vadefs.h \
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/virtdisk.h \
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/wchar.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/wctype.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/winapifamily.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/winbase.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/wincon.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/windef.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/windows.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/winerror.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/wingdi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/winnetwk.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/winnls.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/winnt.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/winreg.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/winsvc.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/winuser.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/winver.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/wnnc.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/wow64apiset.h \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/Collisions.h \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/Constants.h \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/GLFW/glfw3.h \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/KHR/khrplatform.h \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/Level.h \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glad/glad.h \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/common.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/_fixes.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/_vectorize.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/compute_common.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/compute_vector_relational.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/func_common.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/func_exponential.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/func_geometric.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/func_integer.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/func_matrix.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/func_packing.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/func_trigonometric.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/func_vector_relational.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/qualifier.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/setup.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_float.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_half.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_half.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat2x2.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat2x2.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat2x3.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat2x3.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat2x4.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat2x4.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat3x2.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat3x2.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat3x3.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat3x3.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat3x4.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat3x4.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat4x2.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat4x2.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat4x3.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat4x3.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat4x4.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat4x4.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_quat.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_quat.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_vec1.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_vec1.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_vec2.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_vec2.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_vec3.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_vec3.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_vec4.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_vec4.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/exponential.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_clip_space.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_clip_space.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double2x2.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double2x2_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double2x3.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double2x3_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double2x4.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double2x4_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double3x2.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double3x2_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double3x3.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double3x3_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double3x4.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double3x4_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double4x2.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double4x2_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double4x3.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double4x3_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double4x4.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double4x4_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float2x2.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float2x2_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float2x3.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float2x3_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float2x4.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float2x4_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float3x2.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float3x2_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float3x3.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float3x3_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float3x4.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float3x4_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float4x2.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float4x2_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float4x3.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float4x3_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float4x4.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float4x4_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_projection.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_projection.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_transform.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_transform.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/quaternion_common.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/quaternion_common.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/quaternion_double.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/quaternion_double_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/quaternion_float.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/quaternion_float_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/quaternion_geometric.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/quaternion_geometric.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/quaternion_relational.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/quaternion_relational.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/quaternion_transform.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/quaternion_transform.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/quaternion_trigonometric.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/quaternion_trigonometric.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/scalar_constants.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/scalar_constants.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_bool1.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_bool1_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_bool2.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_bool2_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_bool3.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_bool3_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_bool4.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_bool4_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_double1.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_double1_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_double2.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_double2_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_double3.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_double3_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_double4.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_double4_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_float1.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_float1_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_float2.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_float2_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_float3.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_float3_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_float4.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_float4_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_int1.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_int1_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_int2.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_int2_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_int3.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_int3_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_int4.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_int4_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_relational.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_relational.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_uint1.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_uint1_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_uint2.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_uint2_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_uint3.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_uint3_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_uint4.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_uint4_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/fwd.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/geometric.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/glm.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/gtc/constants.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/gtc/constants.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/gtc/epsilon.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/gtc/epsilon.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/gtc/matrix_transform.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/gtc/matrix_transform.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/gtc/quaternion.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/gtc/quaternion.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/gtc/type_ptr.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/gtc/type_ptr.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/gtc/vec1.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/integer.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/mat2x2.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/mat2x3.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/mat2x4.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/mat3x2.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/mat3x3.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/mat3x4.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/mat4x2.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/mat4x3.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/mat4x4.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/matrix.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/packing.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/simd/platform.h \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/trigonometric.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/vec2.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/vec3.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/vec4.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/vector_relational.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/matrices.h \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/utils.h
+
+CMakeFiles/main.dir/src/core/Input.cpp.obj: D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/src/core/Input.cpp \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed/limits.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed/syslimits.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/adxintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/ammintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx2intrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx5124fmapsintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx5124vnniwintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512bitalgintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512bwintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512cdintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512dqintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512erintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512fintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512ifmaintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512ifmavlintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512pfintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vbmi2intrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vbmi2vlintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vbmiintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vbmivlintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vlbwintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vldqintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vlintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vnniintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vnnivlintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vpopcntdqintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vpopcntdqvlintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avxintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/bmi2intrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/bmiintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward/binders.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/alloc_traits.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/allocator.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/basic_ios.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/basic_ios.tcc \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/basic_string.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/basic_string.tcc \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/char_traits.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/codecvt.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/concept_check.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/cpp_type_traits.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/cxxabi_forced.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/cxxabi_init_exception.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/exception.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/exception_defines.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/exception_ptr.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/fstream.tcc \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/functexcept.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/functional_hash.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/hash_bytes.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ios_base.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/istream.tcc \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/locale_classes.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/locale_classes.tcc \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/locale_facets.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/locale_facets.tcc \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/localefwd.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/memoryfwd.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/move.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/nested_exception.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ostream.tcc \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ostream_insert.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/postypes.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/predefined_ops.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ptr_traits.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/range_access.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/std_abs.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_algobase.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_bvector.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_construct.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_function.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_iterator.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_iterator_base_funcs.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_iterator_base_types.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_pair.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_uninitialized.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_vector.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/streambuf.tcc \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/streambuf_iterator.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stringfwd.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/vector.tcc \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cassert \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cctype \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cerrno \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cfloat \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/climits \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/clocale \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cmath \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstddef \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstdint \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstdio \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstdlib \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstring \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ctime \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cwchar \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cwctype \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/debug/assertions.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/debug/debug.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/exception \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/alloc_traits.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/atomicity.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/new_allocator.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/numeric_traits.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/string_conversions.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/type_traits.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/fstream \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/initializer_list \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ios \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iosfwd \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/istream \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/limits \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/new \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/stdexcept \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/stdlib.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/streambuf \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/string \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/system_error \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/type_traits \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/typeinfo \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/vector \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/atomic_word.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/basic_file.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/c++allocator.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/c++io.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/c++locale.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/cpu_defines.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/ctype_base.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/ctype_inline.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/error_constants.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/gthr-default.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/gthr.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/cetintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/clflushoptintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/clwbintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/clzerointrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/emmintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/f16cintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/float.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/fma4intrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/fmaintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/fxsrintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/gfniintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/ia32intrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/immintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/lwpintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/lzcntintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/mm3dnow.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/mm_malloc.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/mmintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/movdirintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/mwaitxintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/pconfigintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/pkuintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/pmmintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/popcntintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/prfchwintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/rdseedintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/rtmintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/sgxintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/shaintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/smmintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stdarg.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stddef.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stdint.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/tbmintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/tmmintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/vaesintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/vpclmulqdqintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/wbnoinvdintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/wmmintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/x86intrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xmmintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xopintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xsavecintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xsaveintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xsaveoptintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xsavesintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xtestintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/_mingw.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/_mingw_mac.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/_mingw_off_t.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/_mingw_print_pop.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/_mingw_print_push.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/_mingw_secapi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/_mingw_stat64.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/_mingw_stdarg.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/_mingw_unicode.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/_timeval.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/apiset.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/apisetcconv.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/assert.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/basetsd.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/bemapiset.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/corecrt_startup.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/crtdefs.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/ctype.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/datetimeapi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/debugapi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/driverspecs.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/errhandlingapi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/errno.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/excpt.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/fibersapi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/fileapi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/float.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/fltwinerror.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/guiddef.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/handleapi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/heapapi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/imm.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/interlockedapi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/ioapiset.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/jobapi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/ktmtypes.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/libloaderapi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/limits.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/locale.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/malloc.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/math.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/mcx.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/memoryapi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/minwinbase.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/minwindef.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/namedpipeapi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/namespaceapi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/poppack.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/process.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/processenv.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/processthreadsapi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/processtopologyapi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/profileapi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/psdk_inc/intrin-impl.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/pshpack1.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/pshpack2.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/pshpack4.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/pshpack8.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/pthread.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/pthread_compat.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/pthread_signal.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/pthread_time.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/pthread_unistd.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/realtimeapiset.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/reason.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/sal.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/sdkddkver.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/sdks/_mingw_directx.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/sec_api/stralign_s.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/sec_api/string_s.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/sec_api/sys/timeb_s.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/sec_api/wchar_s.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/securityappcontainer.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/securitybaseapi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/signal.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/specstrings.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/stdarg.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/stddef.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/stdint.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/stdio.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/stdlib.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/stralign.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/string.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/stringapiset.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/swprintf.inl \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/synchapi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/sys/timeb.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/sys/types.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/sysinfoapi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/systemtopologyapi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/threadpoolapiset.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/threadpoollegacyapiset.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/time.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/timezoneapi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/tvout.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/utilapiset.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/vadefs.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/virtdisk.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/wchar.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/wctype.h \
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/winapifamily.h \
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/winbase.h \
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/wincon.h \
@@ -784,6 +1289,7 @@ CMakeFiles/main.dir/src/core/Input.cpp.obj: D:/UFRGS/05\ Fundamentos\ de\ Comput
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/wnnc.h \
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/wow64apiset.h \
   D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/Camera.h \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/Constants.h \
   D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/GLFW/glfw3.h \
   D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/Input.h \
   D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/KHR/khrplatform.h \
@@ -1182,8 +1688,10 @@ CMakeFiles/main.dir/src/core/Renderer.cpp.obj: D:/UFRGS/05\ Fundamentos\ de\ Com
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avxintrin.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/bmi2intrin.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/bmiintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/algorithm \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/array \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward/binders.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/algorithmfwd.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/alloc_traits.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/allocator.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/basic_ios.h \
@@ -1223,11 +1731,13 @@ CMakeFiles/main.dir/src/core/Renderer.cpp.obj: D:/UFRGS/05\ Fundamentos\ de\ Com
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/range_access.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/sstream.tcc \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/std_abs.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_algo.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_algobase.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_bvector.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_construct.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_deque.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_function.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_heap.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_iterator.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_iterator_base_funcs.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_iterator_base_types.h \
@@ -1236,17 +1746,21 @@ CMakeFiles/main.dir/src/core/Renderer.cpp.obj: D:/UFRGS/05\ Fundamentos\ de\ Com
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_pair.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_relops.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_stack.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_tempbuf.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_tree.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_uninitialized.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_vector.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/streambuf.tcc \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/streambuf_iterator.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stringfwd.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/uniform_int_dist.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/uses_allocator.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/vector.tcc \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cassert \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cctype \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cerrno \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cfloat \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/climits \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/clocale \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cmath \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstddef \
@@ -1254,6 +1768,7 @@ CMakeFiles/main.dir/src/core/Renderer.cpp.obj: D:/UFRGS/05\ Fundamentos\ de\ Com
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstdio \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstdlib \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstring \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ctime \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cwchar \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cwctype \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/debug/assertions.h \
@@ -1307,6 +1822,7 @@ CMakeFiles/main.dir/src/core/Renderer.cpp.obj: D:/UFRGS/05\ Fundamentos\ de\ Com
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/clzerointrin.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/emmintrin.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/f16cintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/float.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/fma4intrin.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/fmaintrin.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/fxsrintrin.h \
@@ -1356,6 +1872,7 @@ CMakeFiles/main.dir/src/core/Renderer.cpp.obj: D:/UFRGS/05\ Fundamentos\ de\ Com
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/_mingw_stat64.h \
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/_mingw_stdarg.h \
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/_mingw_unicode.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/_timeval.h \
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/apiset.h \
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/apisetcconv.h \
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/assert.h \
@@ -1372,6 +1889,7 @@ CMakeFiles/main.dir/src/core/Renderer.cpp.obj: D:/UFRGS/05\ Fundamentos\ de\ Com
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/excpt.h \
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/fibersapi.h \
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/fileapi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/float.h \
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/fltwinerror.h \
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/guiddef.h \
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/handleapi.h \
@@ -1406,6 +1924,7 @@ CMakeFiles/main.dir/src/core/Renderer.cpp.obj: D:/UFRGS/05\ Fundamentos\ de\ Com
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/pthread.h \
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/pthread_compat.h \
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/pthread_signal.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/pthread_time.h \
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/pthread_unistd.h \
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/realtimeapiset.h \
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/reason.h \
@@ -1439,6 +1958,7 @@ CMakeFiles/main.dir/src/core/Renderer.cpp.obj: D:/UFRGS/05\ Fundamentos\ de\ Com
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/systemtopologyapi.h \
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/threadpoolapiset.h \
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/threadpoollegacyapiset.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/time.h \
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/timezoneapi.h \
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/tvout.h \
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/utilapiset.h \
@@ -1462,8 +1982,12 @@ CMakeFiles/main.dir/src/core/Renderer.cpp.obj: D:/UFRGS/05\ Fundamentos\ de\ Com
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/winver.h \
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/wnnc.h \
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/wow64apiset.h \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/Collisions.h \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/Constants.h \
   D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/GLFW/glfw3.h \
   D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/KHR/khrplatform.h \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/Level.h \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/Player.h \
   D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/Renderer.h \
   D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glad/glad.h \
   D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/common.hpp \
@@ -1474,12 +1998,16 @@ CMakeFiles/main.dir/src/core/Renderer.cpp.obj: D:/UFRGS/05\ Fundamentos\ de\ Com
   D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/func_common.inl \
   D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/func_exponential.inl \
   D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/func_geometric.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/func_integer.inl \
   D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/func_matrix.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/func_packing.inl \
   D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/func_trigonometric.inl \
   D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/func_vector_relational.inl \
   D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/qualifier.hpp \
   D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/setup.hpp \
   D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_float.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_half.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_half.inl \
   D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat2x2.hpp \
   D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat2x2.inl \
   D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat2x3.hpp \
@@ -1609,7 +2137,9 @@ CMakeFiles/main.dir/src/core/Renderer.cpp.obj: D:/UFRGS/05\ Fundamentos\ de\ Com
   D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_uint3_precision.hpp \
   D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_uint4.hpp \
   D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_uint4_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/fwd.hpp \
   D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/geometric.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/glm.hpp \
   D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/gtc/constants.hpp \
   D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/gtc/constants.inl \
   D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/gtc/epsilon.hpp \
@@ -1621,6 +2151,7 @@ CMakeFiles/main.dir/src/core/Renderer.cpp.obj: D:/UFRGS/05\ Fundamentos\ de\ Com
   D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/gtc/type_ptr.hpp \
   D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/gtc/type_ptr.inl \
   D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/gtc/vec1.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/integer.hpp \
   D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/mat2x2.hpp \
   D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/mat2x3.hpp \
   D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/mat2x4.hpp \
@@ -1631,6 +2162,7 @@ CMakeFiles/main.dir/src/core/Renderer.cpp.obj: D:/UFRGS/05\ Fundamentos\ de\ Com
   D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/mat4x3.hpp \
   D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/mat4x4.hpp \
   D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/matrix.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/packing.hpp \
   D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/simd/platform.h \
   D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/trigonometric.hpp \
   D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/vec2.hpp \
@@ -1639,7 +2171,8 @@ CMakeFiles/main.dir/src/core/Renderer.cpp.obj: D:/UFRGS/05\ Fundamentos\ de\ Com
   D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/vector_relational.hpp \
   D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/matrices.h \
   D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/stb_image.h \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/tiny_obj_loader.h
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/tiny_obj_loader.h \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/utils.h
 
 CMakeFiles/main.dir/src/core/Window.cpp.obj: D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/src/core/Window.cpp \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed/limits.h \
@@ -1675,9 +2208,12 @@ CMakeFiles/main.dir/src/core/Window.cpp.obj: D:/UFRGS/05\ Fundamentos\ de\ Compu
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward/binders.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/alloc_traits.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/allocator.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/basic_ios.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/basic_ios.tcc \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/basic_string.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/basic_string.tcc \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/char_traits.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/codecvt.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/concept_check.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/cpp_type_traits.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/cxxabi_forced.h \
@@ -1685,13 +2221,21 @@ CMakeFiles/main.dir/src/core/Window.cpp.obj: D:/UFRGS/05\ Fundamentos\ de\ Compu
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/exception.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/exception_defines.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/exception_ptr.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/fstream.tcc \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/functexcept.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/functional_hash.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/hash_bytes.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ios_base.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/istream.tcc \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/locale_classes.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/locale_classes.tcc \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/locale_facets.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/locale_facets.tcc \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/localefwd.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/memoryfwd.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/move.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/nested_exception.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ostream.tcc \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ostream_insert.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/postypes.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/predefined_ops.h \
@@ -1708,6 +2252,8 @@ CMakeFiles/main.dir/src/core/Window.cpp.obj: D:/UFRGS/05\ Fundamentos\ de\ Compu
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_pair.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_uninitialized.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_vector.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/streambuf.tcc \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/streambuf_iterator.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stringfwd.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/vector.tcc \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cassert \
@@ -1722,7 +2268,9 @@ CMakeFiles/main.dir/src/core/Window.cpp.obj: D:/UFRGS/05\ Fundamentos\ de\ Compu
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstdio \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstdlib \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstring \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ctime \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cwchar \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cwctype \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/debug/assertions.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/debug/debug.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/exception \
@@ -1732,20 +2280,32 @@ CMakeFiles/main.dir/src/core/Window.cpp.obj: D:/UFRGS/05\ Fundamentos\ de\ Compu
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/numeric_traits.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/string_conversions.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/type_traits.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/fstream \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/initializer_list \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ios \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iosfwd \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/istream \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/limits \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/new \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/stdexcept \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/stdlib.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/streambuf \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/string \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/system_error \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/type_traits \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/typeinfo \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/vector \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/atomic_word.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/basic_file.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/c++allocator.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/c++io.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/c++locale.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/cpu_defines.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/ctype_base.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/ctype_inline.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/error_constants.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/gthr-default.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/gthr.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h \
@@ -1805,6 +2365,7 @@ CMakeFiles/main.dir/src/core/Window.cpp.obj: D:/UFRGS/05\ Fundamentos\ de\ Compu
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/_mingw_stat64.h \
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/_mingw_stdarg.h \
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/_mingw_unicode.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/_timeval.h \
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/apiset.h \
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/apisetcconv.h \
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/assert.h \
@@ -1856,6 +2417,7 @@ CMakeFiles/main.dir/src/core/Window.cpp.obj: D:/UFRGS/05\ Fundamentos\ de\ Compu
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/pthread.h \
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/pthread_compat.h \
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/pthread_signal.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/pthread_time.h \
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/pthread_unistd.h \
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/realtimeapiset.h \
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/reason.h \
@@ -1889,12 +2451,14 @@ CMakeFiles/main.dir/src/core/Window.cpp.obj: D:/UFRGS/05\ Fundamentos\ de\ Compu
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/systemtopologyapi.h \
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/threadpoolapiset.h \
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/threadpoollegacyapiset.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/time.h \
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/timezoneapi.h \
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/tvout.h \
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/utilapiset.h \
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/vadefs.h \
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/virtdisk.h \
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/wchar.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/wctype.h \
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/winapifamily.h \
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/winbase.h \
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/wincon.h \
@@ -1912,6 +2476,7 @@ CMakeFiles/main.dir/src/core/Window.cpp.obj: D:/UFRGS/05\ Fundamentos\ de\ Compu
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/wnnc.h \
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/wow64apiset.h \
   D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/Camera.h \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/Constants.h \
   D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/GLFW/glfw3.h \
   D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/KHR/khrplatform.h \
   D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/Level.h \
@@ -2114,7 +2679,7 @@ CMakeFiles/main.dir/src/dejavufont.cpp.obj: D:/UFRGS/05\ Fundamentos\ de\ Comput
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/vadefs.h \
   D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/dejavufont.h
 
-CMakeFiles/main.dir/src/game/GameEntity.cpp.obj: D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/src/game/GameEntity.cpp \
+CMakeFiles/main.dir/src/game/BezierCurve.cpp.obj: D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/src/game/BezierCurve.cpp \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed/limits.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed/syslimits.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/cpp_type_traits.h \
@@ -2148,19 +2713,13 @@ CMakeFiles/main.dir/src/game/GameEntity.cpp.obj: D:/UFRGS/05\ Fundamentos\ de\ C
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/stdint.h \
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/stdlib.h \
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/vadefs.h \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/GameEntity.h \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/common.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/_fixes.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/BezierCurve.h \
   D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/_vectorize.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/compute_common.hpp \
   D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/compute_vector_relational.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/func_common.inl \
   D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/func_exponential.inl \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/func_geometric.inl \
   D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/func_vector_relational.inl \
   D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/qualifier.hpp \
   D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/setup.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_float.hpp \
   D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_vec1.hpp \
   D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_vec1.inl \
   D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_vec2.hpp \
@@ -2170,312 +2729,62 @@ CMakeFiles/main.dir/src/game/GameEntity.cpp.obj: D:/UFRGS/05\ Fundamentos\ de\ C
   D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_vec4.hpp \
   D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_vec4.inl \
   D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/exponential.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/quaternion_geometric.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/quaternion_geometric.inl \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_bool3.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_bool3_precision.hpp \
   D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_bool4.hpp \
   D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_bool4_precision.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_double3.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_double3_precision.hpp \
   D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_double4.hpp \
   D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_double4_precision.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_float3.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_float3_precision.hpp \
   D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_float4.hpp \
   D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_float4_precision.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_int3.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_int3_precision.hpp \
   D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_int4.hpp \
   D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_int4_precision.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_relational.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_relational.inl \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_uint3.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_uint3_precision.hpp \
   D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_uint4.hpp \
   D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_uint4_precision.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/geometric.hpp \
   D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/simd/platform.h \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/vec3.hpp \
   D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/vec4.hpp \
   D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/vector_relational.hpp
 
-CMakeFiles/main.dir/src/game/Level.cpp.obj: D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/src/game/Level.cpp \
+CMakeFiles/main.dir/src/game/EntityController.cpp.obj: D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/src/game/EntityController.cpp \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed/limits.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed/syslimits.h \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward/binders.h \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/alloc_traits.h \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/allocator.h \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/basic_string.h \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/basic_string.tcc \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/char_traits.h \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/concept_check.h \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/cpp_type_traits.h \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/cxxabi_forced.h \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/cxxabi_init_exception.h \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/exception.h \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/exception_defines.h \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/exception_ptr.h \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/functexcept.h \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/functional_hash.h \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/hash_bytes.h \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/localefwd.h \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/memoryfwd.h \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/move.h \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/nested_exception.h \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ostream_insert.h \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/postypes.h \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/predefined_ops.h \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ptr_traits.h \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/range_access.h \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/std_abs.h \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_algobase.h \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_bvector.h \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_construct.h \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_function.h \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_iterator.h \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_iterator_base_funcs.h \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_iterator_base_types.h \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_pair.h \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_uninitialized.h \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_vector.h \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stringfwd.h \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/vector.tcc \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cassert \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cctype \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cerrno \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cfloat \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/climits \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/clocale \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cmath \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstddef \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstdint \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstdio \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstdlib \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cwchar \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/debug/assertions.h \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/debug/debug.h \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/exception \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/alloc_traits.h \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/atomicity.h \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/new_allocator.h \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/numeric_traits.h \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/string_conversions.h \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/type_traits.h \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/initializer_list \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iosfwd \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/limits \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/new \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/stdlib.h \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/string \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/type_traits \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/typeinfo \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/vector \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/atomic_word.h \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/c++allocator.h \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/c++locale.h \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/cpu_defines.h \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/gthr-default.h \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/gthr.h \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/float.h \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stddef.h \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stdint.h \
-  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/_mingw.h \
-  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/_mingw_mac.h \
-  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/_mingw_off_t.h \
-  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/_mingw_print_pop.h \
-  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/_mingw_print_push.h \
-  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/_mingw_secapi.h \
-  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/_mingw_stat64.h \
-  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/assert.h \
-  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/corecrt_startup.h \
-  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/crtdefs.h \
-  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/ctype.h \
-  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/errno.h \
-  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/float.h \
-  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/limits.h \
-  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/locale.h \
-  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/malloc.h \
-  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/math.h \
-  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/process.h \
-  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/pthread.h \
-  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/pthread_compat.h \
-  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/pthread_signal.h \
-  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/pthread_unistd.h \
-  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
-  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/sdks/_mingw_directx.h \
-  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
-  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
-  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/sec_api/sys/timeb_s.h \
-  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/sec_api/wchar_s.h \
-  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/signal.h \
-  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/stddef.h \
-  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/stdint.h \
-  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/stdio.h \
-  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/stdlib.h \
-  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/swprintf.inl \
-  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/sys/timeb.h \
-  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/sys/types.h \
-  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/vadefs.h \
-  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/wchar.h \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/Level.h \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/common.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/_fixes.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/_vectorize.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/compute_common.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/compute_vector_relational.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/func_common.inl \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/func_exponential.inl \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/func_geometric.inl \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/func_integer.inl \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/func_matrix.inl \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/func_packing.inl \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/func_trigonometric.inl \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/func_vector_relational.inl \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/qualifier.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/setup.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_half.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_half.inl \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat2x2.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat2x2.inl \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat2x3.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat2x3.inl \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat2x4.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat2x4.inl \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat3x2.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat3x2.inl \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat3x3.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat3x3.inl \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat3x4.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat3x4.inl \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat4x2.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat4x2.inl \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat4x3.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat4x3.inl \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat4x4.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat4x4.inl \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_vec1.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_vec1.inl \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_vec2.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_vec2.inl \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_vec3.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_vec3.inl \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_vec4.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_vec4.inl \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/exponential.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_clip_space.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_clip_space.inl \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double2x2.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double2x2_precision.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double2x3.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double2x3_precision.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double2x4.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double2x4_precision.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double3x2.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double3x2_precision.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double3x3.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double3x3_precision.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double3x4.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double3x4_precision.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double4x2.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double4x2_precision.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double4x3.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double4x3_precision.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double4x4.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double4x4_precision.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float2x2.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float2x2_precision.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float2x3.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float2x3_precision.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float2x4.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float2x4_precision.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float3x2.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float3x2_precision.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float3x3.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float3x3_precision.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float3x4.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float3x4_precision.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float4x2.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float4x2_precision.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float4x3.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float4x3_precision.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float4x4.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float4x4_precision.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_projection.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_projection.inl \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_transform.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_transform.inl \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/scalar_constants.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/scalar_constants.inl \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_bool2.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_bool2_precision.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_bool3.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_bool3_precision.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_bool4.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_bool4_precision.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_double2.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_double2_precision.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_double3.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_double3_precision.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_double4.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_double4_precision.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_float2.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_float2_precision.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_float3.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_float3_precision.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_float4.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_float4_precision.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_int2.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_int2_precision.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_int3.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_int3_precision.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_int4.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_int4_precision.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_uint2.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_uint2_precision.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_uint3.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_uint3_precision.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_uint4.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_uint4_precision.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/fwd.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/geometric.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/glm.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/gtc/constants.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/gtc/constants.inl \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/gtc/matrix_transform.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/gtc/matrix_transform.inl \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/integer.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/mat2x2.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/mat2x3.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/mat2x4.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/mat3x2.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/mat3x3.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/mat3x4.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/mat4x2.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/mat4x3.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/mat4x4.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/matrix.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/packing.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/simd/platform.h \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/trigonometric.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/vec2.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/vec3.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/vec4.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/vector_relational.hpp
-
-CMakeFiles/main.dir/src/game/Player.cpp.obj: D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/src/game/Player.cpp \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed/limits.h \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed/syslimits.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/adxintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/ammintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx2intrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx5124fmapsintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx5124vnniwintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512bitalgintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512bwintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512cdintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512dqintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512erintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512fintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512ifmaintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512ifmavlintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512pfintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vbmi2intrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vbmi2vlintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vbmiintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vbmivlintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vlbwintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vldqintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vlintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vnniintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vnnivlintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vpopcntdqintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vpopcntdqvlintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avxintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/bmi2intrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/bmiintrin.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/algorithm \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward/binders.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/algorithmfwd.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/alloc_traits.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/allocator.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/basic_ios.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/basic_ios.tcc \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/basic_string.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/basic_string.tcc \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/char_traits.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/codecvt.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/concept_check.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/cpp_type_traits.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/cxxabi_forced.h \
@@ -2483,13 +2792,21 @@ CMakeFiles/main.dir/src/game/Player.cpp.obj: D:/UFRGS/05\ Fundamentos\ de\ Compu
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/exception.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/exception_defines.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/exception_ptr.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/fstream.tcc \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/functexcept.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/functional_hash.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/hash_bytes.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ios_base.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/istream.tcc \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/locale_classes.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/locale_classes.tcc \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/locale_facets.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/locale_facets.tcc \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/localefwd.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/memoryfwd.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/move.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/nested_exception.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ostream.tcc \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ostream_insert.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/postypes.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/predefined_ops.h \
@@ -2510,6 +2827,8 @@ CMakeFiles/main.dir/src/game/Player.cpp.obj: D:/UFRGS/05\ Fundamentos\ de\ Compu
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_tempbuf.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_uninitialized.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_vector.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/streambuf.tcc \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/streambuf_iterator.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stringfwd.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/uniform_int_dist.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/vector.tcc \
@@ -2524,7 +2843,10 @@ CMakeFiles/main.dir/src/game/Player.cpp.obj: D:/UFRGS/05\ Fundamentos\ de\ Compu
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstdint \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstdio \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstdlib \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstring \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ctime \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cwchar \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cwctype \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/debug/assertions.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/debug/debug.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/exception \
@@ -2534,27 +2856,84 @@ CMakeFiles/main.dir/src/game/Player.cpp.obj: D:/UFRGS/05\ Fundamentos\ de\ Compu
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/numeric_traits.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/string_conversions.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/type_traits.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/fstream \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/initializer_list \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ios \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iosfwd \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iostream \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/istream \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/limits \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/new \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/stdexcept \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/stdlib.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/streambuf \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/string \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/system_error \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/type_traits \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/typeinfo \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/utility \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/vector \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/atomic_word.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/basic_file.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/c++allocator.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/c++io.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/c++locale.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/cpu_defines.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/ctype_base.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/ctype_inline.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/error_constants.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/gthr-default.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/gthr.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/cetintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/clflushoptintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/clwbintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/clzerointrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/emmintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/f16cintrin.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/float.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/fma4intrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/fmaintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/fxsrintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/gfniintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/ia32intrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/immintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/lwpintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/lzcntintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/mm3dnow.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/mm_malloc.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/mmintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/movdirintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/mwaitxintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/pconfigintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/pkuintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/pmmintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/popcntintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/prfchwintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/rdseedintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/rtmintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/sgxintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/shaintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/smmintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stdarg.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stddef.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stdint.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/tbmintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/tmmintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/vaesintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/vpclmulqdqintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/wbnoinvdintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/wmmintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/x86intrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xmmintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xopintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xsavecintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xsaveintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xsaveoptintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xsavesintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xtestintrin.h \
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/_mingw.h \
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/_mingw_mac.h \
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/_mingw_off_t.h \
@@ -2562,40 +2941,129 @@ CMakeFiles/main.dir/src/game/Player.cpp.obj: D:/UFRGS/05\ Fundamentos\ de\ Compu
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/_mingw_print_push.h \
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/_mingw_secapi.h \
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/_mingw_stat64.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/_mingw_stdarg.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/_mingw_unicode.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/_timeval.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/apiset.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/apisetcconv.h \
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/assert.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/basetsd.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/bemapiset.h \
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/corecrt_startup.h \
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/crtdefs.h \
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/ctype.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/datetimeapi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/debugapi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/driverspecs.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/errhandlingapi.h \
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/errno.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/excpt.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/fibersapi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/fileapi.h \
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/float.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/fltwinerror.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/guiddef.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/handleapi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/heapapi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/imm.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/interlockedapi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/ioapiset.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/jobapi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/ktmtypes.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/libloaderapi.h \
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/limits.h \
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/locale.h \
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/malloc.h \
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/math.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/mcx.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/memoryapi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/minwinbase.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/minwindef.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/namedpipeapi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/namespaceapi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/poppack.h \
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/process.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/processenv.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/processthreadsapi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/processtopologyapi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/profileapi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/psdk_inc/intrin-impl.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/pshpack1.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/pshpack2.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/pshpack4.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/pshpack8.h \
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/pthread.h \
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/pthread_compat.h \
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/pthread_signal.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/pthread_time.h \
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/pthread_unistd.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/realtimeapiset.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/reason.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/sal.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/sdkddkver.h \
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/sdks/_mingw_directx.h \
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/sec_api/stralign_s.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/sec_api/string_s.h \
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/sec_api/sys/timeb_s.h \
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/sec_api/wchar_s.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/securityappcontainer.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/securitybaseapi.h \
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/signal.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/specstrings.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/stdarg.h \
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/stddef.h \
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/stdint.h \
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/stdio.h \
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/stdlib.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/stralign.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/string.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/stringapiset.h \
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/swprintf.inl \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/synchapi.h \
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/sys/timeb.h \
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/sys/types.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/sysinfoapi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/systemtopologyapi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/threadpoolapiset.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/threadpoollegacyapiset.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/time.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/timezoneapi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/tvout.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/utilapiset.h \
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/vadefs.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/virtdisk.h \
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/wchar.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/wctype.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/winapifamily.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/winbase.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/wincon.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/windef.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/windows.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/winerror.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/wingdi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/winnetwk.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/winnls.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/winnt.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/winreg.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/winsvc.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/winuser.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/winver.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/wnnc.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/wow64apiset.h \
   D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/Collisions.h \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/Constants.h \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/EntityController.h \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/GLFW/glfw3.h \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/GameEntity.h \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/KHR/khrplatform.h \
   D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/Level.h \
   D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/Player.h \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/Projectile.h \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/ProjectileController.h \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glad/glad.h \
   D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/common.hpp \
   D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/_fixes.hpp \
   D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/_vectorize.hpp \
@@ -2611,262 +3079,9 @@ CMakeFiles/main.dir/src/game/Player.cpp.obj: D:/UFRGS/05\ Fundamentos\ de\ Compu
   D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/func_vector_relational.inl \
   D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/qualifier.hpp \
   D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/setup.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_float.hpp \
   D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_half.hpp \
   D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_half.inl \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat2x2.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat2x2.inl \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat2x3.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat2x3.inl \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat2x4.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat2x4.inl \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat3x2.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat3x2.inl \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat3x3.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat3x3.inl \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat3x4.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat3x4.inl \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat4x2.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat4x2.inl \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat4x3.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat4x3.inl \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat4x4.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat4x4.inl \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_vec1.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_vec1.inl \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_vec2.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_vec2.inl \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_vec3.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_vec3.inl \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_vec4.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_vec4.inl \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/exponential.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_clip_space.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_clip_space.inl \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double2x2.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double2x2_precision.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double2x3.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double2x3_precision.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double2x4.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double2x4_precision.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double3x2.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double3x2_precision.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double3x3.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double3x3_precision.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double3x4.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double3x4_precision.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double4x2.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double4x2_precision.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double4x3.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double4x3_precision.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double4x4.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double4x4_precision.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float2x2.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float2x2_precision.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float2x3.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float2x3_precision.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float2x4.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float2x4_precision.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float3x2.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float3x2_precision.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float3x3.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float3x3_precision.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float3x4.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float3x4_precision.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float4x2.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float4x2_precision.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float4x3.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float4x3_precision.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float4x4.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float4x4_precision.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_projection.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_projection.inl \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_transform.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_transform.inl \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/scalar_constants.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/scalar_constants.inl \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_bool2.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_bool2_precision.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_bool3.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_bool3_precision.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_bool4.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_bool4_precision.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_double2.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_double2_precision.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_double3.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_double3_precision.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_double4.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_double4_precision.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_float2.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_float2_precision.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_float3.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_float3_precision.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_float4.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_float4_precision.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_int2.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_int2_precision.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_int3.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_int3_precision.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_int4.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_int4_precision.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_uint2.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_uint2_precision.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_uint3.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_uint3_precision.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_uint4.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_uint4_precision.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/fwd.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/geometric.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/glm.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/gtc/constants.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/gtc/constants.inl \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/gtc/matrix_transform.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/gtc/matrix_transform.inl \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/integer.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/mat2x2.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/mat2x3.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/mat2x4.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/mat3x2.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/mat3x3.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/mat3x4.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/mat4x2.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/mat4x3.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/mat4x4.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/matrix.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/packing.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/simd/platform.h \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/trigonometric.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/vec2.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/vec3.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/vec4.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/vector_relational.hpp
-
-CMakeFiles/main.dir/src/game/PointLight.cpp.obj: D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/src/game/PointLight.cpp \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed/limits.h \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed/syslimits.h \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/std_abs.h \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cassert \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstddef \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstdint \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstdlib \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/limits \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/stdlib.h \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/type_traits \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/cpu_defines.h \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stddef.h \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stdint.h \
-  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/_mingw.h \
-  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/_mingw_mac.h \
-  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/_mingw_secapi.h \
-  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/assert.h \
-  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/crtdefs.h \
-  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/limits.h \
-  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/malloc.h \
-  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
-  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/sdks/_mingw_directx.h \
-  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
-  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/stddef.h \
-  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/stdint.h \
-  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/stdlib.h \
-  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/vadefs.h \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/PointLight.h \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/compute_vector_relational.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/qualifier.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/setup.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_vec3.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_vec3.inl \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_vec4.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_vec4.inl \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_bool3.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_bool3_precision.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_bool4.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_bool4_precision.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_double3.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_double3_precision.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_double4.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_double4_precision.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_float3.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_float3_precision.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_float4.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_float4_precision.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_int3.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_int3_precision.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_int4.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_int4_precision.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_uint3.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_uint3_precision.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_uint4.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_uint4_precision.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/simd/platform.h \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/vec3.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/vec4.hpp
-
-CMakeFiles/main.dir/src/game/Projectile.cpp.obj: D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/src/game/Projectile.cpp \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed/limits.h \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed/syslimits.h \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/cpp_type_traits.h \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/std_abs.h \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cassert \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cmath \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstddef \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstdint \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstdio \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstdlib \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstring \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ctime \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/type_traits.h \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/limits \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/stdlib.h \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/type_traits \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/cpu_defines.h \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stddef.h \
-  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stdint.h \
-  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/_mingw.h \
-  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/_mingw_mac.h \
-  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/_mingw_off_t.h \
-  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/_mingw_print_pop.h \
-  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/_mingw_print_push.h \
-  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/_mingw_secapi.h \
-  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/_timeval.h \
-  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/assert.h \
-  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/crtdefs.h \
-  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/limits.h \
-  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/malloc.h \
-  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/math.h \
-  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/pthread_time.h \
-  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
-  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/sdks/_mingw_directx.h \
-  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
-  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
-  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/sec_api/string_s.h \
-  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/sec_api/sys/timeb_s.h \
-  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/stddef.h \
-  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/stdint.h \
-  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/stdio.h \
-  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/stdlib.h \
-  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/string.h \
-  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/swprintf.inl \
-  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/sys/timeb.h \
-  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/time.h \
-  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/vadefs.h \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/Projectile.h \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/common.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/_fixes.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/_vectorize.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/compute_common.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/compute_vector_relational.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/func_common.inl \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/func_exponential.inl \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/func_geometric.inl \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/func_matrix.inl \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/func_trigonometric.inl \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/func_vector_relational.inl \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/qualifier.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/setup.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_float.hpp \
   D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat2x2.hpp \
   D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat2x2.inl \
   D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat2x3.hpp \
@@ -2996,7 +3211,9 @@ CMakeFiles/main.dir/src/game/Projectile.cpp.obj: D:/UFRGS/05\ Fundamentos\ de\ C
   D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_uint3_precision.hpp \
   D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_uint4.hpp \
   D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_uint4_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/fwd.hpp \
   D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/geometric.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/glm.hpp \
   D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/gtc/constants.hpp \
   D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/gtc/constants.inl \
   D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/gtc/epsilon.hpp \
@@ -3008,6 +3225,7 @@ CMakeFiles/main.dir/src/game/Projectile.cpp.obj: D:/UFRGS/05\ Fundamentos\ de\ C
   D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/gtc/type_ptr.hpp \
   D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/gtc/type_ptr.inl \
   D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/gtc/vec1.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/integer.hpp \
   D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/mat2x2.hpp \
   D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/mat2x3.hpp \
   D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/mat2x4.hpp \
@@ -3018,13 +3236,2062 @@ CMakeFiles/main.dir/src/game/Projectile.cpp.obj: D:/UFRGS/05\ Fundamentos\ de\ C
   D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/mat4x3.hpp \
   D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/mat4x4.hpp \
   D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/matrix.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/packing.hpp \
   D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/simd/platform.h \
   D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/trigonometric.hpp \
   D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/vec2.hpp \
   D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/vec3.hpp \
   D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/vec4.hpp \
   D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/vector_relational.hpp \
-  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/matrices.h
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/matrices.h \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/utils.h
+
+CMakeFiles/main.dir/src/game/Level.cpp.obj: D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/src/game/Level.cpp \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed/limits.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed/syslimits.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/adxintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/ammintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx2intrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx5124fmapsintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx5124vnniwintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512bitalgintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512bwintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512cdintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512dqintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512erintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512fintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512ifmaintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512ifmavlintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512pfintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vbmi2intrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vbmi2vlintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vbmiintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vbmivlintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vlbwintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vldqintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vlintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vnniintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vnnivlintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vpopcntdqintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vpopcntdqvlintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avxintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/bmi2intrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/bmiintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward/binders.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/alloc_traits.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/allocator.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/basic_ios.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/basic_ios.tcc \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/basic_string.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/basic_string.tcc \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/char_traits.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/codecvt.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/concept_check.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/cpp_type_traits.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/cxxabi_forced.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/cxxabi_init_exception.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/exception.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/exception_defines.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/exception_ptr.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/fstream.tcc \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/functexcept.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/functional_hash.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/hash_bytes.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ios_base.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/istream.tcc \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/locale_classes.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/locale_classes.tcc \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/locale_facets.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/locale_facets.tcc \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/localefwd.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/memoryfwd.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/move.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/nested_exception.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ostream.tcc \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ostream_insert.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/postypes.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/predefined_ops.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ptr_traits.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/range_access.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/std_abs.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_algobase.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_bvector.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_construct.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_function.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_iterator.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_iterator_base_funcs.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_iterator_base_types.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_pair.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_uninitialized.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_vector.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/streambuf.tcc \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/streambuf_iterator.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stringfwd.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/vector.tcc \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cassert \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cctype \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cerrno \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cfloat \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/climits \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/clocale \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cmath \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstddef \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstdint \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstdio \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstdlib \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstring \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ctime \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cwchar \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cwctype \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/debug/assertions.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/debug/debug.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/exception \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/alloc_traits.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/atomicity.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/new_allocator.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/numeric_traits.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/string_conversions.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/type_traits.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/fstream \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/initializer_list \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ios \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iosfwd \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/istream \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/limits \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/new \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/stdexcept \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/stdlib.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/streambuf \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/string \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/system_error \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/type_traits \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/typeinfo \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/vector \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/atomic_word.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/basic_file.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/c++allocator.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/c++io.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/c++locale.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/cpu_defines.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/ctype_base.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/ctype_inline.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/error_constants.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/gthr-default.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/gthr.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/cetintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/clflushoptintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/clwbintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/clzerointrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/emmintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/f16cintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/float.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/fma4intrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/fmaintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/fxsrintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/gfniintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/ia32intrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/immintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/lwpintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/lzcntintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/mm3dnow.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/mm_malloc.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/mmintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/movdirintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/mwaitxintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/pconfigintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/pkuintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/pmmintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/popcntintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/prfchwintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/rdseedintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/rtmintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/sgxintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/shaintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/smmintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stdarg.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stddef.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stdint.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/tbmintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/tmmintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/vaesintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/vpclmulqdqintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/wbnoinvdintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/wmmintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/x86intrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xmmintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xopintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xsavecintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xsaveintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xsaveoptintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xsavesintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xtestintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/_mingw.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/_mingw_mac.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/_mingw_off_t.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/_mingw_print_pop.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/_mingw_print_push.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/_mingw_secapi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/_mingw_stat64.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/_mingw_stdarg.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/_mingw_unicode.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/_timeval.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/apiset.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/apisetcconv.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/assert.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/basetsd.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/bemapiset.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/corecrt_startup.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/crtdefs.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/ctype.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/datetimeapi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/debugapi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/driverspecs.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/errhandlingapi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/errno.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/excpt.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/fibersapi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/fileapi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/float.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/fltwinerror.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/guiddef.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/handleapi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/heapapi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/imm.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/interlockedapi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/ioapiset.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/jobapi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/ktmtypes.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/libloaderapi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/limits.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/locale.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/malloc.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/math.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/mcx.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/memoryapi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/minwinbase.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/minwindef.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/namedpipeapi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/namespaceapi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/poppack.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/process.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/processenv.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/processthreadsapi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/processtopologyapi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/profileapi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/psdk_inc/intrin-impl.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/pshpack1.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/pshpack2.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/pshpack4.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/pshpack8.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/pthread.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/pthread_compat.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/pthread_signal.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/pthread_time.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/pthread_unistd.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/realtimeapiset.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/reason.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/sal.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/sdkddkver.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/sdks/_mingw_directx.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/sec_api/stralign_s.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/sec_api/string_s.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/sec_api/sys/timeb_s.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/sec_api/wchar_s.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/securityappcontainer.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/securitybaseapi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/signal.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/specstrings.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/stdarg.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/stddef.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/stdint.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/stdio.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/stdlib.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/stralign.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/string.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/stringapiset.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/swprintf.inl \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/synchapi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/sys/timeb.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/sys/types.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/sysinfoapi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/systemtopologyapi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/threadpoolapiset.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/threadpoollegacyapiset.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/time.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/timezoneapi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/tvout.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/utilapiset.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/vadefs.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/virtdisk.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/wchar.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/wctype.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/winapifamily.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/winbase.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/wincon.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/windef.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/windows.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/winerror.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/wingdi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/winnetwk.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/winnls.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/winnt.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/winreg.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/winsvc.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/winuser.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/winver.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/wnnc.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/wow64apiset.h \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/Constants.h \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/GLFW/glfw3.h \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/KHR/khrplatform.h \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/Level.h \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glad/glad.h \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/common.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/_fixes.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/_vectorize.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/compute_common.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/compute_vector_relational.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/func_common.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/func_exponential.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/func_geometric.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/func_integer.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/func_matrix.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/func_packing.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/func_trigonometric.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/func_vector_relational.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/qualifier.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/setup.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_float.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_half.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_half.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat2x2.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat2x2.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat2x3.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat2x3.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat2x4.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat2x4.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat3x2.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat3x2.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat3x3.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat3x3.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat3x4.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat3x4.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat4x2.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat4x2.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat4x3.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat4x3.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat4x4.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat4x4.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_quat.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_quat.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_vec1.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_vec1.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_vec2.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_vec2.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_vec3.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_vec3.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_vec4.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_vec4.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/exponential.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_clip_space.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_clip_space.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double2x2.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double2x2_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double2x3.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double2x3_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double2x4.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double2x4_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double3x2.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double3x2_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double3x3.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double3x3_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double3x4.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double3x4_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double4x2.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double4x2_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double4x3.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double4x3_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double4x4.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double4x4_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float2x2.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float2x2_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float2x3.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float2x3_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float2x4.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float2x4_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float3x2.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float3x2_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float3x3.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float3x3_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float3x4.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float3x4_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float4x2.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float4x2_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float4x3.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float4x3_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float4x4.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float4x4_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_projection.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_projection.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_transform.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_transform.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/quaternion_common.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/quaternion_common.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/quaternion_double.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/quaternion_double_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/quaternion_float.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/quaternion_float_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/quaternion_geometric.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/quaternion_geometric.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/quaternion_relational.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/quaternion_relational.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/quaternion_transform.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/quaternion_transform.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/quaternion_trigonometric.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/quaternion_trigonometric.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/scalar_constants.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/scalar_constants.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_bool1.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_bool1_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_bool2.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_bool2_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_bool3.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_bool3_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_bool4.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_bool4_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_double1.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_double1_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_double2.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_double2_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_double3.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_double3_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_double4.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_double4_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_float1.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_float1_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_float2.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_float2_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_float3.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_float3_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_float4.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_float4_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_int1.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_int1_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_int2.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_int2_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_int3.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_int3_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_int4.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_int4_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_relational.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_relational.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_uint1.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_uint1_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_uint2.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_uint2_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_uint3.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_uint3_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_uint4.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_uint4_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/fwd.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/geometric.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/glm.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/gtc/constants.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/gtc/constants.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/gtc/epsilon.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/gtc/epsilon.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/gtc/matrix_transform.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/gtc/matrix_transform.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/gtc/quaternion.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/gtc/quaternion.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/gtc/type_ptr.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/gtc/type_ptr.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/gtc/vec1.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/integer.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/mat2x2.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/mat2x3.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/mat2x4.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/mat3x2.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/mat3x3.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/mat3x4.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/mat4x2.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/mat4x3.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/mat4x4.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/matrix.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/packing.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/simd/platform.h \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/trigonometric.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/vec2.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/vec3.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/vec4.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/vector_relational.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/matrices.h \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/utils.h
+
+CMakeFiles/main.dir/src/game/Player.cpp.obj: D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/src/game/Player.cpp \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed/limits.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed/syslimits.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/adxintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/ammintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx2intrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx5124fmapsintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx5124vnniwintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512bitalgintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512bwintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512cdintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512dqintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512erintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512fintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512ifmaintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512ifmavlintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512pfintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vbmi2intrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vbmi2vlintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vbmiintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vbmivlintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vlbwintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vldqintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vlintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vnniintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vnnivlintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vpopcntdqintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vpopcntdqvlintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avxintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/bmi2intrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/bmiintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/algorithm \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward/binders.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/algorithmfwd.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/alloc_traits.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/allocator.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/basic_ios.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/basic_ios.tcc \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/basic_string.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/basic_string.tcc \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/char_traits.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/codecvt.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/concept_check.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/cpp_type_traits.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/cxxabi_forced.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/cxxabi_init_exception.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/exception.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/exception_defines.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/exception_ptr.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/fstream.tcc \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/functexcept.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/functional_hash.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/hash_bytes.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ios_base.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/istream.tcc \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/locale_classes.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/locale_classes.tcc \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/locale_facets.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/locale_facets.tcc \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/localefwd.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/memoryfwd.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/move.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/nested_exception.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ostream.tcc \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ostream_insert.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/postypes.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/predefined_ops.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ptr_traits.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/range_access.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/std_abs.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_algo.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_algobase.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_bvector.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_construct.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_function.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_heap.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_iterator.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_iterator_base_funcs.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_iterator_base_types.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_pair.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_relops.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_tempbuf.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_uninitialized.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_vector.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/streambuf.tcc \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/streambuf_iterator.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stringfwd.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/uniform_int_dist.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/vector.tcc \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cassert \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cctype \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cerrno \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cfloat \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/climits \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/clocale \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cmath \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstddef \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstdint \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstdio \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstdlib \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstring \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ctime \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cwchar \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cwctype \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/debug/assertions.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/debug/debug.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/exception \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/alloc_traits.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/atomicity.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/new_allocator.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/numeric_traits.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/string_conversions.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/type_traits.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/fstream \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/initializer_list \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ios \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iosfwd \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/istream \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/limits \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/new \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/stdexcept \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/stdlib.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/streambuf \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/string \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/system_error \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/type_traits \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/typeinfo \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/utility \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/vector \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/atomic_word.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/basic_file.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/c++allocator.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/c++io.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/c++locale.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/cpu_defines.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/ctype_base.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/ctype_inline.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/error_constants.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/gthr-default.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/gthr.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/cetintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/clflushoptintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/clwbintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/clzerointrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/emmintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/f16cintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/float.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/fma4intrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/fmaintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/fxsrintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/gfniintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/ia32intrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/immintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/lwpintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/lzcntintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/mm3dnow.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/mm_malloc.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/mmintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/movdirintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/mwaitxintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/pconfigintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/pkuintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/pmmintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/popcntintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/prfchwintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/rdseedintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/rtmintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/sgxintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/shaintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/smmintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stdarg.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stddef.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stdint.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/tbmintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/tmmintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/vaesintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/vpclmulqdqintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/wbnoinvdintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/wmmintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/x86intrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xmmintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xopintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xsavecintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xsaveintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xsaveoptintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xsavesintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xtestintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/_mingw.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/_mingw_mac.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/_mingw_off_t.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/_mingw_print_pop.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/_mingw_print_push.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/_mingw_secapi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/_mingw_stat64.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/_mingw_stdarg.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/_mingw_unicode.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/_timeval.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/apiset.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/apisetcconv.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/assert.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/basetsd.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/bemapiset.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/corecrt_startup.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/crtdefs.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/ctype.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/datetimeapi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/debugapi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/driverspecs.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/errhandlingapi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/errno.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/excpt.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/fibersapi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/fileapi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/float.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/fltwinerror.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/guiddef.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/handleapi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/heapapi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/imm.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/interlockedapi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/ioapiset.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/jobapi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/ktmtypes.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/libloaderapi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/limits.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/locale.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/malloc.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/math.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/mcx.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/memoryapi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/minwinbase.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/minwindef.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/namedpipeapi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/namespaceapi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/poppack.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/process.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/processenv.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/processthreadsapi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/processtopologyapi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/profileapi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/psdk_inc/intrin-impl.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/pshpack1.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/pshpack2.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/pshpack4.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/pshpack8.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/pthread.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/pthread_compat.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/pthread_signal.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/pthread_time.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/pthread_unistd.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/realtimeapiset.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/reason.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/sal.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/sdkddkver.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/sdks/_mingw_directx.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/sec_api/stralign_s.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/sec_api/string_s.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/sec_api/sys/timeb_s.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/sec_api/wchar_s.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/securityappcontainer.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/securitybaseapi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/signal.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/specstrings.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/stdarg.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/stddef.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/stdint.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/stdio.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/stdlib.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/stralign.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/string.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/stringapiset.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/swprintf.inl \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/synchapi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/sys/timeb.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/sys/types.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/sysinfoapi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/systemtopologyapi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/threadpoolapiset.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/threadpoollegacyapiset.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/time.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/timezoneapi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/tvout.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/utilapiset.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/vadefs.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/virtdisk.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/wchar.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/wctype.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/winapifamily.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/winbase.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/wincon.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/windef.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/windows.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/winerror.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/wingdi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/winnetwk.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/winnls.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/winnt.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/winreg.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/winsvc.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/winuser.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/winver.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/wnnc.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/wow64apiset.h \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/Collisions.h \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/Constants.h \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/GLFW/glfw3.h \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/KHR/khrplatform.h \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/Level.h \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/Player.h \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glad/glad.h \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/common.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/_fixes.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/_vectorize.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/compute_common.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/compute_vector_relational.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/func_common.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/func_exponential.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/func_geometric.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/func_integer.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/func_matrix.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/func_packing.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/func_trigonometric.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/func_vector_relational.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/qualifier.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/setup.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_float.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_half.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_half.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat2x2.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat2x2.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat2x3.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat2x3.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat2x4.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat2x4.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat3x2.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat3x2.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat3x3.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat3x3.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat3x4.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat3x4.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat4x2.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat4x2.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat4x3.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat4x3.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat4x4.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat4x4.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_quat.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_quat.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_vec1.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_vec1.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_vec2.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_vec2.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_vec3.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_vec3.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_vec4.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_vec4.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/exponential.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_clip_space.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_clip_space.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double2x2.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double2x2_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double2x3.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double2x3_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double2x4.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double2x4_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double3x2.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double3x2_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double3x3.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double3x3_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double3x4.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double3x4_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double4x2.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double4x2_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double4x3.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double4x3_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double4x4.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double4x4_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float2x2.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float2x2_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float2x3.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float2x3_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float2x4.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float2x4_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float3x2.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float3x2_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float3x3.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float3x3_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float3x4.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float3x4_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float4x2.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float4x2_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float4x3.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float4x3_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float4x4.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float4x4_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_projection.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_projection.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_transform.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_transform.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/quaternion_common.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/quaternion_common.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/quaternion_double.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/quaternion_double_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/quaternion_float.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/quaternion_float_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/quaternion_geometric.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/quaternion_geometric.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/quaternion_relational.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/quaternion_relational.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/quaternion_transform.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/quaternion_transform.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/quaternion_trigonometric.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/quaternion_trigonometric.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/scalar_constants.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/scalar_constants.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_bool1.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_bool1_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_bool2.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_bool2_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_bool3.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_bool3_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_bool4.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_bool4_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_double1.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_double1_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_double2.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_double2_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_double3.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_double3_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_double4.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_double4_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_float1.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_float1_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_float2.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_float2_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_float3.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_float3_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_float4.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_float4_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_int1.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_int1_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_int2.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_int2_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_int3.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_int3_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_int4.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_int4_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_relational.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_relational.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_uint1.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_uint1_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_uint2.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_uint2_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_uint3.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_uint3_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_uint4.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_uint4_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/fwd.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/geometric.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/glm.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/gtc/constants.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/gtc/constants.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/gtc/epsilon.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/gtc/epsilon.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/gtc/matrix_transform.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/gtc/matrix_transform.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/gtc/quaternion.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/gtc/quaternion.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/gtc/type_ptr.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/gtc/type_ptr.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/gtc/vec1.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/integer.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/mat2x2.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/mat2x3.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/mat2x4.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/mat3x2.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/mat3x3.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/mat3x4.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/mat4x2.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/mat4x3.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/mat4x4.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/matrix.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/packing.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/simd/platform.h \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/trigonometric.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/vec2.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/vec3.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/vec4.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/vector_relational.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/matrices.h \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/utils.h
+
+CMakeFiles/main.dir/src/game/PointLight.cpp.obj: D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/src/game/PointLight.cpp \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed/limits.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed/syslimits.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/std_abs.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cassert \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstddef \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstdint \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstdlib \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/limits \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/stdlib.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/type_traits \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/cpu_defines.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stddef.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stdint.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/_mingw.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/_mingw_mac.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/_mingw_secapi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/assert.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/crtdefs.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/limits.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/malloc.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/sdks/_mingw_directx.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/stddef.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/stdint.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/stdlib.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/vadefs.h \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/PointLight.h \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/compute_vector_relational.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/qualifier.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/setup.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_vec3.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_vec3.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_vec4.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_vec4.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_bool3.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_bool3_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_bool4.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_bool4_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_double3.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_double3_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_double4.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_double4_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_float3.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_float3_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_float4.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_float4_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_int3.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_int3_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_int4.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_int4_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_uint3.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_uint3_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_uint4.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_uint4_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/simd/platform.h \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/vec3.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/vec4.hpp
+
+CMakeFiles/main.dir/src/game/PowerupController.cpp.obj: D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/src/game/PowerupController.cpp \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed/limits.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed/syslimits.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/adxintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/ammintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx2intrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx5124fmapsintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx5124vnniwintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512bitalgintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512bwintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512cdintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512dqintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512erintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512fintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512ifmaintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512ifmavlintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512pfintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vbmi2intrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vbmi2vlintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vbmiintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vbmivlintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vlbwintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vldqintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vlintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vnniintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vnnivlintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vpopcntdqintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vpopcntdqvlintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avxintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/bmi2intrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/bmiintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/algorithm \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward/binders.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/algorithmfwd.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/alloc_traits.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/allocator.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/basic_ios.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/basic_ios.tcc \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/basic_string.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/basic_string.tcc \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/char_traits.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/codecvt.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/concept_check.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/cpp_type_traits.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/cxxabi_forced.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/cxxabi_init_exception.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/exception.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/exception_defines.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/exception_ptr.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/fstream.tcc \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/functexcept.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/functional_hash.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/hash_bytes.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ios_base.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/istream.tcc \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/locale_classes.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/locale_classes.tcc \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/locale_facets.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/locale_facets.tcc \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/localefwd.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/memoryfwd.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/move.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/nested_exception.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ostream.tcc \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ostream_insert.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/postypes.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/predefined_ops.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ptr_traits.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/range_access.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/std_abs.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_algo.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_algobase.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_bvector.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_construct.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_function.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_heap.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_iterator.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_iterator_base_funcs.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_iterator_base_types.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_pair.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_relops.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_tempbuf.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_uninitialized.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_vector.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/streambuf.tcc \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/streambuf_iterator.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stringfwd.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/uniform_int_dist.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/vector.tcc \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cassert \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cctype \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cerrno \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cfloat \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/climits \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/clocale \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cmath \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstddef \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstdint \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstdio \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstdlib \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstring \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ctime \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cwchar \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cwctype \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/debug/assertions.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/debug/debug.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/exception \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/alloc_traits.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/atomicity.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/new_allocator.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/numeric_traits.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/string_conversions.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/type_traits.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/fstream \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/initializer_list \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ios \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iosfwd \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/istream \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/limits \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/new \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/stdexcept \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/stdlib.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/streambuf \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/string \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/system_error \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/type_traits \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/typeinfo \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/utility \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/vector \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/atomic_word.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/basic_file.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/c++allocator.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/c++io.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/c++locale.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/cpu_defines.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/ctype_base.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/ctype_inline.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/error_constants.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/gthr-default.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/gthr.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/cetintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/clflushoptintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/clwbintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/clzerointrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/emmintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/f16cintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/float.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/fma4intrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/fmaintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/fxsrintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/gfniintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/ia32intrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/immintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/lwpintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/lzcntintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/mm3dnow.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/mm_malloc.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/mmintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/movdirintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/mwaitxintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/pconfigintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/pkuintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/pmmintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/popcntintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/prfchwintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/rdseedintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/rtmintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/sgxintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/shaintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/smmintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stdarg.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stddef.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stdint.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/tbmintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/tmmintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/vaesintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/vpclmulqdqintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/wbnoinvdintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/wmmintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/x86intrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xmmintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xopintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xsavecintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xsaveintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xsaveoptintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xsavesintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xtestintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/_mingw.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/_mingw_mac.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/_mingw_off_t.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/_mingw_print_pop.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/_mingw_print_push.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/_mingw_secapi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/_mingw_stat64.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/_mingw_stdarg.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/_mingw_unicode.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/_timeval.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/apiset.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/apisetcconv.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/assert.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/basetsd.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/bemapiset.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/corecrt_startup.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/crtdefs.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/ctype.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/datetimeapi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/debugapi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/driverspecs.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/errhandlingapi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/errno.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/excpt.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/fibersapi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/fileapi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/float.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/fltwinerror.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/guiddef.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/handleapi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/heapapi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/imm.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/interlockedapi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/ioapiset.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/jobapi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/ktmtypes.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/libloaderapi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/limits.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/locale.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/malloc.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/math.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/mcx.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/memoryapi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/minwinbase.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/minwindef.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/namedpipeapi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/namespaceapi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/poppack.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/process.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/processenv.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/processthreadsapi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/processtopologyapi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/profileapi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/psdk_inc/intrin-impl.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/pshpack1.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/pshpack2.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/pshpack4.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/pshpack8.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/pthread.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/pthread_compat.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/pthread_signal.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/pthread_time.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/pthread_unistd.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/realtimeapiset.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/reason.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/sal.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/sdkddkver.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/sdks/_mingw_directx.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/sec_api/stralign_s.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/sec_api/string_s.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/sec_api/sys/timeb_s.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/sec_api/wchar_s.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/securityappcontainer.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/securitybaseapi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/signal.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/specstrings.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/stdarg.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/stddef.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/stdint.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/stdio.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/stdlib.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/stralign.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/string.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/stringapiset.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/swprintf.inl \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/synchapi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/sys/timeb.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/sys/types.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/sysinfoapi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/systemtopologyapi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/threadpoolapiset.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/threadpoollegacyapiset.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/time.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/timezoneapi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/tvout.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/utilapiset.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/vadefs.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/virtdisk.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/wchar.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/wctype.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/winapifamily.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/winbase.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/wincon.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/windef.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/windows.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/winerror.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/wingdi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/winnetwk.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/winnls.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/winnt.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/winreg.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/winsvc.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/winuser.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/winver.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/wnnc.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/wow64apiset.h \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/BezierCurve.h \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/Collisions.h \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/Constants.h \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/GLFW/glfw3.h \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/KHR/khrplatform.h \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/Level.h \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/Player.h \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/PowerupController.h \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glad/glad.h \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/common.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/_fixes.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/_vectorize.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/compute_common.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/compute_vector_relational.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/func_common.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/func_exponential.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/func_geometric.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/func_integer.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/func_matrix.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/func_packing.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/func_trigonometric.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/func_vector_relational.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/qualifier.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/setup.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_float.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_half.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_half.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat2x2.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat2x2.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat2x3.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat2x3.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat2x4.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat2x4.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat3x2.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat3x2.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat3x3.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat3x3.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat3x4.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat3x4.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat4x2.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat4x2.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat4x3.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat4x3.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat4x4.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat4x4.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_quat.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_quat.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_vec1.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_vec1.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_vec2.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_vec2.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_vec3.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_vec3.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_vec4.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_vec4.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/exponential.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_clip_space.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_clip_space.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double2x2.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double2x2_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double2x3.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double2x3_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double2x4.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double2x4_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double3x2.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double3x2_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double3x3.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double3x3_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double3x4.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double3x4_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double4x2.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double4x2_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double4x3.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double4x3_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double4x4.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double4x4_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float2x2.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float2x2_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float2x3.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float2x3_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float2x4.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float2x4_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float3x2.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float3x2_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float3x3.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float3x3_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float3x4.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float3x4_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float4x2.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float4x2_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float4x3.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float4x3_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float4x4.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float4x4_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_projection.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_projection.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_transform.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_transform.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/quaternion_common.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/quaternion_common.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/quaternion_double.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/quaternion_double_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/quaternion_float.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/quaternion_float_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/quaternion_geometric.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/quaternion_geometric.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/quaternion_relational.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/quaternion_relational.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/quaternion_transform.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/quaternion_transform.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/quaternion_trigonometric.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/quaternion_trigonometric.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/scalar_constants.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/scalar_constants.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_bool1.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_bool1_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_bool2.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_bool2_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_bool3.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_bool3_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_bool4.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_bool4_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_double1.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_double1_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_double2.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_double2_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_double3.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_double3_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_double4.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_double4_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_float1.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_float1_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_float2.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_float2_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_float3.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_float3_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_float4.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_float4_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_int1.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_int1_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_int2.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_int2_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_int3.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_int3_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_int4.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_int4_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_relational.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_relational.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_uint1.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_uint1_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_uint2.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_uint2_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_uint3.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_uint3_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_uint4.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_uint4_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/fwd.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/geometric.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/glm.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/gtc/constants.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/gtc/constants.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/gtc/epsilon.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/gtc/epsilon.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/gtc/matrix_transform.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/gtc/matrix_transform.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/gtc/quaternion.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/gtc/quaternion.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/gtc/type_ptr.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/gtc/type_ptr.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/gtc/vec1.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/integer.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/mat2x2.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/mat2x3.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/mat2x4.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/mat3x2.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/mat3x3.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/mat3x4.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/mat4x2.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/mat4x3.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/mat4x4.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/matrix.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/packing.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/simd/platform.h \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/trigonometric.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/vec2.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/vec3.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/vec4.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/vector_relational.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/matrices.h \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/utils.h
+
+CMakeFiles/main.dir/src/game/ProjectileController.cpp.obj: D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/src/game/ProjectileController.cpp \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed/limits.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed/syslimits.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/adxintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/ammintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx2intrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx5124fmapsintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx5124vnniwintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512bitalgintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512bwintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512cdintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512dqintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512erintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512fintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512ifmaintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512ifmavlintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512pfintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vbmi2intrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vbmi2vlintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vbmiintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vbmivlintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vlbwintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vldqintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vlintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vnniintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vnnivlintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vpopcntdqintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vpopcntdqvlintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avxintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/bmi2intrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/bmiintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/algorithm \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward/binders.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/algorithmfwd.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/alloc_traits.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/allocator.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/basic_ios.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/basic_ios.tcc \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/basic_string.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/basic_string.tcc \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/char_traits.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/codecvt.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/concept_check.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/cpp_type_traits.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/cxxabi_forced.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/cxxabi_init_exception.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/exception.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/exception_defines.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/exception_ptr.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/fstream.tcc \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/functexcept.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/functional_hash.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/hash_bytes.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ios_base.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/istream.tcc \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/locale_classes.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/locale_classes.tcc \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/locale_facets.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/locale_facets.tcc \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/localefwd.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/memoryfwd.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/move.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/nested_exception.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ostream.tcc \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ostream_insert.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/postypes.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/predefined_ops.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ptr_traits.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/range_access.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/std_abs.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_algo.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_algobase.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_bvector.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_construct.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_function.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_heap.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_iterator.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_iterator_base_funcs.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_iterator_base_types.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_pair.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_relops.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_tempbuf.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_uninitialized.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_vector.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/streambuf.tcc \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/streambuf_iterator.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stringfwd.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/uniform_int_dist.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/vector.tcc \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cassert \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cctype \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cerrno \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cfloat \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/climits \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/clocale \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cmath \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstddef \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstdint \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstdio \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstdlib \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstring \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ctime \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cwchar \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cwctype \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/debug/assertions.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/debug/debug.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/exception \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/alloc_traits.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/atomicity.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/new_allocator.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/numeric_traits.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/string_conversions.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/type_traits.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/fstream \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/initializer_list \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ios \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iosfwd \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/istream \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/limits \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/new \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/stdexcept \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/stdlib.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/streambuf \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/string \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/system_error \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/type_traits \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/typeinfo \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/utility \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/vector \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/atomic_word.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/basic_file.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/c++allocator.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/c++io.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/c++locale.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/cpu_defines.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/ctype_base.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/ctype_inline.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/error_constants.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/gthr-default.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/gthr.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/cetintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/clflushoptintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/clwbintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/clzerointrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/emmintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/f16cintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/float.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/fma4intrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/fmaintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/fxsrintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/gfniintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/ia32intrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/immintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/lwpintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/lzcntintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/mm3dnow.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/mm_malloc.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/mmintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/movdirintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/mwaitxintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/pconfigintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/pkuintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/pmmintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/popcntintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/prfchwintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/rdseedintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/rtmintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/sgxintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/shaintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/smmintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stdarg.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stddef.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stdint.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/tbmintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/tmmintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/vaesintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/vpclmulqdqintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/wbnoinvdintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/wmmintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/x86intrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xmmintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xopintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xsavecintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xsaveintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xsaveoptintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xsavesintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xtestintrin.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/_mingw.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/_mingw_mac.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/_mingw_off_t.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/_mingw_print_pop.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/_mingw_print_push.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/_mingw_secapi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/_mingw_stat64.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/_mingw_stdarg.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/_mingw_unicode.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/_timeval.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/apiset.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/apisetcconv.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/assert.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/basetsd.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/bemapiset.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/corecrt_startup.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/crtdefs.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/ctype.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/datetimeapi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/debugapi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/driverspecs.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/errhandlingapi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/errno.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/excpt.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/fibersapi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/fileapi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/float.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/fltwinerror.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/guiddef.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/handleapi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/heapapi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/imm.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/interlockedapi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/ioapiset.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/jobapi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/ktmtypes.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/libloaderapi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/limits.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/locale.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/malloc.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/math.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/mcx.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/memoryapi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/minwinbase.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/minwindef.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/namedpipeapi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/namespaceapi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/poppack.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/process.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/processenv.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/processthreadsapi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/processtopologyapi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/profileapi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/psdk_inc/intrin-impl.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/pshpack1.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/pshpack2.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/pshpack4.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/pshpack8.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/pthread.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/pthread_compat.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/pthread_signal.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/pthread_time.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/pthread_unistd.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/realtimeapiset.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/reason.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/sal.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/sdkddkver.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/sdks/_mingw_directx.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/sec_api/stralign_s.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/sec_api/string_s.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/sec_api/sys/timeb_s.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/sec_api/wchar_s.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/securityappcontainer.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/securitybaseapi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/signal.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/specstrings.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/stdarg.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/stddef.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/stdint.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/stdio.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/stdlib.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/stralign.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/string.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/stringapiset.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/swprintf.inl \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/synchapi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/sys/timeb.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/sys/types.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/sysinfoapi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/systemtopologyapi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/threadpoolapiset.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/threadpoollegacyapiset.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/time.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/timezoneapi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/tvout.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/utilapiset.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/vadefs.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/virtdisk.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/wchar.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/wctype.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/winapifamily.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/winbase.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/wincon.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/windef.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/windows.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/winerror.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/wingdi.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/winnetwk.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/winnls.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/winnt.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/winreg.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/winsvc.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/winuser.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/winver.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/wnnc.h \
+  C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/wow64apiset.h \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/Collisions.h \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/Constants.h \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/GLFW/glfw3.h \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/KHR/khrplatform.h \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/Level.h \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/Projectile.h \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/ProjectileController.h \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glad/glad.h \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/common.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/_fixes.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/_vectorize.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/compute_common.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/compute_vector_relational.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/func_common.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/func_exponential.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/func_geometric.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/func_integer.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/func_matrix.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/func_packing.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/func_trigonometric.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/func_vector_relational.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/qualifier.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/setup.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_float.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_half.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_half.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat2x2.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat2x2.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat2x3.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat2x3.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat2x4.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat2x4.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat3x2.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat3x2.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat3x3.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat3x3.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat3x4.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat3x4.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat4x2.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat4x2.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat4x3.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat4x3.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat4x4.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat4x4.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_quat.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_quat.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_vec1.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_vec1.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_vec2.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_vec2.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_vec3.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_vec3.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_vec4.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_vec4.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/exponential.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_clip_space.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_clip_space.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double2x2.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double2x2_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double2x3.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double2x3_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double2x4.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double2x4_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double3x2.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double3x2_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double3x3.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double3x3_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double3x4.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double3x4_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double4x2.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double4x2_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double4x3.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double4x3_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double4x4.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double4x4_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float2x2.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float2x2_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float2x3.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float2x3_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float2x4.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float2x4_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float3x2.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float3x2_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float3x3.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float3x3_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float3x4.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float3x4_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float4x2.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float4x2_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float4x3.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float4x3_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float4x4.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float4x4_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_projection.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_projection.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_transform.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_transform.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/quaternion_common.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/quaternion_common.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/quaternion_double.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/quaternion_double_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/quaternion_float.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/quaternion_float_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/quaternion_geometric.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/quaternion_geometric.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/quaternion_relational.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/quaternion_relational.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/quaternion_transform.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/quaternion_transform.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/quaternion_trigonometric.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/quaternion_trigonometric.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/scalar_constants.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/scalar_constants.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_bool1.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_bool1_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_bool2.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_bool2_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_bool3.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_bool3_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_bool4.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_bool4_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_double1.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_double1_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_double2.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_double2_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_double3.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_double3_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_double4.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_double4_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_float1.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_float1_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_float2.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_float2_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_float3.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_float3_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_float4.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_float4_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_int1.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_int1_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_int2.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_int2_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_int3.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_int3_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_int4.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_int4_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_relational.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_relational.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_uint1.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_uint1_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_uint2.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_uint2_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_uint3.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_uint3_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_uint4.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_uint4_precision.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/fwd.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/geometric.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/glm.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/gtc/constants.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/gtc/constants.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/gtc/epsilon.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/gtc/epsilon.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/gtc/matrix_transform.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/gtc/matrix_transform.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/gtc/quaternion.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/gtc/quaternion.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/gtc/type_ptr.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/gtc/type_ptr.inl \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/gtc/vec1.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/integer.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/mat2x2.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/mat2x3.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/mat2x4.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/mat3x2.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/mat3x3.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/mat3x4.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/mat4x2.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/mat4x3.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/mat4x4.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/matrix.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/packing.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/simd/platform.h \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/trigonometric.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/vec2.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/vec3.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/vec4.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/vector_relational.hpp \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/matrices.h \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/utils.h
 
 CMakeFiles/main.dir/src/glad.c.obj: D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/src/glad.c \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed/limits.h \
@@ -3276,6 +5543,8 @@ CMakeFiles/main.dir/src/main.cpp.obj: D:/UFRGS/05\ Fundamentos\ de\ Computação
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/postypes.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/predefined_ops.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ptr_traits.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/random.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/random.tcc \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/range_access.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/sstream.tcc \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/std_abs.h \
@@ -3291,6 +5560,7 @@ CMakeFiles/main.dir/src/main.cpp.obj: D:/UFRGS/05\ Fundamentos\ de\ Computação
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_iterator_base_types.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_map.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_multimap.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_numeric.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_pair.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_relops.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_stack.h \
@@ -3312,6 +5582,7 @@ CMakeFiles/main.dir/src/main.cpp.obj: D:/UFRGS/05\ Fundamentos\ de\ Computação
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/climits \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/clocale \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cmath \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/complex \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstddef \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstdint \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstdio \
@@ -3339,7 +5610,9 @@ CMakeFiles/main.dir/src/main.cpp.obj: D:/UFRGS/05\ Fundamentos\ de\ Computação
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/limits \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/map \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/new \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/numeric \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/random \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ratio \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/sstream \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/stack \
@@ -3365,6 +5638,7 @@ CMakeFiles/main.dir/src/main.cpp.obj: D:/UFRGS/05\ Fundamentos\ de\ Computação
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/error_constants.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/gthr-default.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/gthr.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/opt_random.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/cetintrin.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/clflushoptintrin.h \
@@ -3532,8 +5806,11 @@ CMakeFiles/main.dir/src/main.cpp.obj: D:/UFRGS/05\ Fundamentos\ de\ Computação
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/winver.h \
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/wnnc.h \
   C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/wow64apiset.h \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/BezierCurve.h \
   D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/Camera.h \
   D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/Collisions.h \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/Constants.h \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/EntityController.h \
   D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/GLFW/glfw3.h \
   D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/GameEntity.h \
   D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/Input.h \
@@ -3541,7 +5818,9 @@ CMakeFiles/main.dir/src/main.cpp.obj: D:/UFRGS/05\ Fundamentos\ de\ Computação
   D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/Level.h \
   D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/Player.h \
   D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/PointLight.h \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/PowerupController.h \
   D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/Projectile.h \
+  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/ProjectileController.h \
   D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/Renderer.h \
   D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/Window.h \
   D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/dejavufont.h \
@@ -3944,17 +6223,15 @@ CMakeFiles/main.dir/src/tiny_obj_loader.cpp.obj: D:/UFRGS/05\ Fundamentos\ de\ C
 
 C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/basic_string.h:
 
-C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_iterator_base_types.h:
+C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/ammintrin.h:
 
 C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vbmi2intrin.h:
+
+C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_iterator_base_types.h:
 
 D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/src/core/Camera.cpp:
 
 C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/mm3dnow.h:
-
-C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/mm_malloc.h:
-
-C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/numeric_traits.h:
 
 C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed/limits.h:
 
@@ -3962,17 +6239,121 @@ C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/_mingw_print_pop.h
 
 C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/debugapi.h:
 
-D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat3x2.hpp:
+C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/set:
 
-C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xsavesintrin.h:
-
-C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstdio:
+C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vnniintrin.h:
 
 D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/quaternion_trigonometric.inl:
 
 C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed/syslimits.h:
 
-C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstdint:
+D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/Player.h:
+
+C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_multimap.h:
+
+C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx5124fmapsintrin.h:
+
+C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx2intrin.h:
+
+C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/fstream.tcc:
+
+C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/adxintrin.h:
+
+C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_map.h:
+
+C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512pfintrin.h:
+
+D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat4x3.inl:
+
+C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/char_traits.h:
+
+C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/basic_ios.h:
+
+C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/error_constants.h:
+
+C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx5124vnniwintrin.h:
+
+C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512bitalgintrin.h:
+
+C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/exception.h:
+
+C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/sal.h:
+
+C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512bwintrin.h:
+
+C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/locale_facets.tcc:
+
+C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_uninitialized.h:
+
+D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat2x2.inl:
+
+C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/allocator.h:
+
+C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512cdintrin.h:
+
+C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/threadpoolapiset.h:
+
+C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_algo.h:
+
+C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/nested_exception.h:
+
+C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512dqintrin.h:
+
+D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/gtc/type_ptr.hpp:
+
+C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512ifmavlintrin.h:
+
+C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512erintrin.h:
+
+C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/pthread.h:
+
+C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/tmmintrin.h:
+
+C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/hash_bytes.h:
+
+C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/_mingw_stdarg.h:
+
+D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/gtc/quaternion.hpp:
+
+C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512fintrin.h:
+
+C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vlbwintrin.h:
+
+C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/fltwinerror.h:
+
+D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/vec4.hpp:
+
+C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512ifmaintrin.h:
+
+C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vbmi2vlintrin.h:
+
+C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/string_conversions.h:
+
+C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/stdarg.h:
+
+C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vbmiintrin.h:
+
+C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/exception_defines.h:
+
+C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/sec_api/stdlib_s.h:
+
+D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_half.inl:
+
+C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vbmivlintrin.h:
+
+C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/postypes.h:
+
+C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/sdkddkver.h:
+
+C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/stack:
+
+C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/locale_classes.tcc:
+
+C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/concept_check.h:
+
+C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vldqintrin.h:
+
+C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/stdexcept:
 
 C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward/binders.h:
 
@@ -3982,43 +6363,69 @@ C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/
 
 D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/func_matrix.inl:
 
-C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_construct.h:
+C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vlintrin.h:
+
+C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/timezoneapi.h:
+
+C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vnnivlintrin.h:
+
+C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/math.h:
+
+C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vpopcntdqintrin.h:
+
+C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ostream.tcc:
+
+C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/reason.h:
+
+C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vpopcntdqvlintrin.h:
+
+C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/cxxabi_init_exception.h:
+
+C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avxintrin.h:
+
+D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_uint4_precision.hpp:
+
+D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/src/game/Level.cpp:
+
+D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_transform.inl:
+
+C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/bmi2intrin.h:
+
+C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xsaveoptintrin.h:
+
+D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_double3.hpp:
+
+C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/localefwd.h:
+
+C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/pthread_time.h:
+
+C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/signal.h:
+
+D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glad/glad.h:
+
+C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/bmiintrin.h:
 
 D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/Collisions.h:
 
 C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/alloc_traits.h:
 
-C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_uninitialized.h:
-
-D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat2x2.inl:
-
-C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/locale_facets.tcc:
-
-C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/allocator.h:
+C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/basic_ios.tcc:
 
 C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/basic_string.tcc:
 
-D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat4x3.inl:
+C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/exception_ptr.h:
 
-C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/char_traits.h:
+C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/lwpintrin.h:
 
-C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cwchar:
+D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_int1_precision.hpp:
 
-D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_int1.hpp:
+C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/codecvt.h:
 
-C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/processtopologyapi.h:
+C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/ktmtypes.h:
 
-C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/streambuf.tcc:
+D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_vec4.hpp:
 
-D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_bool2.hpp:
-
-C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/postypes.h:
-
-C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/concept_check.h:
-
-C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vldqintrin.h:
-
-C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/stdexcept:
+D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_bool2_precision.hpp:
 
 C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/cpp_type_traits.h:
 
@@ -4026,83 +6433,39 @@ C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/
 
 C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/cxxabi_forced.h:
 
-C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_pair.h:
-
-C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/array:
-
-C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/sec_api/stralign_s.h:
-
-C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/cxxabi_init_exception.h:
-
-C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/exception.h:
-
-C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/sal.h:
-
-C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/exception_defines.h:
-
-C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cmath:
-
-C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/exception_ptr.h:
-
-C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/lwpintrin.h:
-
 C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/functexcept.h:
 
 D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/quaternion_common.hpp:
 
-C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/debug/assertions.h:
-
-C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/streambuf:
-
-C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstddef:
-
-D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/Input.h:
-
-C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cerrno:
-
-C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stringfwd.h:
-
 C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/functional_hash.h:
 
-C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cassert:
+C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ios_base.h:
 
-C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_iterator_base_funcs.h:
+D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_uint3_precision.hpp:
 
-D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float3x2.hpp:
+C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/istream.tcc:
 
-C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/hash_bytes.h:
+C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/prfchwintrin.h:
 
-D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_double3.hpp:
+C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/pshpack8.h:
 
-C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xsaveoptintrin.h:
+C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/locale_classes.h:
 
-C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/pthread_time.h:
+D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/gtc/matrix_transform.inl:
 
-C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/localefwd.h:
+C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/locale_facets.h:
 
-C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/signal.h:
+C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/stdlib.h:
 
 C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/memoryfwd.h:
 
 C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/move.h:
-
-C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_algo.h:
-
-C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/threadpoolapiset.h:
-
-C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/nested_exception.h:
-
-D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/gtc/type_ptr.hpp:
-
-C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512dqintrin.h:
 
 C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/predefined_ops.h:
 
 C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ptr_traits.h:
 
 D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat2x3.inl:
-
-C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/initializer_list:
 
 D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/PointLight.h:
 
@@ -4116,7 +6479,7 @@ C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/
 
 C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_bvector.h:
 
-C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstdlib:
+C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_construct.h:
 
 C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_function.h:
 
@@ -4126,23 +6489,43 @@ C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/
 
 C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/wow64apiset.h:
 
+C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_iterator_base_funcs.h:
+
+D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float3x2.hpp:
+
+C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_pair.h:
+
+C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/array:
+
+C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/sec_api/stralign_s.h:
+
 C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_vector.h:
 
-C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/new_allocator.h:
+C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/streambuf.tcc:
 
-C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/gfniintrin.h:
+C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cwchar:
+
+C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/processtopologyapi.h:
+
+D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_int1.hpp:
+
+D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_bool2.hpp:
+
+C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/streambuf_iterator.h:
+
+C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stringfwd.h:
+
+C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cerrno:
 
 C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/vector.tcc:
 
 D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/_fixes.hpp:
 
+C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cassert:
+
 C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cctype:
 
 C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cfloat:
-
-C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/winbase.h:
-
-C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/debug/debug.h:
 
 C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/climits:
 
@@ -4152,9 +6535,37 @@ C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/
 
 C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/clocale:
 
+C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cmath:
+
+C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstddef:
+
+D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/Input.h:
+
+C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/streambuf:
+
+C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstdint:
+
+C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xsavesintrin.h:
+
+D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat3x2.hpp:
+
+C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstdio:
+
+C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstdlib:
+
 C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xsavecintrin.h:
 
 C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstring:
+
+C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ctime:
+
+C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cwctype:
+
+C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/debug/assertions.h:
+
+C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/winbase.h:
+
+C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/debug/debug.h:
 
 C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/exception:
 
@@ -4164,11 +6575,13 @@ C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/
 
 C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/atomicity.h:
 
-C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/string_conversions.h:
+C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/new_allocator.h:
 
-C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/stdarg.h:
+C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/gfniintrin.h:
 
-C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vbmiintrin.h:
+C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/mm_malloc.h:
+
+C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/numeric_traits.h:
 
 D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_int2_precision.hpp:
 
@@ -4176,11 +6589,23 @@ C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/
 
 D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_bool1_precision.hpp:
 
+C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/fstream:
+
+C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/initializer_list:
+
+C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ios:
+
 D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/src/tiny_obj_loader.cpp:
 
 C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/winsvc.h:
 
 C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iosfwd:
+
+C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/winver.h:
+
+D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/quaternion_double_precision.hpp:
+
+C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/istream:
 
 C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/limits:
 
@@ -4190,7 +6615,13 @@ C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/
 
 D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double3x4.hpp:
 
+C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:
+
+C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/specstrings.h:
+
 C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/stdlib.h:
+
+C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/numeric:
 
 C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/string:
 
@@ -4202,6 +6633,14 @@ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm
 
 D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/mat3x2.hpp:
 
+C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/locale.h:
+
+D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_quat.hpp:
+
+D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/glm.hpp:
+
+C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/system_error:
+
 C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/type_traits:
 
 C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/typeinfo:
@@ -4210,9 +6649,19 @@ C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/
 
 C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/atomic_word.h:
 
+C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/pconfigintrin.h:
+
+C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/basic_file.h:
+
 C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/c++allocator.h:
 
 C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/c++config.h:
+
+C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/ioapiset.h:
+
+C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/c++io.h:
+
+C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xtestintrin.h:
 
 D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_int3.hpp:
 
@@ -4220,23 +6669,155 @@ C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/
 
 C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/cpu_defines.h:
 
+C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/ctype_base.h:
+
+C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/ctype_inline.h:
+
+C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/sec_api/wchar_s.h:
+
 C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/gthr-default.h:
 
 C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/gthr.h:
 
 C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h:
 
+C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/bemapiset.h:
+
 D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/gtc/constants.hpp:
 
-C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/bemapiset.h:
+C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/cetintrin.h:
+
+C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/driverspecs.h:
+
+C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/tvout.h:
+
+C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/clflushoptintrin.h:
+
+C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/clwbintrin.h:
+
+C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/clzerointrin.h:
+
+D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_double2.hpp:
+
+D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/setup.hpp:
+
+D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_float4_precision.hpp:
+
+C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/emmintrin.h:
+
+C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/f16cintrin.h:
 
 C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/_mingw_off_t.h:
 
 C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/float.h:
 
+C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/fma4intrin.h:
+
+C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/fmaintrin.h:
+
+D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_int4_precision.hpp:
+
+C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/datetimeapi.h:
+
+C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/fxsrintrin.h:
+
+C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/ia32intrin.h:
+
+C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/immintrin.h:
+
+C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/lzcntintrin.h:
+
+D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_int2.hpp:
+
+D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_bool1.hpp:
+
+C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/mmintrin.h:
+
+C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/movdirintrin.h:
+
+D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_uint2.hpp:
+
+C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/mwaitxintrin.h:
+
+D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double4x4_precision.hpp:
+
+D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/stb_image.h:
+
+D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat2x3.hpp:
+
+C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/pkuintrin.h:
+
+C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_multiset.h:
+
+D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_float4.hpp:
+
+C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/pmmintrin.h:
+
+C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/popcntintrin.h:
+
+C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/rtmintrin.h:
+
+C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/sgxintrin.h:
+
+D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/_vectorize.hpp:
+
+C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/shaintrin.h:
+
+C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/smmintrin.h:
+
+C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xopintrin.h:
+
+D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_uint3.hpp:
+
+C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stdarg.h:
+
+D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/func_vector_relational.inl:
+
 C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stddef.h:
 
 C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stdint.h:
+
+C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/tbmintrin.h:
+
+D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_float2_precision.hpp:
+
+C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/vaesintrin.h:
+
+C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/vpclmulqdqintrin.h:
+
+C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/wbnoinvdintrin.h:
+
+D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/func_exponential.inl:
+
+D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/quaternion_geometric.inl:
+
+C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/windows.h:
+
+C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/wmmintrin.h:
+
+C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/basetsd.h:
+
+C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/winnt.h:
+
+C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/x86intrin.h:
+
+C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/guiddef.h:
+
+C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_numeric.h:
+
+C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xmmintrin.h:
+
+C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/winapifamily.h:
+
+D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/Camera.h:
+
+D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/compute_common.hpp:
+
+C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/deque.tcc:
+
+C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xsaveintrin.h:
+
+D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_int3_precision.hpp:
 
 C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/_mingw.h:
 
@@ -4256,6 +6837,18 @@ C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/_mingw_stat64.h:
 
 D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/mat2x2.hpp:
 
+D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/Window.h:
+
+C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/_mingw_unicode.h:
+
+C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/_timeval.h:
+
+C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/sstream.tcc:
+
+C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/apiset.h:
+
+C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/apisetcconv.h:
+
 D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/mat2x4.hpp:
 
 C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/assert.h:
@@ -4270,23 +6863,37 @@ C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/synchapi.h:
 
 C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/sysinfoapi.h:
 
+C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/errhandlingapi.h:
+
 C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/errno.h:
+
+C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/limits.h:
+
+C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/excpt.h:
+
+C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/fibersapi.h:
+
+C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/fileapi.h:
 
 D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/quaternion_geometric.hpp:
 
 C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/float.h:
 
-C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/excpt.h:
+C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/handleapi.h:
 
-C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/limits.h:
+C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/heapapi.h:
 
-C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/system_error:
+C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/imm.h:
 
-C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/locale.h:
+C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/interlockedapi.h:
 
-D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_quat.hpp:
+C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/jobapi.h:
 
-D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/glm.hpp:
+C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/libloaderapi.h:
+
+C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/stralign.h:
+
+D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_clip_space.inl:
 
 C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/malloc.h:
 
@@ -4294,13 +6901,45 @@ C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/processthreadsapi.
 
 C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/math.h:
 
+C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/mcx.h:
+
+D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/func_common.inl:
+
+C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/memoryapi.h:
+
+C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/stdio.h:
+
+C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/minwinbase.h:
+
+C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/invoke.h:
+
+C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/namedpipeapi.h:
+
+C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/namespaceapi.h:
+
+C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/poppack.h:
+
+C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_relops.h:
+
 C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/process.h:
 
-C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/tmmintrin.h:
+C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/processenv.h:
 
-C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/pthread.h:
+D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/dejavufont.h:
 
-C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512erintrin.h:
+C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/profileapi.h:
+
+C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/psdk_inc/intrin-impl.h:
+
+D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_float.hpp:
+
+C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/pshpack1.h:
+
+D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat4x2.hpp:
+
+C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/pshpack4.h:
+
+D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/src/game/PowerupController.cpp:
 
 D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double4x4.hpp:
 
@@ -4312,15 +6951,11 @@ C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/sdks/_mingw_direct
 
 C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/pthread_unistd.h:
 
+C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/realtimeapiset.h:
+
 C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h:
 
 C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/sec_api/stdio_s.h:
-
-C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vbmivlintrin.h:
-
-C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/sec_api/stdlib_s.h:
-
-D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_half.inl:
 
 C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/utilapiset.h:
 
@@ -4332,9 +6967,9 @@ C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/sec_api/sys/timeb_
 
 D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/func_trigonometric.inl:
 
-C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/ctype_inline.h:
+C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/securityappcontainer.h:
 
-C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/sec_api/wchar_s.h:
+C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/securitybaseapi.h:
 
 C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/stddef.h:
 
@@ -4342,19 +6977,11 @@ C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/stdint.h:
 
 D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double4x3.hpp:
 
-C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/stdio.h:
-
-C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/memoryapi.h:
-
-D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/func_common.inl:
-
-C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/stdlib.h:
-
-C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/locale_facets.h:
-
-D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/gtc/matrix_transform.inl:
-
 C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/string.h:
+
+D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_clip_space.hpp:
+
+C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/stringapiset.h:
 
 C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/swprintf.inl:
 
@@ -4364,41 +6991,63 @@ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm
 
 C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/sys/types.h:
 
+C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/systemtopologyapi.h:
+
+C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/algorithm:
+
+C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/threadpoollegacyapiset.h:
+
+C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/time.h:
+
 D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_double4.hpp:
 
 C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/vadefs.h:
 
-D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/Camera.h:
+D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_bool4.hpp:
 
-C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xmmintrin.h:
+C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/virtdisk.h:
 
-C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/winapifamily.h:
+C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/wctype.h:
+
+C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/wincon.h:
+
+C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/windef.h:
+
+C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/winerror.h:
+
+C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/wingdi.h:
+
+C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/winnetwk.h:
+
+D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_vec3.inl:
+
+D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/GLFW/glfw3.h:
+
+C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/winnls.h:
+
+C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/winreg.h:
+
+C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/winuser.h:
+
+D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/Projectile.h:
+
+C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/wnnc.h:
+
+D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/Constants.h:
+
+D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/fwd.hpp:
+
+D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/src/core/Renderer.cpp:
+
+D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/KHR/khrplatform.h:
 
 D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/Level.h:
 
 D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/common.hpp:
 
-D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/_vectorize.hpp:
-
-C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/sgxintrin.h:
-
-D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/compute_common.hpp:
-
-C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/deque.tcc:
-
-D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_int3_precision.hpp:
-
-C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xsaveintrin.h:
-
 D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/compute_vector_relational.hpp:
 
 D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double3x2_precision.hpp:
-
-D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/func_exponential.inl:
-
-D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/quaternion_geometric.inl:
-
-C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/wbnoinvdintrin.h:
 
 D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/func_geometric.inl:
 
@@ -4410,35 +7059,15 @@ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm
 
 D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double4x2.hpp:
 
-D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/func_vector_relational.inl:
-
-C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stdarg.h:
-
 D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_float2.hpp:
 
 D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/qualifier.hpp:
 
 D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/quaternion_transform.inl:
 
-C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/emmintrin.h:
-
-D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/setup.hpp:
-
-D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_float4_precision.hpp:
-
-D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_float.hpp:
-
-C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/psdk_inc/intrin-impl.h:
-
 D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_half.hpp:
 
 D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat2x2.hpp:
-
-C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/pkuintrin.h:
-
-D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/stb_image.h:
-
-D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat2x3.hpp:
 
 D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat2x4.hpp:
 
@@ -4454,10 +7083,6 @@ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm
 
 D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat3x4.inl:
 
-D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat4x2.hpp:
-
-C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/pshpack1.h:
-
 D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat4x2.inl:
 
 D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat4x3.hpp:
@@ -4465,6 +7090,8 @@ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm
 D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/src/game/PointLight.cpp:
 
 D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat4x4.hpp:
+
+D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/ProjectileController.h:
 
 D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_mat4x4.inl:
 
@@ -4488,35 +7115,9 @@ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm
 
 D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_vec3.hpp:
 
-D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/GLFW/glfw3.h:
-
-D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_vec3.inl:
-
-C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/winnetwk.h:
-
-D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_vec4.hpp:
-
-D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_bool2_precision.hpp:
-
-C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/ktmtypes.h:
-
-C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/codecvt.h:
-
-D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_int1_precision.hpp:
-
 D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_vec4.inl:
 
 D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/exponential.hpp:
-
-C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/stringapiset.h:
-
-D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_clip_space.hpp:
-
-D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_clip_space.inl:
-
-C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/libloaderapi.h:
-
-C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/stralign.h:
 
 D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double2x2.hpp:
 
@@ -4534,6 +7135,8 @@ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm
 
 C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_stack.h:
 
+D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/PowerupController.h:
+
 D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double2x4.hpp:
 
 D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/mat4x3.hpp:
@@ -4545,12 +7148,6 @@ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm
 D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double3x3_precision.hpp:
 
 D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double4x2_precision.hpp:
-
-D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_double4x4_precision.hpp:
-
-C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/mwaitxintrin.h:
-
-D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_uint2.hpp:
 
 D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float2x4.hpp:
 
@@ -4568,9 +7165,9 @@ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm
 
 D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float3x4_precision.hpp:
 
-D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float4x2.hpp:
-
 C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tuple:
+
+D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float4x2.hpp:
 
 D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float4x2_precision.hpp:
 
@@ -4588,21 +7185,7 @@ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm
 
 D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_double2_precision.hpp:
 
-D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_uint4_precision.hpp:
-
-C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avxintrin.h:
-
-D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/src/game/Level.cpp:
-
-D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_transform.inl:
-
 D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/quaternion_common.inl:
-
-C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/istream:
-
-D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/quaternion_double_precision.hpp:
-
-C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/winver.h:
 
 D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/quaternion_float.hpp:
 
@@ -4626,29 +7209,15 @@ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm
 
 D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/scalar_constants.inl:
 
-D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_int2.hpp:
-
-C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/lzcntintrin.h:
-
-D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_bool1.hpp:
-
 D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_bool3.hpp:
 
 D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_bool3_precision.hpp:
-
-C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/virtdisk.h:
-
-D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_bool4.hpp:
 
 D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_bool4_precision.hpp:
 
 D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/matrices.h:
 
 D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_double1.hpp:
-
-D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_double2.hpp:
-
-C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/clzerointrin.h:
 
 D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_double4_precision.hpp:
 
@@ -4658,29 +7227,13 @@ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm
 
 D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/gtc/vec1.hpp:
 
-C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/vaesintrin.h:
-
-D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_float2_precision.hpp:
-
 D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_float3.hpp:
 
 D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_float3_precision.hpp:
 
-C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/pmmintrin.h:
-
-C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_multiset.h:
-
-D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_float4.hpp:
-
 D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_int4.hpp:
 
-D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_int4_precision.hpp:
-
-C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/fmaintrin.h:
-
 D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_relational.hpp:
-
-D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/src/game/GameEntity.cpp:
 
 D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_relational.inl:
 
@@ -4688,23 +7241,7 @@ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/src/main.cp
 
 D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_uint2_precision.hpp:
 
-D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_uint3.hpp:
-
-C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/smmintrin.h:
-
-C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xopintrin.h:
-
-D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_uint3_precision.hpp:
-
-C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ios_base.h:
-
 D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_uint4.hpp:
-
-D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/fwd.hpp:
-
-D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/src/core/Renderer.cpp:
-
-D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/KHR/khrplatform.h:
 
 D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/gtc/constants.inl:
 
@@ -4714,12 +7251,6 @@ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm
 
 D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/gtc/matrix_transform.hpp:
 
-D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/gtc/quaternion.hpp:
-
-C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/_mingw_stdarg.h:
-
-C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512fintrin.h:
-
 D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/gtc/quaternion.inl:
 
 D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/gtc/type_ptr.inl:
@@ -4727,6 +7258,8 @@ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm
 D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/integer.hpp:
 
 D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/mat2x3.hpp:
+
+D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/src/game/BezierCurve.cpp:
 
 D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/mat3x4.hpp:
 
@@ -4736,269 +7269,37 @@ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm
 
 D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/vec2.hpp:
 
-D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/vec4.hpp:
-
-C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/fltwinerror.h:
-
-C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512ifmaintrin.h:
-
 D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/vector_relational.hpp:
 
-C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/threadpoollegacyapiset.h:
+C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/random.h:
 
-C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/algorithm:
+D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/utils.h:
 
 C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/algorithmfwd.h:
 
 C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_heap.h:
 
-C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_relops.h:
-
-C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/poppack.h:
-
 C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_tempbuf.h:
 
 D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/src/core/Input.cpp:
 
-C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/adxintrin.h:
-
-C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/fstream.tcc:
-
-C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/ammintrin.h:
-
-C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx2intrin.h:
-
-D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/Player.h:
-
-C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_multimap.h:
-
-C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx5124fmapsintrin.h:
-
-C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx5124vnniwintrin.h:
-
-C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512bitalgintrin.h:
-
-C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512bwintrin.h:
-
-C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512cdintrin.h:
-
-C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512ifmavlintrin.h:
-
-C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_map.h:
-
-C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512pfintrin.h:
-
-C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vbmi2vlintrin.h:
-
-C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vlbwintrin.h:
-
-C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vlintrin.h:
-
-C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/timezoneapi.h:
-
-C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/set:
-
-C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vnniintrin.h:
-
-C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vnnivlintrin.h:
-
-C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/math.h:
-
-C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vpopcntdqintrin.h:
-
-C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vpopcntdqvlintrin.h:
-
-C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/bmi2intrin.h:
-
-D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glad/glad.h:
-
-C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/bmiintrin.h:
-
-C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/cetintrin.h:
-
-C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/driverspecs.h:
-
-C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/tvout.h:
-
-C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/clflushoptintrin.h:
-
-C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/clwbintrin.h:
-
-C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/f16cintrin.h:
-
-C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/fma4intrin.h:
-
-C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/datetimeapi.h:
-
-C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/fxsrintrin.h:
-
-C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/ia32intrin.h:
-
-C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/immintrin.h:
-
-C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/mmintrin.h:
-
-C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/movdirintrin.h:
-
-C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/basic_file.h:
-
-C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/pconfigintrin.h:
-
-C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/popcntintrin.h:
-
-C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/locale_classes.h:
-
-C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/prfchwintrin.h:
-
-C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/pshpack8.h:
-
-C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/rtmintrin.h:
-
-C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/shaintrin.h:
-
-C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/tbmintrin.h:
-
-C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/vpclmulqdqintrin.h:
-
-C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/windows.h:
-
-C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/wmmintrin.h:
-
-C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/basetsd.h:
-
-C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/winnt.h:
-
-C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/x86intrin.h:
-
-C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/guiddef.h:
-
-C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xtestintrin.h:
-
-C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/c++io.h:
-
-C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/ioapiset.h:
-
-D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/Window.h:
-
-C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/_mingw_unicode.h:
-
-C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/sstream.tcc:
-
-C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/apiset.h:
-
-C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/apisetcconv.h:
-
-C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/errhandlingapi.h:
-
-C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/fibersapi.h:
-
-C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/fileapi.h:
-
-C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/handleapi.h:
-
-C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/heapapi.h:
-
-C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/imm.h:
-
-C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/interlockedapi.h:
-
-C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/jobapi.h:
-
-C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/mcx.h:
-
-C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/minwinbase.h:
-
-C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/invoke.h:
-
-C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/namedpipeapi.h:
-
-C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/namespaceapi.h:
-
-C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/processenv.h:
-
-D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/dejavufont.h:
-
-C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/profileapi.h:
-
-C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/pshpack4.h:
-
-C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/realtimeapiset.h:
-
-C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/reason.h:
-
-C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ostream.tcc:
-
-C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/locale_classes.tcc:
-
-C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/stack:
-
-C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/sdkddkver.h:
-
-C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/securityappcontainer.h:
-
-C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/securitybaseapi.h:
-
-C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/specstrings.h:
-
-C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:
-
-C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/systemtopologyapi.h:
-
-C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/wincon.h:
-
-C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/windef.h:
-
-C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/winerror.h:
-
-C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/deque:
-
-C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/wingdi.h:
-
-C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/winnls.h:
-
-C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/winreg.h:
-
-C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/winuser.h:
-
-D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/Projectile.h:
-
-C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/wnnc.h:
-
-D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/utils.h:
+C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iostream:
 
 D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/src/core/Matrices.cpp:
-
-C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/basic_ios.h:
-
-C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/basic_ios.tcc:
-
-C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/istream.tcc:
 
 C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_deque.h:
 
 C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_tree.h:
 
-C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/streambuf_iterator.h:
-
 C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/uses_allocator.h:
 
-C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cwctype:
+C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/deque:
 
 C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/aligned_buffer.h:
-
-C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/fstream:
-
-C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ios:
 
 C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/map:
 
 C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/sstream:
-
-C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/ctype_base.h:
-
-C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/error_constants.h:
-
-C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/wctype.h:
 
 D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/Renderer.h:
 
@@ -5008,17 +7309,17 @@ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/src/core/Wi
 
 D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/src/dejavufont.cpp:
 
+D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/BezierCurve.h:
+
+D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/src/game/EntityController.cpp:
+
+D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/EntityController.h:
+
 D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/GameEntity.h:
 
 D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/src/game/Player.cpp:
 
-D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/src/game/Projectile.cpp:
-
-C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ctime:
-
-C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/_timeval.h:
-
-C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/time.h:
+D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/src/game/ProjectileController.cpp:
 
 D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/src/glad.c:
 
@@ -5026,7 +7327,15 @@ C:/Program\ Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include/inttypes.h:
 
 C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/parse_numbers.h:
 
+C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/random.tcc:
+
 C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/chrono:
+
+C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/complex:
+
+C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/random:
+
+C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/opt_random.h:
 
 D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/src/stb_image.cpp:
 

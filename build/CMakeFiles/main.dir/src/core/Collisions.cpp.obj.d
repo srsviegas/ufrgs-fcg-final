@@ -274,4 +274,231 @@ CMakeFiles/main.dir/src/core/Collisions.cpp.obj: \
  C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstdio \
  C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cerrno \
  C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/basic_string.tcc \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/matrices.h
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/fstream \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/istream \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ios \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ios_base.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/locale_classes.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/locale_classes.tcc \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/system_error \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/error_constants.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/stdexcept \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/streambuf \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/streambuf.tcc \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/basic_ios.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/locale_facets.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cwctype \
+ C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/wctype.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/ctype_base.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/streambuf_iterator.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/ctype_inline.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/locale_facets.tcc \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/basic_ios.tcc \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ostream.tcc \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/istream.tcc \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/codecvt.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/basic_file.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/c++io.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/fstream.tcc \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/matrices.h \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/utils.h \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glad/glad.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/windows.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/sdkddkver.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/excpt.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stdarg.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/stdarg.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/_mingw_stdarg.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/windef.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/minwindef.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/winapifamily.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/specstrings.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/sal.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/driverspecs.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/winnt.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/_mingw_unicode.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/apiset.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/psdk_inc/intrin-impl.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/basetsd.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/guiddef.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/string.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/sec_api/string_s.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/x86intrin.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/ia32intrin.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/mmintrin.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xmmintrin.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/mm_malloc.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/emmintrin.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/pmmintrin.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/tmmintrin.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/ammintrin.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/smmintrin.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/popcntintrin.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/wmmintrin.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/immintrin.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avxintrin.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx2intrin.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512fintrin.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512erintrin.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512pfintrin.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512cdintrin.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vlintrin.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512bwintrin.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512dqintrin.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vlbwintrin.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vldqintrin.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512ifmaintrin.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512ifmavlintrin.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vbmiintrin.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vbmivlintrin.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx5124fmapsintrin.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx5124vnniwintrin.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vpopcntdqintrin.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vbmi2intrin.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vbmi2vlintrin.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vnniintrin.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vnnivlintrin.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vpopcntdqvlintrin.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512bitalgintrin.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/shaintrin.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/lzcntintrin.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/bmiintrin.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/bmi2intrin.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/fmaintrin.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/f16cintrin.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/rtmintrin.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xtestintrin.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/cetintrin.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/gfniintrin.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/vaesintrin.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/vpclmulqdqintrin.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/movdirintrin.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/mm3dnow.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/prfchwintrin.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/fma4intrin.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xopintrin.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/lwpintrin.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/tbmintrin.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/rdseedintrin.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/fxsrintrin.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xsaveintrin.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xsaveoptintrin.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/sgxintrin.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/pconfigintrin.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/adxintrin.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/clwbintrin.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/clflushoptintrin.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xsavesintrin.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xsavecintrin.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/mwaitxintrin.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/clzerointrin.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/wbnoinvdintrin.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/pkuintrin.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/pshpack4.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/poppack.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/pshpack4.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/pshpack2.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/poppack.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/pshpack2.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/pshpack8.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/pshpack8.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/ktmtypes.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/winbase.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/apisetcconv.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/minwinbase.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/bemapiset.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/debugapi.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/errhandlingapi.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/fibersapi.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/fileapi.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/handleapi.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/heapapi.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/ioapiset.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/interlockedapi.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/jobapi.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/libloaderapi.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/memoryapi.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/namedpipeapi.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/namespaceapi.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/processenv.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/processthreadsapi.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/processtopologyapi.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/profileapi.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/realtimeapiset.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/securityappcontainer.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/securitybaseapi.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/synchapi.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/sysinfoapi.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/systemtopologyapi.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/threadpoolapiset.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/threadpoollegacyapiset.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/utilapiset.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/wow64apiset.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/winerror.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/fltwinerror.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/timezoneapi.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/wingdi.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/pshpack1.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/winuser.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/tvout.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/winnls.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/datetimeapi.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/stringapiset.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/wincon.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/winver.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/winreg.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/reason.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/winnetwk.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/wnnc.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/virtdisk.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/stralign.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/sec_api/stralign_s.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/winsvc.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/mcx.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/imm.h \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/KHR/khrplatform.h \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/GLFW/glfw3.h \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/gtc/type_ptr.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/gtc/quaternion.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_relational.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_relational.inl \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_float.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/quaternion_common.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/quaternion_geometric.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/quaternion_geometric.inl \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/quaternion_common.inl \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/quaternion_float.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_quat.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/quaternion_relational.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/quaternion_relational.inl \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_quat.inl \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/quaternion_float_precision.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/quaternion_double.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/quaternion_double_precision.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/quaternion_trigonometric.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/quaternion_trigonometric.inl \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/quaternion_transform.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/quaternion_transform.inl \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/gtc/quaternion.inl \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/gtc/epsilon.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/setup.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/gtc/epsilon.inl \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/gtc/vec1.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_bool1.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_bool1_precision.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_float1.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_float1_precision.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_double1.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_double1_precision.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_int1.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_int1_precision.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_uint1.hpp \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_uint1_precision.hpp \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstring \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/gtc/type_ptr.inl \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ctime \
+ C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/time.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/_timeval.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/pthread_time.h \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/Constants.h

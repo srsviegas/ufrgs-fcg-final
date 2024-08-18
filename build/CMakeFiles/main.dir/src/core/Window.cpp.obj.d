@@ -390,14 +390,6 @@ CMakeFiles/main.dir/src/core/Window.cpp.obj: \
  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float4x4.hpp \
  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/matrix_float4x4_precision.hpp \
  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/utils.h \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/dejavufont.h \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/Camera.h \
- C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/vector \
- C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_construct.h \
- C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_uninitialized.h \
- C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_vector.h \
- C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_bvector.h \
- C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/vector.tcc \
  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/gtc/type_ptr.hpp \
  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/gtc/quaternion.hpp \
  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/gtc/constants.hpp \
@@ -450,6 +442,18 @@ CMakeFiles/main.dir/src/core/Window.cpp.obj: \
  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/ext/vector_uint1_precision.hpp \
  C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstring \
  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/gtc/type_ptr.inl \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ctime \
+ C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/time.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/_timeval.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/pthread_time.h \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/dejavufont.h \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/Camera.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/vector \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_construct.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_uninitialized.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_vector.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_bvector.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/vector.tcc \
  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/matrices.h \
  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/Level.h \
  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/glm.hpp \
@@ -463,4 +467,32 @@ CMakeFiles/main.dir/src/core/Window.cpp.obj: \
  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_half.hpp \
  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/type_half.inl \
  D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/integer.hpp \
- D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/func_integer.inl
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/glm/detail/func_integer.inl \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/fstream \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/istream \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ios \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ios_base.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/locale_classes.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/locale_classes.tcc \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/system_error \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/error_constants.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/stdexcept \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/streambuf \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/streambuf.tcc \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/basic_ios.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/locale_facets.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cwctype \
+ C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/wctype.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/ctype_base.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/streambuf_iterator.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/ctype_inline.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/locale_facets.tcc \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/basic_ios.tcc \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ostream.tcc \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/istream.tcc \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/codecvt.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/basic_file.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/c++io.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/fstream.tcc \
+ D:/UFRGS/05\ Fundamentos\ de\ Computação\ Gráfica/ufrgs-fcg-final/include/Constants.h
