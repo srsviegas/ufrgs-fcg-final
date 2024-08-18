@@ -280,13 +280,13 @@ int main(int argc, char *argv[])
             }
             if (g_LeftMouseButtonPressed)
             {
-                if (!projectiles.onCooldown(PLAYER_ID + 1, now))
+                if (!projectiles.onCooldown(PLAYER_ID+1, now))
                 {
                     swordAnimationPlaying = true;
                     swordAnimation = 0.0f;
                     projectiles.shoot(
                         PLAYER_ID,
-                        PLAYER_ID + 1,
+                        PLAYER_ID+1,
                         PROJECTILE_INVIS,
                         0.8f,
                         cam.getPosition() + 0.6f * cam.getViewVec() - 0.10f * cam.getUpVec(),
@@ -425,8 +425,7 @@ int main(int argc, char *argv[])
             for(int j = 0; j < MAX_ENTITIES; j++) {
                 if(enem[j].status)
                 if(i != j) {
-                    float distance = glm::length(enem[i].position - enem[j].position);
-                    if(distance < 1.0f) {
+                    if(isColliding(enem[i].bbox,enem[j].bbox)) {
                         glm::vec4 direction = glm::normalize(enem[i].position - enem[j].position);
                         enem[i].position += direction * 0.001f;
                         enem[j].position += -direction * 0.001f;
@@ -547,7 +546,7 @@ int main(int argc, char *argv[])
                 if (enem[i].type == ENTITY_FLYER)
                 {
                     model =
-                        Matrix_Translate(enem[i].position.x, enem[i].position.y, enem[i].position.z) *
+                        Matrix_Translate(enem[i].position.x, enem[i].position.y - 0.2f, enem[i].position.z) *
                         Matrix_Scale(0.004, 0.004, 0.004) *
                         Matrix_Rotate_Y(0.5f * glm::pi<float>() - angleAroundY(enem[i].direction));
                     DrawObjectModel(model, ENTITY_FLYER, "ghoul");

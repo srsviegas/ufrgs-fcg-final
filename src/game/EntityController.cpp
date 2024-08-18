@@ -15,7 +15,7 @@ EntityController::EntityController()
 EntityController::EntityController(Level levelData)
 {
     max_entities = MAX_ENTITIES;
-    last_added = 0;
+    last_added = PLAYER_ID + 2;
     for (int z = 0; z < levelData.GetMapHeight(); z++)
     {
         for (int x = 0; x < levelData.GetMapWidth(); x++)
