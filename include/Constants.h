@@ -61,3 +61,6 @@
 #define LOOK_AT_DISTANCE_MAX 20.0f    // Map camera maximum distance
 
 #define SCROLL_VELOCITY 0.5f // Map scrolling velocity
+
+/* Animation */
+#define SWORD_MAX_ROTATION 1.6f
