@@ -36,7 +36,7 @@ EntityController::EntityController(Level levelData)
                         last_added,
                         ENTITY_CRAWLER,
                         100.0f,
-                        1.0f,
+                        2.0f,
                         3.5f,
                         1.5f,
                         levelData.MapPositionToWorldPosition(x, z),
@@ -120,6 +120,7 @@ void EntityController::behaviour_flyer(GameEntity *entity, float current_time, f
     if (glm::length(entity->position - player->getPosition()) < entity->range)
     {
         entity->state = STATE_CHASING;
+        entity->range = 6.0f;
     }
     else
     {
@@ -149,9 +150,9 @@ void EntityController::behaviour_flyer(GameEntity *entity, float current_time, f
                 1.5f,
                 entity->position,
                 entity->direction,
-                2.0f,
+                3.5f,
                 0.0f,
-                10.0f,
+                15.0f,
                 2.5f,
                 current_time,
                 glm::vec3(0.3f, 0.3f, 0.3f));
@@ -161,7 +162,7 @@ void EntityController::behaviour_flyer(GameEntity *entity, float current_time, f
         std::cout << "invalid entity state";
         break;
     }
-    entity->position.y = 0.35f;
+    entity->position.y = 0.25f;
 
     // update bounding box
     entity->bbox.min = glm::vec3(-entity->bbox_dimensions.x / 2, -entity->bbox_dimensions.y / 2, -entity->bbox_dimensions.z / 2) +
@@ -205,7 +206,7 @@ void EntityController::behaviour_crawler(GameEntity *entity, float current_time,
                     entity->global_id,
                     PROJECTILE_INVIS,
                     1.5f,
-                    entity->position,
+                    entity->position + glm::vec4(0.0f,0.1f,0.0f,0.0f),
                     entity->direction,
                     2.0f,
                     0.0f,

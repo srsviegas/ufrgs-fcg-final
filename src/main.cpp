@@ -288,7 +288,7 @@ int main(int argc, char *argv[])
                         PLAYER_ID,
                         PLAYER_ID + 1,
                         PROJECTILE_INVIS,
-                        0.3f,
+                        0.8f,
                         cam.getPosition() + 0.6f * cam.getViewVec() - 0.10f * cam.getUpVec(),
                         cam.getViewVec(),
                         0.0f,
@@ -301,7 +301,7 @@ int main(int argc, char *argv[])
             }
             if (g_RightMouseButtonPressed)
             {
-                if (player.getMana() >= 3)
+                if (player.getMana() >= 2)
                 {
                     if (!projectiles.onCooldown(PLAYER_ID, now))
                     {
@@ -309,15 +309,15 @@ int main(int argc, char *argv[])
                             PLAYER_ID,
                             PLAYER_ID,
                             PROJECTILE_WATER,
-                            0.15f,
+                            0.10f,
                             cam.getPosition() - 0.38f * cam.getSideVec() + 0.6f * cam.getViewVec() - 0.10f * cam.getUpVec(),
                             cam.getViewVec(),
                             20.0f, -40.0f,
-                            5.0f,
+                            3.5f,
                             0.5f,
                             now,
                             glm::vec3(0.2f, 0.2f, 0.2f));
-                        player.setMana(player.getMana() - 3);
+                        player.setMana(player.getMana() - 2);
                     }
                 }
             }
@@ -381,19 +381,23 @@ int main(int argc, char *argv[])
                         {
                             proj[i].status = false;
                             enem[j].health -= proj[i].damage;
+                            enem[i].range = 6.0f;
                             if (enem[j].health <= 0)
                             {
-                                // power_ups.spawn(
-                                //     enem[j].position,
-                                //     50.0f,
-                                //     20.0f,
-                                //     POTION_HEALTH);
-                                power_ups.spawn(
+                                enem[j].status = false;
+                                if(chance(50)){
+                                    power_ups.spawn(
+                                     enem[j].position,
+                                     50.0f,
+                                    20.0f,
+                                    POTION_HEALTH);
+                                }else {
+                                    power_ups.spawn(
                                     enem[j].position,
                                     20.0f,
                                     50.0f,
                                     POTION_MANA);
-                                enem[j].status = false;
+                                }
                             }
                         }
                     }
@@ -527,7 +531,7 @@ int main(int argc, char *argv[])
                 {
                     model =
                         Matrix_Translate(enem[i].position.x, enem[i].position.y, enem[i].position.z) *
-                        Matrix_Scale(0.005, 0.005, 0.005) *
+                        Matrix_Scale(0.004, 0.004, 0.004) *
                         Matrix_Rotate_Y(0.5f * glm::pi<float>() - angleAroundY(enem[i].direction));
                     DrawObjectModel(model, ENTITY_FLYER, "ghoul");
                 }
