@@ -48,6 +48,7 @@ private:
     float fov;
     glm::vec4 lookat;
     int mode;
+    glm::vec2 savedRotation;
 };
 
 #endif

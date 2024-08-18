@@ -39,10 +39,10 @@ void Camera::setPosition(glm::vec4 new_pos)
     cam_pos = new_pos;
 }
 
-glm::vec4 Camera::getPerpendicular() const {
-    return  glm::normalize(crossproduct(getSideVec(),getViewVec()));
+glm::vec4 Camera::getPerpendicular() const
+{
+    return glm::normalize(crossproduct(getSideVec(), getViewVec()));
 }
-
 
 void Camera::setUpVector(glm::vec4 up_vec)
 {
@@ -144,6 +144,14 @@ int Camera::GetMode()
 
 void Camera::SwitchMode()
 {
+    float loadedPhi = savedRotation.x;
+    float loadedTheta = savedRotation.y;
+
+    savedRotation = glm::vec2(getPhi(), getTheta());
+
+    setPhi(loadedPhi);
+    setTheta(loadedTheta);
+
     if (GetMode() == CAMERA_FIRST_PERSON)
     {
         mode = CAMERA_LOOK_AT;
