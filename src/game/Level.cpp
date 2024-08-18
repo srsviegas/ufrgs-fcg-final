@@ -64,15 +64,12 @@ Level::Level(uint16_t levelNumber)
         printf("Loaded map file %s\n", filename.c_str());
     }
 
-    int i = 0;
+    mapHeight = 0;
     std::string line;
-    std::getline(file, line);
-    mapHeight = std::stoi(line);
-
     while (std::getline(file, line))
     {
         mapData.push_back(line);
-        i++;
+        mapHeight++;
     }
 
     mapWidth = 0;
@@ -93,6 +90,7 @@ Level::Level(uint16_t levelNumber)
     {
         for (int j = 0; j < mapWidth; j++)
         {
+            printf("%c", mapData[i][j]);
             if (mapData[i][j] == 'p')
             {
                 px = j;
@@ -106,6 +104,7 @@ Level::Level(uint16_t levelNumber)
                 mapData[i][j] = 'X';
             }
         }
+        printf("\n");
     }
     playerInitialPosition = glm::vec4({(float)px, 0.0f, (float)pz, 1.0f});
     printf("Player Initial Map Position: (%d, %d)\n", px, pz);
