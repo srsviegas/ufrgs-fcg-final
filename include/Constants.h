@@ -28,7 +28,8 @@
 #define TORCH 11            // Map torches
 #define OBJECTIVE_PORTAL 12 // Objective portal
 #define POTION_HEALTH 14    // Health potion
-#define SWORD 15            // Sword
+#define MAP_POINTER 15      // Map pointer
+#define SWORD 54            // Sword
 #define PROJECTILE_INVIS 55 // Invisible projectile
 
 #define OBJECTIVE_RADIUS 0.5 // Radius of objective collision
@@ -53,6 +54,8 @@
 #define CAMERA_FIRST_PERSON 0 // First person camera (Free camera)
 #define CAMERA_LOOK_AT 1      // Map camera (Look-at camera)
 
-#define LOOK_AT_DISTANCE_DEFAULT 5.0f
-#define LOOK_AT_DISTANCE_MIN 2.0f
-#define LOOK_AT_DISTANCE_MAX 20.0f
+#define LOOK_AT_DISTANCE_DEFAULT 5.0f // Map camera default distance
+#define LOOK_AT_DISTANCE_MIN 2.0f     // Map camera minimum distance
+#define LOOK_AT_DISTANCE_MAX 20.0f    // Map camera maximum distance
+
+#define SCROLL_VELOCITY 0.5f // Map scrolling velocity

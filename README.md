@@ -37,7 +37,7 @@
 
 - No mínimo 3 testes de intersecção entre objetos virtuais
     - [x] Intersecção Esfera / Plano
-    - [ ] Intersecção Esfera / AABB
+    - [x] Intersecção Esfera / AABB
     - [x] Intersecção AABB / AABB
 
 - Modelos de iluminação de objetos geométricos
@@ -47,7 +47,7 @@
     - [x] Objeto com interpolação no modelo de Phong
 
 - Mapeamento de texturas
-    - [ ] Todos os objetos devem ter suas cores definidas através de texturas
+    - [x] Todos os objetos devem ter suas cores definidas através de texturas
 
 - Curvas de Bézier
     - [x] No mínimo um objeto com movimentação por curva de Bézier.

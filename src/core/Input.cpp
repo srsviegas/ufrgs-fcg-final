@@ -139,7 +139,7 @@ void ScrollCallback(GLFWwindow *window, double xoffset, double yoffset)
 {
     if (cam.GetMode() == CAMERA_LOOK_AT)
     {
-        mapCameraDistance -= 0.1f * yoffset;
+        mapCameraDistance -= SCROLL_VELOCITY * yoffset;
 
         if (mapCameraDistance < LOOK_AT_DISTANCE_MIN)
         {

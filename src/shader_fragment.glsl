@@ -40,8 +40,9 @@ uniform int waterproj_count;
 #define OBJECTIVE_PORTAL 12 // Objective portal
 #define ENTITY_FLYER 13     // Enemy 1
 #define POTION_HEALTH 14    // Health potion
-#define SWORD 15            // Sword
-
+#define MAP_POINTER 15      // Map pointer
+#define SWORD 54            // Sword
+#define PROJECTILE_INVIS 55 // Invisible projectile
 uniform int object_id;
 
 // Model's bounding box parameters
@@ -60,7 +61,9 @@ uniform sampler2D TextureImage7;
 uniform sampler2D TextureImage8;
 uniform sampler2D TextureImage9;
 uniform sampler2D TextureImage10;
-
+uniform sampler2D TextureImage11;
+uniform sampler2D TextureImage12;
+uniform sampler2D TextureImage13;
 
 // Fragment's color
 out vec4 color;
@@ -122,13 +125,15 @@ void main() {
         Ka = tex * 0.01;
         q = 8.0;
     } else if (object_id == HUD_HEALTH_BAR) {
-        Ka = vec3(1.0, 0.0, 0.05);
+        vec3 tex = texture(TextureImage12, vec2(U, V)).rgb;
+        Ka = tex * vec3(2.5);
     } else if (object_id == HUD_HEALTH) {
         vec4 tex = texture(TextureImage6, vec2(U, V));
         Ka = tex.rgb;
         color.a = tex.a;
     } else if (object_id == HUD_MANA_BAR) {
-        Ka = vec3(0.0, 0.3, 1.0);
+        vec3 tex = texture(TextureImage11, vec2(U, V)).rgb;
+        Ka = tex * vec3(2.5);
     } else if (object_id == HUD_MANA) {
         vec4 tex = texture(TextureImage7, vec2(U, V));
         Ka = tex.rgb;
@@ -162,11 +167,18 @@ void main() {
         Ka = tex * 0.3;
     }
     else if (object_id == SWORD) {
-            vec3 tex = texture(TextureImage10, vec2(U, V)).rgb;
+            vec3 tex = texture(TextureImage13, vec2(U, V)).rgb;
             Kd = tex;
             Ks = tex;
             Ka = tex * 0.3;
         }
+    else if (object_id == MAP_POINTER) {
+        vec3 tex = texture(TextureImage10, vec2(U, V)).rgb;
+        Kd = tex * vec3(0.6);
+        Ks = vec3(1.0, 1.0, 1.0);
+        Ka = tex * vec3(0.2);
+        q = 32.0;
+    }
 
     vec3 diffuse = vec3(0.0);
     vec3 ambient = Ka * Ia;

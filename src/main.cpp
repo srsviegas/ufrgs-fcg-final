@@ -117,7 +117,10 @@ int main(int argc, char *argv[])
     LoadTextureImage("../../data/bar-mana.png");          // TextureImage7
     LoadTextureImage("../../data/torch.png");             // TextureImage8
     LoadTextureImage("../../data/ghoul_txt.png");         // TextureImage9
-    LoadTextureImage("../../data/sword_txt.png");         // TextureImage10
+    LoadTextureImage("../../data/map-pointer.jpg");       // TextureImage10
+    LoadTextureImage("../../data/mana.png");              // TextureImage11
+    LoadTextureImage("../../data/health.png");            // TextureImage12
+    LoadTextureImage("../../data/sword_txt.png");         // TextureImage13
 
     /* BUILDING OBJECTS */
     ObjModel planemodel("../../data/plane.obj");
@@ -156,6 +159,11 @@ int main(int argc, char *argv[])
     ComputeNormals(&enemy_flyer);
     BuildTrianglesAndAddToVirtualScene(&enemy_flyer);
 
+    ObjModel map_pointer("../../data/map_pointer.obj");
+    ComputeNormals(&map_pointer);
+    BuildTrianglesAndAddToVirtualScene(&map_pointer);
+    float mapPointerRotation = 0.01;
+
     ObjModel sword("../../data/sword2.obj");
     ComputeNormals(&sword);
     BuildTrianglesAndAddToVirtualScene(&sword);
@@ -175,9 +183,6 @@ int main(int argc, char *argv[])
     glEnable(GL_CULL_FACE);
     glCullFace(GL_BACK);
     glFrontFace(GL_CCW);
-
-    //animações do braco
-    float cooldown = 1;
 
     /* MAIN LOOP */
     while (!glfwWindowShouldClose(window))
@@ -233,12 +238,12 @@ int main(int argc, char *argv[])
             }
             if (g_LeftMouseButtonPressed)
             {
-                if(now - cooldown > 0.5) {
+                if(!projectiles.onCooldown(PLAYER_ID+1,now))
                     projectiles.shoot(
                         PLAYER_ID,
-                        PLAYER_ID,
+                        PLAYER_ID+1,
                         PROJECTILE_INVIS,
-                        0.0f,
+                        0.5f,
                         cam.getPosition() + 0.6f * cam.getViewVec() - 0.10f * cam.getUpVec(),
                         cam.getViewVec(),
                         0.0f,
@@ -246,9 +251,7 @@ int main(int argc, char *argv[])
                         20.0f,
                         0.1f,
                         now,
-                        glm::vec3(0.4f, 0.4f, 0.4f));
-                    cooldown = now;
-                }
+                        glm::vec3(0.8f, 0.8f, 0.8f));
             }
             if(g_RightMouseButtonPressed)
             {
@@ -501,7 +504,7 @@ int main(int argc, char *argv[])
                 glm::vec4 barPosition = enms[i].position + glm::vec4(0.0f, 0.5f, 0.0f, 0.0f);
                 glm::vec4 barNormal = glm::vec4(0.0f, 0.0f, 1.0f, 0.0f);
                 glm::vec4 barDirection = glm::normalize(cam.getPosition() - barPosition);
-                float rotationAngleY = glm::acos(glm::dot(barNormal, barDirection));
+                float rotationAngle = glm::acos(glm::dot(barNormal, barDirection));
                 glm::vec4 crossProduct = crossproduct(barNormal, barDirection);
 
                 upVector = glm::vec4(0.0f, 1.0f, 0.0f, 0.0f);
@@ -512,15 +515,8 @@ int main(int argc, char *argv[])
                 model = Matrix_Translate(barPosition.x, barPosition.y, barPosition.z);
                 model *= Matrix_Rotate_Y(rotationAngle);
                 model *= Matrix_Rotate_X(glm::radians(90.0f));
-                model *= Matrix_Scale(enms[i].health/enms[i].maxhealth * 0.3, 0.03f, 0.03f);
+                model *= Matrix_Scale(enms[i].health / enms[i].maxhealth * 0.3, 0.03f, 0.03f);
                 DrawObjectModel(model, HUD_HEALTH_BAR, "the_plane");
-            }
-
-            float arm_angle = 0;
-            if(now - cooldown < 0.5f) {
-                arm_angle = sin(6*(now-cooldown));
-            }else {
-                arm_angle = 0;
             }
 
 
@@ -543,14 +539,12 @@ int main(int argc, char *argv[])
 
             glm::vec4 sword_pos = arm_pos + 0.25f * cam.getViewVec() + 0.05f * cam.getSideVec() - 0.15f * cam.getPerpendicular();
             model = Matrix_Translate(sword_pos.x, sword_pos.y, sword_pos.z) *
-                    Matrix_Rotate(-2.0f *abs(arm_angle) + cam.getPhi(), cam.getSideVec()) *
-                    Matrix_Rotate(0.5f * glm::pi<float>() + cam.getTheta(), cam.getUpVec());
+                    Matrix_Rotate(cam.getPhi(), cam.getSideVec()) *
+                    Matrix_Rotate(0.5f * glm::pi<float>() + cam.getTheta(), cam.getUpVec()) *
+                        Matrix_Scale(0.8f,0.8f,0.8f);
             DrawObjectModel(model, SWORD, "sword2");
 
-
-
-
-
+            
             // Draw left arm
             arm_pos = cam.getPosition() - 0.25f * cam.getSideVec() + 0.3f * cam.getViewVec() - 0.15f * cam.getPerpendicular();
             if (isKeyDown_W || isKeyDown_A || isKeyDown_S || isKeyDown_D)
@@ -586,10 +580,12 @@ int main(int argc, char *argv[])
         // Map viewing mode rendering phase
         else if (cam.GetMode() == CAMERA_LOOK_AT)
         {
+            mapPointerRotation += 2.0f * timeDelta;
             glm::vec4 playerPosition = player.getPosition();
-            model = Matrix_Scale(0.5f, 0.5f, 0.5f);
-            model *= Matrix_Translate(playerPosition.x, playerPosition.y, playerPosition.z);
-            DrawObjectModel(model, TORCH, "the_sphere");
+            model = Matrix_Translate(playerPosition.x, playerPosition.y, playerPosition.z);
+            model *= Matrix_Scale(0.30f, 0.30f, 0.30f);
+            model *= Matrix_Rotate_Y(mapPointerRotation);
+            DrawObjectModel(model, MAP_POINTER, "map_pointer");
         }
 
         glEnable(GL_DEPTH_TEST);
