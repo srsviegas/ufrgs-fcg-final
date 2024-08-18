@@ -63,5 +63,6 @@
 #define SCROLL_VELOCITY 0.5f // Map scrolling velocity
 
 /* Animation */
-#define SWORD_MAX_ROTATION 1.6f
+#define SWORD_MAX_ROTATION 1.8f
+#define SWORD_ANIMATION_VELOCITY 10.0f
 #define GAME_OVER_COOLDOWN 1.0f

@@ -592,7 +592,7 @@ int main(int argc, char *argv[])
             // Draw right arm
             if (swordAnimationPlaying)
             {
-                swordAnimation += timeDelta * 8.0f;
+                swordAnimation += timeDelta * SWORD_ANIMATION_VELOCITY;
                 if (swordAnimation > SWORD_MAX_ROTATION)
                 {
                     swordAnimation = 0.0f;
