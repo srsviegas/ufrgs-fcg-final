@@ -190,6 +190,7 @@ int main(int argc, char *argv[])
 
     GLuint hud_VAO = BuildSquare(window);
     float gameOverAnimationOpacity = 0.0f;
+    float gameOverCooldown = GAME_OVER_COOLDOWN;
 
     float swordAnimation = 0.0f;
     bool swordAnimationPlaying = false;
@@ -236,18 +237,21 @@ int main(int argc, char *argv[])
         /* Game Over screen */
         if (player.IsDead())
         {
+
             // Disable gameplay
             gameplayIsActive = false;
 
             // If mouse was clicked: Restart game from level 0
-            if (g_LeftMouseButtonPressed || g_RightMouseButtonPressed)
+            if (gameOverCooldown == 0.0f && (g_LeftMouseButtonPressed || g_RightMouseButtonPressed))
             {
                 currentLevel = 0;
                 player = Player();
                 level = Level(currentLevel);
                 enemies = EntityController(level);
 
+                // Reset animation variables
                 gameOverAnimationOpacity = 0.0f;
+                gameOverCooldown = GAME_OVER_COOLDOWN;
             }
         }
 
@@ -656,6 +660,17 @@ int main(int argc, char *argv[])
             {
                 // Draw Game Over screen
                 gameOverAnimationOpacity += timeDelta;
+                gameOverCooldown -= timeDelta;
+
+                if (gameOverAnimationOpacity > 100.0f)
+                {
+                    gameOverAnimationOpacity = 100.0f;
+                }
+                if (gameOverCooldown < 0.0f)
+                {
+                    gameOverCooldown = 0.0f;
+                }
+
                 DrawGameOver(hud_VAO, gameOverAnimationOpacity);
             }
             else

@@ -64,3 +64,4 @@
 
 /* Animation */
 #define SWORD_MAX_ROTATION 1.6f
+#define GAME_OVER_COOLDOWN 1.0f
