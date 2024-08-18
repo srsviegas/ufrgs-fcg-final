@@ -57,22 +57,27 @@ void Player::move(float timeDelta, glm::vec4 movementDirection, Level levelData)
 void Player::setHealth(float hp)
 {
     health = hp;
-    if(health > MAX_HEALTH)
+    if (health > MAX_HEALTH)
         health = MAX_HEALTH;
 }
 
 void Player::setMana(float amount)
 {
     mana = amount;
-    if(mana > MAX_MANA)
+    if (mana > MAX_MANA)
         mana = MAX_MANA;
 }
 
 void Player::damage(float hp)
 {
     health -= hp;
-    if(health < 0)
+    if (health < 0)
         health = 0;
+}
+
+bool Player::IsDead()
+{
+    return (health == 0);
 }
 
 float Player::getWalkSpeed() const

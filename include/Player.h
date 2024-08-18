@@ -21,6 +21,7 @@ public:
     void setHealth(float hp);
     void setMana(float amount);
     void damage(float hp);
+    bool IsDead();
 
     float getWalkSpeed() const;
     glm::vec4 getPosition() const;

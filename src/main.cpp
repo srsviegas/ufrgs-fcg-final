@@ -121,8 +121,8 @@ int main(int argc, char *argv[])
     LoadTextureImage("../../data/mana.png");              // TextureImage11
     LoadTextureImage("../../data/health.png");            // TextureImage12
     LoadTextureImage("../../data/sword_txt.png");         // TextureImage13
-    LoadTextureImage("../../data/spider_txt.png");         // TextureImage14
-    LoadTextureImage("../../data/potion_mana_txt.png");         // TextureImage15
+    LoadTextureImage("../../data/spider_txt.png");        // TextureImage14
+    LoadTextureImage("../../data/potion_mana_txt.png");   // TextureImage15
 
     /* BUILDING OBJECTS */
     ObjModel planemodel("../../data/plane.obj");
@@ -178,7 +178,6 @@ int main(int argc, char *argv[])
     ComputeNormals(&spider);
     BuildTrianglesAndAddToVirtualScene(&spider);
 
-
     uint16_t currentLevel = 1;
 
     /* INITIALIZING ENTITIES */
@@ -229,6 +228,20 @@ int main(int argc, char *argv[])
             gameplayIsActive = false;
         }
 
+        /* Game Over screen */
+        if (player.IsDead())
+        {
+            gameplayIsActive = false;
+
+            if (g_LeftMouseButtonPressed || g_RightMouseButtonPressed)
+            {
+                currentLevel = 0;
+                player = Player();
+                level = Level(currentLevel);
+                enemies = EntityController(level);
+            }
+        }
+
         /* Gameplay macros */
         if (gameplayIsActive)
         {
@@ -254,10 +267,10 @@ int main(int argc, char *argv[])
             }
             if (g_LeftMouseButtonPressed)
             {
-                if(!projectiles.onCooldown(PLAYER_ID+1,now))
+                if (!projectiles.onCooldown(PLAYER_ID + 1, now))
                     projectiles.shoot(
                         PLAYER_ID,
-                        PLAYER_ID+1,
+                        PLAYER_ID + 1,
                         PROJECTILE_INVIS,
                         0.5f,
                         cam.getPosition() + 0.6f * cam.getViewVec() - 0.10f * cam.getUpVec(),
@@ -269,7 +282,7 @@ int main(int argc, char *argv[])
                         now,
                         glm::vec3(0.8f, 0.8f, 0.8f));
             }
-            if(g_RightMouseButtonPressed)
+            if (g_RightMouseButtonPressed)
             {
                 if (player.getMana() >= 3)
                 {
@@ -349,11 +362,11 @@ int main(int argc, char *argv[])
                             enem[j].health -= proj[i].damage;
                             if (enem[j].health <= 0)
                             {
-                                //power_ups.spawn(
-                                //    enem[j].position,
-                                //    50.0f,
-                                //    20.0f,
-                                //    POTION_HEALTH);
+                                // power_ups.spawn(
+                                //     enem[j].position,
+                                //     50.0f,
+                                //     20.0f,
+                                //     POTION_HEALTH);
                                 power_ups.spawn(
                                     enem[j].position,
                                     20.0f,
@@ -461,7 +474,7 @@ int main(int argc, char *argv[])
         uint16_t projectile_count = 0;
         for (int i = 0; i < projectiles.getSize(); i++)
         {
-            if(proj[i].projectile_type == PROJECTILE_WATER)
+            if (proj[i].projectile_type == PROJECTILE_WATER)
             {
                 model = Matrix_Translate(proj[i].position.x, proj[i].position.y, proj[i].position.z) * Matrix_Scale(0.07, 0.07, 0.07);
                 glUniformMatrix4fv(g_model_uniform, 1, GL_FALSE, glm::value_ptr(model));
@@ -477,9 +490,8 @@ int main(int argc, char *argv[])
                     DrawObjectModel(model, PROJECTILE_WATER, "the_sphere");
                 }
             }
-            else if(proj[i].projectile_type == PROJECTILE_INVIS)
+            else if (proj[i].projectile_type == PROJECTILE_INVIS)
             {
-
             }
         }
         glUniform4fv(g_waterproj_position_uniform, MAX_PROJECTILES, glm::value_ptr(projectile_position[0]));
@@ -490,21 +502,24 @@ int main(int argc, char *argv[])
         {
             if (enem[i].status)
             {
-                if(enem[i].type == ENTITY_FLYER) {
+                if (enem[i].type == ENTITY_FLYER)
+                {
                     model =
-                    Matrix_Translate(enem[i].position.x, enem[i].position.y, enem[i].position.z) *
-                    Matrix_Scale(0.003, 0.003, 0.003) *
-                    Matrix_Rotate_Y(0.5f * glm::pi<float>() - angleAroundY(enem[i].direction));
+                        Matrix_Translate(enem[i].position.x, enem[i].position.y, enem[i].position.z) *
+                        Matrix_Scale(0.003, 0.003, 0.003) *
+                        Matrix_Rotate_Y(0.5f * glm::pi<float>() - angleAroundY(enem[i].direction));
                     DrawObjectModel(model, ENTITY_FLYER, "ghoul");
                 }
-                else if(enem[i].type == ENTITY_CRAWLER) {
+                else if (enem[i].type == ENTITY_CRAWLER)
+                {
                     model =
-                    Matrix_Translate(enem[i].position.x, enem[i].position.y, enem[i].position.z) *
-                    Matrix_Scale(0.3, 0.3, 0.3) *
-                    Matrix_Rotate_Y(0.5f * glm::pi<float>() - angleAroundY(enem[i].direction));
+                        Matrix_Translate(enem[i].position.x, enem[i].position.y, enem[i].position.z) *
+                        Matrix_Scale(0.3, 0.3, 0.3) *
+                        Matrix_Rotate_Y(0.5f * glm::pi<float>() - angleAroundY(enem[i].direction));
                     DrawObjectModel(model, ENTITY_CRAWLER, "spider");
                 }
-                else if(enem[i].type == ENTITY_RUNNER) {
+                else if (enem[i].type == ENTITY_RUNNER)
+                {
                 }
             }
         }
@@ -516,15 +531,18 @@ int main(int argc, char *argv[])
             if (pwrs[i].isActive)
             {
                 powerup_pos = pwrs[i].trajectory.calcTrajectory(pwrs[i].step);
-                if(pwrs[i].model_type == POTION_HEALTH) {
+                if (pwrs[i].model_type == POTION_HEALTH)
+                {
                     model =
-                    Matrix_Translate(powerup_pos.x, powerup_pos.y, powerup_pos.z) *
-                    Matrix_Scale(0.2, 0.2, 0.2);
+                        Matrix_Translate(powerup_pos.x, powerup_pos.y, powerup_pos.z) *
+                        Matrix_Scale(0.2, 0.2, 0.2);
                     DrawObjectModel(model, POTION_HEALTH, "potion_health");
-                }else if (pwrs[i].model_type == POTION_MANA){
+                }
+                else if (pwrs[i].model_type == POTION_MANA)
+                {
                     model =
-                    Matrix_Translate(powerup_pos.x, powerup_pos.y, powerup_pos.z) *
-                    Matrix_Scale(0.04, 0.04, 0.04);
+                        Matrix_Translate(powerup_pos.x, powerup_pos.y, powerup_pos.z) *
+                        Matrix_Scale(0.04, 0.04, 0.04);
                     DrawObjectModel(model, POTION_MANA, "potion_mana");
                 }
             }
@@ -554,7 +572,6 @@ int main(int argc, char *argv[])
                 DrawObjectModel(model, HUD_HEALTH_BAR, "the_plane");
             }
 
-
             // Draw right arm
             glm::vec4 arm_pos = cam.getPosition() + 0.25f * cam.getSideVec() + 0.3f * cam.getViewVec() - 0.15f * cam.getPerpendicular();
             if (isKeyDown_W || isKeyDown_A || isKeyDown_S || isKeyDown_D)
@@ -576,9 +593,8 @@ int main(int argc, char *argv[])
             model = Matrix_Translate(sword_pos.x, sword_pos.y, sword_pos.z) *
                     Matrix_Rotate(cam.getPhi(), cam.getSideVec()) *
                     Matrix_Rotate(0.5f * glm::pi<float>() + cam.getTheta(), cam.getUpVec()) *
-                        Matrix_Scale(0.8f,0.8f,0.8f);
+                    Matrix_Scale(0.8f, 0.8f, 0.8f);
             DrawObjectModel(model, SWORD, "sword2");
-
 
             // Draw left arm
             arm_pos = cam.getPosition() - 0.25f * cam.getSideVec() + 0.3f * cam.getViewVec() - 0.15f * cam.getPerpendicular();
