@@ -244,7 +244,7 @@ int main(int argc, char *argv[])
             // If mouse was clicked: Restart game from level 0
             if (gameOverCooldown == 0.0f && (g_LeftMouseButtonPressed || g_RightMouseButtonPressed))
             {
-                currentLevel = 0;
+                currentLevel = 1;
                 player = Player();
                 level = Level(currentLevel);
                 enemies = EntityController(level);
@@ -585,7 +585,7 @@ int main(int argc, char *argv[])
                 model = Matrix_Translate(barPosition.x, barPosition.y, barPosition.z);
                 model *= Matrix_Rotate_Y(rotationAngle);
                 model *= Matrix_Rotate_X(glm::radians(90.0f));
-                model *= Matrix_Scale(enem[i].health/enem[i].maxhealth * 0.3, 0.03f, 0.03f);
+                model *= Matrix_Scale(enem[i].health / enem[i].maxhealth * 0.3, 0.03f, 0.03f);
                 DrawObjectModel(model, HUD_HEALTH_BAR, "the_plane");
             }
 
