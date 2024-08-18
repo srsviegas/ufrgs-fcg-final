@@ -23,14 +23,22 @@ EntityController::EntityController(Level levelData)
             if (chance(ENEMY_CHANCE_PER_TILE) && levelData.IsFloor(x, z) && !(levelData.IsPlayerSpawn(x, z))) {
                 addEntity(
                         last_added,
+                        ENTITY_CRAWLER,
+                        100.0f,
+                        1.0f,
+                        3.5f,
+                        1.5f,
+                        levelData.MapPositionToWorldPosition(x,z),
+                        glm::vec3(0.4f, 0.4f, 0.4f));
+                addEntity(
+                        last_added,
                         ENTITY_FLYER,
                         100.0f,
                         1.0f,
                         3.0f,
-                        1.5f,
+                        2.0f,
                         levelData.MapPositionToWorldPosition(x,z),
                         glm::vec3(0.4f, 0.4f, 0.4f));
-                break;
             }
         }
     }
@@ -180,7 +188,7 @@ void EntityController::behaviour_crawler(GameEntity *entity, float current_time,
                     10.0f,
                     0.5f,
                     current_time,
-                    glm::vec3(0.3f,0.3f,0.3f)
+                    glm::vec3(1.0f,1.0f,1.0f)
                     );
                 }
             }
@@ -189,7 +197,7 @@ void EntityController::behaviour_crawler(GameEntity *entity, float current_time,
             std::cout <<  "invalid entity state";
             break;
     }
-    entity->position.y = -0.60f;
+    entity->position.y = -0.85f;
 
     //update bounding box
     entity->bbox.min = glm::vec3(-entity->bbox_dimensions.x/2,-entity->bbox_dimensions.y/2,-entity->bbox_dimensions.z/2) +

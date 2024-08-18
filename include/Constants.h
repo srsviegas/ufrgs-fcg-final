@@ -29,6 +29,7 @@
 #define OBJECTIVE_PORTAL 12 // Objective portal
 #define POTION_HEALTH 14    // Health potion
 #define MAP_POINTER 15      // Map pointer
+#define POTION_MANA 16      // Mana potion
 #define SWORD 54            // Sword
 #define PROJECTILE_INVIS 55 // Invisible projectile
 

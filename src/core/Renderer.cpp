@@ -689,14 +689,14 @@ void DrawObjectModel(glm::mat4 model, int object_id, const char *object_name)
     DrawVirtualObject(object_name);
 }
 
-void DrawHUD(GLFWwindow *window, Player player)
+void DrawHUD(GLFWwindow *window, Player player, GLuint hudVAO)
 {
     float hudBarTextureRatio = 91.0f / 24.0f;
     float hudBarScale = 1.4f;
 
     glm::mat4 model = Matrix_Translate(-0.6f, -0.8f, 0.0f);
     model *= Matrix_Scale(hudBarTextureRatio * hudBarScale, hudBarScale, 1.0f);
-
+    glBindVertexArray(hudVAO);
     glUniformMatrix4fv(g_model_uniform, 1, GL_FALSE, glm::value_ptr(model));
     glUniform1i(g_object_id_uniform, HUD_HEALTH);
     glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_BYTE, 0);
@@ -864,6 +864,8 @@ void LoadShadersFromFiles()
     glUniform1i(glGetUniformLocation(g_GpuProgramID, "TextureImage11"), 11);
     glUniform1i(glGetUniformLocation(g_GpuProgramID, "TextureImage12"), 12);
     glUniform1i(glGetUniformLocation(g_GpuProgramID, "TextureImage13"), 13);
+    glUniform1i(glGetUniformLocation(g_GpuProgramID, "TextureImage14"), 14);
+    glUniform1i(glGetUniformLocation(g_GpuProgramID, "TextureImage15"), 15);
 
     glUseProgram(0);
 }

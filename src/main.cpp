@@ -121,6 +121,8 @@ int main(int argc, char *argv[])
     LoadTextureImage("../../data/mana.png");              // TextureImage11
     LoadTextureImage("../../data/health.png");            // TextureImage12
     LoadTextureImage("../../data/sword_txt.png");         // TextureImage13
+    LoadTextureImage("../../data/spider_txt.png");         // TextureImage14
+    LoadTextureImage("../../data/potion_mana_txt.png");         // TextureImage15
 
     /* BUILDING OBJECTS */
     ObjModel planemodel("../../data/plane.obj");
@@ -151,6 +153,10 @@ int main(int argc, char *argv[])
     ComputeNormals(&potion_health);
     BuildTrianglesAndAddToVirtualScene(&potion_health);
 
+    ObjModel potion_mana("../../data/potion_mana.obj");
+    ComputeNormals(&potion_mana);
+    BuildTrianglesAndAddToVirtualScene(&potion_mana);
+
     ObjModel torch("../../data/torch.obj");
     ComputeNormals(&torch);
     BuildTrianglesAndAddToVirtualScene(&torch);
@@ -168,8 +174,10 @@ int main(int argc, char *argv[])
     ComputeNormals(&sword);
     BuildTrianglesAndAddToVirtualScene(&sword);
 
-    GLuint vertex_array_object_id = BuildSquare(window);
-    glBindVertexArray(vertex_array_object_id);
+    ObjModel spider("../../data/spider.obj");
+    ComputeNormals(&spider);
+    BuildTrianglesAndAddToVirtualScene(&spider);
+
 
     uint16_t currentLevel = 1;
 
@@ -179,6 +187,8 @@ int main(int argc, char *argv[])
     auto level = Level(currentLevel);
     auto enemies = EntityController(level);
     auto power_ups = PowerupController();
+
+    GLuint hud_VAO = BuildSquare(window);
 
     TextRendering_Init();
     glEnable(GL_DEPTH_TEST);
@@ -339,11 +349,16 @@ int main(int argc, char *argv[])
                             enem[j].health -= proj[i].damage;
                             if (enem[j].health <= 0)
                             {
+                                //power_ups.spawn(
+                                //    enem[j].position,
+                                //    50.0f,
+                                //    20.0f,
+                                //    POTION_HEALTH);
                                 power_ups.spawn(
                                     enem[j].position,
                                     20.0f,
                                     50.0f,
-                                    0);
+                                    POTION_MANA);
                                 enem[j].status = false;
                             }
                         }
@@ -487,7 +502,7 @@ int main(int argc, char *argv[])
                     Matrix_Translate(enem[i].position.x, enem[i].position.y, enem[i].position.z) *
                     Matrix_Scale(0.3, 0.3, 0.3) *
                     Matrix_Rotate_Y(0.5f * glm::pi<float>() - angleAroundY(enem[i].direction));
-                    DrawObjectModel(model, ENTITY_FLYER, "the_bunny");
+                    DrawObjectModel(model, ENTITY_CRAWLER, "spider");
                 }
                 else if(enem[i].type == ENTITY_RUNNER) {
                 }
@@ -501,10 +516,17 @@ int main(int argc, char *argv[])
             if (pwrs[i].isActive)
             {
                 powerup_pos = pwrs[i].trajectory.calcTrajectory(pwrs[i].step);
-                model =
+                if(pwrs[i].model_type == POTION_HEALTH) {
+                    model =
                     Matrix_Translate(powerup_pos.x, powerup_pos.y, powerup_pos.z) *
                     Matrix_Scale(0.2, 0.2, 0.2);
-                DrawObjectModel(model, POTION_HEALTH, "potion_health");
+                    DrawObjectModel(model, POTION_HEALTH, "potion_health");
+                }else if (pwrs[i].model_type == POTION_MANA){
+                    model =
+                    Matrix_Translate(powerup_pos.x, powerup_pos.y, powerup_pos.z) *
+                    Matrix_Scale(0.04, 0.04, 0.04);
+                    DrawObjectModel(model, POTION_MANA, "potion_mana");
+                }
             }
         }
 
@@ -588,7 +610,7 @@ int main(int argc, char *argv[])
             glUniformMatrix4fv(g_view_uniform, 1, GL_FALSE, glm::value_ptr(Matrix_Identity()));
             glUniformMatrix4fv(g_projection_uniform, 1, GL_FALSE, glm::value_ptr(Matrix_Identity()));
 
-            DrawHUD(window, player);
+            DrawHUD(window, player, hud_VAO);
         }
         // Map viewing mode rendering phase
         else if (cam.GetMode() == CAMERA_LOOK_AT)
