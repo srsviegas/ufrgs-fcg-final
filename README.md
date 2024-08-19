@@ -5,7 +5,7 @@
 ...
 
 ## Uso de Assistentes de Inteligência Artificial
-
+A dupla não fez uso de ferramentas de inteligência artificial generativa
 ...
 
 ## Processo de Desenvolvimento
@@ -13,11 +13,24 @@
 ...
 
 ## Screenshots
-
+![Captura de tela 2024-08-18 204619](https://github.com/user-attachments/assets/b3a5b284-c013-4749-85c4-14bccc4878d0)
+![Captura de tela 2024-08-18 204818](https://github.com/user-attachments/assets/537d8909-c48d-4476-9acd-d52a9273fcaa)
 ...
 
 ## Manual de Uso da Aplicação
+Movimentação do personagem:
+    W - Andar para a frente
+    A - Andar para a esquerda
+    S - Andar para a direita
+    D - andar para trás
 
+Habilidades do personagem:
+    Botão direito do mouse - Ataque mágico
+    Botão esquerdo do mouse - Ataque com espada
+
+Menus:
+    M - Pausa, visualização do mapa
+    
 ...
 
 ## Compilação e Execução
