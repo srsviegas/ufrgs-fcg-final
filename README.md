@@ -13,9 +13,11 @@ A dupla não fez uso de ferramentas de inteligência artificial generativa
 ...
 
 ## Screenshots
-![Captura de tela 2024-08-18 204619](https://github.com/user-attachments/assets/b3a5b284-c013-4749-85c4-14bccc4878d0)
-![Captura de tela 2024-08-18 204818](https://github.com/user-attachments/assets/537d8909-c48d-4476-9acd-d52a9273fcaa)
-...
+<img src="https://github.com/user-attachments/assets/b3a5b284-c013-4749-85c4-14bccc4878d0" width="500" />
+<img src="https://github.com/user-attachments/assets/4a0db392-14d8-40c9-bc0a-90ae5f22df1a" width="500" />
+<img src="https://github.com/user-attachments/assets/537d8909-c48d-4476-9acd-d52a9273fcaa" width="500" />
+<img src="https://github.com/user-attachments/assets/d0860355-b5c6-4b14-a1de-d18907d99112" width="500" />
+
 
 ## Manual de Uso da Aplicação
 Movimentação do personagem:
