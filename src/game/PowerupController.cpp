@@ -35,7 +35,7 @@ void PowerupController::step(Player *player, float timeDelta) {
     for(auto & powerup : powerups) {
         if(powerup.isActive) {
             powerup.trajectory.setP3(player->getPosition() + glm::vec4(0.0f,0.5f,0.0f,0.0f));
-            powerup.trajectory.setP4(player->getPosition() + glm::vec4(0.0f,-0.5f,0.0f,0.0f));
+            powerup.trajectory.setP4(player->getPosition() + glm::vec4(0.0f,-0.8f,0.0f,0.0f));
             powerup.step += POWERUP_COLLECT_SPEED * timeDelta;
             if(powerup.step > 1.0f) {
                 player->setHealth(player->getHealth() + powerup.health);

@@ -418,7 +418,9 @@ int main(int argc, char *argv[])
             }
         }
 
+
         //enemies with enemies
+
         for (int i = 0; i < MAX_ENTITIES; i++)
         {
             if(enem[i].status)
@@ -641,10 +643,11 @@ int main(int argc, char *argv[])
 
             DrawObjectModel(model, RIGHT_ARM, "right_arm");
 
-            glm::vec4 sword_pos = arm_pos + 0.25f * cam.getViewVec() + 0.05f * cam.getSideVec() - 0.05f * cam.getPerpendicular();
+            glm::vec4 sword_pos = arm_pos + 0.27f * cam.getViewVec() + 0.09f * cam.getSideVec() - 0.05f * cam.getPerpendicular();
             sword_pos -= 0.2f * swordAnimation * cam.getViewVec();
             sword_pos -= 0.25f * swordAnimation * cam.getSideVec();
             model = Matrix_Translate(sword_pos.x, sword_pos.y, sword_pos.z) *
+                    //Matrix_Rotate(-0.2f, cam.getViewVec()) *
                     Matrix_Rotate(cam.getPhi() - swordAnimation, cam.getSideVec()) *
                     Matrix_Rotate(0.5f * glm::pi<float>() + cam.getTheta() + swordAnimation, cam.getUpVec()) *
                     Matrix_Scale(0.8f, 0.8f, 0.8f);

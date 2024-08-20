@@ -40,7 +40,7 @@ EntityController::EntityController(Level levelData)
                         3.5f,
                         1.5f,
                         levelData.MapPositionToWorldPosition(x, z),
-                        glm::vec3(0.4f, 0.4f, 0.4f));
+                        glm::vec3(0.8f, 0.4f, 0.8f));
                 }
                 else
                 {
