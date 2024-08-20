@@ -20,11 +20,10 @@ set(SOURCES
   src/game/Level.cpp
   src/game/Player.cpp
   src/game/PointLight.cpp
-        src/game/ProjectileController.cpp
-        src/game/EntityController.cpp
-        src/game/BezierCurve.cpp
-        include/PowerupController.h
-        src/game/PowerupController.cpp
+  src/game/ProjectileController.cpp
+  src/game/EntityController.cpp
+  src/game/BezierCurve.cpp
+  src/game/PowerupController.cpp
 )
 
 cmake_minimum_required(VERSION 3.5.0)
@@ -74,15 +73,11 @@ target_include_directories(${EXECUTABLE_NAME} BEFORE PRIVATE ${PROJECT_SOURCE_DI
 
 if(WIN32)
 
-  if(MINGW)
+  set(CMAKE_EXE_LINKER_FLAGS "-static")
+  set(CMAKE_FIND_LIBRARY_SUFFIXES ".a")
 
-    # Aqui tentamos descobrir qual libc do Widows está sendo usada
-    # pelo compilador MinGW: msvcrt (antiga) ou ucrt (nova). Também
-    # diferenciamos entre um compilador 32-bits (antigo) ou 64-bits.
-    # Para isso, buscamos pela ocorrência de algumas strings
-    # específicas no output do comando "-v" do GCC, que lista os
-    # parâmetros de configuração do compilador.
-    # TODO: Testar com compilador llvm/clang.
+  if(MINGW)
+    # Descobrir a libc usada pelo MinGW
     execute_process(
       COMMAND ${CMAKE_CXX_COMPILER} "-v"
       ERROR_VARIABLE  COMPILER_VERSION_OUTPUT
@@ -90,9 +85,6 @@ if(WIN32)
     )
 
     if (COMPILER_VERSION_RESULT EQUAL 0)
-      # NOTE: É importante que o primeiro teste seja buscando pela
-      # string ucrt64 no output do compilador, pois a string "mingw64"
-      # sempre aparece no output (mesmo quando ucrt64 é a libc utilizada).
       if (COMPILER_VERSION_OUTPUT MATCHES "ucrt64")
         set(LIBGLFW ${PROJECT_SOURCE_DIR}/lib-ucrt-64/libglfw3.a)
       elseif (COMPILER_VERSION_OUTPUT MATCHES "mingw64")

@@ -1,3 +1,3 @@
 "C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\main.dir/objects.a
 C:\PROGRA~1\CODEBL~1\MinGW\bin\ar.exe qc CMakeFiles\main.dir/objects.a @CMakeFiles\main.dir\objects1.rsp
-C:\PROGRA~1\CODEBL~1\MinGW\bin\G__~1.EXE -O3 -DNDEBUG -Wl,--whole-archive CMakeFiles\main.dir/objects.a -Wl,--no-whole-archive -o "D:\UFRGS\05 Fundamentos de Computação Gráfica\ufrgs-fcg-final\bin\Release\main.exe" -Wl,--out-implib,libmain.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\main.dir\linkLibs.rsp
+C:\PROGRA~1\CODEBL~1\MinGW\bin\G__~1.EXE -O3 -DNDEBUG -static -Wl,--whole-archive CMakeFiles\main.dir/objects.a -Wl,--no-whole-archive -o "D:\UFRGS\05 Fundamentos de Computação Gráfica\ufrgs-fcg-final\bin\Release\main.exe" -Wl,--out-implib,libmain.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\main.dir\linkLibs.rsp
